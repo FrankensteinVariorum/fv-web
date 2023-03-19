@@ -1,0 +1,93 @@
+/* 
+   @file viewer/_tei.sass 
+   @author Research Software Company
+   @description Frankenstein Variorum Viewer TEI styles. */
+  
+  
+// General Viewer text sizing
+
+.tei-container
+  font-size: 1em
+  line-height: 3.5em;
+  padding: 0.5em 0
+  
+  div, p
+    font-size: inherit
+    line-height: inherit
+
+  div
+    display: inline 
+    
+    // Citation
+            
+    &.tei-cit
+      font-size: 0.9em
+      display: inline-block
+      padding: 1em 2em
+        
+
+.tei-cdata
+    &.no-text
+        opacity: 0
+
+    &.tei-del
+        text-decoration: line-through
+
+.reading-group-content
+    .tei-element
+        display: inline
+
+.app-intensity-0
+    background-color: map-get($app_intensities_map, 0)
+
+.app-intensity-1
+    background-color: map-get($app_intensities_map, 1)
+
+.app-intensity-2
+    background-color: map-get($app_intensities_map, 2)
+
+.app-intensity-3
+    background-color: map-get($app_intensities_map, 3)
+
+.tei-container div
+    display: inline
+
+.reading-group-content
+    font-size: 80%
+    
+.app-wrapper
+    position: relative
+    padding: 0.5em 0
+    border-left: 1px dotted $lightest_neutral
+
+.app-wrapper-dots
+    width: 200px;
+    position: absolute
+    top: 2em
+    left: 0
+    cursor: pointer
+
+.app-wrapper-dots.no-text
+    top: 0.25em
+    left: 0.5em
+    
+.reading-group
+  margin-top: 2em
+    
+.reading-group-dots
+  .small-dot
+    height: 1em !important
+    width: 1em !important
+
+    
+.reading-group-title
+  font-family: $altfont
+  font-weight: $semiboldfw
+  font-size: 0.8em
+  color: $dark_neutral
+  margin-top: 0.5em
+  
+// Citation source
+
+.tei-bibl
+  font-style: italic

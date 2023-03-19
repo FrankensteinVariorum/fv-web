@@ -1,0 +1,275 @@
+/* 
+   @file viewer/_general.sass 
+   @author Research Software Company
+   @description Frankenstein Variorum Viewer general styles . */
+
+.App
+    padding: 25px
+    min-height: 100vh
+
+.fontfamily-base 
+  font-family: $basefont
+
+
+.fontfamily-heading 
+  font-family: $headingfont
+
+
+.fontfamily-alt 
+  font-family: $altfont
+
+.dot 
+    height: 1em
+    width: 1em
+    border-radius: 50%
+    display: inline-block
+    background-color: gray
+    margin-right: 10px
+
+.small-dot
+    height: 0.5em !important
+    width: 0.5em !important
+    margin-right: 0.5em
+
+.dot-break
+    opacity: 0
+
+
+.ed-1818
+    background-color: $clr_1818
+    
+.ed-1823
+    background-color: $clr_1823
+
+.ed-1831
+    background-color: $clr_1831
+    
+.ed-Thomas
+    background-color: $clr_thomas
+    
+.ed-MS
+    background-color: $clr_ms
+
+
+.right
+    float: right
+    display: inline-block
+
+.center
+    text-align: center
+
+// .row
+//     display: flex
+//     justify-content: space-around
+
+// .in-row
+//     display: inline-block
+
+.margin-button
+    margin-left: 20px
+
+.options-label
+    display: block
+    input
+        margin-top: 10px
+
+.edition-label
+    margin-right: 20px
+
+.tei-del .tei-cdata // descendants, not only direct children
+    text-decoration: line-through
+
+.in-line
+    display: inline-block
+
+
+// !VIEWER
+
+#viewer
+  hr
+    margin: 0.5em 0
+ 
+ 
+// Viewer Header
+
+#viewer
+  header
+    align-items: end
+    margin-top: 3rem
+    
+    &.viewer__cols
+      grid-template-columns: repeat(3,1fr)
+      
+      > *
+        padding-bottom: 0
+          
+    h2
+      margin: 0
+      font-weight: $lightfw
+      font-style: italic
+      text-align: center
+      width: 100%
+
+.edition-label, #viewer__legend-variance label
+  font-size: 0.75rem 
+  font-weight: $semiboldfw
+  color: $mid_neutral
+  font-family: $altfont
+  
+  .dot
+    transform: translateY(0.1em)
+    
+#viewer__legend-variance
+  display: flex
+  align-items: flex-end
+  
+  label
+    line-height: 1em
+    padding-right: 0.5em
+ 
+  img
+    width: 60%
+    
+  
+// Controls
+
+
+#viewer__controls, #viewer_pagination_controls
+  font-family: $altfont
+
+
+$label_ornament_width: 180px;
+
+#viewer__controls
+  > div
+    padding: $label_ornament_width/3 0 0 $label_ornament_width/2
+    position: relative
+    overflow: visible
+        
+    &:before
+      content: ''
+      position: absolute
+      z-index: -1
+      box-sizing: border-box
+      height: $label_ornament_width
+      width: $label_ornament_width
+      top: 0
+      left: 0
+      border-radius: $label_ornament_width/2
+      padding: $label_ornament_width/4
+      background-color: map-get($clr1_map,'watermark')
+      color: $white
+      font-size: 3rem
+      font-family: $headingfont
+      font-style: italic
+      
+      
+  > *:nth-child(1):before
+    content: '1'
+    
+  > *:nth-child(2):before
+    content: '2'
+
+  > *:nth-child(3):before
+    content: '3'
+      
+  .paging-buttons
+    display: none
+    
+  label:not(.bold-choose)
+    line-height: 1em
+    font-size: 1em
+    
+  input[type='checkbox']
+    appearance: none
+    -webkit-appearance: none
+    border: 2px solid $mid_neutral
+    height: 3em
+    width: 3em
+    margin-right: 1em
+    position: relative
+    box-sizing: border-box
+    
+    &:active, &:checked:active 
+      border-width: 3px
+      
+    &:before
+      content: ''
+      font-size: 2em
+      color: $dark_neutral
+      padding: 0.5em 0.25em 0 0.45em
+      
+    &:checked:before
+       content: 'x'
+
+
+// General Controls
+
+#viewer
+  input
+    box-sizing: border-box
+  
+  button
+      cursor: pointer
+    
+.select-style 
+    width: 250px
+    
+    > .css-yk16xz-control
+      border-color: $mid_neutral
+      border-width: 2px
+      border-radius: $border_radius
+
+label.bold-choose
+  font-weight: $normalfw
+  display: block
+  margin-bottom: 10px
+  
+.center-label
+  text-align: center
+  font-size: 1rem 
+  color: $dark_neutral
+  font-family: $altfont
+
+
+.css-1wa3eu0-placeholder
+  font-weight: $normalfw
+  color: $mid_neutral
+
+.in-line.paging-buttons
+    margin-left: 25px
+    display: inline-flex
+    align-items: center
+    
+    button
+      margin: 1em
+
+.prev 
+  height: 30px
+  width: 30px
+  border: none !important
+  background: url("../../images/prev_btn.svg") no-repeat
+   
+.prev:hover
+  background: url("../../images/prev_btn_over.svg") no-repeat
+    
+.prev:disabled
+  background: url("../../images/prev_btn_inactive.svg") no-repeat
+  cursor: not-allowed
+
+.next
+  height: 30px
+  width: 30px
+  border: none !important
+  background: url("../../images/next_btn.svg") no-repeat
+   
+.next:hover 
+  background: url("../../images/next_btn_over.svg") no-repeat
+    
+.next:disabled
+  background: url("../../images/next_btn_inactive.svg") no-repeat
+  cursor: not-allowed
+
+.app-list-to-divider
+  border-top: 9px solid $neutral
+  margin-top: 40px

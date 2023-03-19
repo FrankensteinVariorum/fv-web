@@ -1,0 +1,36 @@
+---
+export interface Props {
+	editions: string;
+	variations: string;
+	sga: string;
+}
+
+const { editions } = Astro.props;
+const { variations } = Astro.props;
+const { sga } = Astro.props;
+---
+
+<div>
+    <header className='viewer__cols'>
+        <div id='viewer__legend-editions'>
+            {editions}
+        </div>
+        <div id='viewer__title'  className='center-label'>
+            <!--{edition ?
+            <!-- <h2>{edition.name} Edition</h2>
+            : <h2>Edition</h2>}-->
+        </div>
+        <div id='viewer__legend-variance'>
+            <label>Amount of Variance</label>
+            <img className='variations' src={variations} alt="variations scale" />
+        </div>
+    </header>
+
+    <hr className='line' />
+    <div className='viewer__cols'>
+        <div className='center-label'>Marginalia</div>
+        <div className='center-label'>Text</div>
+        <div className='center-label'>Variations</div>
+    </div>
+    {sga}
+</div>

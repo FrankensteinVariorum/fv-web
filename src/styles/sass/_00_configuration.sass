@@ -1,0 +1,239 @@
+  /**
+ * @file
+ * Base Theme Configuration Example and Starter configuration.
+ * See _configuration_instructions.txt for help.
+ * Copy this file to 00_configuration.sass to begin.
+ */
+  
+ 
+/* !APPLICATION */
+
+// Configure the application in style.sass
+
+/* !CORE VALUES */
+
+$media_type: screen
+$feature: min-width
+$max_width: 1400px
+
+$legible_inset_width: 800px
+
+// Used to define a standard proportion across the site as per the modularscale library
+// See ./a_core/10_libraries/10_vendor/modularscale/modularscale/_vars.scss for $scale references
+
+$scale: 1.41421 // Augmented Fourth. See scales below. 
+$standard_sidebar_width: 100% - (100/$scale)
+
+$masthead_height: 100px
+$admin_bar_height: 40px // Not used. Mark for removal.
+
+
+/* !COLOUR GRID
+
+// Define your design’s palette by choosing the main colours */
+
+$clr1: #FDDAC0  // Pale Vermillion
+$clr2: #FDB27B  // Aspring Vermillion
+$clr3: #D95369  // Amaranth
+$clr4: #8380E2  // Cloudless Blue
+$clr5: #E378BF  // Feverish Cheek
+$clr6: #6FBCC0  // Everlasting Ice
+
+// Define alternative blackpoint, whitepoint.
+
+$black: #3F3730  // Devouring Black
+$white: #FFFFFF
+$neutral: mix($white,$black,50%)
+
+
+// Color map examples
+
+$clr1_map: (shade: mix($black,$clr1,20%), primary: $clr1, tint: mix($white,$clr1,10%), fade: mix($white,$clr1,50%), watermark: mix($white,$clr1,70%))
+$clr2_map: (shade: mix($black,$clr2,20%), primary: $clr2, tint: mix($white,$clr2,10%), fade: mix($white,$clr2,50%), watermark: mix($white,$clr2,70%))
+$clr3_map: (shade: mix($black,$clr3,20%), primary: $clr3, tint: mix($white,$clr3,10%), fade: mix($white,$clr3,50%), watermark: mix($white,$clr3,70%))
+$clr4_map: (shade: mix($black,$clr4,20%), primary: $clr4, tint: mix($white,$clr4,10%), fade: mix($white,$clr4,50%), watermark: mix($white,$clr4,70%))
+$clr5_map: (shade: mix($black,$clr5,20%), primary: $clr5, tint: mix($white,$clr5,10%), fade: mix($white,$clr5,50%), watermark: mix($white,$clr5,70%))
+$clr6_map: (shade: mix($black,$clr6,20%), primary: $clr6, tint: mix($white,$clr6,10%), fade: mix($white,$clr6,50%), watermark: mix($white,$clr6,70%))
+
+
+// Neutrals
+
+$lightest_neutral: mix($white,$black,95%)
+$lighter_neutral: mix($white,$black,80%)
+$light_neutral: mix($white,$black,70%)
+
+$mid_neutral: mix($white,$black,60%)
+$dark_neutral: mix($white,$black,40%)
+$darker_neutral: mix($white,$black,30%)
+
+// Functional Aliases
+
+$impact: $clr3
+$cta: $black
+$de_emphasized: $light_neutral
+$de_activated: $lighter_neutral
+$link_colour: $black
+
+// Local Aliases
+
+$pale_vermillion: $clr1
+
+$clr_ms: $clr4
+$clr_1818: $clr2 
+$clr_thomas: $clr5
+$clr_1823: $clr6
+$clr_1831: $clr3
+
+
+$app_intensities_map: (0: mix($white,$black,98%), 1: $lightest_neutral, 2: $lighter_neutral, 3: $light_neutral)
+
+// Define the colour of the page background
+
+$bgcolor: $white
+
+
+/* !BREAKPOINTS */
+
+    
+/*  Values for your responsive design breakpoints. This has now been rethought 
+    thanks to https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.rduwqht4g
+  
+  336px 	  21em       xsml
+  600px 	  37.5em     sml
+  900px 	  56.25      med
+  1200px    75em       lrg
+  1800px	  100em      xlrg   */
+  
+$breakpoints: (xsml: 21em, sml: 30em, med: 56.25em, lrg: 75em, xlrg: 112.5em, xxlrg: 130em)
+
+
+/* !TYPOGRAPHY */
+
+$rootsize: 100%
+$basetypesize: 1rem // base font size and unit
+$blh: 1.5rem  // baseline height and unit – also used as a factor in standardized padding
+
+// Set size factors for type. Size factors are a funciton of $basetypesize, $scale and device-width determined $typesscale
+
+$sizefactors: (base: 0, h1: 4, h2: 3, h3: 2, h4: 1, h5: 0, h6: 0)
+
+// Scale factor for type at each breakpoint. Set to 0 to keep size consistent.
+
+$typescale: (base: 0, xsml: 0, sml: 0, med: 0, lrg: 0, xlrg: 0, xxlrg: 0)
+
+// Type faces are defined in 00_configuration folders, which get loaded before all other styles.
+
+// Load fonts
+// Face definition mixins are located in a-core/libraries/16_font_definitions
+
+// font-amiri()
++font-itc-franklin-gothic()
++font-miller-display()
+
+$basefont: Georgia, serif
+$headingfont: "MillerDisplay", Georgia, serif
+$altfont: "ITCFranklinGothic", Helvetica, Arial, sans-serif
+$codefont: "Andale Mono", Monaco, Courier New, monospace
+
+// available base (b), heading (h) and alt (a) sizes listed
+
+$extralightfw: 100
+$thinfw: 200
+$lightfw: 300       // h
+$normalfw: 400      // b, h, a
+$mediumfw: 500
+$semiboldfw: 600    // h, a
+$boldfw: 700        // b, h
+$extraboldfw: 800   // h, a
+$blackfw: 900
+
+
+// DEPRECATED: Use $basetypesize (above) instead)
+$basefontsize: 16
+
+// Headers
+
+$headingfw: $boldfw
+
+
+// DEPRECATED: Use $sizefactors instead
+
+$h1fontsize: $basefontsize * 3
+$h2fontsize: $basefontsize * 2.25
+$h3fontsize: $basefontsize * 1.875
+$h4fontsize: $basefontsize * 1.5
+$h5fontsize: $basefontsize * 1.25
+$h6fontsize: $basefontsize * 1.125
+
+
+/* !UI STANDARDIZATION */
+
+$ui_element_height: 60px  // Standard height for single-line input, select and button elements.
+$ui_border_radius: 4px
+$ui_border_width: 1px
+$ui_border_color: $light_neutral
+$ui_hover_border_color: $link_colour
+$ui_font_family: $basefont
+$ui_color: $darker_neutral  // Default for icons and text-based interactive components.
+
+$ui_padding: -4  // Size factor
+$ui_font_size: 0 // Size factor
+
+$border_radius: $ui_border_radius;
+
+// Buttons
+
+$buttonfontsize: 1
+
+$btn_padding: $ui_padding
+$btn_border_width: $ui_border_width
+$btn_border_radius: $ui_border_radius
+$btn_min_width: 200px
+$btn_width: 280px
+$btn_max_width: 375px
+
+$btn_color: $cta
+$btn_bg_color: $white
+$btn_border_color: $cta
+$btn_hover_color: $black
+$btn_hover_border_color: $black
+$btn_hover_bg_color: $white
+
+$btn_submit_color: $white
+$btn_submit_bg_color: $impact
+$btn_submit_border_color: $impact
+$btn_submit_hover_color: $white
+$btn_submit_hover_border_color: darken($impact,10%)
+$btn_submit_hover_bg_color: darken($impact,10%)
+
+$outline_btn_color: $mid_neutral
+$outline_btn_hover_color: $ui_hover_border_color
+
+
+/* !IMAGE PATHS */
+
+// Handy shortcuts for sourcing images
+
+$imagepath: "../img"
+
+/* Ratios from Modular Scale for reference. Use selected value as scale above.
+  // Ratios
+  double-octave    : 4                 
+  pi               : 3.14159265359     
+  major-twelfth    : 3                 
+  major-eleventh   : 2.666666667       
+  major-tenth      : 2.5               
+  octave           : 2                 
+  major-seventh    : 1.875             
+  minor-seventh    : 1.777777778       
+  major-sixth      : 1.666666667       
+  phi              : 1.618034          
+  golden           : $phi              
+  minor-sixth      : 1.6               
+  fifth            : 1.5               
+  augmented-fourth : 1.41421           
+  fourth           : 1.333333333       
+  major-third      : 1.25              
+  minor-third      : 1.2               
+  major-second     : 1.125             
+  minor-second     : 1.066666667       */

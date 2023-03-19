@@ -1,0 +1,21 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "lib": [
+      "ES2021", "dom", "ESNext"
+    ],
+    "types": [
+      "astro/client"
+    ],
+    "jsx": "react",
+  },
+  "include": [
+    "demo/src/*",
+    "demo/src/**/*"
+  ]
+}

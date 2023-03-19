@@ -1,0 +1,105 @@
+@import './_00_configuration.sass'
+
+// Hack to hide marginalia column header
+// This declaration is too ambiguous, but is the only way to target this label given 
+// the current DOM structure. Remove when marginalia functionality complete.
+
+#viewer .viewer__cols > .center-label:first-child
+  visibility: hidden
+
+
+#viewer
+  > *
+    margin-bottom: rv(0)
+    
+    &:last-child
+      margin-bottom: 0
+
+#viewer__controls
+  display: grid
+  grid-template-columns: repeat(3,1fr)
+  grid-gap: rv(0)
+
+  > *
+    padding-top: rv(-1)
+    padding-bottom: rv(-1)
+
+#sga
+  text-align: center
+
+  > img
+    vertical-align: middle
+
+  > div
+    font-style: italic
+    font-size: smaller
+  
+  a:visited, a:hover, a:active
+    color: #000
+  
+  > hr
+    width: 50%
+    margin: 1em auto 0 auto !important
+
+    
+#viewer_pagination_controls
+  display: grid
+  grid-template-columns: 30% 1fr
+  grid-gap: rv(0)
+
+  > *
+    padding-top: rv(-1)
+    padding-bottom: rv(-1)
+    
+.viewer__cols
+  display: grid
+  grid-template-columns: 2fr 4fr 2fr
+  grid-column-gap: rv(1)
+
+  > *
+    padding-top: rv(-1)
+    padding-bottom: rv(-1)
+    
+#viewer_variations
+  min-height: 100vh
+
+  > *
+    position: sticky
+    top: rv(0)
+    max-height: 100vh
+    overflow: scroll
+
+#viewer__marginalia
+  display: flex
+  height: 100%
+  flex-direction: column
+  align-items: flex-start
+  justify-content: space-between
+  align-content: center
+  padding: rv(-1) 0
+  
+.viewer__zone
+  height: 33.333%
+  display: flex
+  align-items: center
+  
+.line
+    border-top: 6px solid
+
+.variations
+  width: 60%
+  float: right
+
+
+#viewer__legend-editions
+  padding-top: 40px
+
+#viewer__legend-variance
+  display: flex
+  justify-content: space-around
+  padding-top: 40px
+  
+  label
+    font-size: 80%
+    margin-left: 50px
+    padding-top: 20px
