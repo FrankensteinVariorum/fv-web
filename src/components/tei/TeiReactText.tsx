@@ -7,7 +7,7 @@ interface TeiReactTextProps {
     showAnnotations: boolean;
 }
 
-class TeiReactText extends React.Component<TeiReactTextProps> {
+class TeiReactText extends React.Component<TeiReactTextProps, any> {
 
     render() {
         let classes = 'tei-cdata';

@@ -95,11 +95,11 @@ class EditionSelector extends React.Component<EditionSelectorProps, EditionSelec
                 <div className='css-1hwfws3'>
                     {/*<div className='css-1uccc91-singleValue'>*/}
                     {/*    <label>*/}
-                    {/*        <span className='dot ed-MS'></span>*/}
+                    {/*        <span className='dot ed-${edition}'></span>*/}
                     {/*        MS*/}
                     {/*    </label>*/}
                     {/*</div>*/}
-                <select className='select-style'>
+                <select className='select-style'onChange={() => this.editionChanged}>
                     {availableEditions.map((option) => (
                         <option className={option.label} key={option.value} value={option.value}>
                             {option.label}

@@ -9,7 +9,7 @@ interface HeaderData {
     edition: Edition | undefined;
 }
 
-class Header extends React.Component<HeaderData> {
+class Header extends React.Component<HeaderData, any> {
 
     render() {
         const editions = FvStore.editions.map((e, index) => 

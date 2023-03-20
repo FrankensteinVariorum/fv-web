@@ -10,7 +10,7 @@ export interface TeiReactElementProps {
    showVariations: boolean;
 }
 
-class TeiReactElement extends React.Component<TeiReactElementProps> {
+class TeiReactElement extends React.Component<TeiReactElementProps, any> {
      
    render() {
       let tag = '';

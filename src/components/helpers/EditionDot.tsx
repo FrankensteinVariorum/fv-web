@@ -6,7 +6,7 @@ interface EditionDotProps {
     small?: boolean | undefined;
 }
 
-class EditionDot extends React.Component<EditionDotProps> {
+class EditionDot extends React.Component<EditionDotProps, any> {
     render() {
         let classes = `dot ed-${this.props.edition.code}`;
         if (this.props.small) {

@@ -1,19 +1,14 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Header from '../components/Header.astro';
-import { TeiBaseStyle, processTei } from 'astro-tei';
-import TEI from '../tei-processing/tei'
+import Tei, {TeiBaseStyle} from 'astro-tei';
+// import TEI from '../tei-processing/tei'
 import EditionSelector from '../components/EditionSelector';
 import Paging from '../components/Paging';
 import Header from '../components/Header';
 import OptionsSelector from '../components/OptionsSelector';
 
 const teiFile = (await import("../teiFiles/P5-f1818_C11.xml?raw")).default;
-
-const jdom = processTei(teiFile);
-const teiDom = jdom.window.document;
-const tei = jdom.serialize();
-const elements = teiDom.documentElement.getAttribute("data-elements").split(",");
 ---
 
 <section id='viewer'>
@@ -25,11 +20,10 @@ const elements = teiDom.documentElement.getAttribute("data-elements").split(",")
     </div>
 
     <Header edition="1818"/>
-    <main>
-        <div class="tei">
-            <TEI doc={teiDom} data={tei} elements={elements} client:load />
-        </div>
-    </main>
+
+    <div class="tei">
+        <Tei data={teiFile} />
+    </div>
 
     <hr className='line' />
         <footer id="viewer_pagination_controls">

@@ -7,7 +7,7 @@ interface TeiAnnotationWrapperProps {
    onAnnotationClick?: (annotations: Array<Object>) => void,
 }
 
-class TeiAnnotationWrapper extends React.Component<TeiAnnotationWrapperProps> {
+class TeiAnnotationWrapper extends React.Component<TeiAnnotationWrapperProps, any> {
    onClick = (e) => {
       if (this.props.showAnnotations && this.props.onAnnotationClick) {
          this.props.onAnnotationClick(this.props.annotations)

@@ -122,7 +122,7 @@ class Paging extends React.Component<PagingProps, PagingState> {
     render() {
         return (
             <div>
-                {this.props.edition ?
+                {/*{this.props.edition ?*/}
                 <div>
                     {/*<div className='in-line'>*/}
                     {/*    <label className='bold-choose'>CHOOSE A SECTION</label>*/}
@@ -135,18 +135,18 @@ class Paging extends React.Component<PagingProps, PagingState> {
                     {/*</div>*/}
 
                     <div className='in-line'>
-                    <label className='bold-choose'>CHOOSE A VERSION</label>
+                    <label className='bold-choose'>CHOOSE A SECTION</label>
                     <div className='select-style css-yk16xz-control'>
                         <div className='css-1hwfws3'>
-                            <div className='css-1uccc91-singleValue'>
-                                <label>
-                                    <span className='dot ed-MS'></span>
-                                    MS
-                                </label>
-                            </div>
-                            <select className='select-style' onChange={this.onChunkChanged}>
+                            {/*<div className='css-1uccc91-singleValue'>*/}
+                            {/*    <label>*/}
+                            {/*        <span className='dot ed-MS'></span>*/}
+                            {/*        MS*/}
+                            {/*    </label>*/}
+                            {/*</div>*/}
+                            <select className='select-style' onChange={() => this.onChunkChanged}>
                                 {availableEditions.map((option) => (
-                                    <option key={chunk.key} value={chunk.value}>{chunk.label}</option>
+                                    <option key={option.key} value={option.value}>{option.chunk}</option>
                                 ))}
                             </select>
                         </div>
@@ -161,7 +161,7 @@ class Paging extends React.Component<PagingProps, PagingState> {
                             onClick={() => this.updateChunk(1)} disabled={this.state.disableNext}/>
                     </div>
                 </div>
-                : ''}
+                {/*: ''}*/}
             </div>
         );
     }
