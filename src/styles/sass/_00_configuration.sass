@@ -1,9 +1,8 @@
-  /**
- * @file
- * Base Theme Configuration Example and Starter configuration.
- * See _configuration_instructions.txt for help.
- * Copy this file to 00_configuration.sass to begin.
- */
+/**
+  * @file
+  * Base Theme Configuration Example and Starter configuration.
+  * See _configuration_instructions.txt for help.
+  * Copy this file to 00_configuration.sass to begin. */
   
  
 /* !APPLICATION */
@@ -11,6 +10,8 @@
 // Configure the application in style.sass
 
 /* !CORE VALUES */
+
+@use "sass:math"
 
 $media_type: screen
 $feature: min-width
@@ -22,7 +23,7 @@ $legible_inset_width: 800px
 // See ./a_core/10_libraries/10_vendor/modularscale/modularscale/_vars.scss for $scale references
 
 $scale: 1.41421 // Augmented Fourth. See scales below. 
-$standard_sidebar_width: 100% - (100/$scale)
+$standard_sidebar_width: 100% - math.div(100, $scale)
 
 $masthead_height: 100px
 $admin_bar_height: 40px // Not used. Mark for removal.
@@ -179,7 +180,7 @@ $ui_color: $darker_neutral  // Default for icons and text-based interactive comp
 $ui_padding: -4  // Size factor
 $ui_font_size: 0 // Size factor
 
-$border_radius: $ui_border_radius;
+$border_radius: $ui_border_radius
 
 // Buttons
 

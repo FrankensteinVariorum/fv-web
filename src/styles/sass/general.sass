@@ -3,6 +3,8 @@
    @author Research Software Company
    @description Frankenstein Variorum Viewer general styles . */
 
+@use "sass:math"
+
 .App
     padding: 25px
     min-height: 100vh
@@ -138,11 +140,11 @@
   font-family: $altfont
 
 
-$label_ornament_width: 180px;
+$label_ornament_width: 180px
 
 #viewer__controls
   > div
-    padding: $label_ornament_width/3 0 0 $label_ornament_width/2
+    padding: math.div($label_ornament_width, 3) 0 0 $label_ornament_width*0.5
     position: relative
     overflow: visible
         
@@ -155,8 +157,8 @@ $label_ornament_width: 180px;
       width: $label_ornament_width
       top: 0
       left: 0
-      border-radius: $label_ornament_width/2
-      padding: $label_ornament_width/4
+      border-radius: $label_ornament_width*0.5
+      padding: $label_ornament_width*0.25
       background-color: map-get($clr1_map,'watermark')
       color: $white
       font-size: 3rem
@@ -214,6 +216,7 @@ $label_ornament_width: 180px;
     
 .select-style 
     width: 250px
+    height: 76px
     
     > .css-yk16xz-control
       border-color: $mid_neutral
@@ -248,26 +251,26 @@ label.bold-choose
   height: 30px
   width: 30px
   border: none !important
-  background: url("../../images/prev_btn.svg") no-repeat
+  background: url("../../../public/images/prev_btn.svg") no-repeat
    
 .prev:hover
-  background: url("../../images/prev_btn_over.svg") no-repeat
+  background: url("../../../public/images/prev_btn_over.svg") no-repeat
     
 .prev:disabled
-  background: url("../../images/prev_btn_inactive.svg") no-repeat
+  background: url("../../../public/images/prev_btn_inactive.svg") no-repeat
   cursor: not-allowed
 
 .next
   height: 30px
   width: 30px
   border: none !important
-  background: url("../../images/next_btn.svg") no-repeat
+  background: url("../../../public/images/next_btn.svg") no-repeat
    
 .next:hover 
-  background: url("../../images/next_btn_over.svg") no-repeat
+  background: url("../../../public/images/next_btn_over.svg") no-repeat
     
 .next:disabled
-  background: url("../../images/next_btn_inactive.svg") no-repeat
+  background: url("../../../public/images/next_btn_inactive.svg") no-repeat
   cursor: not-allowed
 
 .app-list-to-divider
