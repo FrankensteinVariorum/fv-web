@@ -1,13 +1,15 @@
 import { useStore } from '@nanostores/react';
 import { Edition } from '../data/edition';
-import { SelectOption, availableChunks} from './store';
-import type  from './store';
+import {availableChunks, SelectOption} from './store';
+// import type availableChunks from './store';
 
 
 export default function Paging() {
-    const edition = useStore(SelectOption);
-    const edClassName = "ed-" + edition;
-    availableChunks(edition);
+    const $edition = useStore(SelectOption);
+    // const chunks = availableChunks($edition);
+    const $chunk = useStore(availableChunks);
+    const edClassName = "ed-" + $edition;
+
     return (
         <div>
             <div>
@@ -16,10 +18,10 @@ export default function Paging() {
                     <label className='bold-choose'>CHOOSE A SECTION</label>
                     <div className='select-style css-yk16xz-control'>
                         <div className='css-1hwfws3'>
-                            <label><span className='dot' className=${edClassName}></span>${edition}</label>
-                            <select className='select-style' className = ${edition}>
-                                {availableChunks.map((option) => (
-                                    <option key={option.label} value={option.value}>{option.chunk}</option>
+                            <label><span className='dot' className={edClassName}></span>{$edition}</label>
+                            <select className='select-style'>
+                                {chunks.map((option) => (
+                                    <option key={option.key} value={option.value}>{option.value}</option>
                                 ))}
                             </select>
                         </div>
