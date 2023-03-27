@@ -7,7 +7,7 @@ import {availableChunks, SelectOption} from './store';
 export default function Paging() {
     const $edition = useStore(SelectOption);
     // const chunks = availableChunks($edition);
-    const $chunk = useStore(availableChunks);
+    const $chunks = useStore(availableChunks);
     const edClassName = "ed-" + $edition;
 
     return (
@@ -20,7 +20,7 @@ export default function Paging() {
                         <div className='css-1hwfws3'>
                             <label><span className='dot' className={edClassName}></span>{$edition}</label>
                             <select className='select-style'>
-                                {chunks.map((option) => (
+                                {Object.values($chunks).map((option) => (
                                     <option key={option.key} value={option.value}>{option.value}</option>
                                 ))}
                             </select>
