@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Viewer from '../components/Viewer/Viewer.astro';
+import "../styles/sass/style.sass";
+---
+
+<Layout title="fv">
+    <div id="root">
+	    <div>
+            <div class="App">
+                <Viewer/>
+            </div>
+		</div>
+    </div>
+</Layout>
+
+<style lang="scss">
+  @import "../styles/sass/style.sass";
+</style>

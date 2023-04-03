@@ -1,20 +1,30 @@
 ---
-import Layout from '../layouts/Layout.astro';
-// import Viewer from '../components/Viewer';
-import Viewer from '../components/Viewer.astro';
-import "../styles/sass/style.sass";
+import Home from '../layouts/Home.astro';
+import "../assets/css/style.css"
+import { Image } from '@astrojs/image/components';
+import FronticepieceImage from '../assets/img/general/fronticepiece-50.jpg';
 ---
+<Home>
+      <section>
+        <div id='epigraph'>
+          Did I request thee, Maker, from my clay<br />
+          To mould me man?  Did I solicit thee<br />
+          From darkness to promote me? — <span class='epigraph-source'>PARADISE LOST</span>
+        </div>
+        <div id='home-title'>
+          <div class='attribution'>Mary Shelley’s</div>
+          <h1>Frankenstein</h1>
+          <div class='subtitle'>A Digital Variorum Edition</div>
+        </div>
+        <div id='home-cta' class='btn'>
+          <a href="/viewer" title='Use the Variorum Viewer'>Variorum Viewer</a>
+        </div>
+      </section>
+      <aside id='fronticepiece'>
+        <Image src={FronticepieceImage} alt='Fronticepiece Image' width='197px' format='jpg' quality='max'/>
+      </aside>
+</Home>
 
-<Layout title="fv">
-    <div id="root">
-	    <div>
-            <div class="App">
-                <Viewer/>
-            </div>
-		</div>
-    </div>
-</Layout>
-
-<style lang="scss">
-  @import "../styles/sass/style.sass";
+<style>
+  @import "../assets/css/style.css";
 </style>

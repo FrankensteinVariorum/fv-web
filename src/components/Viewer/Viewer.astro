@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Nav from "../Nav.astro"
+import Tei, {TeiBaseStyle} from 'astro-tei';
+import EditionSelector from './EditionSelector';
+//import Paging from './Paging';
+import Header from '../Header';
+import OptionsSelector from './OptionsSelector';
+
+const edition = "1818";
+
+const teiFile = (await import("../../teiFiles/P5-f1818_C11.xml?raw")).default;
+
+---
+
+<section id='viewer'>
+
+    <div id='viewer__controls'>
+        <EditionSelector client:load/>
+        <!-- <Paging client:load/> -->
+        <OptionsSelector/>
+    </div>
+
+    <Header edition={edition}/>
+
+    <div id="viewer__contents" class="viewer__cols">
+        <aside id="viewer__marginalia"></aside>
+        <Tei data={teiFile} />
+        <aside id="viewer_variations"></aside>
+    </div>
+
+    <hr className='line' />
+    <footer id="viewer_pagination_controls">
+        <!-- <EditionSelector client:load/> -->
+        <!-- <Paging client:load/> -->
+    </footer>
+</section>

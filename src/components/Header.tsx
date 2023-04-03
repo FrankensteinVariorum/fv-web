@@ -1,6 +1,6 @@
 import React from 'react';
-import FvStore from '../data/store';
-import { Edition } from '../data/edition';
+import FvStore from '../data/old-store';
+import { Edition } from '../data/old-edition';
 import sgalogo from '../../public/images/sgalogo.png'
 import variations from '../../public/images/intensity_legend.svg';
 import EditionDot from './helpers/EditionDot';
