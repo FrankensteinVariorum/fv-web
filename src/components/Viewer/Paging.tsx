@@ -2,7 +2,6 @@ import { useStore } from '@nanostores/react';
 import { Edition } from '../../data/edition';
 import {availableEditions, onChange, SelectOption} from '../../data/store';
 
-
 export default function Paging() {
     const edition = useStore(SelectOption);
     const availableChunks = availableChunks(edition);

@@ -2,7 +2,7 @@
 import Home from '../layouts/Home.astro';
 import "../assets/css/style.css"
 import { Image } from '@astrojs/image/components';
-import FronticepieceImage from '../assets/img/general/fronticepiece-50.jpg';
+import FronticepieceImage from '../assets/img/general/fronticepiece.jpg';
 ---
 <Home>
       <section>
@@ -21,7 +21,8 @@ import FronticepieceImage from '../assets/img/general/fronticepiece-50.jpg';
         </div>
       </section>
       <aside id='fronticepiece'>
-        <Image src={FronticepieceImage} alt='Fronticepiece Image' width='197px' format='jpg' quality='max'/>
+        <Image src={FronticepieceImage} alt='Fronticepiece Image'
+         width='1000vw' format='jpg' quality='max'/>
       </aside>
 </Home>
 
