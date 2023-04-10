@@ -22,8 +22,8 @@ export function getAvailableChunks(select_edition?: String){
     return availableChunks;
 }
 
-// const chunkFormat = chunk.get().toString().length == 1 ? '0' + chunk.get().toString() : chunk.get();
-// export const teiFilePath = atom(`../../teiFiles/P5-f${edition.get()}_C${chunkFormat}.xml?raw`);
+const chunkFormat = chunk.get().toString().length == 1 ? '0' + chunk.get().toString() : chunk.get();
+export const teiFilePath = atom(`../../teiFiles/P5-f${edition.get()}_C${chunkFormat}.xml?raw`);
 
 // export default async function fetch_tei() {
 //     const editions = ["MS", "1818", "Thomas", "1823", "1831"];

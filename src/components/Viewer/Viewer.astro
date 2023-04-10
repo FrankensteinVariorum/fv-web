@@ -1,18 +1,18 @@
 ---
-//import { useState } from 'react';
 import Layout from '../../layouts/Layout.astro';
 import Tei, { TeiBaseStyle } from 'astro-tei';
 import EditionSelector from './EditionSelector';
 import Paging from './Paging';
 import Header from '../Header';
 import OptionsSelector from './OptionsSelector';
+import TeiViewer from './TeiViewer'
 import { edition, chunk } from '../../data/store';
 
+/* We cannot use useStore in Astro component. */
 //const chunkFormat = chunk.get().toString().length == 1 ? '0' + chunk.get().toString() : chunk.get();
-//const teiFilePath = atom(`../../teiFiles/P5-f${edition.get()}_C${chunkFormat}.xml?raw`);
-//const teiFile = (await import($teiFilePath.value)).default;
-
-const teiFile = (await import('../../teiFiles/P5-f1818_C11.xml?raw')).default;
+//const teiFilePath = `../../teiFiles/P5-f${edition.get()}_C${chunkFormat}.xml?raw`;
+//const teiFile = (await import('../../teiFiles/P5-f1818_C11.xml?raw')).default;
+//const teiFile = (await import(teiFilePath)).default;
 
 ---
     <section id='viewer'>
@@ -25,7 +25,8 @@ const teiFile = (await import('../../teiFiles/P5-f1818_C11.xml?raw')).default;
 
       <div id="viewer__contents" class="viewer__cols">
         <aside id="viewer__marginalia"></aside>
-        <Tei data={teiFile} />
+        <!-- <Tei data={teiFile} /> -->
+        <TeiViewer client:only="react" />
         <aside id="viewer_variations"></aside>
       </div>
 

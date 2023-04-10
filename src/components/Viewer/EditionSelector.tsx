@@ -1,7 +1,7 @@
 import { useStore } from '@nanostores/react';
 import { Edition } from '../../data/old-edition';
-import EditionDot from './helpers/EditionDot';
-import { availableEditions, availableChunks, edition, chunk, getAvailableChunks } from '../../data/store';
+import EditionDot from '../helpers/EditionDot';
+import { availableEditions, edition, chunk, getAvailableChunks } from '../../data/store';
 
 
 export default function EditionSelector() {
