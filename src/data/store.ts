@@ -13,7 +13,7 @@ export const availableEditions = [
     { label: "1831", value: "1831"},
 ];
 
-export function getAvailableChunks(select_edition?: Edition){
+export function getAvailableChunks(select_edition?: String){
     const availableChunks: number[] = [];
     const start = (select_edition == "MS") ? 12 : 11;
     for (let i = start; i <= 15; i++){
@@ -22,8 +22,8 @@ export function getAvailableChunks(select_edition?: Edition){
     return availableChunks;
 }
 
-const chunkFormat = chunk.get().toString().length == 1 ? '0' + chunk.get().toString() : chunk.get();
-export const teiFilePath = atom(`../../teiFiles/P5-f${edition.get()}_C${chunkFormat}.xml?raw`);
+// const chunkFormat = chunk.get().toString().length == 1 ? '0' + chunk.get().toString() : chunk.get();
+// export const teiFilePath = atom(`../../teiFiles/P5-f${edition.get()}_C${chunkFormat}.xml?raw`);
 
 // export default async function fetch_tei() {
 //     const editions = ["MS", "1818", "Thomas", "1823", "1831"];

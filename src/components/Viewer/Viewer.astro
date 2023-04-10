@@ -1,5 +1,5 @@
 ---
-import { useState } from 'react';
+//import { useState } from 'react';
 import Layout from '../../layouts/Layout.astro';
 import Tei, { TeiBaseStyle } from 'astro-tei';
 import EditionSelector from './EditionSelector';
@@ -8,9 +8,12 @@ import Header from '../Header';
 import OptionsSelector from './OptionsSelector';
 import { edition, chunk } from '../../data/store';
 
-const chunkFormat = chunk.get().toString().length == 1 ? '0' + chunk.get().toString() : chunk.get();
-const teiFilePath = atom(`../../teiFiles/P5-f${edition.get()}_C${chunkFormat}.xml?raw`);
-const teiFile = (await import($teiFilePath.value)).default;
+//const chunkFormat = chunk.get().toString().length == 1 ? '0' + chunk.get().toString() : chunk.get();
+//const teiFilePath = atom(`../../teiFiles/P5-f${edition.get()}_C${chunkFormat}.xml?raw`);
+//const teiFile = (await import($teiFilePath.value)).default;
+
+const teiFile = (await import('../../teiFiles/P5-f1818_C11.xml?raw')).default;
+
 ---
     <section id='viewer'>
       <div id='viewer__controls'>

@@ -1,0 +1,8 @@
+---
+import { useStore } from '@nanostores/react';
+import { edition, chunk } from '../../data/store';
+const {ed, ch} = Astro.params;
+
+---
+
+{"ed": edition.get(), "ch": chunk.get()}
