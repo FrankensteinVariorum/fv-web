@@ -1,4 +1,4 @@
-import FvStore from "./store";
+import FvStore from "./old-store";
 import { evaluateXPath } from "../tei-processing/helpers";
 
 export class Annotation {

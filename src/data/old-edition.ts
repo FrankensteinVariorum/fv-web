@@ -1,6 +1,6 @@
-import FvStore from "./store";
-import { Spine } from "./spine";
-import { Annotation } from "./annotation";
+import FvStore from "./old-store";
+import { Spine } from "./old-spine";
+import { Annotation } from "./old-annotation";
 import { evaluateXPath } from "../tei-processing/helpers";
 
 export abstract class Edition {

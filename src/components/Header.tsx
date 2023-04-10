@@ -37,7 +37,7 @@ class Header extends React.Component<HeaderData, any> {
                     </div>
                     <div id='viewer__legend-variance'>
                         <label>Amount of Variance</label>
-                        <img className='variations' src={variations} alt="variations scale" />
+                        <img className='variations' src={variations.src} alt="variations scale" />
                     </div>
                 </header>
 
@@ -49,7 +49,7 @@ class Header extends React.Component<HeaderData, any> {
                 </div>
                 {/*{sga}*/}
                 <div id="sga">
-                    <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30"><img src={sgalogo}/></a>
+                    <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30"><img src={sgalogo.src}/></a>
                     <div>View the manuscript facsimile, transcription and more on the <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30">Shelley-Godwin Archive</a></div>
                     <hr/>
                 </div>

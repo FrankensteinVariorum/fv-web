@@ -1,7 +1,7 @@
 import XmlCache from "./old-xml-cache";
 import JsonCache from "./old-json-cache";
 import { Edition, EditionWithBody, MSEdition } from "./old-edition";
-import { Spine } from "./old-spine";
+import { Spine } from "./spine";
 import { Annotation } from "./old-annotation";
 
 /*
