@@ -2,6 +2,7 @@ import React from "react";
 import BasicRouter from '@astro-tei/react';
 import { DefaultBehaviors } from "@astro-tei/react";
 import type { IRoutes } from "@astro-tei/react";
+import { Seg } from './seg';
 
 interface Props {
   doc: Document
@@ -9,7 +10,7 @@ interface Props {
   elements: string[]
 }
 
-export default function TEI({doc, data, elements}: Props) {
+export default function Tei({doc, data, elements}: Props) {
   const {
     Tei,
     Eg,
@@ -30,7 +31,7 @@ export default function TEI({doc, data, elements}: Props) {
     "tei-ptr": Ptr,
     "tei-ref": Ref,
     "tei-teiheader": TeiHeader,
-    "tei-pb": Pb,
+    "tei-seg": Seg
   };
 
   // Support server side and client side DOM processing.

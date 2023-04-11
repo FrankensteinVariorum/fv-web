@@ -4,7 +4,6 @@ import {sources} from '../../data/units.json'
 export default function Paging({source, unit}) {
 
     const sourceData = sources.filter(s => s.label === source)[0]
-    const edClassName = "ed-" + source;
 
     const handleUnitChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newUnit = event.target.value

@@ -4,12 +4,26 @@
       "label": "1818",
       "units": [
         {
-          "label": "Chapter 1",
-          "start": "#id"
+          "label": "Chapter 1"
         },
         {
-          "label": "Chapter 2",
-          "start": "#id"
+          "label": "Chapter 2"
+        }
+      ]
+    },
+    {
+      "label": "1831",
+      "units": [
+        {
+          "label": "Chapter 1"
+        }
+      ]
+    },
+    {
+      "label": "Thomas",
+      "units": [
+        {
+          "label": "Chapter 1"
         }
       ]
     },
@@ -17,16 +31,13 @@
       "label": "1823",
       "units": [
         {
-          "label": "Chapter 1",
-          "start": "#id"
+          "label": "Chapter 1"
         },
         {
-          "label": "Chapter 2",
-          "start": "#id"
+          "label": "Chapter 2"
         },
         {
-          "label": "Chapter 3",
-          "start": "#id"
+          "label": "Chapter 3"
         }
       ]
     },
@@ -35,8 +46,11 @@
       "units": [
         {
           "label": "Chapter 1",
-          "start": "URL#id",
-          "end": "URL#id"
+          "uris": [
+            "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0011.xml#ox-ms_abinger_c56-0011",
+            "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0012.xml#ox-ms_abinger_c56-0012",
+            "https://raw.githubusercontent.com/umd-mith/sga/master/data/tei/ox/ox-ms_abinger_c56/ox-ms_abinger_c56-0013.xml#ox-ms_abinger_c56-0013"
+          ]
         }
       ]
     }
