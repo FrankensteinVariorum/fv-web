@@ -22,7 +22,7 @@ export default function Paging({source, unit}) {
                         <div className='css-1hwfws3'>
                             <select className='select-style' value={unit} onChange={handleUnitChange}>
                                 {sourceData.units.map((u) => (
-                                    <option value={u.label.replace(" ", "").toLowerCase()}>{u.label}</option>
+                                    <option key={u.label} value={u.label.replace(" ", "").toLowerCase()}>{u.label}</option>
                                 ))}
                             </select>
                         </div>
