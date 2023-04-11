@@ -5,8 +5,6 @@ import Viewer from "./Viewer.astro"
 const spine = await Astro.glob('../../data/spine.ts');
 const teiFiles = await Astro.glob('../../teiFiles/*.xml');
 
-
-
 export function getStaticPaths() {
     const paramMapList= []
     const paramMap = new Map<string, any>();
