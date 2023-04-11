@@ -1,0 +1,30 @@
+---
+import {sources} from "../../data/units.json"
+import Viewer from "../../components/Viewer/Viewer.astro"
+import Tei, { TeiBaseStyle } from 'astro-tei';
+
+export function getStaticPaths() {
+    return sources.reduce((acc, s) => {
+        s.units.map(u => {
+            acc.push( {
+                params: {
+                    source: s.label,
+                    unit: u.label.replace(" ", "").toLowerCase()
+                }
+            })
+        })
+        return acc
+    }, [])
+}
+
+const { source, unit } = Astro.params;
+
+source
+---
+
+<Viewer>
+    <div>{source}, {unit}</div>
+</Viewer>
+
+
+

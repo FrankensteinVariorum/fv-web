@@ -1,5 +1,5 @@
 import FvStore from "./old-store";
-import { Spine } from "./old-spine";
+import { Spine } from "./spine";
 import { Annotation } from "./old-annotation";
 import { evaluateXPath } from "../tei-processing/helpers";
 

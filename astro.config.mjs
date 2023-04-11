@@ -12,16 +12,6 @@ export default defineConfig({
     ssr: {
       external: ['firebase/database']
     },
-    routes: [
-      {
-        path: '/viewer/f:ed/C:ch',
-        component: './components/Viewer/f[ed]_C[ch].astro',
-        props: ({ params }) => ({
-          ed: params.ed,
-          ch: params.ch
-        })
-      }
-    ]
   },
   fileExtensions: {
     ".tei": "tsx"

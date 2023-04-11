@@ -1,15 +1,16 @@
-import { useStore } from '@nanostores/react';
 import { Edition } from '../../data/edition';
-import {availableChunks, edition, chunk, getAvailableChunks}  from '../../data/store';
+import {sources} from '../../data/units.json'
 
-export default function Paging() {
-    const $edition = useStore(edition);
-    const $chunk = useStore(chunk);
-    const $availableChunks = getAvailableChunks($edition);
-    const edClassName = "ed-" + $edition;
+export default function Paging({source, unit}) {
 
-    const handleChunkChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        chunk.set(Number(event.target.value));
+    const sourceData = sources.filter(s => s.label === source)[0]
+    const edClassName = "ed-" + source;
+
+    const handleUnitChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        const newUnit = event.target.value
+
+        const path = `/${source}/${newUnit.replace(" ", "").toLowerCase()}`
+        window.location.replace(path)
     };
 
     return (
@@ -20,10 +21,9 @@ export default function Paging() {
                     <label className='bold-choose'>CHOOSE A SECTION</label>
                     <div className='select-style css-yk16xz-control'>
                         <div className='css-1hwfws3'>
-                            {/*<label><span className='dot' className={edClassName}></span>{$edition}</label>*/}
-                            <select className='select-style' name={"C"} value={$chunk} onChange={handleChunkChange}>
-                                {$availableChunks.map((chunkOption) => (
-                                    <option>{chunkOption}</option>
+                            <select className='select-style' value={unit} onChange={handleUnitChange}>
+                                {sourceData.units.map((u) => (
+                                    <option value={u.label.replace(" ", "").toLowerCase()}>{u.label}</option>
                                 ))}
                             </select>
                         </div>

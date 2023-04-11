@@ -1,48 +1,53 @@
-import { useStore } from '@nanostores/react';
-import { Edition } from '../../data/old-edition';
-import EditionDot from '../helpers/EditionDot';
-import { availableEditions, edition, chunk, getAvailableChunks } from '../../data/store';
+import React from 'react'
+import Select from 'react-select'
+import {sources} from '../../data/units.json'
 
-
-export default function EditionSelector() {
-    const $edition:string = useStore(edition);
-    const $chunk:string = useStore(chunk);
+export default function EditionSelector({source, setSource, unit}) {
 
     const handleEditionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        const newEdition:string = event.target.value;
-        const newAvailableChunks:number[] = getAvailableChunks(newEdition);
-
-        if (!newAvailableChunks.includes($chunk)) {
-            chunk.set(newAvailableChunks[0]);
+        const newSource = event.target.value
+        const newSourceData = sources.filter(s => s.label === event.target.value)[0]
+        if (newSourceData) {
+            let path
+            if (newSourceData.units.map(u => u.label.replace(" ", "").toLowerCase()).indexOf(unit) === -1) {
+                const newUnit = newSourceData.units[0].label
+                path = `/${newSource}/${newUnit.replace(" ", "").toLowerCase()}`
+            } else {
+                path = `/${newSource}/${unit}`
+            }
+            window.location.replace(path)
         }
-        edition.set(newEdition);
+
     };
 
     const getEditionDot = (select_edition) => {
-        const edClassName = "dot ed-" + select_edition.value;
+        const edClassName = "dot ed-" + select_edition;
         return edClassName;
     };
 
     return (
             <form method="get" action="viewer">
                 <label className='bold-choose'>CHOOSE A VERSION</label>
-                <div className='css-yk16xz-control'>
-                    <div className='css-1hwfws3'>
-                        <div className='css-1uccc91-singleValue'>
-    {/*                     <label><span className='dot' className={edClassName}></span>{$edition}</label> */}
-                        </div>
+                {/*<Select*/}
+                {/*    className='select-style'*/}
+                {/*    onChange={handleEditionChange}*/}
+                {/*    value={source}*/}
+                {/*    options={sources.map((s) => {*/}
+                {/*        return {*/}
+                {/*            value: s.label,*/}
+                {/*            label: <label><span className={getEditionDot(s.label)}>{s.label}</span></label>*/}
+                {/*        }*/}
+                {/*    })}*/}
+                {/*></Select>*/}
+                <select className='select-style' name='tei' value={source} onChange={handleEditionChange}>
+                    {sources.map((source) => (
 
-                        <select className='select-style'name='tei' value={$edition} onChange={handleEditionChange}>
-                            {availableEditions.map((option) => (
-
-                                <option className={option} value={option} key={option}>
-                                <span className={getEditionDot(option)}></span>
-                                    {option}
-                                </option>
-                            ))}
-                        </select>
-                    </div>
-                </div>
+                        <option className={source.label} value={source.label} key={source.label}>
+                        <span className={getEditionDot(source.label)}></span>
+                            {source.label}
+                        </option>
+                    ))}
+                </select>
             </form>
     );
 }

@@ -1,5 +1,5 @@
 import FvStore from "./old-store";
-import { Edition } from "./old-edition";
+import { Edition } from "./edition";
 import { evaluateXPath, findElementByXmlId } from "../tei-processing/helpers";
 
 interface PointerData {

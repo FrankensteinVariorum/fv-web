@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "label": "1818",
+      "units": [
+        {
+          "label": "Chapter 1",
+          "start": "#id"
+        },
+        {
+          "label": "Chapter 2",
+          "start": "#id"
+        }
+      ]
+    },
+    {
+      "label": "1823",
+      "units": [
+        {
+          "label": "Chapter 1",
+          "start": "#id"
+        },
+        {
+          "label": "Chapter 2",
+          "start": "#id"
+        },
+        {
+          "label": "Chapter 3",
+          "start": "#id"
+        }
+      ]
+    },
+    {
+      "label": "MS",
+      "units": [
+        {
+          "label": "Chapter 1",
+          "start": "URL#id",
+          "end": "URL#id"
+        }
+      ]
+    }
+  ]
+}

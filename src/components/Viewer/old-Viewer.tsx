@@ -2,7 +2,7 @@ import React from 'react';
 import EditionSelector from './EditionSelector';
 import TeiRendering from '../tei/TeiContainer';
 import FvStore from '../../data/old-store';
-import {Edition, Chunk, MSEdition, EditionWithBody} from '../../data/old-edition';
+import {Edition, Chunk, MSEdition, EditionWithBody} from '../../data/edition';
 import Paging from './Paging';
 import Header from '../Header';
 import OptionsSelector from './OptionsSelector';
