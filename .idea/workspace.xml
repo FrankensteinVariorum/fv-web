@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f3bb40-6bab-4d66-8e41-09fd0b8f0ac4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/tei/seg.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Viewer/Paging.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Viewer/Paging.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Viewer/f[ed]_C[ch].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tei/tei.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tei/tei.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/[source]/[unit].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[source]/[unit].astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/sass/tei.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sass/tei.sass" afterDir="false" />
-    </list>
-    <list id="38c5fb62-e557-485e-9dc6-98f30d76c7ce" name="Changes by rviglian" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/tei/tei.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tei/tei.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/units.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/units.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/[source]/[unit].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[source]/[unit].astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +16,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/components/tei/tei.tsx">
-      <ranges>
-        <range start1="4" end1="4" start2="4" end2="5" changelist="38c5fb62-e557-485e-9dc6-98f30d76c7ce" />
-        <range start1="11" end1="12" start2="12" end2="13" changelist="38c5fb62-e557-485e-9dc6-98f30d76c7ce" />
-        <range start1="32" end1="33" start2="33" end2="34" changelist="50f3bb40-6bab-4d66-8e41-09fd0b8f0ac4" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/pages/[source]/[unit].astro">
-      <ranges>
-        <range start1="3" end1="4" start2="3" end2="5" changelist="38c5fb62-e557-485e-9dc6-98f30d76c7ce" />
-        <range start1="21" end1="22" start2="22" end2="50" changelist="50f3bb40-6bab-4d66-8e41-09fd0b8f0ac4" />
-        <range start1="25" end1="26" start2="53" end2="55" changelist="50f3bb40-6bab-4d66-8e41-09fd0b8f0ac4" />
-      </ranges>
-    </file>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/.pnpm/@astro-tei+react@0.1.1/node_modules/@astro-tei/react/src/components/DefaultBehaviors.tsx" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
