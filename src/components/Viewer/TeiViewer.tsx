@@ -7,12 +7,12 @@ import { teiFilePath } from '../../data/store';
 
 export default function TeiViewer() {
     const $teiFile = useStore(teiFilePath);
-    const jdom = processTei($teiFile);
-    const teiDom = jdom.window.document;
-    const tei = jdom.serialize();
-    const elements = teiDom.documentElement.getAttribute("data-elements").split(",");
+    const tei = processTei($teiFile);
+    // const teiDom = jdom.window.document;
+    // const tei = jdom.serialize();
+    const elements = tei.documentElement.getAttribute("data-elements").split(",");
 
     return (
-        <Tei doc={teiDom} data={tei} elements={elements} client:only="react" />
+        <Tei doc={tei} elements={elements} client:only="react" />
     );
 }

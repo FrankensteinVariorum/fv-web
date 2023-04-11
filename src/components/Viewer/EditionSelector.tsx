@@ -5,13 +5,12 @@ import { availableEditions, edition, chunk, getAvailableChunks } from '../../dat
 
 
 export default function EditionSelector() {
-    const $edition = useStore(edition);
-    const $chunk = useStore(chunk);
-
+    const $edition:string = useStore(edition);
+    const $chunk:string = useStore(chunk);
 
     const handleEditionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        const newEdition = event.target.value;
-        const newAvailableChunks = getAvailableChunks(newEdition);
+        const newEdition:string = event.target.value;
+        const newAvailableChunks:number[] = getAvailableChunks(newEdition);
 
         if (!newAvailableChunks.includes($chunk)) {
             chunk.set(newAvailableChunks[0]);
@@ -36,9 +35,9 @@ export default function EditionSelector() {
                         <select className='select-style'name='tei' value={$edition} onChange={handleEditionChange}>
                             {availableEditions.map((option) => (
 
-                                <option className={option.label} value={option.value}>
+                                <option className={option} value={option} key={option}>
                                 <span className={getEditionDot(option)}></span>
-                                    {option.label}
+                                    {option}
                                 </option>
                             ))}
                         </select>

@@ -26,7 +26,8 @@ import { edition, chunk } from '../../data/store';
       <div id="viewer__contents" class="viewer__cols">
         <aside id="viewer__marginalia"></aside>
         <!-- <Tei data={teiFile} /> -->
-        <TeiViewer client:only="react" />
+        <!-- <TeiViewer client:only="react" /> -->
+        <slot ed=edition.get() ch=chunk.get() />
         <aside id="viewer_variations"></aside>
       </div>
 
@@ -36,7 +37,5 @@ import { edition, chunk } from '../../data/store';
         <Paging client:load/>
       </footer>
     </section>
-  );
-}
 
 
