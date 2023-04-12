@@ -1,14 +1,26 @@
-import { ReadingGroup } from "../../data/spine";
 import React from "react";
 import EditionDot from "../helpers/EditionDot";
-import { TeiConverter } from "../../tei-processing/tei-converter";
+import { Reading } from "../tei/variantsContext";
 
-
-interface ReadingGroupComponentProps {
-    group: ReadingGroup;
+interface Props {
+    group: Reading
 }
 
-// Note: This class is called ReadingGroupComponent because ReadingGroup is already taken
+const ReadingGroup = ({group}: Props) => {
+    const title = group.sources.join(", ")
+    const dots = group.sources.map((ed) => <EditionDot small={true} edition={ed} key={ed}/>);
+    return (
+        <div className='reading-group'>
+            <div className='reading-group-dots'>{ dots }</div>
+            <div className='reading-group-title'>{ title }</div>
+            <div className='reading-group-content'>
+                {group.value ? group.value : <div className='empty-group'>[Edition is missing here]</div>}
+            </div>
+        </div>
+    ) 
+}
+
+
 class ReadingGroupComponent extends React.Component<ReadingGroupComponentProps> {
     render() {
         const editionNames = this.props.group.editions.map((ed) => ed.name);
@@ -35,4 +47,4 @@ class ReadingGroupComponent extends React.Component<ReadingGroupComponentProps> 
     }
 }
 
-export default ReadingGroupComponent;
+export default ReadingGroup;

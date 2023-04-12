@@ -26,7 +26,6 @@
     "react-is": "^18.2.0",
     "react-select": "^5.7.0",
     "react-teirouter": "^3.0.0",
-    "sharp": "^0.32.0",
     "tailwindcss": "^3.2.7"
   },
   "devDependencies": {

@@ -1,20 +1,16 @@
-import { Edition } from "../../data/edition";
 import React from "react";
 
 interface EditionDotProps {
-    edition: Edition;
+    edition: string;
     small?: boolean | undefined;
 }
 
-class EditionDot extends React.Component<EditionDotProps, any> {
-    render() {
-        let classes = `dot ed-${this.props.edition.code}`;
-        if (this.props.small) {
-            classes += ' small-dot';
-        }
-
-        return <span className={classes}/>;
+const EditionDot = ({edition, small}: EditionDotProps) => {
+    let classes = `dot ed-${edition}`;
+    if (small) {
+        classes += ' small-dot';
     }
+    return <span className={classes}/>;
 }
 
 export default EditionDot;

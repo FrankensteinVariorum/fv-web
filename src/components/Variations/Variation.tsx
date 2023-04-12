@@ -1,25 +1,18 @@
-import { Apparatus } from "../../data/spine";
-import React from "react";
-import { Edition } from "../../data/edition";
-import ReadingGroupComponent from "./ReadingGroupComponent";
+import React, { useContext } from "react";
+import ReadingGroup from "./ReadingGroup";
+import { VariantContext } from "../tei/variantsContext";
 
-interface VariationProps {
-    app: Apparatus;
-    edition: Edition;
-}
-
-class Variation extends React.Component <VariationProps> {
-    render() {
-        const groups = this.props.app.groups.map((grp) => (
-            <ReadingGroupComponent group={grp} key={grp.groupId}/>
-        ))
-        return (
-            <div className="app-list">
-                <hr className="app-list-to-divider"/>
-                { groups }
-            </div>
-        )
-    }
+const Variation = () => {
+    const [variant, setVariant] = useContext(VariantContext)
+    if (!variant) return null
+    return (
+        <div className="app-list">
+            <hr className="app-list-to-divider"/>
+            {
+                variant.readings.map(g => <ReadingGroup group={g}/>)
+            }
+        </div>
+    ) 
 }
 
 export default Variation;

@@ -1,8 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import Tei, { TeiBaseStyle } from 'astro-tei';
 import Header from '../Header';
-import OptionsSelector from './OptionsSelector';
+// import OptionsSelector from './OptionsSelector';
 import Controls from './Controls';
 
 ---
@@ -19,9 +18,7 @@ import Controls from './Controls';
           <!-- <OptionsSelector client:load/> -->
 
           <div id="viewer__contents" class="viewer__cols">
-            <aside id="viewer__marginalia"></aside>
-            <slot />
-            <aside id="viewer_variations"></aside>
+            <slot/>
           </div>
 
           <hr class='line' />
