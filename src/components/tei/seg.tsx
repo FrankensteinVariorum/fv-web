@@ -2,11 +2,16 @@ import React from 'react';
 import { Behavior } from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 
+interface TEIProps {
+    teiNode: Node,
+    spine: Document
+}
+
 export const Seg: TBehavior = (props: TEIProps) => {
     const el = props.teiNode as Element;
 
-    const handleClick = (e) => {
-        alert("This will eventually show the variant")
+    const handleClick = () => {
+        alert(el.getAttribute("xml:id"))
     }
 
     return (

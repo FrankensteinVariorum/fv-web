@@ -11,7 +11,12 @@
               {"label": "Vol 1 LETTER II"},
               {"label": "Vol 1 LETTER III"},
               {"label": "Vol 1 LETTER IV"},
-              {"label": "Vol 1 CHAPTER I"},
+              {
+                "label": "Vol 1 CHAPTER I",
+                "id": "vol_1_chapter_i",
+                "corresp": ["1818/vol_1_chapter_i", "thomas/vol_1_chapter_i", "1823/vol_1_chapter_i", "1831/chapter_i", "ms/vol_1_chapter_i"],
+                "chunks": ["C07"]
+              },
               {"label": "Vol 1 CHAPTER II"},
               {"label": "Vol 1 CHAPTER III"},
               {"label": "Vol 1 CHAPTER IV"},
@@ -50,7 +55,12 @@
               {"label": "LETTER II"},
               {"label": "LETTER III"},
               {"label": "LETTER IV"},
-              {"label": "CHAPTER I"},
+              {
+                "label": "CHAPTER I",
+                "id": "chapter_i",
+                "corresp": ["1818/vol_1_chapter_i", "thomas/vol_1_chapter_i", "1823/vol_1_chapter_i", "1831/chapter_i", "ms/vol_1_chapter_i"],
+                "chunks": ["C07"]
+              },
               {"label": "CHAPTER II"},
               {"label": "CHAPTER III"},
               {"label": "CHAPTER IV"},
@@ -87,7 +97,12 @@
               {"label": "Vol 1 LETTER II"},
               {"label": "Vol 1 LETTER III"},
               {"label": "Vol 1 LETTER IV"},
-              {"label": "Vol 1 CHAPTER I"},
+              {
+                "label": "Vol 1 CHAPTER I",
+                "id": "vol_1_chapter_i",
+                "corresp": ["1818/vol_1_chapter_i", "1823/vol_1_chapter_i", "1831/chapter_i", "ms/vol_1_chapter_i"],
+                "chunks": ["C07"]
+              },
               {"label": "Vol 1 CHAPTER II"},
               {"label": "Vol 1 CHAPTER III"},
               {"label": "Vol 1 CHAPTER IV"},
@@ -124,7 +139,12 @@
               {"label": "Vol 1 LETTER II"},
               {"label": "Vol 1 LETTER III"},
               {"label": "Vol 1 LETTER IV"},
-              {"label": "Vol 1 CHAPTER I"},
+              {
+                "label": "Vol 1 CHAPTER I",
+                "id": "vol_1_chapter_i",
+                "corresp": ["thomas/vol_1_chapter_i", "1823/vol_1_chapter_i", "1831/chapter_i", "ms/vol_1_chapter_i"],
+                "chunks": ["C07"]
+              },
               {"label": "Vol 1 CHAPTER II"},
               {"label": "Vol 1 CHAPTER III"},
               {"label": "Vol 1 CHAPTER IV"},
@@ -152,7 +172,7 @@
           ]
       },
       {
-          "label": "Manuscript",
+          "label": "MS",
           "units": [
               {
                   "label": "Chapt. 2",

@@ -8,9 +8,10 @@ interface Props {
   doc: Document
   data: string
   elements: string[]
+  spine: Document
 }
 
-export default function Tei({doc, data, elements}: Props) {
+export default function Tei({doc, data, elements, spine}: Props) {
   const {
     Tei,
     Eg,
@@ -31,7 +32,7 @@ export default function Tei({doc, data, elements}: Props) {
     "tei-ptr": Ptr,
     "tei-ref": Ref,
     "tei-teiheader": TeiHeader,
-    "tei-seg": Seg
+    "tei-seg": (props) => <Seg spine={spine} {...props} />
   };
 
   // Support server side and client side DOM processing.
