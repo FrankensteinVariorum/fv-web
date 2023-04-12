@@ -25,7 +25,6 @@ export const Seg: TBehavior = (props: TEIProps) => {
     }
 
     const handleClick = () => {
-        console.log('test')
         if (ptr) {
             const app = ptr.closest("app") as Element
             const rdgGrp = app.querySelectorAll("rdgGrp")
@@ -47,8 +46,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
         <Behavior node={props.teiNode}>
             <span style={{
                 cursor: "pointer",
-                display: "inline-block",
-                border: "1px solid grey",
+                background: "lightgrey",
             }} onClick={handleClick}>{<TEINodes teiNodes={el.childNodes} {...props} />}</span>
         </Behavior>
     );

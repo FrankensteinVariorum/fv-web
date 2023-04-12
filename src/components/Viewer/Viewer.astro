@@ -1,11 +1,7 @@
 ---
-import Layout from '../../layouts/Layout.astro';
 import Header from '../Header';
-// import OptionsSelector from './OptionsSelector';
 import Controls from './Controls';
-
 ---
-<Layout>
   <main id="primary-content" role="main">
     <h1>Variorum Viewer</h1>
   </main>
@@ -15,7 +11,6 @@ import Controls from './Controls';
         <section id='viewer'>
           <Controls client:load />
           <Header edition=''/>
-          <!-- <OptionsSelector client:load/> -->
 
           <div id="viewer__contents" class="viewer__cols">
             <slot/>
@@ -29,7 +24,6 @@ import Controls from './Controls';
       </div>
     </div>
   </div>
-</Layout>
 
 <style lang="scss">
   @import "../../styles/sass/style.sass";

@@ -1,5 +1,6 @@
 import React, {useState, useLayoutEffect} from "react";
 import EditionSelector from './EditionSelector';
+// import OptionsSelector from './OptionsSelector';
 import Paging from './Paging';
 
 export default function Controls() {
@@ -19,6 +20,8 @@ export default function Controls() {
         <div>
             <Paging unit={unit} source={source} />
         </div>
+        <!-- <OptionsSelector client:load/> -->
+
 
     </div>
 }
