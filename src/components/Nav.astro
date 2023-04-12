@@ -1,7 +1,14 @@
+---
+import { sources } from '../data/units.json'
+import slugify from './helpers/slugify.js';
+
+const start = `/${sources[0].label}/${slugify(sources[0].units[0].label)}`
+---
+
 <header>
   <nav>
     <a href="/">Home</a>
-    <a href="/1818/chapter1">Variorum Viewer</a>
+    <a href={start}>Variorum Viewer</a>
     <a href="/about">About</a>
     <a href="/method">Method</a>
     <a href="/data">Data</a>
