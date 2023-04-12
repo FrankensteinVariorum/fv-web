@@ -1,6 +1,7 @@
 import React from 'react'
 import Select from 'react-select'
 import {sources} from '../../data/units.json'
+import slugify from '../helpers/slugify';
 
 export default function EditionSelector({source, unit}) {
 
@@ -9,9 +10,9 @@ export default function EditionSelector({source, unit}) {
         const newSourceData = sources.filter(s => s.label === event.target.value)[0]
         if (newSourceData) {
             let path
-            if (newSourceData.units.map(u => u.label.replace(" ", "").toLowerCase()).indexOf(unit) === -1) {
+            if (newSourceData.units.map(u => slugify(u.label)).indexOf(unit) === -1) {
                 const newUnit = newSourceData.units[0].label
-                path = `/${newSource}/${newUnit.replace(" ", "").toLowerCase()}`
+                path = `/${newSource}/${slugify(newUnit)}`
             } else {
                 path = `/${newSource}/${unit}`
             }

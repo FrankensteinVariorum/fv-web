@@ -1,5 +1,6 @@
 import { Edition } from '../../data/edition';
 import {sources} from '../../data/units.json'
+import slugify from '../helpers/slugify';
 
 export default function Paging({source, unit}) {
 
@@ -8,7 +9,7 @@ export default function Paging({source, unit}) {
     const handleUnitChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newUnit = event.target.value
 
-        const path = `/${source}/${newUnit.replace(" ", "").toLowerCase()}`
+        const path = `/${source}/${slugify(newUnit)}`
         window.location.replace(path)
     };
 
@@ -22,7 +23,7 @@ export default function Paging({source, unit}) {
                         <div className='css-1hwfws3'>
                             <select className='select-style' value={unit} onChange={handleUnitChange}>
                                 {sourceData.units.map((u) => (
-                                    <option key={u.label} value={u.label.replace(" ", "").toLowerCase()}>{u.label}</option>
+                                    <option key={u.label} value={slugify(u.label)}>{u.label}</option>
                                 ))}
                             </select>
                         </div>
