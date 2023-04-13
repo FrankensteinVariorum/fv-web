@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import { Behavior, DefaultBehaviors } from "@astro-tei/react";
+import { Behavior, DefaultBehaviors, TBehavior } from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
-import { VariantContext } from './variantsContext';
+import { VariantContext } from './variantContext';
 
 interface TEIProps {
     teiNode: Node,
@@ -10,7 +10,7 @@ interface TEIProps {
 }
 
 export const Seg: TBehavior = (props: TEIProps) => {
-    const [variant, setVariant] = useContext(VariantContext)
+    const { setVariant } = useContext(VariantContext)
     const el = props.teiNode as Element;
     const id = el.getAttribute("xml:id");
     const chunk = id?.substring(0,3)
@@ -30,14 +30,13 @@ export const Seg: TBehavior = (props: TEIProps) => {
             const rdgGrp = app.querySelectorAll("rdgGrp")
             const readings = Array.from(rdgGrp).map(rg => {
                 return {
-                    sources: Array.from(rg.querySelectorAll("rdg")).map(r => r.getAttribute("wit")?.replace("#f", "")),
+                    sources: Array.from(rg.querySelectorAll("rdg")).map(r => r.getAttribute("wit")?.replace("#f", "") || ""),
                     value: JSON.parse(rg.getAttribute("n")
                         ?.replace(/'/g, '"')
                         .replace(/<.*?\/?>/g, " ") || '[]').join(" ")
                 }
             })
-            setVariant({
-                readings
+            setVariant({ readings
             })
         }
     }

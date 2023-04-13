@@ -1,6 +1,6 @@
 import React from "react";
 import EditionDot from "../helpers/EditionDot";
-import { Reading } from "../tei/variantsContext";
+import { Reading } from "../tei/variantContext";
 
 interface Props {
     group: Reading

@@ -4,7 +4,7 @@ import { Edition } from '../data/edition';
 import sgalogo from '../../public/images/sgalogo.png'
 import variations from '../../public/images/intensity_legend.svg';
 import EditionDot from './helpers/EditionDot';
-import { VariantContext } from "../tei/variantsContext";
+import { VariantContext } from "../tei/variantContext";
 
 interface EditionProps {
     edition: string | undefined;

@@ -15,7 +15,7 @@ export default function Controls() {
 
     return <div id='viewer__controls'>
         <div>
-            <EditionSelector source={source} setSource={setSource} unit={unit} />
+            <EditionSelector source={source} unit={unit} />
         </div>
         <div>
             <Paging unit={unit} source={source} />
