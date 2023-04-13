@@ -56,7 +56,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
                     ?.replace(/'/g, '"')
                     || '[]').join(" ")
 
-                console.log(value)
+                // Here we want to send the value to CETEIcean to render the XML.
 
                 const rdgs = rg.querySelectorAll("rdg")
                 
@@ -67,6 +67,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
                     const wit = r.getAttribute("wit") || ""
                     if (wit === "#fMS") {
                         const value = await getTargetXml(r)
+                        // Here we want to send the value to CETEIcean to render the XML.
                         if (value) {
                             readings.push({
                                 sources: ["MS"],
