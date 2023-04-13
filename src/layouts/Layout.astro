@@ -1,7 +1,6 @@
 ---
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro'
-import "../assets/css/style.css"
 export interface Props {
 	title: string;
 }
@@ -22,7 +21,7 @@ const { title } = Astro.props;
         <Nav/>
         <div id='content-area'>
             <section id="wayfinding" role="navigation"></section>
-		        <slot />
+			<slot />
 		</div>
         <Footer/>
 	</body>

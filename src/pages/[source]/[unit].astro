@@ -3,7 +3,7 @@ import {sources} from "../../data/units.json";
 import Viewer from "../../components/Viewer/Viewer.astro"
 import { TeiBaseStyle, processTei } from 'astro-tei';
 import Tei from '../../components/tei/tei';
-import slugify from "../../components/helpers/slugify.js";
+import slugify from "../../components/helpers/slugify";
 
 export function getStaticPaths() {
     return sources.reduce((acc, s) => {

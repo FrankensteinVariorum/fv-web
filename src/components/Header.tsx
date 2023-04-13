@@ -15,7 +15,7 @@ export default function Header({edition}: EditionProps) {
         <label key={index} className='edition-label'><EditionDot edition={e.name} key={e.name}/>{e.name}</label>);
     let sga
     if (edition) {
-        if (edition!.name === 'MS') {
+        if (edition! === 'MS') {
             sga = <div id="sga">
                 <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30"><img src={sgalogo}/></a>
                 <div>View the manuscript facsimile, transcription and more on the <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30">Shelley-Godwin Archive</a></div>
