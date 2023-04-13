@@ -1,29 +1,27 @@
 ---
 import Header from '../Header';
 import Controls from './Controls';
+
 ---
-  <main id="primary-content" role="main">
-    <h1>Variorum Viewer</h1>
-  </main>
-  <div id="root">
-    <div>
-      <div class="App">
-        <section id='viewer'>
+<div id="root">
+  <div>
+    <div class="App">
+      <section id='viewer'>
+        <Controls client:load />
+        <Header edition=''/>
+
+        <div id="viewer__contents" class="viewer__cols">
+          <slot/>
+        </div>
+
+        <hr class='line' />
+        <footer id="viewer_pagination_controls">
           <Controls client:load />
-          <Header edition=''/>
-
-          <div id="viewer__contents" class="viewer__cols">
-            <slot/>
-          </div>
-
-          <hr class='line' />
-          <footer id="viewer_pagination_controls">
-            <Controls client:load />
-          </footer>
-        </section>
-      </div>
+        </footer>
+      </section>
     </div>
   </div>
+</div>
 
 <style lang="scss">
   @import "../../styles/sass/style.sass";
