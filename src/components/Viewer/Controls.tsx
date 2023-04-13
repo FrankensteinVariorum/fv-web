@@ -20,7 +20,7 @@ export default function Controls() {
         <div>
             <Paging unit={unit} source={source} />
         </div>
-        <!-- <OptionsSelector client:load/> -->
+        {/* <OptionsSelector client:load/> */}
 
 
     </div>

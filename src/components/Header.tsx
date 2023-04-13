@@ -10,7 +10,7 @@ interface EditionProps {
     edition: string | undefined;
 }
 
-export default function Header({EditionProps:edition}) {
+export default function Header({edition}: EditionProps) {
     const editions = FvStore.editions.map((e, index) =>
         <label key={index} className='edition-label'><EditionDot edition={e.name} key={e.name}/>{e.name}</label>);
     let sga
@@ -30,8 +30,8 @@ export default function Header({EditionProps:edition}) {
                     {editions}
                 </div>
                 <div id='viewer__title'  className='center-label'>
-                    {this.props.edition ?
-                    <h2>{this.props.edition.name} Edition</h2>
+                    {edition ?
+                    <h2>{edition} Edition</h2>
                     : <h2>Edition</h2>}
                 </div>
                 <div id='viewer__legend-variance'>
