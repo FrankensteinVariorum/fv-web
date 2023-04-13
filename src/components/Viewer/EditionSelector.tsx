@@ -12,9 +12,9 @@ export default function EditionSelector({source, unit}) {
             let path
             if (newSourceData.units.map(u => slugify(u.label)).indexOf(unit) === -1) {
                 const newUnit = newSourceData.units[0].label
-                path = `/${newSource}/${slugify(newUnit)}`
+                path = `/viewer/${newSource}/${slugify(newUnit)}`
             } else {
-                path = `/${newSource}/${unit}`
+                path = `/viewer/${newSource}/${unit}`
             }
             window.location.replace(path)
         }

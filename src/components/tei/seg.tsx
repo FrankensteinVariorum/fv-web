@@ -1,12 +1,20 @@
 import React, { useContext } from 'react';
 import { Behavior, DefaultBehaviors, TBehavior } from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
-import { VariantContext } from './variantContext';
+import { Reading, VariantContext } from './variantContext';
 
 interface TEIProps {
     teiNode: Node,
     spine: Document
     source: string
+}
+
+const fetchData = async (url) => {
+    const response = await fetch(url)
+    if (response.status === 404) {
+        return null
+    }   
+    return await response.text()
 }
 
 export const Seg: TBehavior = (props: TEIProps) => {
@@ -24,21 +32,113 @@ export const Seg: TBehavior = (props: TEIProps) => {
         return <DefaultBehaviors.SafeUnchangedNode {...props}/>
     }
 
-    const handleClick = () => {
-        if (ptr) {
-            const app = ptr.closest("app") as Element
-            const rdgGrp = app.querySelectorAll("rdgGrp")
-            const readings = Array.from(rdgGrp).map(rg => {
-                return {
-                    sources: Array.from(rg.querySelectorAll("rdg")).map(r => r.getAttribute("wit")?.replace("#f", "") || ""),
-                    value: JSON.parse(rg.getAttribute("n")
-                        ?.replace(/'/g, '"')
-                        .replace(/<.*?\/?>/g, " ") || '[]').join(" ")
-                }
-            })
-            setVariant({ readings
-            })
+    const getTargetXml = async (reading: Element): Promise<string | null> => {
+        const target = reading.querySelector("ptr")?.getAttribute("target") || ""
+        const [url, id] = target.split("#")
+        const xml = await fetchData(url)
+        if (xml) {
+            const dom = (new DOMParser).parseFromString(xml, "text/xml")
+            const seg = dom.querySelector(`seg[*|id=${id}]`)
+            return "Will be XML"
         }
+        return null
+    }
+
+    const handleClick = async () => {
+        const app = ptr.closest("app") as Element
+        const rdgGrp = app.querySelectorAll("rdgGrp")
+        
+        const getReadings = async () => {
+            const readings: Reading[] = []
+
+            for (const rg of Array.from(rdgGrp)) {
+                let value = JSON.parse(rg.getAttribute("n")
+                    ?.replace(/'/g, '"')
+                    || '[]').join(" ")
+
+                console.log(value)
+
+                const rdgs = rg.querySelectorAll("rdg")
+                
+                let sources: string[] = []
+
+                for (const r of rdgs) {
+                    // Follow pointers to XML for MS; the rest can use @n.
+                    const wit = r.getAttribute("wit") || ""
+                    if (wit === "#fMS") {
+                        const value = await getTargetXml(r)
+                        if (value) {
+                            readings.push({
+                                sources: ["MS"],
+                                value
+                            })
+                        }
+                    } else {
+                        sources.push(wit.replace("#f", "") || "")
+                    }
+                }
+                if (sources.length > 0) {
+                    readings.push({
+                        sources,
+                        value
+                    })
+                }
+            }
+
+            // Array.from(rdgGrp).map(rg => {
+            //     let value = JSON.parse(rg.getAttribute("n")
+            //         ?.replace(/'/g, '"')
+            //         .replace(/<.*?\/?>/g, " ") || '[]').join(" ")
+            //     let sources: string[] = []
+            //     for (const r of rg.querySelectorAll("rdg")) {
+            //         // Follow pointers to XML for Thomas and FV; the rest can use @n.
+            //         const wit = r.getAttribute("wit") || ""
+            //         if (wit === "#fThomas") {
+            //             // sources.push("Thomas")
+            //             const [url, id] = r.querySelector("ptr")?.getAttribute("target")?.split("#")
+    
+            //             const xml = await fetchData(url) || ""
+                        // const dom = (new DOMParser).parseFromString(xml, "text/xml")
+                        // const seg = Array.from(dom.getElementsByTagName("seg")).filter(e => e.getAttribute("xml:id") === id)[0]
+                        // if (seg.textContent !== value) {
+                        //     readings.push({
+                        //         sources: ["Thomas"],
+                        //         value: `will be XML ${seg.textContent}`
+                        //     })
+                        // } else {
+                        //     sources.push("Thomas")
+                        // }
+            //         } else if (wit === "#fMS") {
+            //             const ptr = r.querySelector("ptr")
+            //             if (ptr) {
+            //                 const [url, id] = r.querySelector("ptr")?.getAttribute("target")?.split("#")
+            //                 // const xml = await fetchData(url) || ""
+            //                 // const dom = (new DOMParser).parseFromString(xml, "text/xml")
+            //                 // console.log(Array.from(dom.getElementsByTagName("seg")).filter(e => e.getAttribute("xml:id") === id))
+            //                 readings.push({
+            //                     sources: ["MS"],
+            //                     value: `will be MS XML`
+            //                 })
+            //             }
+            //         } else {
+            //             sources.push(wit.replace("#f", "") || "")
+            //         }
+            //     }
+            //     console.log(sources)
+            //     if (sources.length > 0) {
+            //         readings.push({
+            //             sources,
+            //             value
+            //         })
+            //     }
+            // })
+
+            return readings
+        }
+
+        // Only update once all data is obtained
+        const readings = await getReadings()
+        setVariant({ readings })
     }
 
     return (

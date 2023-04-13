@@ -9,7 +9,7 @@ export default function Paging({source, unit}) {
     const handleUnitChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newUnit = event.target.value
 
-        const path = `/${source}/${slugify(newUnit)}`
+        const path = `/viewer/${source}/${slugify(newUnit)}`
         window.location.replace(path)
     };
 

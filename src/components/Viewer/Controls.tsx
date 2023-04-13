@@ -8,7 +8,7 @@ export default function Controls() {
     const [unit, setUnit] = useState<string|undefined>()
 
     useLayoutEffect(() => {
-        const [_, s, u] = window.location.pathname.split("/")
+        const [_, v, s, u] = window.location.pathname.split("/")
         setSource(s)
         setUnit(u)
     })
