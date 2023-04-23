@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
 import FvStore from '../data/old-store';
 import { Edition } from '../data/edition';
-import sgalogo from '../../public/images/sgalogo.png'
-import variations from '../../public/images/intensity_legend.svg';
+import sgalogo from '../assets/images/sgalogo.png'
+import variations from '../assets/images/intensity_legend.svg';
 import EditionDot from './helpers/EditionDot';
 import { VariantContext } from "../tei/variantContext";
 

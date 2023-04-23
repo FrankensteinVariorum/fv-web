@@ -21,7 +21,5 @@ export default function Controls() {
             <Paging unit={unit} source={source} />
         </div>
         {/* <OptionsSelector client:load/> */}
-
-
     </div>
 }
