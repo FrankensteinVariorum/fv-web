@@ -1,3 +1,4 @@
+// @ts-ignore
 import React, { useContext } from "react";
 import ReadingGroup from "./ReadingGroup";
 import { VariantContext } from "../tei/variantContext";

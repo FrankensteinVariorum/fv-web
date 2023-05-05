@@ -12,17 +12,17 @@ import Footer from '../components/Footer.astro'
       <title></title>
       <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
       <link rel="icon" type="image/ico" href="../favicon.ico"/>
-      <!-- <link rel="stylesheet" href="/src/assets/css/style.css"> -->
+      <link rel="stylesheet" href="/css/style.css">
   </head>
 	<body class='home'>
         <Nav/>
         <div id='content-area'>
 		    <slot />
 		</div>
-        <Footer/>
+        <Footer/>   
 	</body>
 </html>
 
 <style>
-    @import "/src/assets/css/style.css";
+    @import "/css/style.css";
 </style>

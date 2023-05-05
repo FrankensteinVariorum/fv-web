@@ -48,40 +48,40 @@
 /* Vertical Breakpoints */
 /* !TYPOGRAPHY */
 /* itc-franklin-gothic-book */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 400; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.eot"); src: local("ITCFranklinGothic Book"), local("ITCFranklinGothicStd-Book"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 400; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.eot"); src: local("ITCFranklinGothic Book"), local("ITCFranklinGothicStd-Book"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-italic  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 400; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.eot"); src: local("ITCFranklinGothic Italic"), local("ITCFranklinGothicStd-BookIt"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 400; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.eot"); src: local("ITCFranklinGothic Italic"), local("ITCFranklinGothicStd-BookIt"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-600  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 600; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.eot"); src: local("ITCFranklinGothic Demi"), local("ITCFranklinGothic-Demi"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 600; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.eot"); src: local("ITCFranklinGothic Demi"), local("ITCFranklinGothic-Demi"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-600italic  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 600; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.eot"); src: local("ITCFranklinGothic Demi Italic"), local("ITCFranklinGothic-DemiItalic"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 600; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.eot"); src: local("ITCFranklinGothic Demi Italic"), local("ITCFranklinGothic-DemiItalic"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-800  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 800; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.eot"); src: local("ITCFranklinGothic Heavy"), local("ITCFranklinGothicStd-Heavy"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 800; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.eot"); src: local("ITCFranklinGothic Heavy"), local("ITCFranklinGothicStd-Heavy"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-800italic  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 800; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.eot"); src: local("ITCFranklinGothic Heavy Italic"), local("ITCFranklinGothicStd-HvyItic"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 800; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.eot"); src: local("ITCFranklinGothic Heavy Italic"), local("ITCFranklinGothicStd-HvyItic"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.svg#ITCFranklinGothic") format("svg"); }
 
 /* miller-display-light  */
-@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 300; src: url("../fonts/miller-display/MillerDisplay-Light.eot"); src: local("MillerDisplay Light"), local("MillerDisplay-Light"), url("../fonts/miller-display/MillerDisplay-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Light.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Light.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Roman.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 300; src: url("/fonts/miller-display/MillerDisplay-Light.eot"); src: local("MillerDisplay Light"), local("MillerDisplay-Light"), url("/fonts/miller-display/MillerDisplay-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Light.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Light.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Roman.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-roman  */
-@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 400; src: url("../fonts/miller-display/MillerDisplay-Roman.eot"); src: local("MillerDisplay Roman"), local("MillerDisplay-Roman"), url("../fonts/miller-display/MillerDisplay-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Roman.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Roman.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Roman.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 400; src: url("/fonts/miller-display/MillerDisplay-Roman.eot"); src: local("MillerDisplay Roman"), local("MillerDisplay-Roman"), url("/fonts/miller-display/MillerDisplay-Roman.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Roman.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Roman.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Roman.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-italic  */
-@font-face { font-family: 'MillerDisplay'; font-style: italic; font-weight: 400; src: url("../fonts/miller-display/MillerDisplay-Italic.eot"); src: local("MillerDisplay Italic"), local("MillerDisplay-Italic"), url("../fonts/miller-display/MillerDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Italic.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Italic.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Italic.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: italic; font-weight: 400; src: url("/fonts/miller-display/MillerDisplay-Italic.eot"); src: local("MillerDisplay Italic"), local("MillerDisplay-Italic"), url("/fonts/miller-display/MillerDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Italic.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Italic.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Italic.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-600  */
-@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 600; src: url("../fonts/miller-display/MillerDisplay-Semibold.eot"); src: local("MillerDisplay SemiBold"), local("MillerDisplay-SemiBold"), url("../fonts/miller-display/MillerDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Semibold.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Semibold.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Semibold.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 600; src: url("/fonts/miller-display/MillerDisplay-Semibold.eot"); src: local("MillerDisplay SemiBold"), local("MillerDisplay-SemiBold"), url("/fonts/miller-display/MillerDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Semibold.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Semibold.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Semibold.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-600italic  */
-@font-face { font-family: 'MillerDisplay'; font-style: italic; font-weight: 600; src: url("../fonts/miller-display/MillerDisplay-SemiboldItal.eot"); src: local("MillerDisplay SemiBold Italic"), local("MillerDisplay-SemiBoldItalic"), url("../fonts/miller-display/MillerDisplay-SemiboldItal.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-SemiboldItal.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-SemiboldItal.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-SemiboldItal.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: italic; font-weight: 600; src: url("/fonts/miller-display/MillerDisplay-SemiboldItal.eot"); src: local("MillerDisplay SemiBold Italic"), local("MillerDisplay-SemiBoldItalic"), url("/fonts/miller-display/MillerDisplay-SemiboldItal.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-SemiboldItal.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-SemiboldItal.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-SemiboldItal.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-700  */
-@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 700; src: url("../fonts/miller-display/MillerDisplay-Bold.eot"); src: local("MillerDisplay Bold"), local("MillerDisplay-Bold"), url("../fonts/miller-display/MillerDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Bold.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Bold.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Bold.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 700; src: url("/fonts/miller-display/MillerDisplay-Bold.eot"); src: local("MillerDisplay Bold"), local("MillerDisplay-Bold"), url("/fonts/miller-display/MillerDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Bold.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Bold.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Bold.svg#MillerDisplay") format("svg"); }
 
 /* !UI STANDARDIZATION */
 /* !IMAGE PATHS */
@@ -450,7 +450,7 @@ ul.primary li.is-active a, ul.primary li.active a { font-weight: 600; }
 /* @file index.sass @description  Loads all sass files or subdirectory indices in its directory. */
 body > header { margin: 0; max-width: 100%; width: 100%; height: 100px; text-align: center; background-color: #FDDAC0; border-bottom: 3px solid #d7b9a3; }
 
-body > header:after { --mh: 100px; --markheight: 2.9999848862rem; content: ''; height: var(--markheight); width: var(--markheight); top: calc(var(--mh) + var(--markheight)/-2); position: absolute; margin: 0 auto; background-repeat: no-repeat; background-image: url(../../assets/images/logo/fv-mark.svg); }
+body > header:after { --mh: 100px; --markheight: 2.9999848862rem; content: ''; height: var(--markheight); width: var(--markheight); top: calc(var(--mh) + var(--markheight)/-2); position: absolute; margin: 0 auto; background-repeat: no-repeat; background-image: url(/images/logo/fv-mark.svg); }
 
 body > header nav { height: 100%; max-width: 1400px; margin: 0 auto; display: flex; align-items: center; justify-content: center; font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif; }
 
@@ -461,7 +461,7 @@ body > header nav a:last-child { margin-right: 0; }
 /* !FOOTER CODE */
 body > footer { width: 100%; background-color: #3F3730; color: #FFFFFF; font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif; font-size: 0.7071085624rem; border-top: 3px solid #FFFFFF; z-index: 10; margin-top: 4.2426086258rem; padding: 4.2426086258rem 2.121315rem; position: relative; bottom: initial; z-index: 0; text-align: center; }
 
-body > footer:before { z-index: 1; content: ''; height: 4.2426086258rem; width: 4.2426086258rem; top: -2.1213043129rem; margin-left: -2.1213043129rem; position: absolute; background-repeat: no-repeat; background-image: url("../../assets/images/logo/fv-mark-reverse.svg"); }
+body > footer:before { z-index: 1; content: ''; height: 4.2426086258rem; width: 4.2426086258rem; top: -2.1213043129rem; margin-left: -2.1213043129rem; position: absolute; background-repeat: no-repeat; background-image: url("/images/logo/fv-mark-reverse.svg"); }
 
 body > footer > div { width: 100%; margin: 0 auto; padding-left: 1.0606628436rem; padding-right: 1.0606628436rem; display: grid; grid-auto-flow: dense; grid-template-columns: 1fr; grid-gap: 2.121315rem; }
 
@@ -491,7 +491,7 @@ body > footer a:hover { color: #FDB27B; }
 
 #footer-content { text-align: center; display: flex; flex-direction: column; justify-contents: space-between; }
 
-#footer-identity { background: url(../../assets/images/logo/fv-typemark-reverse.svg) no-repeat; background-position: bottom center; grid-row: 3; height: 4.2426086258rem; }
+#footer-identity { background: url(/images/logo/fv-typemark-reverse.svg) no-repeat; background-position: bottom center; grid-row: 3; height: 4.2426086258rem; }
 
 @media only screen and (min-width: 46.25em) { #footer-identity { grid-row: initial; background-position: bottom left; } }
 
@@ -565,7 +565,7 @@ h6 { font-family: Georgia, serif; font-style: italic; }
 
 ul.links { margin: 0; padding: 0; margin-left: 0; list-style-type: none; }
 
-ul.links > * { padding-left: 1.500007557rem; background-image: url(../../assets/images/icons/link.svg); background-repeat: no-repeat; background-size: 0.7500037785rem 0.7500037785rem; background-position: 0 0.3749981108rem; }
+ul.links > * { padding-left: 1.500007557rem; background-image: url(/images/icons/link.svg); background-repeat: no-repeat; background-size: 0.7500037785rem 0.7500037785rem; background-position: 0 0.3749981108rem; }
 
 ul.links a { text-decoration: underline; }
 
@@ -612,40 +612,40 @@ ul.links a:hover { color: #D95369; }
 /* Vertical Breakpoints */
 /* !TYPOGRAPHY */
 /* itc-franklin-gothic-book */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 400; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.eot"); src: local("ITCFranklinGothic Book"), local("ITCFranklinGothicStd-Book"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 400; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.eot"); src: local("ITCFranklinGothic Book"), local("ITCFranklinGothicStd-Book"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Book.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-italic  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 400; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.eot"); src: local("ITCFranklinGothic Italic"), local("ITCFranklinGothicStd-BookIt"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 400; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.eot"); src: local("ITCFranklinGothic Italic"), local("ITCFranklinGothicStd-BookIt"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-BookIt.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-600  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 600; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.eot"); src: local("ITCFranklinGothic Demi"), local("ITCFranklinGothic-Demi"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 600; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.eot"); src: local("ITCFranklinGothic Demi"), local("ITCFranklinGothic-Demi"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Demi.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-600italic  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 600; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.eot"); src: local("ITCFranklinGothic Demi Italic"), local("ITCFranklinGothic-DemiItalic"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 600; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.eot"); src: local("ITCFranklinGothic Demi Italic"), local("ITCFranklinGothic-DemiItalic"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-DemiIt.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-800  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 800; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.eot"); src: local("ITCFranklinGothic Heavy"), local("ITCFranklinGothicStd-Heavy"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: normal; font-weight: 800; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.eot"); src: local("ITCFranklinGothic Heavy"), local("ITCFranklinGothicStd-Heavy"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-Hvy.svg#ITCFranklinGothic") format("svg"); }
 
 /* itc-franklin-gothic-800italic  */
-@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 800; src: url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.eot"); src: local("ITCFranklinGothic Heavy Italic"), local("ITCFranklinGothicStd-HvyItic"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.eot?#iefix") format("embedded-opentype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.woff") format("woff"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.ttf") format("truetype"), url("../fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.svg#ITCFranklinGothic") format("svg"); }
+@font-face { font-family: 'ITCFranklinGothic'; font-style: italic; font-weight: 800; src: url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.eot"); src: local("ITCFranklinGothic Heavy Italic"), local("ITCFranklinGothicStd-HvyItic"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.eot?#iefix") format("embedded-opentype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.woff") format("woff"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.ttf") format("truetype"), url("/fonts/itc-franklin-gothic/ITCFranklinGothicStd-HvyIt.svg#ITCFranklinGothic") format("svg"); }
 
 /* miller-display-light  */
-@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 300; src: url("../fonts/miller-display/MillerDisplay-Light.eot"); src: local("MillerDisplay Light"), local("MillerDisplay-Light"), url("../fonts/miller-display/MillerDisplay-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Light.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Light.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Roman.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 300; src: url("/fonts/miller-display/MillerDisplay-Light.eot"); src: local("MillerDisplay Light"), local("MillerDisplay-Light"), url("/fonts/miller-display/MillerDisplay-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Light.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Light.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Roman.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-roman  */
-@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 400; src: url("../fonts/miller-display/MillerDisplay-Roman.eot"); src: local("MillerDisplay Roman"), local("MillerDisplay-Roman"), url("../fonts/miller-display/MillerDisplay-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Roman.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Roman.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Roman.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 400; src: url("/fonts/miller-display/MillerDisplay-Roman.eot"); src: local("MillerDisplay Roman"), local("MillerDisplay-Roman"), url("/fonts/miller-display/MillerDisplay-Roman.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Roman.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Roman.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Roman.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-italic  */
-@font-face { font-family: 'MillerDisplay'; font-style: italic; font-weight: 400; src: url("../fonts/miller-display/MillerDisplay-Italic.eot"); src: local("MillerDisplay Italic"), local("MillerDisplay-Italic"), url("../fonts/miller-display/MillerDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Italic.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Italic.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Italic.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: italic; font-weight: 400; src: url("/fonts/miller-display/MillerDisplay-Italic.eot"); src: local("MillerDisplay Italic"), local("MillerDisplay-Italic"), url("/fonts/miller-display/MillerDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Italic.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Italic.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Italic.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-600  */
-@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 600; src: url("../fonts/miller-display/MillerDisplay-Semibold.eot"); src: local("MillerDisplay SemiBold"), local("MillerDisplay-SemiBold"), url("../fonts/miller-display/MillerDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Semibold.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Semibold.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Semibold.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 600; src: url("/fonts/miller-display/MillerDisplay-Semibold.eot"); src: local("MillerDisplay SemiBold"), local("MillerDisplay-SemiBold"), url("/fonts/miller-display/MillerDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Semibold.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Semibold.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Semibold.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-600italic  */
-@font-face { font-family: 'MillerDisplay'; font-style: italic; font-weight: 600; src: url("../fonts/miller-display/MillerDisplay-SemiboldItal.eot"); src: local("MillerDisplay SemiBold Italic"), local("MillerDisplay-SemiBoldItalic"), url("../fonts/miller-display/MillerDisplay-SemiboldItal.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-SemiboldItal.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-SemiboldItal.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-SemiboldItal.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: italic; font-weight: 600; src: url("/fonts/miller-display/MillerDisplay-SemiboldItal.eot"); src: local("MillerDisplay SemiBold Italic"), local("MillerDisplay-SemiBoldItalic"), url("/fonts/miller-display/MillerDisplay-SemiboldItal.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-SemiboldItal.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-SemiboldItal.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-SemiboldItal.svg#MillerDisplay") format("svg"); }
 
 /* miller-display-700  */
-@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 700; src: url("../fonts/miller-display/MillerDisplay-Bold.eot"); src: local("MillerDisplay Bold"), local("MillerDisplay-Bold"), url("../fonts/miller-display/MillerDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/miller-display/MillerDisplay-Bold.woff") format("woff"), url("../fonts/miller-display/MillerDisplay-Bold.ttf") format("truetype"), url("../fonts/miller-display/MillerDisplay-Bold.svg#MillerDisplay") format("svg"); }
+@font-face { font-family: 'MillerDisplay'; font-style: normal; font-weight: 700; src: url("/fonts/miller-display/MillerDisplay-Bold.eot"); src: local("MillerDisplay Bold"), local("MillerDisplay-Bold"), url("/fonts/miller-display/MillerDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/miller-display/MillerDisplay-Bold.woff") format("woff"), url("/fonts/miller-display/MillerDisplay-Bold.ttf") format("truetype"), url("/fonts/miller-display/MillerDisplay-Bold.svg#MillerDisplay") format("svg"); }
 
 /* !UI STANDARDIZATION */
 /* !IMAGE PATHS */
@@ -797,17 +797,17 @@ label.bold-choose { font-weight: 400; display: block; margin-bottom: 10px; }
 
 .in-line.paging-buttons button { margin: 1em; }
 
-.prev { height: 30px; width: 30px; border: none !important; background: url("../images/prev_btn.svg") no-repeat; }
+.prev { height: 30px; width: 30px; border: none !important; background: url("/images/prev_btn.svg") no-repeat; }
 
-.prev:hover { background: url("../images/prev_btn_over.svg") no-repeat; }
+.prev:hover { background: url("/images/prev_btn_over.svg") no-repeat; }
 
-.prev:disabled { background: url("../images/prev_btn_inactive.svg") no-repeat; cursor: not-allowed; }
+.prev:disabled { background: url("/images/prev_btn_inactive.svg") no-repeat; cursor: not-allowed; }
 
-.next { height: 30px; width: 30px; border: none !important; background: url("../images/next_btn.svg") no-repeat; }
+.next { height: 30px; width: 30px; border: none !important; background: url("/images/next_btn.svg") no-repeat; }
 
-.next:hover { background: url("../images/next_btn_over.svg") no-repeat; }
+.next:hover { background: url("/images/next_btn_over.svg") no-repeat; }
 
-.next:disabled { background: url("../images/next_btn_inactive.svg") no-repeat; cursor: not-allowed; }
+.next:disabled { background: url("/images/next_btn_inactive.svg") no-repeat; cursor: not-allowed; }
 
 .app-list-to-divider { border-top: 9px solid #9f9b98; margin-top: 40px; }
 
@@ -853,17 +853,17 @@ label.bold-choose { font-weight: 400; display: block; margin-bottom: 10px; }
 .tei-bibl { font-style: italic; }
 
 /*  A stopgrap solution to bridge differences between the standalone app and the Jekyll version. Mark for removal as soon as final workflow is established. */
-.prev { background: url("../../assets/images/viewer/prev_btn.svg") no-repeat; }
+.prev { background: url("/images/viewer/prev_btn.svg") no-repeat; }
 
-.prev:hover { background: url("../../assets/images/viewer/prev_btn_over.svg") no-repeat; }
+.prev:hover { background: url("/images/viewer/prev_btn_over.svg") no-repeat; }
 
-.prev:disabled { background: url("../../assets/images/viewer/prev_btn_inactive.svg") no-repeat; }
+.prev:disabled { background: url("/images/viewer/prev_btn_inactive.svg") no-repeat; }
 
-.next { background: url("../../assets/images/viewer/next_btn.svg") no-repeat; }
+.next { background: url("/images/viewer/next_btn.svg") no-repeat; }
 
-.next:hover { background: url("../../assets/images/viewer/next_btn_over.svg") no-repeat; }
+.next:hover { background: url("/images/viewer/next_btn_over.svg") no-repeat; }
 
-.next:disabled { background: url("../../assets/images/viewer/next_btn_inactive.svg") no-repeat; }
+.next:disabled { background: url("/images/viewer/next_btn_inactive.svg") no-repeat; }
 
 @media only screen and (min-width: 75em) { #biographies { width: 80%; margin: 2.121315rem auto; } }
 
@@ -900,7 +900,7 @@ body.home #content-area { margin: 0; }
 
 @media only screen and (min-width: 46.25em) { body.home #content-area section > *:first-child { margin-top: auto; } }
 
-@media only screen and (min-height: 47em) and (min-width: 46.25em) { body.home #content-area section { background-image: url(../../assets/images/logo/fv-watermark.svg); background-repeat: no-repeat; background-size: 15vw; background-position: top 8.4851745036rem left 1.5rem; } }
+@media only screen and (min-height: 47em) and (min-width: 46.25em) { body.home #content-area section { background-image: url(/images/logo/fv-watermark.svg); background-repeat: no-repeat; background-size: 15vw; background-position: top 8.4851745036rem left 1.5rem; } }
 
 @media only screen and (min-height: 47em) and (min-width: 75em) { body.home #content-area section { background-size: 12vw; background-position: top 8.4851745036rem left 5.9999395448rem; } }
 
@@ -908,7 +908,7 @@ body.home #content-area aside { position: relative; padding: 2.9999848862rem 0; 
 
 @media only screen and (min-width: 46.25em) { body.home #content-area aside { padding: 0; } }
 
-body.home #content-area aside:after { content: ''; position: absolute; bottom: 30px; right: 30px; z-index: 2; height: 8.4851745036rem; width: 8.4851745036rem; background-image: url(../../assets/images/logo/fv-watermark.svg); background-repeat: no-repeat; }
+body.home #content-area aside:after { content: ''; position: absolute; bottom: 30px; right: 30px; z-index: 2; height: 8.4851745036rem; width: 8.4851745036rem; background-image: url(/images/logo/fv-watermark.svg); background-repeat: no-repeat; }
 
 body.home #content-area aside img { z-index: 1; width: 100%; }
 
