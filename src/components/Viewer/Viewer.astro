@@ -1,29 +1,26 @@
 ---
-import Header from '../Header';
 import Controls from './Controls';
-import Layout from '../../layouts/Layout.astro'
-
+import Layout from '../../layouts/Layout.astro';
 ---
 <Layout>
-<div id="root">
-  <div>
-    <div class="App">
-      <section id='viewer'>
-        <Controls client:load />
-        <Header edition=''/>
-
-        <div id="viewer__contents" class="viewer__cols">
-          <slot/>
-        </div>
-
-        <hr class='line' />
-        <footer id="viewer_pagination_controls">
+  <div id="root">
+    <div>
+      <div class="App">
+        <section id='viewer'>
           <Controls client:load />
-        </footer>
-      </section>
+
+          <div id="viewer__contents" class="viewer__cols">
+            <slot/>
+          </div>
+
+          <hr class='line' />
+          <footer id="viewer_pagination_controls">
+            <Controls client:load />
+          </footer>
+        </section>
+      </div>
     </div>
   </div>
-</div>
 </Layout>
 
 

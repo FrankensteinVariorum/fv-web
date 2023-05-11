@@ -1,7 +1,8 @@
 import React, {useState, useLayoutEffect} from "react";
 import EditionSelector from './EditionSelector';
-// import OptionsSelector from './OptionsSelector';
+import OptionsSelector from './OptionsSelector';
 import Paging from './Paging';
+import Header from '../Header';
 
 export default function Controls() {
     const [source, setSource] = useState<string|undefined>("1818")
@@ -13,13 +14,18 @@ export default function Controls() {
         setUnit(u)
     })
 
-    return <div id='viewer__controls'>
-        <div>
-            <EditionSelector source={source} unit={unit} />
-        </div>
-        <div>
-            <Paging unit={unit} source={source} />
-        </div>
-        {/* <OptionsSelector client:load/> */}
-    </div>
+    return (
+        <>
+            <div id='viewer__controls'>
+                <div>
+                    <EditionSelector source={source} unit={unit} />
+                </div>
+                <div>
+                    <Paging unit={unit} source={source} />
+                </div>
+                 {/*<OptionsSelector client:load/>*/}
+            </div>
+            <Header edition={source}/>
+        </>
+    );
 }

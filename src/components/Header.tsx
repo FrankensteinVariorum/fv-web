@@ -1,8 +1,7 @@
 import React, {useContext} from 'react';
 import FvStore from '../data/old-store';
-import { Edition } from '../data/edition';
-import sgalogo from '../../public/images/sgalogo.png'
-import variations from '../../public/images/intensity_legend.svg';
+import sgalogo from '../assets/images/sgalogo.png'
+import variations from '../assets/images/intensity_legend.svg';
 import EditionDot from './helpers/EditionDot';
 
 interface EditionProps {
@@ -16,14 +15,14 @@ export default function Header({edition}: EditionProps) {
     if (edition) {
         if (edition! === 'MS') {
             sga = <div id="sga">
-                <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30"><img src={sgalogo}/></a>
+                <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30"><img src={sgalogo.src}/></a>
                 <div>View the manuscript facsimile, transcription and more on the <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30">Shelley-Godwin Archive</a></div>
                 <hr/>
             </div>
         }
     }
     return (
-        <div>
+        <div id='header'>
             <header className='viewer__cols'>
                 <div id='viewer__legend-editions'>
                     {editions}

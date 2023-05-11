@@ -652,7 +652,7 @@ ul.links a:hover { color: #D95369; }
 /* Ratios from Modular Scale for reference. Use selected value as scale above. */
 #sga { text-align: center; }
 
-#sga img { width: auto !important; }
+#sga img { width: auto !important; margin: auto;}
 
 #sga > div { font-style: italic; font-size: smaller; }
 
@@ -673,6 +673,8 @@ ul.links a:hover { color: #D95369; }
 #viewer_pagination_controls { display: grid; grid-template-columns: 30% 1fr; grid-gap: 1.5rem; }
 
 #viewer_pagination_controls > * { padding-top: 1.0606628436rem; padding-bottom: 1.0606628436rem; }
+
+#viewer_pagination_controls #header {display: none}
 
 .viewer__cols { display: grid; grid-template-columns: 2fr 4fr 2fr; grid-column-gap: 2.121315rem; }
 
