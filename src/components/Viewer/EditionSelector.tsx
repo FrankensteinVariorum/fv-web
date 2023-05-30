@@ -18,7 +18,6 @@ export default function EditionSelector({source, unit}) {
             }
             window.location.replace(path)
         }
-
     };
 
     const getEditionDot = (select_edition) => {
@@ -26,30 +25,32 @@ export default function EditionSelector({source, unit}) {
         return edClassName;
     };
     /*
-<Select
-                    className='select-style'
-                    onChange={handleEditionChange}
-                    value={source}
-                    options={sources.map((s) => {
-                        return {
-                            value: s.label,
-                            label: <label><span className={getEditionDot(s.label)}>{s.label}</span></label>
-                        }
-                    })}
-                ></Select>
+        <Select
+            className='select-style'
+            onChange={handleEditionChange}
+            value={source}
+            options={sources.map((s) => {
+                return {
+                    value: s.label,
+                    label: <label><span className={getEditionDot(s.label)}>{s.label}</span></label>
+                }
+            })}
+        />
     */
 
     return (
-            <form method="get" action="viewer">
-                <label className='bold-choose'>CHOOSE A VERSION</label>
-                <select className='select-style' name='tei' value={source} onChange={handleEditionChange}>
-                    {sources.map((source) => (
+        <div>
+        <form method="get" action="viewer">
+            <label className='bold-choose'>CHOOSE A VERSION</label>
+            <select className='select-style' name='tei' value={source} onChange={handleEditionChange}>
+                {sources.map((source) => (
 
-                        <option className={source.label} value={source.label} key={source.label}>
-                            {source.label}
-                        </option>
-                    ))}
-                </select>
-            </form>
+                    <option className={source.label} value={source.label} key={source.label}>
+                        {source.label}
+                    </option>
+                ))}
+            </select>
+        </form>
+        </div>
     );
 }

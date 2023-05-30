@@ -676,6 +676,8 @@ ul.links a:hover { color: #D95369; }
 
 #viewer_pagination_controls #header {display: none}
 
+#viewer_pagination_controls #viewer__controls div:nth-child(3) { display: none;}
+
 .viewer__cols { display: grid; grid-template-columns: 2fr 4fr 2fr; grid-column-gap: 2.121315rem; }
 
 .viewer__cols > * { padding-top: 1.0606628436rem; padding-bottom: 1.0606628436rem; }

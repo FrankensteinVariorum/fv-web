@@ -1,91 +1,61 @@
-import React from 'react';
+import React, {useState} from "react";
 
-interface OptionsSelectorProps {
-    showVariations: boolean,
-    showAnnotations: boolean,
-    showText: boolean,
+export default function OptionsSelector () {
+    const [showVariation, setShowVariation] = useState<boolean|undefined>(true)
+    const [showAnnotation, setShowAnnotation] = useState<boolean|undefined>(false)
+    const [showText, setShowText] = useState<boolean|undefined>(true)
 
-    onVariationChanged: (variation: boolean) => void;
-    onAnnotationChanged: (annotation: boolean) => void;
-    onTextChanged: (text: boolean) => void;
-}
-
-interface OptionsSelectorState {
-    showVariations: boolean,
-    showAnnotations: boolean,
-    showText: boolean,
-}
-
-class OptionsSelector extends React.Component<OptionsSelectorProps, OptionsSelectorState> {
-
-    state = {
-        showVariations: true,
-        showAnnotations: false,
-        showText: true,
+    const onVariationChanged = (e) => {
+        setShowVariation(!showVariation);
     }
-    
-    componentDidUpdate(prevProps: OptionsSelectorProps) {
-        if (this.props.showVariations !== this.state.showVariations) {
-            this.setState( {showAnnotations: false, showText: false, showVariations: this.props.showVariations });
+
+    const onAnnotationChanged = (e) => {
+        setShowAnnotation(!showAnnotation);
+    }
+
+    const onTextChanged = (e) => {
+        setShowText(!showText);
+        const text = [...document.getElementsByTagName("tei-seg")];
+        for (let i in text) {
+            text[i].classList.toggle("tei-cdata");
+            text[i].classList.toggle("no-text");
         }
-
-        if(this.props.showText !== this.state.showText) {
-            this.setState( {showAnnotations: false, showVariations: false, showText: this.props.showText });
+        const p = [...document.getElementsByTagName("tei-p")];
+        for (let i in p) {
+            p[i].classList.toggle("tei-cdata");
+            p[i].classList.toggle("no-text");
         }
-        
-    }
+    };
 
-    onVariationChanged = () => {
-        const newShow = !this.state.showVariations;
-        this.setState( {showAnnotations: false, showText: false, showVariations: newShow });
-        this.props.onVariationChanged(newShow);
-    }
+    return (
+    <div>
+        <label className='options-label bold-choose'>CHOOSE OPTIONS</label>
+        <label className='options-label'>
+            <input
+                name="variation"
+                type="checkbox"
+                checked={showVariation}
+                onChange={onVariationChanged}/>
+            See Variants
+        </label>
 
-    onAnnotationChanged = () => {
-        const newShow = !this.state.showAnnotations;
-        this.setState( {showText: false, showVariations: false, showAnnotations: newShow });
-        this.props.onAnnotationChanged(newShow);
-    }
-    
-    onTextChanged = () => {
-        const newShowText = !this.state.showText;
-        this.setState( {showAnnotations: false, showVariations: false, showText: newShowText });
-        this.props.onTextChanged(newShowText);
-    }
-    
-    render() {
-        return (
-        <div>
-            <label className='options-label bold-choose'>CHOOSE OPTIONS</label>
-            <label className='options-label'>
-                <input
-                    name="variation"
-                    type="checkbox"
-                    checked={this.state.showVariations}
-                    onChange={this.onVariationChanged} />
-                See Variants
-            </label>
+        <label className='options-label'>
+            <input
+                name="annotation"
+                type="checkbox"
+                checked={showAnnotation}
+                onChange={onAnnotationChanged}/>
+            See Annotations
+        </label>
 
-            <label className='options-label'>
-                <input
-                    name="variation"
-                    type="checkbox"
-                    checked={this.state.showAnnotations}
-                    onChange={this.onAnnotationChanged} />
-                See Annotations
-            </label>
-            
-            <label className='options-label'>
-                <input
-                    name="text"
-                    type="checkbox"
-                    checked={this.state.showText}
-                    onChange={this.onTextChanged} />
-                See Text
-            </label>
-        </div>
-        );
-    }
+        <label className='options-label'>
+            <input
+                name="text"
+                type="checkbox"
+                checked={showText}
+                onChange={onTextChanged}/>
+            See Text
+        </label>
+    </div>
+    );
 }
-
-export default OptionsSelector;
