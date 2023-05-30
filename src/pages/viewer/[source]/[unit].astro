@@ -41,7 +41,7 @@ let teiFile: string
 if (source !== "MS") {
     // Eventually switch to fv-data.
     // const dataUrl = `https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f${source}_${unit}.xml`
-    const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-web2023/main/src/teiFiles/f${source}_${unit}.xml`
+    const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-web2023/main/src/teiFiles/P5-f${source}_C${unit}.xml`
     const text = await fetchData(dataUrl)
     teiFile = text || `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">No TEI data found.</TEI>`
 } else {
