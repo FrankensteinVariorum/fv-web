@@ -44,7 +44,6 @@ export default function EditionSelector({source, unit}) {
             <label className='bold-choose'>CHOOSE A VERSION</label>
             <select className='select-style' name='tei' value={source} onChange={handleEditionChange}>
                 {sources.map((source) => (
-
                     <option className={source.label} value={source.label} key={source.label}>
                         {source.label}
                     </option>
