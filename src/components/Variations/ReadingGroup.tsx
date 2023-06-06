@@ -7,12 +7,28 @@ interface Props {
 }
 
 const ReadingGroup = ({group}: Props) => {
-    const title = group.sources.join(", ")
+    const title = group.sources.join(", ");
     const dots = group.sources.map((ed) => <EditionDot small={true} edition={ed} key={ed}/>);
+
+    const currentURL = window.location.pathname.split('/');
+    const chapter = currentURL[currentURL.length - 1];
+
     return (
         <div className='reading-group'>
             <div className='reading-group-dots'>{ dots }</div>
-            <div className='reading-group-title'>{ title }</div>
+            {/*<div className='reading-group-title'>{ ed }</div>*/}
+            <div className='reading-group-title' >
+                {group.sources.map((ed) =>
+                    ed ? (
+                        ed === '1831' ?
+                            <a href={`../${ed}/${chapter.replace(/vol_\d_/, '')}`}>{ed}, </a>
+                            :
+                            <a href={`../${ed}/${chapter.replace(/^(?!vol_)/, "vol_1_")}`}>{ed}, </a>
+                        ) :
+                        null
+                )}
+            </div>
+
             <div className='reading-group-content'>
                 {group.value ? group.value : <div className='empty-group'>[Edition is missing here]</div>}
             </div>
