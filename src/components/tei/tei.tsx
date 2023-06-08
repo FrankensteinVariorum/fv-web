@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import BasicRouter from '@astro-tei/react';
 import { DefaultBehaviors } from "@astro-tei/react";
 import type { IRoutes } from "@astro-tei/react";
 import { Seg } from './seg';
 import {VariantContext, Variant, SegInfo, SegContext} from "./variantContext";
 import Variation from "../Variations/Variation";
+import {AutoClickComponent} from "../helpers/AutoClickSeg";
 
 interface Props {
   data: string
@@ -57,6 +58,7 @@ export default function Tei({data, elements, spine, source}: Props) {
 
   return(
       <SegContext.Provider value={{seg, setSeg}} >
+        <AutoClickComponent id = { seg }/>
         <VariantContext.Provider value={{variant, setVariant}} >
           <aside id="viewer__marginalia"></aside>
           <BasicRouter doc={usableDoc} elements={elements} routes={routes} />

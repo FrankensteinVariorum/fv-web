@@ -1,7 +1,8 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 import {Reading, SegContext, SegInfo, VariantContext} from './variantContext';
+import {AutoClickComponent} from "../helpers/AutoClickSeg";
 
 interface TEIProps {
     teiNode: Node,
@@ -19,7 +20,7 @@ const fetchData = async (url) => {
 
 export const Seg: TBehavior = (props: TEIProps) => {
     const { setVariant } = useContext(VariantContext)
-    const { setSeg } = useContext(SegContext)
+    const { seg, setSeg } = useContext(SegContext)
     const el = props.teiNode as Element;
     const id = el.getAttribute("xml:id");
     const chunk = id?.substring(0,3);
@@ -142,16 +143,18 @@ export const Seg: TBehavior = (props: TEIProps) => {
         const readings = await getReadings()
         setVariant({ readings })
 
+        // Get seg id for side panel links
         const getSegId = async () => {
+            console.log("seg id (seg.tsx):", (event.target as HTMLElement).id)
             return (event.target as HTMLElement).id;
         }
         const segId = await getSegId()
-        setSeg({id: segId.replace(/__[FI]/, '')})
+        setSeg({id: segId.replace(/-.*/, '')})
     }
 
     return (
         <Behavior node={props.teiNode}>
-            <span id={id.replace(/__[FI]/, '')} style={{
+            <span id={id.replace(/-.*/, '')} style={{
                 cursor: "pointer",
                 background: "lightgrey",
             }} onClick={handleClick}>{<TEINodes teiNodes={el.childNodes} {...props} />}</span>

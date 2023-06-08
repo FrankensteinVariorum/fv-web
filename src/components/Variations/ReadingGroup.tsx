@@ -14,6 +14,8 @@ const ReadingGroup = ({group}: Props) => {
     const chapter = currentURL[currentURL.length - 1].split('#')[0];
     const { seg } = useContext(SegContext);
 
+    console.log("seg id (ReadingGroup.tsx):", seg?.id);
+
     return (
         <div className='reading-group'>
             <div className='reading-group-dots'>{ dots }</div>
@@ -22,9 +24,13 @@ const ReadingGroup = ({group}: Props) => {
                 {group.sources.map((ed) =>
                     ed ? (
                         ed === '1831' ?
-                            <a href={`../${ed}/${chapter.replace(/vol_\d_/, '')}#${seg.id.replace(/(?<=f).*/, ed)}`}>{ed}, </a>
+                            // ./1831/chapter_i#C07a_app1
+                            // 1831 does not have vol in filename
+                            <a href={`../${ed}/${chapter.replace(/vol_\d_/, '')}#${seg?.id}`}>{ed}, </a>
                             :
-                            <a href={`../${ed}/${chapter.replace(/^(?!vol_)/, "vol_1_")}#${seg.id.replace(/(?<=-f).*/, ed)}`}>{ed}, </a>
+                            // ./1823/vol_1_chapter_i#C07a_app1
+                            // other editions have vol number
+                            <a href={`../${ed}/${chapter.replace(/^(?!vol_)/, "vol_1_")}#${seg?.id}`}>{ed}, </a>
                         ) :
                         null
                 )}
