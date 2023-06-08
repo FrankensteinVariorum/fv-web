@@ -1,11 +1,12 @@
-import React, {useEffect, useContext, useRef} from 'react';
+import React, {useEffect, useRef} from 'react';
 
-export const AutoClickComponent = (id) => {
+export const AutoClickComponent = () => {
     const clickRef = useRef(true);
+    let id = null;
     useEffect(()=>{
         if (clickRef.current) {
             const fragmentIdentifier = window.location.hash;
-            const id = fragmentIdentifier.substring(1); // Remove the '#' symbol
+            id = fragmentIdentifier.substring(1); // Remove the '#' symbol
             console.log("seg id(AutoClickSeg.tsx):", id);
             const span = document.getElementById(id);
             if (span) {
@@ -17,4 +18,3 @@ export const AutoClickComponent = (id) => {
 
     return null;
 };
-

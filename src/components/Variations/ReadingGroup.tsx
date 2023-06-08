@@ -7,7 +7,7 @@ interface Props {
 }
 
 const ReadingGroup = ({group}: Props) => {
-    const title = group.sources.join(", ");
+    // const title = group.sources.join(", ");
     const dots = group.sources.map((ed) => <EditionDot small={true} edition={ed} key={ed}/>);
 
     const currentURL = window.location.pathname.split('/');
@@ -24,12 +24,10 @@ const ReadingGroup = ({group}: Props) => {
                 {group.sources.map((ed) =>
                     ed ? (
                         ed === '1831' ?
-                            // ./1831/chapter_i#C07a_app1
-                            // 1831 does not have vol in filename
+                            // 1831 does not have vol in filename: ./1831/chapter_i#C07a_app1
                             <a href={`../${ed}/${chapter.replace(/vol_\d_/, '')}#${seg?.id}`}>{ed}, </a>
                             :
-                            // ./1823/vol_1_chapter_i#C07a_app1
-                            // other editions have vol number
+                            // other editions have vol number: ./1823/vol_1_chapter_i#C07a_app1
                             <a href={`../${ed}/${chapter.replace(/^(?!vol_)/, "vol_1_")}#${seg?.id}`}>{ed}, </a>
                         ) :
                         null
@@ -40,7 +38,7 @@ const ReadingGroup = ({group}: Props) => {
                 {group.value ? group.value : <div className='empty-group'>[Edition is missing here]</div>}
             </div>
         </div>
-    ) 
+    )
 }
 
 

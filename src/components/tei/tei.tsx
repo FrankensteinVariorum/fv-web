@@ -58,7 +58,7 @@ export default function Tei({data, elements, spine, source}: Props) {
 
   return(
       <SegContext.Provider value={{seg, setSeg}} >
-        <AutoClickComponent id = { seg }/>
+        <AutoClickComponent/>
         <VariantContext.Provider value={{variant, setVariant}} >
           <aside id="viewer__marginalia"></aside>
           <BasicRouter doc={usableDoc} elements={elements} routes={routes} />

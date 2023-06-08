@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect, useRef, useState} from 'react';
 import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 import {Reading, SegContext, SegInfo, VariantContext} from './variantContext';
@@ -28,7 +28,22 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/"
     const targetString = `${basePath}f${props.source}_${chunk}.xml#${id}`
 
+    const [intensityClass, setIntensityClass] = useState<string | null>(null);
     const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`)
+
+    const clickRef = useRef(true);
+
+    // ensure n retrieved only once when the page opens
+    useEffect(() => {
+        if (clickRef.current) {
+            const nAttr = ptr ? ptr.closest('app').getAttribute('n') : undefined;
+            const n = nAttr ? parseInt(nAttr) : undefined;
+            const level = (n && n < 5) ? 1 : (n && n < 25) ? 2 : 3;
+            setIntensityClass(`app-intensity-${level}`) ;
+            console.log("intensity level:", level)
+        }
+        clickRef.current = false;
+    }, []);
 
     if (!ptr) {
         return <DefaultBehaviors.SafeUnchangedNode {...props}/>
@@ -154,9 +169,9 @@ export const Seg: TBehavior = (props: TEIProps) => {
 
     return (
         <Behavior node={props.teiNode}>
-            <span id={id.replace(/-.*/, '')} style={{
+            <span className={intensityClass} id={id.replace(/-.*/, '')} style={{
                 cursor: "pointer",
-                background: "lightgrey",
+                // background: "lightgrey",
             }} onClick={handleClick}>{<TEINodes teiNodes={el.childNodes} {...props} />}</span>
         </Behavior>
     );
