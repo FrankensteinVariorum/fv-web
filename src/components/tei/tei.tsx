@@ -3,7 +3,7 @@ import BasicRouter from '@astro-tei/react';
 import { DefaultBehaviors } from "@astro-tei/react";
 import type { IRoutes } from "@astro-tei/react";
 import { Seg } from './seg';
-import { VariantContext, Variants } from "./variantContext";
+import {VariantContext, Variant, SegInfo, SegContext} from "./variantContext";
 import Variation from "../Variations/Variation";
 
 interface Props {
@@ -30,7 +30,8 @@ if (typeof DOMParser !== 'undefined') {
 
 export default function Tei({data, elements, spine, source}: Props) {
 
-  const [variant, setVariant] = useState<Variants>()
+  const [variant, setVariant] = useState<Variant>()
+  const [seg, setSeg] = useState<SegInfo>();
 
   const {
     Tei,
@@ -54,11 +55,15 @@ export default function Tei({data, elements, spine, source}: Props) {
   // Support server side and client side DOM processing.
   const usableDoc = localParser(data)
 
-  return <VariantContext.Provider value={{variant, setVariant}} >
-    <aside id="viewer__marginalia"></aside>
-    <BasicRouter doc={usableDoc} elements={elements} routes={routes} />
-    <aside id="viewer_variations">
-      <Variation />
-    </aside>
-  </VariantContext.Provider>
+  return(
+      <SegContext.Provider value={{seg, setSeg}} >
+        <VariantContext.Provider value={{variant, setVariant}} >
+          <aside id="viewer__marginalia"></aside>
+          <BasicRouter doc={usableDoc} elements={elements} routes={routes} />
+          <aside id="viewer_variations">
+            <Variation />
+          </aside>
+        </VariantContext.Provider>
+    </SegContext.Provider>
+  )
 }

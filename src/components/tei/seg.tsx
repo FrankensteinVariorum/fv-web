@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
-import { Behavior, DefaultBehaviors, TBehavior } from "@astro-tei/react";
+import React, {useContext, useState} from 'react';
+import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
-import { Reading, VariantContext } from './variantContext';
+import {Reading, SegContext, SegInfo, VariantContext} from './variantContext';
 
 interface TEIProps {
     teiNode: Node,
@@ -19,9 +19,10 @@ const fetchData = async (url) => {
 
 export const Seg: TBehavior = (props: TEIProps) => {
     const { setVariant } = useContext(VariantContext)
+    const { setSeg } = useContext(SegContext)
     const el = props.teiNode as Element;
     const id = el.getAttribute("xml:id");
-    const chunk = id?.substring(0,3)
+    const chunk = id?.substring(0,3);
 
     const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/"
     const targetString = `${basePath}f${props.source}_${chunk}.xml#${id}`
@@ -44,7 +45,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
         return null
     }
 
-    const handleClick = async () => {
+    const handleClick = async (event: React.MouseEvent<HTMLSpanElement>) => {
         const app = ptr.closest("app") as Element
         const rdgGrp = app.querySelectorAll("rdgGrp")
         
@@ -140,11 +141,17 @@ export const Seg: TBehavior = (props: TEIProps) => {
         // Only update once all data is obtained
         const readings = await getReadings()
         setVariant({ readings })
+
+        const getSegId = async () => {
+            return (event.target as HTMLElement).id;
+        }
+        const segId = await getSegId()
+        setSeg({id: segId.replace(/__[FI]/, '')})
     }
 
     return (
         <Behavior node={props.teiNode}>
-            <span style={{
+            <span id={id.replace(/__[FI]/, '')} style={{
                 cursor: "pointer",
                 background: "lightgrey",
             }} onClick={handleClick}>{<TEINodes teiNodes={el.childNodes} {...props} />}</span>

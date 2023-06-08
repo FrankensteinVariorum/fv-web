@@ -842,7 +842,7 @@ label.bold-choose { font-weight: 400; display: block; margin-bottom: 10px; }
 
 .reading-group-content { font-size: 80%; }
 
-.app-wrapper { position: relative; padding: 0.5em 0; border-left: 1px dotted whitesmoke; }
+.app-wrapper { position: relative; padding: 0 0; border-left: 1px dotted whitesmoke; }
 
 .app-wrapper-dots { width: 200px; position: absolute; top: 2em; left: 0; cursor: pointer; }
 

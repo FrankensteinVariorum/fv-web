@@ -1,6 +1,6 @@
-import React from "react";
+import React, {useContext} from "react";
 import EditionDot from "../helpers/EditionDot";
-import { Reading } from "../tei/variantContext";
+import {Reading, SegContext} from "../tei/variantContext";
 
 interface Props {
     group: Reading
@@ -11,7 +11,8 @@ const ReadingGroup = ({group}: Props) => {
     const dots = group.sources.map((ed) => <EditionDot small={true} edition={ed} key={ed}/>);
 
     const currentURL = window.location.pathname.split('/');
-    const chapter = currentURL[currentURL.length - 1];
+    const chapter = currentURL[currentURL.length - 1].split('#')[0];
+    const { seg } = useContext(SegContext);
 
     return (
         <div className='reading-group'>
@@ -21,9 +22,9 @@ const ReadingGroup = ({group}: Props) => {
                 {group.sources.map((ed) =>
                     ed ? (
                         ed === '1831' ?
-                            <a href={`../${ed}/${chapter.replace(/vol_\d_/, '')}`}>{ed}, </a>
+                            <a href={`../${ed}/${chapter.replace(/vol_\d_/, '')}#${seg.id.replace(/(?<=f).*/, ed)}`}>{ed}, </a>
                             :
-                            <a href={`../${ed}/${chapter.replace(/^(?!vol_)/, "vol_1_")}`}>{ed}, </a>
+                            <a href={`../${ed}/${chapter.replace(/^(?!vol_)/, "vol_1_")}#${seg.id.replace(/(?<=-f).*/, ed)}`}>{ed}, </a>
                         ) :
                         null
                 )}
