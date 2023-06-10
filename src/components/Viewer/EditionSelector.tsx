@@ -4,7 +4,6 @@ import {sources} from '../../data/units.json'
 import slugify from '../helpers/slugify';
 
 export default function EditionSelector({source, unit}) {
-
     const handleEditionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newSource = event.target.value
         const newSourceData = sources.filter(s => s.label === event.target.value)[0]

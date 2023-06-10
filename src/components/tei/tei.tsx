@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useState } from "react";
 import BasicRouter from '@astro-tei/react';
 import { DefaultBehaviors } from "@astro-tei/react";
 import type { IRoutes } from "@astro-tei/react";
@@ -30,7 +30,6 @@ if (typeof DOMParser !== 'undefined') {
 }
 
 export default function Tei({data, elements, spine, source}: Props) {
-
   const [variant, setVariant] = useState<Variant>()
   const [seg, setSeg] = useState<SegInfo>();
 
@@ -57,15 +56,15 @@ export default function Tei({data, elements, spine, source}: Props) {
   const usableDoc = localParser(data)
 
   return(
-      <SegContext.Provider value={{seg, setSeg}} >
-        <AutoClickComponent/>
-        <VariantContext.Provider value={{variant, setVariant}} >
-          <aside id="viewer__marginalia"></aside>
-          <BasicRouter doc={usableDoc} elements={elements} routes={routes} />
-          <aside id="viewer_variations">
-            <Variation />
-          </aside>
-        </VariantContext.Provider>
+    <SegContext.Provider value={{seg, setSeg}} >
+      <AutoClickComponent/>
+      <VariantContext.Provider value={{variant, setVariant}} >
+        <aside id="viewer__marginalia"></aside>
+        <BasicRouter doc={usableDoc} elements={elements} routes={routes} />
+        <aside id="viewer_variations">
+          <Variation />
+        </aside>
+      </VariantContext.Provider>
     </SegContext.Provider>
   )
 }
