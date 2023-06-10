@@ -1,6 +1,8 @@
 import React, {useEffect, useRef} from 'react';
 
+// when choose a seg to display a side panel and jumping to another edition page, displaying the same side panel automatically
 export const AutoClickComponent = () => {
+    // ensure only clicking automatically when page opens and not repeatedly during re-renders
     const clickRef = useRef(true);
     let id = null;
     useEffect(()=>{

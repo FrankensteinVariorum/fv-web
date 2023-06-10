@@ -2,7 +2,7 @@ import React, {useContext, useEffect, useRef, useState} from 'react';
 import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 import {Reading, SegContext, SegInfo, VariantContext} from './variantContext';
-import {AutoClickComponent} from "../helpers/AutoClickSeg";
+import { ShowContext } from '../Viewer/ShowContext';
 
 interface TEIProps {
     teiNode: Node,
@@ -20,7 +20,8 @@ const fetchData = async (url) => {
 
 export const Seg: TBehavior = (props: TEIProps) => {
     const { setVariant } = useContext(VariantContext)
-    const { seg, setSeg } = useContext(SegContext)
+    const { setSeg } = useContext(SegContext)
+    const { show } = useContext(ShowContext);
     const el = props.teiNode as Element;
     const id = el.getAttribute("xml:id");
     const chunk = id?.substring(0,3);
@@ -28,19 +29,18 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/"
     const targetString = `${basePath}f${props.source}_${chunk}.xml#${id}`
 
-    const [intensityClass, setIntensityClass] = useState<string | null>(null);
+    const [ intensityClass , setIntensityClass] = useState<string | null>(null);
     const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`)
 
     const clickRef = useRef(true);
 
-    // ensure n retrieved only once when the page opens
+    // ensure n retrieved only once when the page opens and not repeatedly during re-renders
     useEffect(() => {
         if (clickRef.current) {
             const nAttr = ptr ? ptr.closest('app').getAttribute('n') : undefined;
             const n = nAttr ? parseInt(nAttr) : undefined;
             const level = (n && n < 5) ? 1 : (n && n < 25) ? 2 : 3;
             setIntensityClass(`app-intensity-${level}`) ;
-            console.log("intensity level:", level)
         }
         clickRef.current = false;
     }, []);
@@ -169,10 +169,12 @@ export const Seg: TBehavior = (props: TEIProps) => {
 
     return (
         <Behavior node={props.teiNode}>
-            <span className={intensityClass} id={id.replace(/-.*/, '')} style={{
-                cursor: "pointer",
-                // background: "lightgrey",
-            }} onClick={handleClick}>{<TEINodes teiNodes={el.childNodes} {...props} />}</span>
+            <span className={intensityClass}
+                  id={id.replace(/-.*/, '')}
+                  style={{ cursor: "pointer"}}
+                  onClick={handleClick}>
+                {<TEINodes teiNodes={el.childNodes} {...props} />}
+            </span>
         </Behavior>
     );
 };

@@ -23,7 +23,7 @@ const fetchData = async (url) => {
     const response = await fetch(url)
     if (response.status === 404) {
         return null
-    }   
+    }
     return await response.text()
 }
 
