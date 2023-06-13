@@ -1,8 +1,11 @@
 ---
 import Home from '../layouts/Home.astro';
+import { sources } from '../data/units.json'
+import slugify from '../components/helpers/slugify.js';
 
 import { Image } from '@astrojs/image/components';
 import FronticepieceImage from '../../public/images/general/fronticepiece.jpg';
+const start = `/viewer/${sources[0].label}/${slugify(sources[0].units[0].label)}`
 ---
 <Home>
       <section>
@@ -17,7 +20,7 @@ import FronticepieceImage from '../../public/images/general/fronticepiece.jpg';
           <div class='subtitle'>A Digital Variorum Edition</div>
         </div>
         <div id='home-cta' class='btn'>
-          <a href="/viewer" title='Use the Variorum Viewer'>Variorum Viewer</a>
+          <a href={start} title='Use the Variorum Viewer'>Variorum Viewer</a>
         </div>
       </section>
       <aside id='fronticepiece'>
