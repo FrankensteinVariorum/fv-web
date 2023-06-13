@@ -7,19 +7,16 @@ interface Props {
 }
 
 const ReadingGroup = ({group}: Props) => {
-    // const title = group.sources.join(", ");
     const dots = group.sources.map((ed) => <EditionDot small={true} edition={ed} key={ed}/>);
-
     const currentURL = window.location.pathname.split('/');
     const chapter = currentURL[currentURL.length - 1].split('#')[0];
-    const { seg } = useContext(SegContext);
+    const { seg } = useContext(SegContext); // storing which seg clicked on
 
-    console.log("seg id (ReadingGroup.tsx):", seg?.id);
+    console.log("seg id:", seg?.id);
 
     return (
         <div className='reading-group'>
             <div className='reading-group-dots'>{ dots }</div>
-            {/*<div className='reading-group-title'>{ ed }</div>*/}
             <div className='reading-group-title' >
                 {group.sources.map((ed) =>
                     ed ? (
@@ -40,7 +37,6 @@ const ReadingGroup = ({group}: Props) => {
         </div>
     )
 }
-
 
 class ReadingGroupComponent extends React.Component<ReadingGroupComponentProps> {
     render() {

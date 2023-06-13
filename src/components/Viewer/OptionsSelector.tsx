@@ -1,21 +1,53 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 
 export default function OptionsSelector () {
-    const [show, setShow] = useState({
-        ShowVariants: true,
-        ShowAnnotations: false,
-        ShowText: true,
+    const variants = useRef([])
+    const segElements = useRef([]);
+    const pElements = useRef([]);
+
+
+    const [show, setShow] = useState(() => {
+        const storedShow = localStorage.getItem('show');
+        return storedShow !== null ? JSON.parse(storedShow) : {
+            ShowVariants: true,
+            ShowAnnotations: false,
+            ShowText: true,
+        }});
+
+    useEffect(() => {
+        variants.current = [...document.querySelectorAll("span[id*='_app']")];
+        segElements.current = [...document.querySelectorAll("tei-seg")];
+        pElements.current = [...document.querySelectorAll("tei-p")];
+        console.log("variants:", variants.current)
+        console.log("seg:", segElements.current)
+    }, []);
+
+    useEffect(() => {
+        localStorage.setItem('show', JSON.stringify(show));
+        console.log(JSON.stringify(show))
+        if (variants.current || !show[1]) {
+            variants.current.forEach((v) => {
+                v.classList.toggle("no-background", !show.ShowVariants);
+            });
+        }
+        if (segElements.current || !show[3]) {
+            segElements.current.forEach((s) => {
+                s.classList.toggle("tei-cdata", !show.ShowText);
+                s.classList.toggle("no-text", !show.ShowText);
+            });
+            pElements.current.forEach((p) => {
+                p.classList.toggle("tei-cdata", !show.ShowText);
+                p.classList.toggle("no-text", !show.ShowText);
+            });
+        }
     });
+
 
     const onVariantsChanged = (e) => {
         setShow((prevState) => ({
             ...prevState,
             ShowVariants: !prevState.ShowVariants,
         }));
-        const variants = [...document.querySelectorAll('[class^="app-intensity-"]')];
-        for (const i in variants){
-            variants[i].classList.toggle('no-background');
-        }
     }
 
     const onAnnotationChanged = (e) => {
@@ -29,16 +61,6 @@ export default function OptionsSelector () {
             ...prevState,
             ShowText: !prevState.ShowText,
         }));
-        const seg = [...document.getElementsByTagName("tei-seg")];
-        for (const i in seg) {
-            seg[i].classList.toggle("tei-cdata");
-            seg[i].classList.toggle("no-text");
-        }
-        const p = [...document.getElementsByTagName("tei-p")];
-        for (const i in p) {
-            p[i].classList.toggle("tei-cdata");
-            p[i].classList.toggle("no-text");
-        }
     };
 
     return (

@@ -1,8 +1,12 @@
 import {sources} from '../../data/units.json'
 import slugify from '../helpers/slugify';
-import {useEffect, useState} from "react";
+import {useContext, useEffect, useState} from "react";
+import {VolContext} from "./volContext";
 
 export default function Paging({ source, unit }) {
+    const { vol, setVol } = useContext(VolContext);
+    console.log('vol:', vol);
+
     const [currentPageIndex, setCurrentPageIndex] = useState(0);
     const pages = sources
         .filter((s) => s.label === source)
@@ -14,9 +18,7 @@ export default function Paging({ source, unit }) {
         const chapter = currentURL[currentURL.length - 1].split('#')[0];
         const pageIndex = pages.findIndex((p) => p === chapter
         );
-        console.log("pages:", pages)
         setCurrentPageIndex(pageIndex)
-        console.log("current page index:", pageIndex)
     },[source])
 
     const goToPreviousPage = () => {
@@ -41,8 +43,9 @@ export default function Paging({ source, unit }) {
 
     const handleUnitChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newUnit = event.target.value
-
         const path = `/viewer/${source}/${slugify(newUnit)}`
+        const getVol = newUnit.split('_')[1];
+        /\d+/.test(getVol) ? setVol(getVol) : null; // check if the got vol valid
         window.location.replace(path)
     };
 

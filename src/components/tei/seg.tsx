@@ -1,8 +1,7 @@
 import React, {useContext, useEffect, useRef, useState} from 'react';
 import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
-import {Reading, SegContext, SegInfo, VariantContext} from './variantContext';
-import { ShowContext } from '../Viewer/ShowContext';
+import {Reading, SegContext, VariantContext} from './variantContext';
 
 interface TEIProps {
     teiNode: Node,
@@ -21,7 +20,6 @@ const fetchData = async (url) => {
 export const Seg: TBehavior = (props: TEIProps) => {
     const { setVariant } = useContext(VariantContext)
     const { setSeg } = useContext(SegContext)
-    const { show } = useContext(ShowContext);
     const el = props.teiNode as Element;
     const id = el.getAttribute("xml:id");
     const chunk = id?.substring(0,3);
@@ -160,7 +158,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
 
         // Get seg id for side panel links
         const getSegId = async () => {
-            console.log("seg id (seg.tsx):", (event.target as HTMLElement).id)
+            console.log("seg id:", (event.target as HTMLElement).id)
             return (event.target as HTMLElement).id;
         }
         const segId = await getSegId()

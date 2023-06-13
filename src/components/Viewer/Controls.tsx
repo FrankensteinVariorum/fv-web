@@ -3,6 +3,7 @@ import EditionSelector from './EditionSelector';
 import OptionsSelector from './OptionsSelector';
 import Paging from './Paging';
 import Header from '../Header';
+import { VolProvider } from "./volContext";
 
 export default function Controls() {
     const [source, setSource] = useState<string|undefined>("1818")
@@ -15,13 +16,13 @@ export default function Controls() {
     },[])
 
     return (
-        <>
+        <VolProvider>
             <div id='viewer__controls'>
                 <EditionSelector source={source} unit={unit} />
                 <Paging unit={unit} source={source} />
                 <OptionsSelector/>
             </div>
             <Header edition={source}/>
-        </>
+        </VolProvider>
     );
 }
