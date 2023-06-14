@@ -1,19 +1,11 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, {useEffect, useRef, useContext} from "react";
+import {ShowContext} from "./showContext";
 
 export default function OptionsSelector () {
     const variants = useRef([])
     const segElements = useRef([]);
     const pElements = useRef([]);
-
-
-    const [show, setShow] = useState(() => {
-        const storedShow = localStorage.getItem('show');
-        return storedShow !== null ? JSON.parse(storedShow) : {
-            ShowVariants: true,
-            ShowAnnotations: false,
-            ShowText: true,
-        }});
-
+    const { show, setShow } = useContext(ShowContext);
     useEffect(() => {
         variants.current = [...document.querySelectorAll("span[id*='_app']")];
         segElements.current = [...document.querySelectorAll("tei-seg")];
@@ -23,6 +15,8 @@ export default function OptionsSelector () {
     }, []);
 
     useEffect(() => {
+        console.log("showVariants:",show)
+
         localStorage.setItem('show', JSON.stringify(show));
         console.log(JSON.stringify(show))
         if (variants.current || !show[1]) {
@@ -41,7 +35,6 @@ export default function OptionsSelector () {
             });
         }
     });
-
 
     const onVariantsChanged = (e) => {
         setShow((prevState) => ({

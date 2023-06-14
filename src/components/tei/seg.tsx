@@ -2,6 +2,7 @@ import React, {useContext, useEffect, useRef, useState} from 'react';
 import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 import {Reading, SegContext, VariantContext} from './variantContext';
+import {ShowContext} from "../Viewer/showContext";
 
 interface TEIProps {
     teiNode: Node,
@@ -27,6 +28,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/"
     const targetString = `${basePath}f${props.source}_${chunk}.xml#${id}`
 
+    const { show, setShow } = useContext(ShowContext);
     const [ intensityClass , setIntensityClass] = useState<string | null>(null);
     const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`)
 
@@ -165,9 +167,10 @@ export const Seg: TBehavior = (props: TEIProps) => {
         setSeg({id: segId.replace(/-.*/, '')})
     }
 
+
     return (
         <Behavior node={props.teiNode}>
-            <span className={intensityClass}
+            <span className={show.ShowText?intensityClass:null}
                   id={id.replace(/-.*/, '')}
                   style={{ cursor: "pointer"}}
                   onClick={handleClick}>
