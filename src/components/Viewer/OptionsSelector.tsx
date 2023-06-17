@@ -3,12 +3,15 @@ import { useStore } from '@nanostores/react';
 import { showState, onVariantsChanged, onAnnotationChanged, onTextChanged} from "../../data/nanostores";
 
 export default function OptionsSelector () {
-    const show = useStore(showState);
-    console.log('show:', show.showVariants, show.showAnnotations, show.showText)
-    // const variants = useRef([])
-    // const segElements = useRef([]);
-    // const pElements = useRef([]);
-    //
+    const segElements = useRef([]);
+    const pElements = useRef([]);
+    const show = useStore(showState)
+    // localStorage.setItem('show', JSON.stringify(show));
+    // const storedShow = localStorage.getItem('show');
+
+    // const show = storedShow !== null ? JSON.parse(storedShow) : useStore(showState)
+    // console.log('show:', show.showVariants, show.showAnnotations, show.showText)
+
     // const [show, setShow] = useState(() => {
     //     const storedShow = localStorage.getItem('show');
     //     return storedShow !== null ? JSON.parse(storedShow) : {
@@ -17,33 +20,24 @@ export default function OptionsSelector () {
     //         ShowText: true,
     //     }});
     //
-    // useEffect(() => {
-    //     variants.current = [...document.querySelectorAll("span[id*='_app']")];
-    //     segElements.current = [...document.querySelectorAll("tei-seg")];
-    //     pElements.current = [...document.querySelectorAll("tei-p")];
-    //     console.log("variants:", variants.current)
-    //     console.log("seg:", segElements.current)
-    // }, []);
+    useEffect(() => {
+        segElements.current = [...document.querySelectorAll("tei-seg")];
+        pElements.current = [...document.querySelectorAll("tei-p")];
+    }, []);
     //
-    // useEffect(() => {
-    //     localStorage.setItem('show', JSON.stringify(show));
-    //     console.log(JSON.stringify(show))
-    //     if (variants.current || !show[1]) {
-    //         variants.current.forEach((v) => {
-    //             v.classList.toggle("no-background", !show.ShowVariants);
-    //         });
-    //     }
-    //     if (segElements.current || !show[3]) {
-    //         segElements.current.forEach((s) => {
-    //             s.classList.toggle("tei-cdata", !show.ShowText);
-    //             s.classList.toggle("no-text", !show.ShowText);
-    //         });
-    //         pElements.current.forEach((p) => {
-    //             p.classList.toggle("tei-cdata", !show.ShowText);
-    //             p.classList.toggle("no-text", !show.ShowText);
-    //         });
-    //     }
-    // });
+    useEffect(() => {
+        // console.log(JSON.stringify(show))
+        if (segElements.current || !show[3]) {
+            segElements.current.forEach((s) => {
+                s.classList.toggle("tei-cdata", !show.showText);
+                s.classList.toggle("no-text", !show.showText);
+            });
+            pElements.current.forEach((p) => {
+                p.classList.toggle("tei-cdata", !show.showText);
+                p.classList.toggle("no-text", !show.showText);
+            });
+        }
+    },[show]);
     //
     //
     // const onVariantsChanged = (e) => {

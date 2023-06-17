@@ -7,15 +7,31 @@ const defaultShow = {
 };
 export const showState = atom(defaultShow);
 
+// showState.subscribe((state) => {
+//     localStorage.setItem('showState', JSON.stringify(state));
+// });
+
 export function onVariantsChanged() {
-    showState.set({ showVariants: !showState.get().showVariants });
+    showState.set({
+        showVariants: !showState.get().showVariants,
+        showAnnotations: showState.get().showAnnotations,
+        showText: showState.get().showText
+    });
 }
 export function onAnnotationChanged() {
-    showState.set({ showAnnotations: !showState.get().showAnnotations });
+    showState.set({
+        showVariants: showState.get().showVariants,
+        showAnnotations: !showState.get().showAnnotations,
+        showText: showState.get().showText
+    });
 
 }
 export function onTextChanged() {
-    showState.set({ showText: !showState.get().showText });
+    showState.set({
+        showVariants: showState.get().showVariants,
+        showAnnotations: showState.get().showAnnotations,
+        showText: !showState.get().showText,
+    });
 }
 
 // export function getAvailableChunks(select_edition?: String){

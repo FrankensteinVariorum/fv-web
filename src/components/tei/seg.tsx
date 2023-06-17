@@ -27,12 +27,12 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const id = el.getAttribute("xml:id");
     const chunk = id?.substring(0,3);
 
-    const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/"
+    // const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/"
+    const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/test/variorum-chunks/"
     const targetString = `${basePath}f${props.source}_${chunk}.xml#${id}`
-
     const [ intensityClass , setIntensityClass] = useState<string | null>(null);
     const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`)
-
+    console.log(ptr)
     const clickRef = useRef(true);
 
     // ensure n retrieved only once when the page opens and not repeatedly during re-renders
