@@ -2,6 +2,8 @@ import React, {useContext, useEffect, useRef, useState} from 'react';
 import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 import {Reading, SegContext, VariantContext} from './variantContext';
+import { useStore } from '@nanostores/react';
+import { showState } from "../../data/nanostores";
 
 interface TEIProps {
     teiNode: Node,
@@ -18,6 +20,7 @@ const fetchData = async (url) => {
 }
 
 export const Seg: TBehavior = (props: TEIProps) => {
+    const show = useStore(showState);
     const { setVariant } = useContext(VariantContext)
     const { setSeg } = useContext(SegContext)
     const el = props.teiNode as Element;
@@ -167,7 +170,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
 
     return (
         <Behavior node={props.teiNode}>
-            <span className={intensityClass}
+            <span className={show.showVariants ? intensityClass : undefined}
                   id={id.replace(/-.*/, '')}
                   style={{ cursor: "pointer"}}
                   onClick={handleClick}>
