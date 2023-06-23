@@ -77,8 +77,7 @@ const elements = teiDom.documentElement.getAttribute("data-elements").split(",")
 let spineData: string
 if (chunks) {
     for (const chunk of chunks) {
-        // const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/standoff_Spine/spine_${chunk}.xml`
-        const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/test/standoff_Spine/spine_${chunk}.xml`
+        const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-standoff_Spine/spine_${chunk}.xml`
         const chunkText = await fetchData(dataUrl)
         if (chunkText) {
             spineData += chunkText.replace(/<\?xml version="1.0" encoding="UTF-8"\?>/gm, '')
@@ -87,7 +86,6 @@ if (chunks) {
 }
 
 const spine = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${spineData}</TEI>`
-console.log(spineData)
 ---
 
 <Viewer>

@@ -590,15 +590,55 @@ ul.links a:hover { color: #D95369; }
 
 .clr_bg--main { background-color: #FDDAC0; }
 
-.clr_bg--ms { background-color: #8380E2; }
+.clr_bg--ms { background-color: #8380E2 }
 
-.clr_bg--1818 { background-color: #FDB27B; }
+.clr_bg--1818 { background-color: #FDB27B }
 
-.clr_bg--thomas { background-color: #E378BF; }
+.clr_bg--thomas { background-color: #E378BF }
 
-.clr_bg--1823 { background-color: #6FBCC0; }
+.clr_bg--1823 { background-color: #6FBCC0 }
 
-.clr_bg--1831 { background-color: #D95369; }
+.clr_bg--1831 { background-color: #D95369 }
+
+.seg_bg--ms {
+    background-color: rgba(131, 128, 226, 0.8) !important;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #3a3788;
+    padding: 0 2px
+}
+
+.seg_bg--1818 {
+    background-color: rgba(253, 178, 123, 0.8) !important;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #9d6237;
+    padding: 0 2px
+}
+
+.seg_bg--thomas {
+    background-color: rgba(227, 120, 191, 0.8) !important;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #913572;
+    padding: 0 2px
+}
+
+.seg_bg--1823{
+    background-color: rgba(111, 188, 192, 0.8) !important;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #2a6467;
+    padding: 0 2px
+}
+
+.seg_bg--1831 {
+    background-color: rgba(217, 83, 105, 0.7) !important;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #801e2e;
+    padding: 0 2px
+}
 
 /* @file index.sass @description  Loads all sass files or subdirectory indices in its directory. */
 /** @file _index.sass @description  Loads all sass files or subdirectory indices in its directory.  */
@@ -841,13 +881,13 @@ footer .in-line.paging-buttons { margin-left: 25px; display: inline-flex ! impor
 .app-intensity-0 { background: #fbfbfb; }
 
 /*.app-intensity-1 { background: whitesmoke; }*/
-.app-intensity-1 { background: #D9D7D6; }
+.app-intensity-1 { background: rgba(216, 214, 213, 0.8); }
 
 /*.app-intensity-2 { background: #d9d7d6; }*/
-.app-intensity-2 { background: #C5C3C1; }
+.app-intensity-2 { background: #c5c3c1; }
 
 /*.app-intensity-3 { background: #c5c3c1; }*/
-.app-intensity-3 { background: #B2AFAC; }
+.app-intensity-3 { background: #B1AEABFF; }
 
 .tei-container div { display: inline; }
 

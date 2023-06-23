@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import BasicRouter from '@astro-tei/react';
 import { DefaultBehaviors } from "@astro-tei/react";
 import type { IRoutes } from "@astro-tei/react";
@@ -54,6 +54,8 @@ export default function Tei({data, elements, spine, source}: Props) {
 
   // Support server side and client side DOM processing.
   const usableDoc = localParser(data)
+
+
 
   return(
     <SegContext.Provider value={{seg, setSeg}} >

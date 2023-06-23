@@ -20,31 +20,53 @@ const fetchData = async (url) => {
 }
 
 export const Seg: TBehavior = (props: TEIProps) => {
-    const show = useStore(showState);
-    const { setVariant } = useContext(VariantContext)
-    const { setSeg } = useContext(SegContext)
+    const show = useStore(showState); // nano stores
+    const [previousSegID, setPreviousSegID] = useState<any>(); // previous seg selected needs to be reset the bg color when clicking on another seg
+    const { setVariant } = useContext(VariantContext);
+    const { seg, setSeg } = useContext(SegContext); // share which seg selected among different editions; this is for the side panel
+
     const el = props.teiNode as Element;
     const id = el.getAttribute("xml:id");
     const chunk = id?.substring(0,3);
 
-    // const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/"
-    const basePath = "https://raw.githubusercontent.com/PghFrankenstein/fv-data/test/variorum-chunks/"
+    const basePath = "https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/"
     const targetString = `${basePath}f${props.source}_${chunk}.xml#${id}`
-    const [ intensityClass , setIntensityClass] = useState<string | null>(null);
-    const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`)
-    console.log(ptr)
-    const clickRef = useRef(true);
+    const [ intensityClass , setIntensityClass] = useState<string|null>(null);
+    const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`);
+    const clickRef = useRef(true); // ensure n retrieved only once when the page opens and not repeatedly during re-renders
 
-    // ensure n retrieved only once when the page opens and not repeatedly during re-renders
+    // set the intensity level
     useEffect(() => {
         if (clickRef.current) {
             const nAttr = ptr ? ptr.closest('app').getAttribute('n') : undefined;
             const n = nAttr ? parseInt(nAttr) : undefined;
             const level = (n && n < 5) ? 1 : (n && n < 25) ? 2 : 3;
             setIntensityClass(`app-intensity-${level}`) ;
+            const fragmentIdentifier = window.location.hash; // Get ID from URL
+            const id = fragmentIdentifier.substring(1); // Remove the '#' symbol
+            setSeg({id: id})
         }
         clickRef.current = false;
     }, []);
+    // highlight the seg selected when the page opens if necessary
+    // useEffect(() => {
+    //     const fragmentIdentifier = window.location.hash; // Get ID from URL
+    //     if (fragmentIdentifier) {
+    //         const id = fragmentIdentifier.substring(1); // Remove the '#' symbol
+    //         const source = window.location.pathname.split('/')[2]; // Get edition source from URL
+    //         const span = document.getElementById(id);
+    //         span.classList.toggle(`seg_bg--${source.toLowerCase()}`, true)
+    //     }
+    // }, [])
+    // not highlight the seg selected previously
+    useEffect(() => {
+        if (previousSegID) {
+            const previousSegElement = document.getElementById(previousSegID);
+            if (previousSegElement) {
+                previousSegElement.classList.remove(`seg_bg--${props.source.toLowerCase()}`);
+            }
+        }
+    }, [previousSegID]);
 
     if (!ptr) {
         return <DefaultBehaviors.SafeUnchangedNode {...props}/>
@@ -65,33 +87,29 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const handleClick = async (event: React.MouseEvent<HTMLSpanElement>) => {
         const app = ptr.closest("app") as Element
         const rdgGrp = app.querySelectorAll("rdgGrp")
-        
+
         const getReadings = async () => {
             const readings: Reading[] = []
-
             for (const rg of Array.from(rdgGrp)) {
                 let value = JSON.parse(rg.getAttribute("n")
                     ?.replace(/'/g, '"')
                     || '[]').join(" ")
 
                 // Here we want to send the value to CETEIcean to render the XML.
-
                 const rdgs = rg.querySelectorAll("rdg")
-                
                 let sources: string[] = []
-
                 for (const r of rdgs) {
                     // Follow pointers to XML for MS; the rest can use @n.
                     const wit = r.getAttribute("wit") || ""
                     if (wit === "#fMS") {
-                        const value = await getTargetXml(r)
-                        // Here we want to send the value to CETEIcean to render the XML.
-                        if (value) {
-                            readings.push({
-                                sources: ["MS"],
-                                value
-                            })
-                        }
+                        // const value = await getTargetXml(r)
+                        // // Here we want to send the value to CETEIcean to render the XML.
+                        // if (value) {
+                        //     readings.push({
+                        //         sources: ["MS"],
+                        //         value
+                        //     })
+                        // }
                     } else {
                         sources.push(wit.replace("#f", "") || "")
                     }
@@ -115,7 +133,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
             //         if (wit === "#fThomas") {
             //             // sources.push("Thomas")
             //             const [url, id] = r.querySelector("ptr")?.getAttribute("target")?.split("#")
-    
+
             //             const xml = await fetchData(url) || ""
                         // const dom = (new DOMParser).parseFromString(xml, "text/xml")
                         // const seg = Array.from(dom.getElementsByTagName("seg")).filter(e => e.getAttribute("xml:id") === id)[0]
@@ -159,13 +177,18 @@ export const Seg: TBehavior = (props: TEIProps) => {
         const readings = await getReadings()
         setVariant({ readings })
 
-        // Get seg id for side panel links
-        const getSegId = async () => {
-            console.log("seg id:", (event.target as HTMLElement).id)
-            return (event.target as HTMLElement).id;
+        const toggleSegBg = (segId, setColor) => {
+            const segElementSelected = document.getElementById(`${segId}`)
+            segElementSelected.classList.toggle(`seg_bg--${props.source.toLowerCase()}`, setColor)
         }
-        const segId = await getSegId()
-        setSeg({id: segId.replace(/-.*/, '')})
+
+        // Get seg id for side panel links
+        setPreviousSegID(seg.id) // store the previous seg id
+
+
+        let currentSegId = (event.target as HTMLElement).id.replace(/-.*/, '');// for seg background in the local page
+        setSeg({id: currentSegId}) // for side panel in different edition pages
+        toggleSegBg(currentSegId, true) // highlight the seg selected
     }
 
     return (

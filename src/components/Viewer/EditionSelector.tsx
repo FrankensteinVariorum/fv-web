@@ -10,6 +10,8 @@ export default function EditionSelector({source, unit}) {
     const handleEditionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newSource = event.target.value
         const newSourceData = sources.filter(s => s.label === event.target.value)[0]
+        console.log(newSourceData)
+
         if (newSourceData) {
             let path, newUnit
             // if (newSourceData.units.map(u => slugify(u.label)).indexOf(unit) === -1) {

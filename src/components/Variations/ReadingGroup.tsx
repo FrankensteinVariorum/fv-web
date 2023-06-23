@@ -12,8 +12,6 @@ const ReadingGroup = ({group}: Props) => {
     const chapter = currentURL[currentURL.length - 1].split('#')[0];
     const { seg } = useContext(SegContext); // storing which seg clicked on
 
-    console.log("seg id:", seg?.id);
-
     return (
         <div className='reading-group'>
             <div className='reading-group-dots'>{ dots }</div>
