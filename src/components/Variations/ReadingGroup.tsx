@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import EditionDot from "../helpers/EditionDot";
 import {Reading, SegContext} from "../tei/variantContext";
+// import Tei from "../tei/tei"
 
 interface Props {
     group: Reading
@@ -44,6 +45,13 @@ class ReadingGroupComponent extends React.Component<ReadingGroupComponentProps> 
 
         let content;
         if (this.props.group.element) {
+
+            // modify this.props.group.element as needed
+            // e.g. raise <del and <add into actual elements with regex
+
+            // pass data to <Tei>
+            // <Tei data={this.props.group.element} />
+
             const converter = new TeiConverter(false, false, true);
             content = converter.teiToReactElement(this.props.group.element);
         } else {
