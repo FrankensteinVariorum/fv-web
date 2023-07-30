@@ -3,7 +3,11 @@ import React, { useContext } from "react";
 import ReadingGroup from "./ReadingGroup";
 import { VariantContext } from "../tei/variantContext";
 
-const Variation = () => {
+interface Props {
+    source: string
+}
+
+const Variation = ({source}: Props) => {
     const {variant} = useContext(VariantContext)
     if (!variant) return null
     return (

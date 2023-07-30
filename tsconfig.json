@@ -6,6 +6,7 @@
     "module": "ESNext",
     "moduleResolution": "nodenext",
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "lib": [
       "ES2021", "dom", "ESNext"
     ],
@@ -16,6 +17,7 @@
   },
   "include": [
     "demo/src/*",
-    "demo/src/**/*"
-  ]
+    "demo/src/**/*",
+  ],
+
 }

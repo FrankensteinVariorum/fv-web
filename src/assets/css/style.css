@@ -277,7 +277,7 @@ b, strong, .strong { font-weight: 600; }
 
 dfn, .italic { font-style: italic; }
 
-ins { background-color: #c5c3c1; color: #3F3730; text-decoration: none; }
+ins { /*background-color: #c5c3c1;*/ color: #3F3730; text-decoration: none; }
 
 mark { background-color: #c5c3c1; color: #3F3730; font-style: italic; font-weight: 700; }
 
@@ -496,12 +496,13 @@ body > footer a:hover { color: #FDB27B; }
 @media only screen and (min-width: 46.25em) { #footer-identity { grid-row: initial; background-position: bottom left; } }
 
 /* !FOOTER END */
-main { margin: 5.9999395448rem auto; }
+/*main { margin: 5.9999395448rem auto; }*/
+main { margin-top: 5rem; }
 
 section { overflow: initial; }
 
 /* @file index.sass @description  Loads all sass files or subdirectory indices in its directory. */
-h1 { font-weight: 300; text-align: center; width: 90%; padding-bottom: 4.2426086258rem; margin-bottom: 4.2426086258rem; border-bottom: 4px double #3F3730; }
+h1 { font-weight: 300; text-align: center; width: 90%; padding-bottom: 4.2426086258rem; /*margin-bottom: 4.2426086258rem;*/ border-bottom: 4px double #3F3730; }
 
 @media only screen and (min-width: 46.25em) { h1 { width: 70%; } }
 
@@ -601,35 +602,35 @@ ul.links a:hover { color: #D95369; }
 .clr_bg--1831 { background-color: #D95369 }
 
 .seg_bg--ms {
-    background-color: rgba(131, 128, 226, 0.8) !important;
+    background-color: rgba(131, 128, 226, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #3a3788;
-    padding: 0 2px
+    padding: 0 1px
 }
 
 .seg_bg--1818 {
-    background-color: rgba(253, 178, 123, 0.8) !important;
+    background-color: rgba(253, 178, 123, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #9d6237;
-    padding: 0 2px
+    padding: 0 1px
 }
 
 .seg_bg--thomas {
-    background-color: rgba(227, 120, 191, 0.8) !important;
+    background-color: rgba(227, 120, 191, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #913572;
-    padding: 0 2px
+    padding: 0 1px
 }
 
 .seg_bg--1823{
-    background-color: rgba(111, 188, 192, 0.8) !important;
+    background-color: rgba(111, 188, 192, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #2a6467;
-    padding: 0 2px
+    padding: 0 1px
 }
 
 .seg_bg--1831 {
@@ -637,7 +638,16 @@ ul.links a:hover { color: #D95369; }
     border-width: 2px 0;
     border-style: solid none;
     border-color: #801e2e;
-    padding: 0 2px
+    padding: 0 1px
+}
+
+
+[class*="app-intensity"] *:not(tei-head):not(tei-pb) {
+    background-color: inherit;
+    border-width: inherit;
+    border-style: inherit;
+    border-color: inherit;
+    padding: inherit;
 }
 
 /* @file index.sass @description  Loads all sass files or subdirectory indices in its directory. */
@@ -747,7 +757,7 @@ ul.links a:hover { color: #D95369; }
 
 .fontfamily-alt { font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif; }
 
-.dot { height: 1em; width: 1em; border-radius: 50%; display: inline-block; background-color: gray; margin-right: 10px; }
+.dot { height: 1em; width: 1em; border-radius: 50%; display: inline-block; background-color: gray; margin-right: 5px; }
 
 .small-dot { height: 0.5em !important; width: 0.5em !important; margin-right: 0.5em; }
 
@@ -773,9 +783,7 @@ ul.links a:hover { color: #D95369; }
 
 .options-label input { margin-top: 10px; }
 
-.edition-label { margin-right: 20px; }
-
-.tei-del .tei-cdata { text-decoration: line-through; }
+.edition-label { margin-right: 15px; }
 
 .in-line { display: inline-block; }
 
@@ -872,16 +880,39 @@ footer .in-line.paging-buttons { margin-left: 25px; display: inline-flex ! impor
 
 .tei-cdata.tei-del { text-decoration: line-through; }
 
+.unclear { color: #888}
+
 .no-background { background: none ! important; }
 
 .no-text { color: transparent; }
 
-.reading-group-content .tei-element { display: inline; }
+.reading-group-content { display: inline; line-height: 1rem; }
+
+.empty-group {
+    color: #888;
+    font-size: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 1rem;
+    text-align: center;
+}
+
+.paragraph-break, .insertion{
+    color: #DD1A56 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px ;
+    width: 1rem;
+    background: white !important;
+}
+
+.MS .paragraph-break { display: none; }
+
+ins:has(tei-metamark) { display: none}
 
 .app-intensity-0 { background: #fbfbfb; }
 
 /*.app-intensity-1 { background: whitesmoke; }*/
-.app-intensity-1 { background: rgba(216, 214, 213, 0.8); }
+.app-intensity-1 { background: #d9d7d6; }
 
 /*.app-intensity-2 { background: #d9d7d6; }*/
 .app-intensity-2 { background: #c5c3c1; }
@@ -892,6 +923,8 @@ footer .in-line.paging-buttons { margin-left: 25px; display: inline-flex ! impor
 .tei-container div { display: inline; }
 
 .reading-group-content { font-size: 80%; }
+
+.reading-group-content .paragraph-break-reading-panel { display: none; }
 
 .app-wrapper { position: relative; padding: 0 0; border-left: 1px dotted whitesmoke; }
 
@@ -906,6 +939,10 @@ footer .in-line.paging-buttons { margin-left: 25px; display: inline-flex ! impor
 .reading-group-title { font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif; font-weight: 600; font-size: 0.8em; color: #8c8783; margin-top: 0.5em; }
 
 .tei-bibl { font-style: italic; }
+
+tei-lg { margin: 1em; }
+
+.note {}
 
 /*  A stopgrap solution to bridge differences between the standalone app and the Jekyll version. Mark for removal as soon as final workflow is established. */
 .prev { background: url("/images/viewer/prev_btn.svg") no-repeat; }

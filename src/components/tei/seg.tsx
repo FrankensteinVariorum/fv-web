@@ -3,12 +3,14 @@ import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 import {Reading, SegContext, VariantContext} from './variantContext';
 import { useStore } from '@nanostores/react';
-import { showState } from "../../data/nanostores";
+import {appState, showState, unitLinkState} from "../../data/nanostores";
+import {sources} from "../../data/units.json"
 
 interface TEIProps {
     teiNode: Node,
     spine: Document
     source: string
+    unit:string
 }
 
 const fetchData = async (url) => {
@@ -21,52 +23,35 @@ const fetchData = async (url) => {
 
 export const Seg: TBehavior = (props: TEIProps) => {
     const show = useStore(showState); // nano stores
-    const [previousSegID, setPreviousSegID] = useState<any>(); // previous seg selected needs to be reset the bg color when clicking on another seg
     const { setVariant } = useContext(VariantContext);
     const { seg, setSeg } = useContext(SegContext); // share which seg selected among different editions; this is for the side panel
-
     const el = props.teiNode as Element;
     const id = el.getAttribute("xml:id");
     const chunk = id?.substring(0,3);
 
-    const basePath = "https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chunks/"
-    const targetString = `${basePath}f${props.source}_${chunk}.xml#${id}`
-    const [ intensityClass , setIntensityClass] = useState<string|null>(null);
+    const basePath = "https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/"
+    const targetString = `${basePath}f${props.source}_${props.unit}.xml#${id}`
+    const [ intensityClass , setIntensityClass] = useState<string>('');
+    const [ segBgClass, setSegBgClass ] = useState<string>('')
     const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`);
-    const clickRef = useRef(true); // ensure n retrieved only once when the page opens and not repeatedly during re-renders
 
-    // set the intensity level
+    // set intensity level and highlight background for seg
     useEffect(() => {
-        if (clickRef.current) {
-            const nAttr = ptr ? ptr.closest('app').getAttribute('n') : undefined;
-            const n = nAttr ? parseInt(nAttr) : undefined;
-            const level = (n && n < 5) ? 1 : (n && n < 25) ? 2 : 3;
-            setIntensityClass(`app-intensity-${level}`) ;
-            const fragmentIdentifier = window.location.hash; // Get ID from URL
-            const id = fragmentIdentifier.substring(1); // Remove the '#' symbol
-            setSeg({id: id})
+        // set intensity level
+        const nAttr = ptr ? ptr.closest('app').getAttribute('n') : undefined;
+        const n = nAttr ? parseInt(nAttr) : undefined;
+        const level = (n && n < 10) ? 1 : (n && n < 30) ? 2 : 3;
+        setIntensityClass(`app-intensity-${level}`);
+        const idSelected = window.location.hash.substring(1); // Get ID from URL
+        setSeg({id: idSelected})
+        // set highlight background
+        if (el.getAttribute("xml:id").replace(/-.*/, '') == idSelected) {
+            setSegBgClass(`seg_bg--${props.source.toLowerCase()}`)
+        } else {
+            setSegBgClass('')
         }
-        clickRef.current = false;
     }, []);
-    // highlight the seg selected when the page opens if necessary
-    // useEffect(() => {
-    //     const fragmentIdentifier = window.location.hash; // Get ID from URL
-    //     if (fragmentIdentifier) {
-    //         const id = fragmentIdentifier.substring(1); // Remove the '#' symbol
-    //         const source = window.location.pathname.split('/')[2]; // Get edition source from URL
-    //         const span = document.getElementById(id);
-    //         span.classList.toggle(`seg_bg--${source.toLowerCase()}`, true)
-    //     }
-    // }, [])
-    // not highlight the seg selected previously
-    useEffect(() => {
-        if (previousSegID) {
-            const previousSegElement = document.getElementById(previousSegID);
-            if (previousSegElement) {
-                previousSegElement.classList.remove(`seg_bg--${props.source.toLowerCase()}`);
-            }
-        }
-    }, [previousSegID]);
+
 
     if (!ptr) {
         return <DefaultBehaviors.SafeUnchangedNode {...props}/>
@@ -91,9 +76,46 @@ export const Seg: TBehavior = (props: TEIProps) => {
         const getReadings = async () => {
             const readings: Reading[] = []
             for (const rg of Array.from(rdgGrp)) {
-                let value = JSON.parse(rg.getAttribute("n")
-                    ?.replace(/'/g, '"')
-                    || '[]').join(" ")
+                const n = rg.getAttribute("n")
+                // const value = !n ? "" : JSON.parse(n.replace(/"/g, '\\"').replace(/'/g, '"')).join(" ")
+
+                // // +++----------- for debug---------------+++
+                // console.log("raw n:\n",n)
+                // console.log("escape double quotes:\n", n?.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')))
+                //
+                // console.log("replace single to double quotes:\n", n?.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')).
+                // replace(/'(?=(?:[^"]*"[^"]*")*[^"]*$)/g, '"').
+                // replace(/'([^']+?)'([,\]])/g, '"\$1"\$2').
+                // replace(/\['/g, '["'))
+                //
+                // console.log("single to double cont.:\n", n?.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')).
+                // replace(/'(?=(?:[^"]*"[^"]*")*[^"]*$)/g, '"').
+                // replace(/'([^']+?)'([,\]])/g, '"\$1"\$2').
+                // replace(/\['/g, '["').
+                // replace(/',/g, '",').
+                // replace(/, '/g, ', "'))
+                //
+                // console.log("unescape the double quote if it participates to wrap the token:\n", n?.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')).
+                // replace(/'(?=(?:[^"]*"[^"]*")*[^"]*$)/g, '"').
+                // replace(/'([^']+?)'([,\]])/g, '"\$1"\$2').
+                // replace(/\['/g, '["').
+                // replace(/',/g, '",').
+                // replace(/, '/g, ', "').
+                // replace(/\\"(, ")/g, '"\$1'))
+                // // +++----------------------------------+++
+
+                const value = !n ? "" : JSON.parse(
+                    // escape all double quotes inside single quotes
+                    n.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')).
+                        // then, replace single quotes wrapping the token to double quotes for different cases
+                        replace(/'(?=(?:[^"]*"[^"]*")*[^"]*$)/g, '"').
+                        replace(/'([^']+?)'([,\]])/g, '"\$1"\$2').
+                        replace(/\['/g, '["').
+                        replace(/',/g, '",').
+                        replace(/, '/g, ', "').
+                        // unescape the double quote if it participates to wrap the token
+                        replace(/\\"(, ")/g, '"\$1')
+                ).join(" ");
 
                 // Here we want to send the value to CETEIcean to render the XML.
                 const rdgs = rg.querySelectorAll("rdg")
@@ -101,18 +123,18 @@ export const Seg: TBehavior = (props: TEIProps) => {
                 for (const r of rdgs) {
                     // Follow pointers to XML for MS; the rest can use @n.
                     const wit = r.getAttribute("wit") || ""
-                    if (wit === "#fMS") {
-                        // const value = await getTargetXml(r)
-                        // // Here we want to send the value to CETEIcean to render the XML.
-                        // if (value) {
-                        //     readings.push({
-                        //         sources: ["MS"],
-                        //         value
-                        //     })
-                        // }
-                    } else {
+                    // if (wit === "#fMS") {
+                    //     // const value = await getTargetXml(r)
+                    //     // // Here we want to send the value to CETEIcean to render the XML.
+                    //     // if (value) {
+                    //     //     readings.push({
+                    //     //         sources: ["MS"],
+                    //     //         value
+                    //     //     })
+                    //     // }
+                    // } else {
                         sources.push(wit.replace("#f", "") || "")
-                    }
+                    // }
                 }
                 if (sources.length > 0) {
                     readings.push({
@@ -177,28 +199,53 @@ export const Seg: TBehavior = (props: TEIProps) => {
         const readings = await getReadings()
         setVariant({ readings })
 
-        const toggleSegBg = (segId, setColor) => {
-            const segElementSelected = document.getElementById(`${segId}`)
-            segElementSelected.classList.toggle(`seg_bg--${props.source.toLowerCase()}`, setColor)
-        }
+        // highlight or not highlight the specific seg element
+        const toggleSegBg = (segId, setHighlight) => {
+            const segElementsSelected = document.getElementsByClassName(segId);
+            Array.from(segElementsSelected).forEach((node) =>
+                node.classList.toggle(`seg_bg--${props.source.toLowerCase()}`, setHighlight)
+            );
+        };
 
-        // Get seg id for side panel links
-        setPreviousSegID(seg.id) // store the previous seg id
+        // not highlight the seg selected previously
+        if (seg?.id) {toggleSegBg(seg?.id, false)}
 
+        // get seg id
+        let currentSegId = event.target.closest("span[class*='app']").className.split(' ')[0].replace(/-.*/, ''); // seg id used for seg background in the local page
+        setSeg({id: currentSegId}) // seg if info used for side panel in other edition pages
 
-        let currentSegId = (event.target as HTMLElement).id.replace(/-.*/, '');// for seg background in the local page
-        setSeg({id: currentSegId}) // for side panel in different edition pages
-        toggleSegBg(currentSegId, true) // highlight the seg selected
+        // highlight the seg selected
+        toggleSegBg(currentSegId, true)
+
+        const appNum = currentSegId?.split('app')[1]; // get the current app number
+        appState.set(appNum) // share the app state with Edition Selector
+        console.log("app:", appNum, "chunk:", currentSegId.substring(0,3))
+
+        // set the link info for the side panel
+        unitLinkState.set({
+            edition: props.source,
+            chunk: currentSegId.substring(0,3),
+            f1818Chp: sources.find(s  => s.label === `1818`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
+            f1823Chp: sources.find(s  => s.label === `1823`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
+            f1831Chp: sources.find(s  => s.label === `1831`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
+            fThomasChp: sources.find(s  => s.label === `Thomas`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
+            fMSChp: sources.find(s  => s.label === `MS`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1))?.id || ''
+        });
+        console.log(unitLinkState.get())
     }
 
     return (
         <Behavior node={props.teiNode}>
-            <span className={show.showVariants ? intensityClass : undefined}
-                  id={id.replace(/-.*/, '')}
-                  style={{ cursor: "pointer"}}
+            <span
+                id={id.replace(/-.*/, '')}
+                // className={[id.replace(/-.*/, ''), show.showVariants ? intensityClass : '', show.showVariants ? segBgClass : ''].join(' ')}
+                className={show.showVariants ? `${id.replace(/-.*/, '')} ${intensityClass} ${segBgClass}`: ''}
+                style={{ cursor: "pointer"}}
                   onClick={handleClick}>
-                {<TEINodes teiNodes={el.childNodes} {...props} />}
+                {<TEINodes teiNodes={el.childNodes} {...props}/>}
             </span>
         </Behavior>
     );
 };
+
+

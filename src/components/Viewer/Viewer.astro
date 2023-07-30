@@ -1,6 +1,9 @@
 ---
 import Controls from './Controls';
 import Layout from '../../layouts/Layout.astro';
+
+const { source } = Astro.params;
+
 ---
 <Layout>
   <main id="primary-content" role="main">
@@ -10,15 +13,15 @@ import Layout from '../../layouts/Layout.astro';
     <div>
       <div class="App">
         <section id='viewer'>
-          <Controls client:load />
+          <Controls client:only />
 
-          <div id="viewer__contents" class="viewer__cols">
+          <div id=`viewer__contents` class=`viewer__cols ${source}`>
             <slot/>
           </div>
 
           <hr class='line' />
           <footer id="viewer_pagination_controls">
-            <Controls client:load />
+            <Controls client:only />
           </footer>
         </section>
       </div>

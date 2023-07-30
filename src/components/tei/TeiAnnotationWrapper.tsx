@@ -1,5 +1,5 @@
 import React from 'react';
-import manicule from '../../images/manicule.svg';
+import manicule from '../../assets/images/manicule.svg';
 
 interface TeiAnnotationWrapperProps {
    showAnnotations: boolean;

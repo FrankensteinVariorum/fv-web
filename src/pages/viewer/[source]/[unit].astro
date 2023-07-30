@@ -4,6 +4,9 @@ import Viewer from "../../../components/Viewer/Viewer.astro"
 import { TeiBaseStyle, processTei } from 'astro-tei';
 import Tei from '../../../components/tei/tei';
 import slugify from "../../../components/helpers/slugify";
+import {appState, unitLinkState} from "../../../data/nanostores";
+
+const { source, unit } = Astro.params;
 
 export function getStaticPaths() {
     return sources.reduce((acc, s) => {
@@ -19,6 +22,28 @@ export function getStaticPaths() {
     }, [])
 }
 
+const processTeiElements = (teiContent) => {
+    // Define regex patterns for 'add', 'del', 'del-inner' elements
+    const addRegex = /<add ana="start"[^/]+?\/>(.*?)<add ana="end"\/>/g;
+    const delRegex = /<del ana="start"[^/]+?\/>(.*?)<del ana="end"\/>/g;
+    const delInnerRegex = /<del-INNER ana="start"[^/]+?\/>(.*?)<del-INNER ana="end"\/>/g;
+    const mdelRegex = /<mdel ana="start"\/>(.*?)<mdel ana="end"\/>/g;
+    const MSpEndRegex = /<milestone unit="tei:p-END"\/>/g;
+    const noteRegex = /<note ana="start"([^/]+?)\/>(.*?)<note ana="end"\/>/g;
+    const metamarkRegex = /<metamark ana="start"[^/]+?\/>(.*?)<metamark ana="end"\/>/g;
+
+    // process elements
+    teiContent = teiContent.replace(addRegex, '<add>$1</add>');
+    teiContent = teiContent.replace(delRegex, '<del>$1</del>');
+    teiContent = teiContent.replace(delInnerRegex, '<del-inner>$1</del-inner>');
+    teiContent = teiContent.replace(mdelRegex, '<mdel>$1</mdel>');
+    teiContent = teiContent.replace(MSpEndRegex, `<p-end/>`)
+    teiContent = teiContent.replace(noteRegex,'<note $1>$2</note>')
+    teiContent = teiContent.replace(metamarkRegex, '<metamark>$1</metamark>');
+
+    return teiContent;
+};
+
 const fetchData = async (url) => {
     const response = await fetch(url)
     if (response.status === 404) {
@@ -27,10 +52,9 @@ const fetchData = async (url) => {
     return await response.text()
 }
 
-const { source, unit } = Astro.params;
 
 // Get useful data for current unit
-const { label, uris, chunks, corresp } = sources.filter(s => s.label === source)[0]
+const { label, id, chunks, corresp } = sources.filter(s => s.label === source)[0]
         .units.filter(u => slugify(u.label) === unit)[0]
 
 // Edition sources are split in units already so can be fetched as discrete XML files.
@@ -38,24 +62,27 @@ const { label, uris, chunks, corresp } = sources.filter(s => s.label === source)
 
 let teiFile: string
 
-if (source !== "MS") {
-    // Eventually switch to fv-data.
-    // const dataUrl = `https://raw.githubusercontent.com/PghFrankenstein/fv-data/master/variorum-chunks/f${source}_${unit}.xml`
-    const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-web2023/main/src/teiFiles/f${source}_${unit}.xml`
+// if (source !== "MS") {
+//     // Eventually switch to fv-data.
+    const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f${source}_${unit}.xml`
     const text = await fetchData(dataUrl)
-    teiFile = text || `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">No TEI data found.</TEI>`
-} else {
-    // Download and stitch the URIs
-    let content = ""
-    for (const uri of uris) {
-        const dataUrl = uri.split('#')[0]
-        const text = await fetchData(dataUrl)
-        const part = text ? text.replace(/<\?xml version="1.0" encoding="UTF-8"\?>/gm, '') : `No TEI data found.`
-        content += part
-    }
 
-    teiFile = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${content}</TEI>`
-}
+    // teiFile = processTeiElements(text) || `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">No TEI data found.</TEI>`
+    teiFile = text || `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">No TEI data found.</TEI>`
+    processTeiElements(teiFile)
+
+// } else {
+//     // Download and stitch the URIs
+//     let content = ""
+//     for (const uri of uris) {
+//         const dataUrl = uri.split('#')[0]
+//         const text = await fetchData(dataUrl)
+//         const part = text ? text.replace(/<\?xml version="1.0" encoding="UTF-8"\?>/gm, '') : `No TEI data found.`
+//         content += part
+//     }
+//
+//     teiFile = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${content}</TEI>`
+// }
 
 // processTEI() will pre-process the TEI and return a
 // `JSDOM` serializable object.
@@ -77,7 +104,8 @@ const elements = teiDom.documentElement.getAttribute("data-elements").split(",")
 let spineData: string
 if (chunks) {
     for (const chunk of chunks) {
-        const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-standoff_Spine/spine_${chunk}.xml`
+        const chunkLabel = chunk.label
+        const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-standoff_Spine/spine_${chunkLabel}.xml`
         const chunkText = await fetchData(dataUrl)
         if (chunkText) {
             spineData += chunkText.replace(/<\?xml version="1.0" encoding="UTF-8"\?>/gm, '')
@@ -86,9 +114,9 @@ if (chunks) {
 }
 
 const spine = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${spineData}</TEI>`
----
 
-<Viewer>
+---
+<Viewer edition={source}>
     <TeiBaseStyle />
-    <Tei data={tei} elements={elements} spine={spine} source={source} client:load />
+    <Tei data={tei} elements={elements} spine={spine} source={source} unit={unit} client:load />
 </Viewer>
