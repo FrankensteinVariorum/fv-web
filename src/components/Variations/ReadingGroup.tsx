@@ -4,6 +4,7 @@ import {Reading, SegContext} from "../tei/variantContext";
 import {unitLinkState} from "../../data/nanostores";
 import TEI from "../../tei-processing/tei";
 
+
 interface Props {
     group: Reading
 }
