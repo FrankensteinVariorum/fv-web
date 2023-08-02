@@ -9,7 +9,7 @@ interface TEIProps {
 
 export const Del: TBehavior = (props: TEIProps) => {
     const el = props.teiNode as Element;
-    const n = el.getAttribute("n")
+    // const n = el.getAttribute("n")
 
     return (
         <Behavior node={props.teiNode}>
