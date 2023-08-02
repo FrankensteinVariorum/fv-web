@@ -1,0 +1,1 @@
+import{_ as s}from"./preload-helper.101896b7.js";const o=document.querySelector("#__astrotei"),e=o.firstChild;if(o.dataset.usebehaviors==="true"){const i=(await s(()=>import("./CETEI.9222fb79.js"),["_astro/CETEI.9222fb79.js","_astro/utilities.68e012a2.js"])).default,t=new i;t.els=e.dataset.elements.split(","),t.utilities.dom=e,t.applyBehaviors()}

@@ -11,8 +11,6 @@ import {Unclear} from "./unclear";
 import {PEnd} from "./pEnd";
 import {Add} from "./add";
 import {Note} from "./note";
-
-
 interface Props {
   data: string
   elements: string[]
@@ -58,12 +56,12 @@ export default function Tei({data, elements, spine, source, unit}: Props) {
     "tei-teiheader": TeiHeader,
     "tei-seg": (props) => <Seg source={source} spine={usableSpine} unit={unit} {...props} />,
     "tei-del": (props) => <Del {...props} />,
+    "tei-mdel": (props) => <Del {...props} />,
     "mdel": (props) => <Del {...props} />,
     "unclear": (props) => <Unclear {...props} />,
     "tei-p-end": (props) => <PEnd {...props} />,
     "tei-add": (props) => <Add {...props} />,
-    "tei-note": (props) => <Note {...props} />,
-
+    "tei-note": (props) => <Note source={source} unit={unit} {...props} />,
   };
 
   // Support server side and client side DOM processing.
@@ -72,7 +70,6 @@ export default function Tei({data, elements, spine, source, unit}: Props) {
   return(
     <SegContext.Provider value={{seg, setSeg}} >
       <AutoClickComponent/>
-
       <VariantContext.Provider value={{variant, setVariant}} >
         <aside id="viewer__marginalia"></aside>
         <BasicRouter doc={usableDoc} elements={elements} routes={routes}/>

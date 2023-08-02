@@ -47,7 +47,7 @@ const defaultUnitLink = {
 export const unitLinkState = atom(defaultUnitLink)
 
 
-const defaultApp: string = '1'
+const defaultApp: string = '6'
 export const appState = persistentAtom('appLocale', defaultApp, {
     encode: JSON.stringify,
     decode: JSON.parse,

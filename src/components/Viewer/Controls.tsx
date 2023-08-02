@@ -10,7 +10,7 @@ export default function Controls() {
     const [unit, setUnit] = useState<string|undefined>()
 
     useEffect(() => {
-        const [_, v, s, u] = window.location.pathname.split("/")
+        const [_, base, v, s, u] = window.location.pathname.split("/")
         setSource(s)
         setUnit(u)
     },[])

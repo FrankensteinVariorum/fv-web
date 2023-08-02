@@ -23,7 +23,7 @@ export default function Paging({ source, unit }) {
         if (currentPageIndex > 0) {
             const previousIndex = currentPageIndex - 1;
             setCurrentPageIndex(previousIndex);
-            const previousPage = `/viewer/${source}/${pages[previousIndex]}`
+            const previousPage = `/fv-web2023/viewer/${source}/${pages[previousIndex]}`
             window.location.replace(previousPage)
         }
     };
@@ -32,7 +32,7 @@ export default function Paging({ source, unit }) {
         if (currentPageIndex < pages.length - 1) {
             const nextIndex = currentPageIndex + 1;
             setCurrentPageIndex(nextIndex);
-            const nextPage = `/viewer/${source}/${pages[nextIndex]}`
+            const nextPage = `/fv-web2023/viewer/${source}/${pages[nextIndex]}`
             window.location.replace(nextPage)
         }
     };
@@ -41,7 +41,7 @@ export default function Paging({ source, unit }) {
 
     const handleUnitChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newUnit = event.target.value
-        const path = `/viewer/${source}/${slugify(newUnit)}`
+        const path = `/fv-web2023/viewer/${source}/${slugify(newUnit)}`
         window.location.replace(path)
     };
 

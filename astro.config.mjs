@@ -4,6 +4,7 @@ import tailwind from "@astrojs/tailwind";
 import image from "@astrojs/image";
 
 // https://astro.build/config
+
 export default defineConfig({
   integrations: [tailwind(), react(), image()],
   vite: {
@@ -15,4 +16,6 @@ export default defineConfig({
   fileExtensions: {
     ".tei": "tsx"
   },
+  site: 'https://frankensteinvariorum.github.io', // https://docs.astro.build/en/guides/deploy/github/
+  base: '/fv-web2023',
 });

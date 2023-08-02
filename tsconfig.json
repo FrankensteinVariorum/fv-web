@@ -16,8 +16,8 @@
     "jsx": "react",
   },
   "include": [
-    "demo/src/*",
-    "demo/src/**/*",
+    "/src/*",
+    "/src/**/*",
   ],
 
 }

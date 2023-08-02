@@ -2,16 +2,16 @@
 import { sources } from '../data/units.json'
 import slugify from './helpers/slugify.js';
 
-const start = `/viewer/${sources[0].label}/${slugify(sources[0].units[0].label)}`
+const start = `/fv-web2023/viewer/${sources[0].label}/${slugify(sources[0].units[0].label)}`
 ---
 
 <header>
   <nav>
-    <a href="">Home</a>
+    <a href="/fv-web2023/">Home</a>
     <a href={start}>Variorum Viewer</a>
-    <a href="/about">About</a>
-    <a href="/method">Method</a>
-    <a href="/data">Data</a>
-    <a href="/people">People</a>
+    <a href="/fv-web2023/about">About</a>
+    <a href="/fv-web2023/method">Method</a>
+    <a href="/fv-web2023/data">Data</a>
+    <a href="/fv-web2023/people">People</a>
   </nav>
 </header>

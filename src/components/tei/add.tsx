@@ -2,11 +2,14 @@ import React from 'react';
 import {Behavior, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 interface TEIProps {
+    source: string,
+    unit: string,
     teiNode: Node,
 }
 
 export const Add: TBehavior = (props: TEIProps) => {
     const el = props.teiNode as Element;
+    const n = el.getAttribute("n")
 
 
 
