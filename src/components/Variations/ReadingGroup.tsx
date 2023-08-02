@@ -22,7 +22,7 @@ const ReadingGroup = ({group}: Props) => {
             <div className='reading-group-title' >
                 {group.sources.map((ed) =>
                     group.value != "" ? (
-                        <a className={`clr--${ed.toLowerCase()}`} href={`../${ed}/${unitLinkState.get()[`f${ed}Chp`]}#${seg?.id}`}>{ed}, </a>
+                        <a className={`clr--${ed.toLowerCase()}`} href={`/fv-web2023/viewer/${ed}/${unitLinkState.get()[`f${ed}Chp`]}#${seg?.id}`}>{ed}, </a>
                     ) : <a className={`clr--${ed.toLowerCase()}`}>{ed}, </a>
                 )}
             </div>
