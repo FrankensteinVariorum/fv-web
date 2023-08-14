@@ -1,28 +1,35 @@
 ---
 import Controls from './Controls';
 import Layout from '../../layouts/Layout.astro';
+import Toolbar from '../Toolbar.astro'
+import Header from "../Header";
+import {useStore} from "@nanostores/react";
+import {fontState} from "../../data/nanostores";
 
 const { source } = Astro.params;
 
+// const font_size = useStore(fontState).toString() + 'em'
+//style=`font-size: ${font_size}
 ---
-<Layout>
+<Layout title='viewer'>
   <main id="primary-content" role="main">
     <h1>Variorum Viewer</h1>
   </main>
+
   <div id="root">
     <div>
       <div class="App">
         <section id='viewer'>
           <Controls client:only />
-
+          <Header source={source}/>
           <div id=`viewer__contents` class=`viewer__cols ${source}`>
+            <!-- <Toolbar /> -->
             <slot/>
           </div>
-
           <hr class='line' />
-          <footer id="viewer_pagination_controls">
+          <div id="viewer_pagination_controls">
             <Controls client:only />
-          </footer>
+          </div>
         </section>
       </div>
     </div>

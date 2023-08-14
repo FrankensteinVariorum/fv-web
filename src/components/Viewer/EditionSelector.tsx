@@ -1,7 +1,7 @@
-import React, {useContext, useEffect, useState} from 'react'
+import React from 'react'
 import {sources} from '../../data/units.json'
 import slugify from '../helpers/slugify';
-import {appState} from "../../data/nanostores";
+import {appState, decreaseFont, fontState, increaseFont} from "../../data/nanostores";
 
 export default function EditionSelector({source, unit}) {
     const handleEditionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
@@ -13,26 +13,34 @@ export default function EditionSelector({source, unit}) {
         if (newSourceData) {
             const appNum = appState.get()
             // if the new unit is not available (e.g. MS starts from C07), return the first unit available.
-            const newUnit = sources.find(s  => s.label === newSource).units.find(u => u.
-                        chunks.find(c => (c.label == currentChunk) && c.apps[0] <= appNum && appNum <= c.apps[1]))?.id
+            const newUnit = sources.find(s  => s.label === newSource).units.find(u =>
+                    u.chunks.find(c => (c.label == currentChunk) && (c.apps[0] <= appNum && appNum <= c.apps[1])))?.id
                     ||sources.find(s => s.label === newSource).units[0].id
-            const path = `/fv-web2023/viewer/${newSource}/${slugify(newUnit)}`
+            const path = `/viewer/${newSource}/${slugify(newUnit)}`
             window.location.replace(path)
         }
     };
 
     return (
         <div>
-            <form method="get" action="viewer">
-                <label className='bold-choose'>CHOOSE A VERSION</label>
-                <select className='select-style' name='tei' value={source} onChange={handleEditionChange}>
-                    {sources.map((source) => (
-                        <option className={source.label} value={source.label} key={source.label}>
-                            {source.label}
-                        </option>
-                    ))}
-                </select>
-            </form>
+            <div className='paging'>
+            <div className='in-line'>
+                <form method="get" action="viewer">
+                    <label className='bold-choose'>CHOOSE A VERSION</label>
+                    <select className='select-style' name='tei' value={source} onChange={handleEditionChange}>
+                        {sources.map((source) => (
+                            <option className={source.label} value={source.label} key={source.label}>
+                                {source.label}
+                            </option>
+                        ))}
+                    </select>
+                </form>
+            </div>
+            <div id='font_button' className='in-line'>
+                <button id="increase-font" onClick={increaseFont} disabled={fontState.get() >= 1.3}/>
+                <button id="decrease-font" onClick={decreaseFont} disabled={fontState.get() <= 0.8}/>
+            </div>
+            </div>
         </div>
     );
 }

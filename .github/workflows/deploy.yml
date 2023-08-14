@@ -1,10 +1,10 @@
-name: Deploy to GitHub Pages
+name: Deploy to Custom Doamin
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main]
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
   
@@ -34,6 +34,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to Custom Doamin
         id: deployment
         uses: actions/deploy-pages@v1
+
+      - name: Update Custom Domain
+        run: |
+          echo "frankensteinvariorum.org" > CNAME
+          git add CNAME
+          git commit -m "Update CNAME for custom domain"
+          git push origin main
