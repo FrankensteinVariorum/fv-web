@@ -17,5 +17,5 @@ export default defineConfig({
     ".tei": "tsx"
   },
   site: 'https://frankensteinvariorum.github.io', // https://docs.astro.build/en/guides/deploy/github/
-  base: '/fv-web2023',
+  // base: '/fv-web2023',
 });
