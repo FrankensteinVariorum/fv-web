@@ -1,28 +1,21 @@
 import React, {useEffect, useRef } from "react";
 import { useStore } from '@nanostores/react';
-import { showState, onVariantsChanged, onTextChanged } from "../../data/nanostores";
+import { showState, onVariantsChanged, onTextChanged, onNoteChanged } from "../../data/nanostores";
 
 export default function OptionsSelector () {
-    const segElements = useRef([]);
-    const pElements = useRef([]);
+    const textElements = useRef([]);
     const show = useStore(showState) // nano stores
 
-    // get all seg and p elements when the page opens
+    // get all tei-text elements when the page opens
     useEffect(() => {
-        segElements.current = [...document.querySelectorAll("tei-seg")];
-        pElements.current = [...document.querySelectorAll("tei-p")];
+        textElements.current = [...document.querySelectorAll("tei-text")];
     }, []);
 
     // add class to hide elements if showText is false; remove if true
     useEffect(() => {
-        if (segElements.current || !show[3]) {
-            segElements.current.forEach((s) => {
-                s.classList.toggle("tei-cdata", !show.showText);
-                s.classList.toggle("no-text", !show.showText);
-            });
-            pElements.current.forEach((p) => {
-                p.classList.toggle("tei-cdata", !show.showText);
-                p.classList.toggle("no-text", !show.showText);
+        if (textElements.current || !show[3]) {
+            textElements.current.forEach((t) => {
+                t.classList.toggle("no-text", !show.showText);
             });
         }
     },[show]);
@@ -39,15 +32,6 @@ export default function OptionsSelector () {
                     See Variants
                 </label>
 
-                {/*<label className='options-label'>*/}
-                {/*    <input*/}
-                {/*        name="annotation"*/}
-                {/*        type="checkbox"*/}
-                {/*        checked={show.showAnnotations}*/}
-                {/*        onChange={onAnnotationChanged}/>*/}
-                {/*    See Annotations*/}
-                {/*</label>*/}
-
                 <label className='options-label'>
                     <input
                         name="text"
@@ -55,6 +39,15 @@ export default function OptionsSelector () {
                         checked={show.showText}
                         onChange={onTextChanged}/>
                     See Text
+                </label>
+
+                <label className='options-label'>
+                    <input
+                        name="note"
+                        type="checkbox"
+                        checked={show.showNote}
+                        onChange={onNoteChanged}/>
+                    See Note
                 </label>
             </div>
     );

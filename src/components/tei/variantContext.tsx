@@ -32,3 +32,29 @@ export const SegContext = createContext<SegContextType>({
   seg: null,
   setSeg: () => console.warn('no seg id provider')
 });
+
+
+export interface MSTargetLink {
+  suffix: string
+}
+type MSTargetContextType = {
+  msTarget: MSTargetLink | null
+  setMSTarget: React.Dispatch<React.SetStateAction<MSTargetLink | null>>
+}
+export const MSTargetContext = createContext<MSTargetContextType>({
+  msTarget: null,
+  setMSTarget: () => console.warn('no ms target provider')
+});
+
+
+export interface ThomasThumbnail {
+  link: string
+}
+type ThomasThumbnailContextType = {
+  thomasThumbnail: ThomasThumbnail | null
+  setThomasThumbnail: React.Dispatch<React.SetStateAction<ThomasThumbnail | null>>
+}
+export const ThomasThumbnailContext = createContext<ThomasThumbnailContextType>({
+  thomasThumbnail: null,
+  setThomasThumbnail: () => console.warn('no thomas thumbnail provider')
+});

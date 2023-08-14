@@ -1,10 +1,17 @@
+// @ts-ignore
 import React, {useContext, useEffect, useRef, useState} from 'react';
+// @ts-ignore
 import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
-import {Reading, SegContext, VariantContext} from './variantContext';
+import {MSTargetContext, Reading, SegContext, ThomasThumbnailContext, VariantContext} from './variantContext';
 import { useStore } from '@nanostores/react';
 import {appState, showState, unitLinkState} from "../../data/nanostores";
+// @ts-ignore
 import {sources} from "../../data/units.json"
+// @ts-ignore
+import linkData from "../../data/thumbnails.json";
+
+// read variorum data from spine files, set intensity level of variants, set seg selected highlighted, define side panel links, and set external links for MS and Thomas
 
 interface TEIProps {
     teiNode: Node,
@@ -25,6 +32,9 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const show = useStore(showState); // nano stores
     const { setVariant } = useContext(VariantContext);
     const { seg, setSeg } = useContext(SegContext); // share which seg selected among different editions; this is for the side panel
+    const { setMSTarget } = useContext(MSTargetContext);
+    const { setThomasThumbnail} = useContext(ThomasThumbnailContext)
+
     const el = props.teiNode as Element;
     const id = el.getAttribute("xml:id");
     const chunk = id?.substring(0,3);
@@ -35,7 +45,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const [ segBgClass, setSegBgClass ] = useState<string>('')
     const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`);
 
-    // set intensity level and highlight background for seg
+    // set intensity level and highlight background for seg when the page opens
     useEffect(() => {
         // set intensity level
         const nAttr = ptr ? ptr.closest('app').getAttribute('n') : undefined;
@@ -70,6 +80,13 @@ export const Seg: TBehavior = (props: TEIProps) => {
     }
 
     const handleClick = async (event: React.MouseEvent<HTMLSpanElement>) => {
+
+        // close the side panel when hide variants
+        if (!show.showVariants) {
+            setVariant(null)
+            return
+        }
+
         const app = ptr.closest("app") as Element
         const rdgGrp = app.querySelectorAll("rdgGrp")
 
@@ -77,65 +94,33 @@ export const Seg: TBehavior = (props: TEIProps) => {
             const readings: Reading[] = []
             for (const rg of Array.from(rdgGrp)) {
                 const n = rg.getAttribute("n")
-                // const value = !n ? "" : JSON.parse(n.replace(/"/g, '\\"').replace(/'/g, '"')).join(" ")
 
-                // // +++----------- for debug---------------+++
-                // console.log("raw n:\n",n)
-                // console.log("escape double quotes:\n", n?.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')))
-                //
-                // console.log("replace single to double quotes:\n", n?.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')).
-                // replace(/'(?=(?:[^"]*"[^"]*")*[^"]*$)/g, '"').
-                // replace(/'([^']+?)'([,\]])/g, '"\$1"\$2').
-                // replace(/\['/g, '["'))
-                //
-                // console.log("single to double cont.:\n", n?.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')).
-                // replace(/'(?=(?:[^"]*"[^"]*")*[^"]*$)/g, '"').
-                // replace(/'([^']+?)'([,\]])/g, '"\$1"\$2').
-                // replace(/\['/g, '["').
-                // replace(/',/g, '",').
-                // replace(/, '/g, ', "'))
-                //
-                // console.log("unescape the double quote if it participates to wrap the token:\n", n?.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')).
-                // replace(/'(?=(?:[^"]*"[^"]*")*[^"]*$)/g, '"').
-                // replace(/'([^']+?)'([,\]])/g, '"\$1"\$2').
-                // replace(/\['/g, '["').
-                // replace(/',/g, '",').
-                // replace(/, '/g, ', "').
-                // replace(/\\"(, ")/g, '"\$1'))
-                // // +++----------------------------------+++
+                // +++----- for debugging -----+++
+                console.log(n?.replace(/'(?:(?!',)[^'])*',/g, match => match.replace(/"/g, '\\"')))
+                console.log(n?.replace(/'(?:(?!',)[^'])*',/g, match => match.replace(/"/g, '\\"'))
+                    // replace all single quotes which wrap the tokens
+                    .replace(/\['/g, '["')
+                    .replace(/['"], ['"]/g, '", "')
+                    .replace(/']/g, '"]'))
+                // +++-------------------------+++
 
                 const value = !n ? "" : JSON.parse(
                     // escape all double quotes inside single quotes
-                    n.replace(/'(?:(?!',)[^'])*'/g, match => match.replace(/"/g, '\\"')).
-                        // then, replace single quotes wrapping the token to double quotes for different cases
-                        replace(/'(?=(?:[^"]*"[^"]*")*[^"]*$)/g, '"').
-                        replace(/'([^']+?)'([,\]])/g, '"\$1"\$2').
-                        replace(/\['/g, '["').
-                        replace(/',/g, '",').
-                        replace(/, '/g, ', "').
-                        // unescape the double quote if it participates to wrap the token
-                        replace(/\\"(, ")/g, '"\$1')
+                    n.replace(/'(?:(?!',)[^'])*'([,\]])/g, match => match.replace(/"/g, '\\"'))
+                        // replace all single quotes which wrap the tokens
+                        .replace(/\['/g, '["')
+                        .replace(/['"], ['"]/g, '", "')
+                        .replace(/']/g, '"]')
                 ).join(" ");
 
                 // Here we want to send the value to CETEIcean to render the XML.
                 const rdgs = rg.querySelectorAll("rdg")
                 let sources: string[] = []
-                for (const r of rdgs) {
+                rdgs.forEach(r => {
                     // Follow pointers to XML for MS; the rest can use @n.
                     const wit = r.getAttribute("wit") || ""
-                    // if (wit === "#fMS") {
-                    //     // const value = await getTargetXml(r)
-                    //     // // Here we want to send the value to CETEIcean to render the XML.
-                    //     // if (value) {
-                    //     //     readings.push({
-                    //     //         sources: ["MS"],
-                    //     //         value
-                    //     //     })
-                    //     // }
-                    // } else {
-                        sources.push(wit.replace("#f", "") || "")
-                    // }
-                }
+                    sources.push(wit.replace("#f", "") || "")
+                })
                 if (sources.length > 0) {
                     readings.push({
                         sources,
@@ -143,63 +128,22 @@ export const Seg: TBehavior = (props: TEIProps) => {
                     })
                 }
             }
-
-            // Array.from(rdgGrp).map(rg => {
-            //     let value = JSON.parse(rg.getAttribute("n")
-            //         ?.replace(/'/g, '"')
-            //         .replace(/<.*?\/?>/g, " ") || '[]').join(" ")
-            //     let sources: string[] = []
-            //     for (const r of rg.querySelectorAll("rdg")) {
-            //         // Follow pointers to XML for Thomas and FV; the rest can use @n.
-            //         const wit = r.getAttribute("wit") || ""
-            //         if (wit === "#fThomas") {
-            //             // sources.push("Thomas")
-            //             const [url, id] = r.querySelector("ptr")?.getAttribute("target")?.split("#")
-
-            //             const xml = await fetchData(url) || ""
-                        // const dom = (new DOMParser).parseFromString(xml, "text/xml")
-                        // const seg = Array.from(dom.getElementsByTagName("seg")).filter(e => e.getAttribute("xml:id") === id)[0]
-                        // if (seg.textContent !== value) {
-                        //     readings.push({
-                        //         sources: ["Thomas"],
-                        //         value: `will be XML ${seg.textContent}`
-                        //     })
-                        // } else {
-                        //     sources.push("Thomas")
-                        // }
-            //         } else if (wit === "#fMS") {
-            //             const ptr = r.querySelector("ptr")
-            //             if (ptr) {
-            //                 const [url, id] = r.querySelector("ptr")?.getAttribute("target")?.split("#")
-            //                 // const xml = await fetchData(url) || ""
-            //                 // const dom = (new DOMParser).parseFromString(xml, "text/xml")
-            //                 // console.log(Array.from(dom.getElementsByTagName("seg")).filter(e => e.getAttribute("xml:id") === id))
-            //                 readings.push({
-            //                     sources: ["MS"],
-            //                     value: `will be MS XML`
-            //                 })
-            //             }
-            //         } else {
-            //             sources.push(wit.replace("#f", "") || "")
-            //         }
-            //     }
-            //     console.log(sources)
-            //     if (sources.length > 0) {
-            //         readings.push({
-            //             sources,
-            //             value
-            //         })
-            //     }
-            // })
-
             return readings
         }
 
-        // Only update once all data is obtained
-        const readings = await getReadings()
-        setVariant({ readings })
+        // get the seg id used for seg background in the current page
+        let currentSegId = event.target.closest("span[class*='app']")?.className.split(' ')[0].replace(/-.*/, '');
 
-        // highlight or not highlight the specific seg element
+        if (seg?.id != currentSegId) {
+        // Only update once all data is obtained
+            const readings = await getReadings()
+            setVariant({ readings })
+        } else {
+            setVariant(null)
+        }
+
+        // a function to highlight or not highlight the specific seg element
+        // input: the id of seg to process and message whether highlight or not highlight
         const toggleSegBg = (segId, setHighlight) => {
             const segElementsSelected = document.getElementsByClassName(segId);
             Array.from(segElementsSelected).forEach((node) =>
@@ -207,38 +151,68 @@ export const Seg: TBehavior = (props: TEIProps) => {
             );
         };
 
-        // not highlight the seg selected previously
+        // 1. not highlight the seg which is selected previously
+        // 2. not highlight the seg which is highlighted already and is selected again
         if (seg?.id) {toggleSegBg(seg?.id, false)}
 
-        // get seg id
-        let currentSegId = event.target.closest("span[class*='app']").className.split(' ')[0].replace(/-.*/, ''); // seg id used for seg background in the local page
-        setSeg({id: currentSegId}) // seg if info used for side panel in other edition pages
+        let appNum
+        if (seg?.id != currentSegId) {
+            setSeg({id: currentSegId}) // seg id info used for side panel in other edition pages
+            // highlight the seg selected
+            toggleSegBg(currentSegId, true)
+            // get the current app number
+            appNum = currentSegId?.split('app')[1];
+            // share the app number with Edition Selector to help determine the chapter to jump
+            // notice: determining the chapter to jump is based on the information of chunk number and app number
+            appState.set(appNum)
+            console.log("app:", appNum, "chunk:", currentSegId.substring(0,3))
+            // set the link info for the side panel
+            unitLinkState.set({
+                edition: props.source,
+                chunk: currentSegId.substring(0,3),
+                f1818Chp: sources.find(s  => s.label === `1818`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
+                f1823Chp: sources.find(s  => s.label === `1823`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
+                f1831Chp: sources.find(s  => s.label === `1831`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
+                fThomasChp: sources.find(s  => s.label === `Thomas`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
+                fMSChp: sources.find(s  => s.label === `MS`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1))?.id || ''
+            });
+            console.log(unitLinkState.get())
+        } else {
+            setSeg('')
+        }
 
-        // highlight the seg selected
-        toggleSegBg(currentSegId, true)
+        // MS external link
+        const witDetail = app.querySelector(`witDetail[wit='#fMS']`)
+        const MS_Target = props.source == 'MS' ? witDetail?.getAttribute("target").replace('sga:', '') : null
+        setMSTarget(MS_Target)
 
-        const appNum = currentSegId?.split('app')[1]; // get the current app number
-        appState.set(appNum) // share the app state with Edition Selector
-        console.log("app:", appNum, "chunk:", currentSegId.substring(0,3))
+        // Thomas external link
+        if (props.source == 'Thomas') {
+            const note = el.querySelector("tei-note") as Element
+            const add = el.querySelector("tei-add") as Element
+            const del = el.querySelector("tei-del") as Element
+            console.log("seg", el)
+            console.log("note",note)
+            console.log("add",add)
+            console.log("del",del)
 
-        // set the link info for the side panel
-        unitLinkState.set({
-            edition: props.source,
-            chunk: currentSegId.substring(0,3),
-            f1818Chp: sources.find(s  => s.label === `1818`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
-            f1823Chp: sources.find(s  => s.label === `1823`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
-            f1831Chp: sources.find(s  => s.label === `1831`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
-            fThomasChp: sources.find(s  => s.label === `Thomas`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
-            fMSChp: sources.find(s  => s.label === `MS`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1))?.id || ''
-        });
-        console.log(unitLinkState.get())
+            if (!(note || add || del)) {setThomasThumbnail(null); return}
+
+            let ThomasPageNum = Math.min(Number(note?.getAttribute("n")||999), Number(add?.getAttribute("n")||999), Number(del?.getAttribute("n")||999)) || null
+            console.log("ThomasPageNum",ThomasPageNum)
+            const ThomasThumbnail = props.source === "Thomas" && ThomasPageNum
+                ? 'https://www.themorgan.org/' +
+                linkData.find(ld => ld.unit == props.unit && ld.page[0] == ThomasPageNum || ld.page[1] == ThomasPageNum)?.url
+                : null
+            setThomasThumbnail(ThomasThumbnail)
+            console.log("ThomasThumbnail",ThomasThumbnail)
+        }
     }
 
     return (
         <Behavior node={props.teiNode}>
             <span
                 id={id.replace(/-.*/, '')}
-                // className={[id.replace(/-.*/, ''), show.showVariants ? intensityClass : '', show.showVariants ? segBgClass : ''].join(' ')}
                 className={show.showVariants ? `${id.replace(/-.*/, '')} ${intensityClass} ${segBgClass}`: ''}
                 style={{ cursor: "pointer"}}
                   onClick={handleClick}>
@@ -247,5 +221,3 @@ export const Seg: TBehavior = (props: TEIProps) => {
         </Behavior>
     );
 };
-
-

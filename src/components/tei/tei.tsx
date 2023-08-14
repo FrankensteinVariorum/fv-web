@@ -1,9 +1,12 @@
-import React, {useEffect, useState} from "react";
-import BasicRouter from '@astro-tei/react';
-import { DefaultBehaviors } from "@astro-tei/react";
-import type { IRoutes } from "@astro-tei/react";
+import React, {useState} from "react";
+import { BasicRouter, DefaultBehaviors, IRoutes } from "@astro-tei/react";
 import { Seg } from './seg';
-import {VariantContext, Variant, SegInfo, SegContext} from "./variantContext";
+import {
+  VariantContext, Variant,
+  SegInfo, SegContext,
+  MSTargetLink, MSTargetContext,
+  ThomasThumbnailContext, ThomasThumbnail
+} from "./variantContext";
 import Variation from "../Variations/Variation";
 import {AutoClickComponent} from "../helpers/AutoClickSeg";
 import {Del} from "./del";
@@ -11,6 +14,10 @@ import {Unclear} from "./unclear";
 import {PEnd} from "./pEnd";
 import {Add} from "./add";
 import {Note} from "./note";
+
+
+
+// this tei component is for reading panel
 interface Props {
   data: string
   elements: string[]
@@ -37,6 +44,8 @@ if (typeof DOMParser !== 'undefined') {
 export default function Tei({data, elements, spine, source, unit}: Props) {
   const [variant, setVariant] = useState<Variant>()
   const [seg, setSeg] = useState<SegInfo>();
+  const [msTarget, setMSTarget] = useState<MSTargetLink>();
+  const [thomasThumbnail, setThomasThumbnail] = useState<ThomasThumbnail>(null)
 
   const {
     Tei,
@@ -68,16 +77,17 @@ export default function Tei({data, elements, spine, source, unit}: Props) {
   const usableDoc = localParser(data)
 
   return(
-    <SegContext.Provider value={{seg, setSeg}} >
-      <AutoClickComponent/>
-      <VariantContext.Provider value={{variant, setVariant}} >
-        <aside id="viewer__marginalia"></aside>
-        <BasicRouter doc={usableDoc} elements={elements} routes={routes}/>
-        <aside id="viewer_variations">
-          <Variation source={source}/>
-        </aside>
-      </VariantContext.Provider>
-    </SegContext.Provider>
-
+    <ThomasThumbnailContext.Provider value={{thomasThumbnail,setThomasThumbnail}}>
+      <MSTargetContext.Provider value={{msTarget, setMSTarget}}>
+        <SegContext.Provider value={{seg, setSeg}} >
+          <AutoClickComponent/>
+          <VariantContext.Provider value={{variant, setVariant}} >
+            <aside id="viewer__marginalia"/>
+            <BasicRouter doc={usableDoc} elements={elements} routes={routes}/>
+            <Variation/>
+          </VariantContext.Provider>
+        </SegContext.Provider>
+      </MSTargetContext.Provider>
+    </ThomasThumbnailContext.Provider>
   )
 }

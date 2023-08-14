@@ -1,35 +1,27 @@
-import React, {useContext} from 'react';
-import FvStore from '../data/old-store';
-import sgalogo from '../assets/images/sgalogo.png'
+// @ts-ignore
+import React from 'react';
+// @ts-ignore
+import {sources} from '../data/units.json'
+// @ts-ignore
 import variations from '../assets/images/intensity_legend.svg';
 import EditionDot from './helpers/EditionDot';
 
-interface EditionProps {
-    edition: string | undefined;
+interface SourceProps {
+    source: string | undefined;
 }
 
-export default function Header({edition}: EditionProps) {
-    const editions = FvStore.editions.map((e, index) =>
-        <label key={index} className='edition-label'><EditionDot edition={e.name} key={e.name}/>{e.name}</label>);
-    let sga
-    if (edition) {
-        if (edition! === 'MS') {
-            sga = <div id="sga">
-                <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30"><img src={sgalogo.src}/></a>
-                <div>View the manuscript facsimile, transcription and more on the <a href="http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/iii/#/p30">Shelley-Godwin Archive</a></div>
-                <hr/>
-            </div>
-        }
-    }
+export default function Header({source}: SourceProps) {
+    const sourceLabels = sources.map((s) =>
+        <label key={s.label} className='edition-label'><EditionDot edition={s.label} key={s.label}/>{s.label}</label>);
     return (
         <div id='header'>
             <header className='viewer__cols'>
                 <div id='viewer__legend-editions'>
-                    {editions}
+                    {sourceLabels}
                 </div>
                 <div id='viewer__title'  className='center-label'>
-                    {edition ?
-                    <h2>{edition} Edition</h2>
+                    {source ?
+                    <h2>{source} Edition</h2>
                     : <h2>Edition</h2>}
                 </div>
                 <div id='viewer__legend-variance'>
@@ -44,7 +36,6 @@ export default function Header({edition}: EditionProps) {
                 <div className='center-label'>Text</div>
                 <div className='center-label'>Variations</div>
             </div>
-            {sga}
         </div>
 
     );

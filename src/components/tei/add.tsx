@@ -1,4 +1,6 @@
+// @ts-ignore
 import React from 'react';
+// @ts-ignore
 import {Behavior, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 interface TEIProps {
@@ -9,16 +11,18 @@ interface TEIProps {
 
 export const Add: TBehavior = (props: TEIProps) => {
     const el = props.teiNode as Element;
-    const n = el.getAttribute("n")
-
-
+    const place = el.getAttribute('place')
 
     return (
-        // (el.childNodes.length !== 1 && el.childNodes[0].nodeName !== 'metamark') ?
         <Behavior node={props.teiNode}>
             <ins>
-                <span className='insertion'>^</span>
-                    <TEINodes teiNodes={el.childNodes} {...props} />
+                {
+                    place == "sublinear" ?
+                        <sub className='insertion'>^</sub>
+                    :
+                        <sup className='insertion'>^</sup>
+                }
+                <TEINodes teiNodes={el.childNodes} {...props} />
             </ins>
         </Behavior>
 // : null

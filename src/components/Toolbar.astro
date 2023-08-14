@@ -1,0 +1,34 @@
+---
+import { sources } from '../data/units.json'
+import slugify from './helpers/slugify.js';
+import Controls from "./Viewer/Controls";
+
+const start = `/fv-web2023/viewer/${sources[0].label}/${slugify(sources[0].units[0].label)}`
+// let isOpen = false;
+// let startY = 0;
+//
+// function handleTouchStart(e) {
+//     startY = e.touches[0].clientY;
+// }
+//
+// function handleTouchMove(e) {
+//     const currentY = e.touches[0].clientY;
+//     const deltaY = currentY - startY;
+//     isOpen = deltaY > 50;
+// }
+//
+// function handleTouchEnd() {
+//     isOpen = false;
+// }
+
+---
+
+<!-- ontouchstart={handleTouchStart} ontouchmove={handleTouchMove} ontouchend={handleTouchEnd} -->
+<div id="mobile_toolbar" >
+    <Controls client:only />
+</div>
+<!--
+<div id="fullscreen_toolbar" >
+    <Controls client:only />
+</div>
+-->

@@ -1,5 +1,5 @@
 // This script is to scrape the thumbnails for Thomas.
-// Run `node scrapeLink.js` in `/src/data` directory in the terminal to prefetch the data
+// Run `node thumbnails.js` in `/src/data` directory in the terminal to prefetch the data
 
 import puppeteer from 'puppeteer';
 import fs from 'fs';
