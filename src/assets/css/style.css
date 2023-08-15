@@ -335,10 +335,6 @@ p,ol,ul,th,td,dl,dd,dt,address,div,section,article,aside {
 }
 
 /* !BASIC STRUCTURE */
-html {
-    scroll-behavior: smooth;
-}
-
 html,body {
     width: 100vw;
     height: 100%;
@@ -512,6 +508,9 @@ h2,.h2 {
     line-height: 2.9999848862rem;
     margin-top: 2.121315rem;
     margin-bottom: 1.0606628436rem;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
 }
 
 h3,.h3 {
@@ -520,6 +519,8 @@ h3,.h3 {
     margin-top: 1.0606628436rem;
     margin-bottom: 0;
     text-transform: uppercase;
+    font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif;
+    font-weight: 600;
 }
 
 @media only screen and (min-width : 30em) {
@@ -551,6 +552,8 @@ h4,.h4 {
     line-height: 2.121315rem;
     margin-top: 1.0606628436rem;
     margin-bottom: 0;
+    font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 
 @media only screen and (min-width : 30em) {
@@ -581,9 +584,12 @@ h5,.h5 {
     font-size: 1rem;
     line-height: 2.121315rem;
     margin-top: 1.5rem;
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-style: italic;
     margin-bottom: 0;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 h6,.h6 {
@@ -593,6 +599,8 @@ h6,.h6 {
     margin-bottom: 0;
     font-weight: 400;
     color: #8c8783;
+    font-family: Georgia, serif;
+    font-style: italic;
 }
 
 dl {
@@ -662,7 +670,7 @@ sub,sup {
     position: relative;
     font-size: 0.7071085624rem;
     line-height: 0;
-    vertical-align: baselineheight;
+    vertical-align: baseline;
     background: initial;
 }
 
@@ -1248,8 +1256,7 @@ body > footer a:hover {
 }
 
 #footer-identity {
-    background: url(../../assets/images/logo/fv-typemark-reverse.svg) no-repeat;
-    background-position: bottom center;
+    background: url(../../assets/images/logo/fv-typemark-reverse.svg) no-repeat bottom center;
     grid-row: 3;
     height: 4.2426086258rem;
 }
@@ -1265,6 +1272,7 @@ body > footer a:hover {
 /*main { margin: 5.9999395448rem auto; }*/
 main {
     margin-top: 5rem;
+    line-height: 1.5rem;
 }
 
 section {
@@ -1290,10 +1298,6 @@ main#primary-content h1 {
     }
 }
 
-main {
-    line-height: 1.5rem;
-}
-
 main > * {
     margin-left: auto;
     margin-right: auto;
@@ -1316,12 +1320,6 @@ main > p,main h1,main h2,main h3,main h4,main h5,main h6,main ul,main ol,main li
 
 .fontfamily-alt {
     font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif;
-}
-
-h2 {
-    font-style: italic;
-    width: 100%;
-    text-align: center;
 }
 
 main h2 {
@@ -1360,12 +1358,6 @@ main h1 + h2:after {
     display: none;
 }
 
-h3 {
-    font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
 main h3:nth-of-type(2n) {
     position: relative;
 }
@@ -1381,22 +1373,6 @@ main h3:nth-of-type(2n):before {
     left: -100px;
     border-radius: 100px;
     background-color: #fff8f2;
-}
-
-h4 {
-    font-family: "ITCFranklinGothic", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-}
-
-h5 {
-    font-family: Georgia, serif;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-h6 {
-    font-family: Georgia, serif;
-    font-style: italic;
 }
 
 @media only screen and (min-width : 46.25em) {
@@ -1538,61 +1514,60 @@ ul.links a:hover {
     background-color: #FDDAC0;
 }
 
-.clr_bg--ms {
+.ed-MS,.clr_bg--ms {
     background-color: #8380E2
 }
 
-.clr_bg--1818 {
+.ed-1818,.clr_bg--1818 {
     background-color: #FDB27B
 }
 
-.clr_bg--thomas {
+.ed-Thomas,.clr_bg--thomas {
     background-color: #E378BF
 }
 
-.clr_bg--1823 {
+.ed-1823,.clr_bg--1823 {
     background-color: #6FBCC0
 }
 
-.clr_bg--1831 {
+.ed-1831,.clr_bg--1831 {
     background-color: #D95369
 }
 
-.seg_bg--ms {
+span.seg_bg--ms {
     background-color: rgba(131, 128, 226, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #3a3788;
 }
 
-.seg_bg--1818 {
+span.seg_bg--1818 {
     background-color: rgba(253, 178, 123, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #9d6237;
 }
 
-.seg_bg--thomas {
+span.seg_bg--thomas {
     background-color: rgba(227, 120, 191, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #913572;
 }
 
-.seg_bg--1823 {
+span.seg_bg--1823 {
     background-color: rgba(111, 188, 192, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #2a6467;
 }
 
-.seg_bg--1831 {
+span.seg_bg--1831 {
     background-color: rgba(217, 83, 105, 0.7) !important;
     border-width: 2px 0;
     border-style: solid none;
     border-color: #801e2e;
 }
-
 
 [class *= "app-intensity"] *:not(tei-head):not(tei-pb) {
     background-color: inherit;
@@ -1652,7 +1627,7 @@ ul.links a:hover {
 }
 
 option:checked {
-     background-color: wheat;
+     background-color: #FDDAC0;
 }
 
 @media only screen and (max-width: 46.25em){
@@ -1809,7 +1784,7 @@ option:checked {
     }
 }
 
-#viewer_variations div.link-list>a.morgan_logo >img {
+#viewer_variations div.link-list>a.morgan_logo>img {
     border: double;
 }
 
@@ -1928,26 +1903,6 @@ option:checked {
 
 .dot-break {
     opacity: 0;
-}
-
-.ed-1818 {
-    background-color: #FDB27B;
-}
-
-.ed-1823 {
-    background-color: #6FBCC0;
-}
-
-.ed-1831 {
-    background-color: #D95369;
-}
-
-.ed-Thomas {
-    background-color: #E378BF;
-}
-
-.ed-MS {
-    background-color: #8380E2;
 }
 
 .right {
@@ -2160,7 +2115,7 @@ div#viewer_pagination_controls #viewer__controls > div:before {
     padding: 0.3750037785rem;
 }
 
-.select-style > .css-yk16xz-control {
+.select-style > * {
     border-color: #b2afac;
     border-width: 2px;
     border-radius: 4px;

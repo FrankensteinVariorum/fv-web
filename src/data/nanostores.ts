@@ -22,7 +22,6 @@ export function onVariantsChanged() {
 export function onTextChanged() {
     showState.set({
         showVariants: showState.get().showVariants,
-        // showAnnotations: showState.get().showAnnotations,
         showText: !showState.get().showText,
         showNote: showState.get().showNote,
     });

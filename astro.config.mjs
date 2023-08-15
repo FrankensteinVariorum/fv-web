@@ -16,6 +16,7 @@ export default defineConfig({
   fileExtensions: {
     ".tei": "tsx"
   },
+<<<<<<< HEAD
   site: 'https://frankensteinvariorum.github.io',
   // https://docs.astro.bnpm install netlify-cli -guild/en/guides/deploy/github/
   // base: '/fv-web2023',
@@ -25,3 +26,8 @@ export default defineConfig({
   //   split: true,
   // },
 });
+=======
+  site: 'https://frankensteinvariorum.github.io', // https://docs.astro.build/en/guides/deploy/github/
+  // base: '/fv-web2023',
+});
+>>>>>>> main
