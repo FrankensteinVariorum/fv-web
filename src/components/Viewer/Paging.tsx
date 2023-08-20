@@ -1,3 +1,4 @@
+import React from "react";
 import {sources} from '../../data/units.json'
 import slugify from '../helpers/slugify';
 import {useEffect, useState} from "react";
@@ -14,7 +15,7 @@ export default function Paging({ source, unit }) {
         const chapter = currentURL[currentURL.length - 1].split('#')[0];
         const pageIndex = pages.findIndex((p) => p === chapter);
         setCurrentPageIndex(pageIndex)
-    },[source,])
+    },[])
 
     const goToPreviousPage = () => {
         if (currentPageIndex > 0) {

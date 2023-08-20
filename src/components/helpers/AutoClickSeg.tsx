@@ -6,7 +6,6 @@ export const AutoClickComponent = () => {
     useEffect(()=>{
             const fragmentIdentifier = window.location.hash; // Get ID from URL
             const id = fragmentIdentifier.substring(1); // Remove the '#' symbol
-            console.log('seg id:', id)
             const span = document.getElementById(id);
             if (span) {
                 span.click();

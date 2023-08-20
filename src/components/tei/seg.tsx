@@ -82,10 +82,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const handleClick = async (event: React.MouseEvent<HTMLSpanElement>) => {
 
         // close the side panel when hide variants
-        if (!show.showVariants) {
-            setVariant(null)
-            return
-        }
+        if (!show.showVariants) {setVariant(null); return}
 
         const app = ptr.closest("app") as Element
         const rdgGrp = app.querySelectorAll("rdgGrp")
@@ -96,8 +93,8 @@ export const Seg: TBehavior = (props: TEIProps) => {
                 const n = rg.getAttribute("n")
 
                 // +++----- for debugging -----+++
-                console.log(n?.replace(/'(?:(?!',)[^'])*',/g, match => match.replace(/"/g, '\\"')))
-                console.log(n?.replace(/'(?:(?!',)[^'])*',/g, match => match.replace(/"/g, '\\"'))
+                console.log(n?.replace(/'(?:(?!['"],)[^'])*(['"][,\]])/g, match => match.replace(/"/g, '\\"')))
+                console.log(n?.replace(/'(?:(?!['"],)[^'])*(['"][,\]])/g,  match => match.replace(/"/g, '\\"'))
                     // replace all single quotes which wrap the tokens
                     .replace(/\['/g, '["')
                     .replace(/['"], ['"]/g, '", "')
@@ -106,11 +103,12 @@ export const Seg: TBehavior = (props: TEIProps) => {
 
                 const value = !n ? "" : JSON.parse(
                     // escape all double quotes inside single quotes
-                    n.replace(/'(?:(?!',)[^'])*'([,\]])/g, match => match.replace(/"/g, '\\"'))
+                    n.replace(/'(?:(?!['"],)[^'])*(['"][,\]])/g, match => match.replace(/"/g, '\\"'))
                         // replace all single quotes which wrap the tokens
                         .replace(/\['/g, '["')
                         .replace(/['"], ['"]/g, '", "')
                         .replace(/']/g, '"]')
+                        .replace('\\"]', '"]')
                 ).join(" ");
 
                 // Here we want to send the value to CETEIcean to render the XML.
@@ -191,21 +189,15 @@ export const Seg: TBehavior = (props: TEIProps) => {
             const note = el.querySelector("tei-note") as Element
             const add = el.querySelector("tei-add") as Element
             const del = el.querySelector("tei-del") as Element
-            console.log("seg", el)
-            console.log("note",note)
-            console.log("add",add)
-            console.log("del",del)
 
             if (!(note || add || del)) {setThomasThumbnail(null); return}
 
             let ThomasPageNum = Math.min(Number(note?.getAttribute("n")||999), Number(add?.getAttribute("n")||999), Number(del?.getAttribute("n")||999)) || null
-            console.log("ThomasPageNum",ThomasPageNum)
             const ThomasThumbnail = props.source === "Thomas" && ThomasPageNum
                 ? 'https://www.themorgan.org/' +
                 linkData.find(ld => ld.unit == props.unit && ld.page[0] == ThomasPageNum || ld.page[1] == ThomasPageNum)?.url
                 : null
             setThomasThumbnail(ThomasThumbnail)
-            console.log("ThomasThumbnail",ThomasThumbnail)
         }
     }
 
