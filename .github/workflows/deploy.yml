@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: 18
           cache: pnpm
-          cache-dependency-path: "./package-lock.json"
+          cache-dependency-path: "./pnpm-lock.yaml"
 
       - name: Install
         shell: "bash"
@@ -50,8 +50,7 @@ jobs:
         shell: "bash"
         run: |
           cd .
-          $PACKAGE_MANAGER run build
-        
+          pnpm run build
         
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v1
