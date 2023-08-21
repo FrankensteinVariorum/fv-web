@@ -15,6 +15,5 @@ export default defineConfig({
   fileExtensions: {
     ".tei": "tsx"
   },
-
   site: 'https://frankensteinvariorum.github.io',
 });

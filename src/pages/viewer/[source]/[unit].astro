@@ -5,7 +5,6 @@ import { TeiBaseStyle, processTei } from 'astro-tei';
 import Tei from '../../../components/tei/tei';
 import slugify from "../../../components/helpers/slugify";
 
-
 const { source, unit } = Astro.params;
 
 export function getStaticPaths() {
@@ -23,23 +22,11 @@ export function getStaticPaths() {
 }
 
 const raiseTeiElements = (teiContent) => {
-    // Define regex patterns for 'add', 'del', 'del-inner' elements
-    const addRegex = /<add .+?ana="start"[^/]+?\/>(.*?)<add ana="end"\/>/g;
-    const delRegex = /<del .+?ana="start"[^/]+?\/>(.*?)<del ana="end"\/>/g;
-    const delInnerRegex = /<del-INNER ana="start"[^/]+?\/>(.*?)<del-INNER ana="end"\/>/g;
-    const mdelRegex = /<mdel ana="start"\/>(.*?)<mdel ana="end"\/>/g;
+    // Define regex patterns
     const MSpEndRegex = /<milestone unit="tei:p-END"\/>/g;
-    const noteRegex = /<note[\s\S]*?ana="start"([^\/]*?)\/>([\s\S]*?)<note ana="end"\/>/gm;
-    const metamarkRegex = /<metamark ana="start"[^/]+?\/>(.*?)<metamark ana="end"\/>/g;
 
     // process elements
-    teiContent = teiContent.replace(noteRegex,'<note $1>$2</note>')
-    teiContent = teiContent.replace(addRegex, '<add>$1</add>');
-    teiContent = teiContent.replace(delRegex, '<del>$1</del>');
-    teiContent = teiContent.replace(delInnerRegex, '<del-inner>$1</del-inner>');
-    teiContent = teiContent.replace(mdelRegex, '<mdel>$1</mdel>');
     teiContent = teiContent.replace(MSpEndRegex, `<p-end/>`)
-    teiContent = teiContent.replace(metamarkRegex, '<metamark>$1</metamark>');
 
     return teiContent;
 };
@@ -61,27 +48,12 @@ const { label, id, chunks, corresp } = sources.filter(s => s.label === source)[0
 
 let teiFile: string
 
-// if (source !== "MS") {
-//     // Eventually switch to fv-data.
+// Eventually switch to fv-data.
     const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-variorum-chapters/f${source}_${unit}.xml`
     const text = await fetchData(dataUrl)
 
-    // teiFile = processTeiElements(text) || `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">No TEI data found.</TEI>`
     teiFile = text || `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">No TEI data found.</TEI>`
     teiFile = raiseTeiElements(teiFile)
-
-// } else {
-//     // Download and stitch the URIs
-//     let content = ""
-//     for (const uri of uris) {
-//         const dataUrl = uri.split('#')[0]
-//         const text = await fetchData(dataUrl)
-//         const part = text ? text.replace(/<\?xml version="1.0" encoding="UTF-8"\?>/gm, '') : `No TEI data found.`
-//         content += part
-//     }
-//
-//     teiFile = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${content}</TEI>`
-// }
 
 // processTEI() will pre-process the TEI and return a
 // `JSDOM` serializable object.

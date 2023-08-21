@@ -15,8 +15,6 @@ import {PEnd} from "./pEnd";
 import {Add} from "./add";
 import {Note} from "./note";
 
-
-
 // this tei component is for reading panel
 interface Props {
   data: string

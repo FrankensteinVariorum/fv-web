@@ -11,16 +11,7 @@ interface Props {
 const ReadingGroup = ({group}: Props) => {
     const { seg } = useContext(SegContext); // storing which seg clicked on
     let data = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${group.value}</TEI>`
-    const processTeiElements = (teiContent) => {
-        const noteRegex = /<note>([\s\S]*?)<note>/g;
-        const noteRegex2 = /<note>([^<]*)(<\/TEI>)/;
-        const wRegex = /<w\s\S*\/>/g;
-        teiContent = teiContent.replace(noteRegex,'<note>$1</note>')
-        teiContent = teiContent.replace(noteRegex2,'<note>$1</note>$2')
-        teiContent = teiContent.replace(wRegex,'')
-        return teiContent;
-    };
-    data = processTeiElements(data)
+
     return (
         <div className='reading-group'>
             <div className='reading-group-title' >

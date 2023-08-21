@@ -93,22 +93,29 @@ export const Seg: TBehavior = (props: TEIProps) => {
                 const n = rg.getAttribute("n")
 
                 // +++----- for debugging -----+++
-                console.log(n?.replace(/'(?:(?!['"],)[^'])*(['"][,\]])/g, match => match.replace(/"/g, '\\"')))
-                console.log(n?.replace(/'(?:(?!['"],)[^'])*(['"][,\]])/g,  match => match.replace(/"/g, '\\"'))
+                n ? console.log(n) : null
+                console.log(n?.replace(/'(?:(?![\['"],)[^'])*(['"][,\]])/g, match => match.replace(/"/g, '\\"'))
+                    .replace(/<[^\\]*>/g, match => match.replace(/"/g, '\\"')))
+                console.log(n?.replace(/'(?:(?![\['"],)[^'])*(['"][,\]])/g,  match => match.replace(/"/g, '\\"'))
+                    .replace(/<[^\\]*>/g, match => match.replace(/"/g, '\\"'))
                     // replace all single quotes which wrap the tokens
                     .replace(/\['/g, '["')
                     .replace(/['"], ['"]/g, '", "')
-                    .replace(/']/g, '"]'))
+                    .replace(/']/g, '"]')
+                    .replace("\\'", "'"))
                 // +++-------------------------+++
 
                 const value = !n ? "" : JSON.parse(
                     // escape all double quotes inside single quotes
-                    n.replace(/'(?:(?!['"],)[^'])*(['"][,\]])/g, match => match.replace(/"/g, '\\"'))
+                    n.replace(/'(?:(?![\['"],)[^'])*(['"][,\]])/g, match => match.replace(/"/g, '\\"'))
+                        .replace(/<[^\\]*>/g, match => match.replace(/"/g, '\\"'))
                         // replace all single quotes which wrap the tokens
                         .replace(/\['/g, '["')
                         .replace(/['"], ['"]/g, '", "')
                         .replace(/']/g, '"]')
                         .replace('\\"]', '"]')
+                        // unescape single quotes
+                        .replace("\\'", "'")
                 ).join(" ");
 
                 // Here we want to send the value to CETEIcean to render the XML.
