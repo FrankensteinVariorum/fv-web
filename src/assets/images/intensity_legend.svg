@@ -1,1 +1,14 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 30"><defs><style>.cls-1{fill:#b2afac;}.cls-2{fill:#d9d7d6;}.cls-3{fill:#c5c3c1;}</style></defs><title>intensity_legend</title><polygon class="cls-1" points="160 10 160 29.959 240 29.959 240 0 160 10"/><polygon class="cls-2" points="0 30 80 30 80 20 0 30"/><polygon class="cls-3" points="80 20 80 30 160 30 160 10 80 20"/></svg>
+<svg width="320" height="40" viewBox="0 0 320 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="40" fill="white"/>
+<g clip-path="url(#clip0_0_1)">
+<path d="M160 20V39.959H240V10L160 20Z" fill="#C5C3C1"/>
+<path d="M80 30V40H160V20L80 30Z" fill="#D9D7D6"/>
+<path d="M79.5 30.5664V39.5H8.03113L79.5 30.5664Z" fill="#F5F5F5" stroke="#D9D7D6"/>
+<path d="M240 10V39.959H320V0L240 10Z" fill="#B1AEAB"/>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="320" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -26,7 +26,7 @@ export const Note: TBehavior = (props: TEIProps) => {
     // always show the note if it is from the book
     let isShowNote = isByAuthor ? true : show.showNote
     // the note from book has the same font size with other text, while the note added by FV-Team has smaller font size.
-    let fontSize = isByAuthor ? `100%` : `0.85%`
+    let fontSize = isByAuthor ? `100%` : `85%`
 
     return (
         isShowNote ?

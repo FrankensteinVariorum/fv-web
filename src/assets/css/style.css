@@ -2280,6 +2280,10 @@ ins:has(tei-metamark) {
     display: none
 }
 
+.app-intensity-0 {
+    background: whitesmoke;
+}
+
 /*.app-intensity-1 { background: whitesmoke; }*/
 .app-intensity-1 {
     background: #d9d7d6;

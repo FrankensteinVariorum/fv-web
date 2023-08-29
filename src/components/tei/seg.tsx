@@ -7,7 +7,7 @@ import {MSTargetContext, Reading, SegContext, ThomasThumbnailContext, VariantCon
 import { useStore } from '@nanostores/react';
 import {appState, showState, unitLinkState} from "../../data/nanostores";
 // @ts-ignore
-import {sources} from "../../data/units.json"
+import {sources} from "../../data/units.json";
 // @ts-ignore
 import linkData from "../../data/thumbnails.json";
 
@@ -50,7 +50,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
         // set intensity level
         const nAttr = ptr ? ptr.closest('app').getAttribute('n') : undefined;
         const n = nAttr ? parseInt(nAttr) : undefined;
-        const level = (n && n < 10) ? 1 : (n && n < 30) ? 2 : 3;
+        const level = (n && n <= 1) ? 0 : (n <= 11) ? 1 : (n && n <= 30) ? 2 : 3;
         setIntensityClass(`app-intensity-${level}`);
         const idSelected = window.location.hash.substring(1); // Get ID from URL
         setSeg({id: idSelected})
@@ -61,7 +61,6 @@ export const Seg: TBehavior = (props: TEIProps) => {
             setSegBgClass('')
         }
     }, []);
-
 
     if (!ptr) {
         return <DefaultBehaviors.SafeUnchangedNode {...props}/>
