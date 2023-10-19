@@ -92,30 +92,10 @@ export const Seg: TBehavior = (props: TEIProps) => {
                 const n = rg.getAttribute("n")
 
                 // +++----- for debugging -----+++
-                n ? console.log(n) : null
-                console.log(n?.replace(/'(?:(?![\['"],)[^'])*(['"][,\]])/g, match => match.replace(/"/g, '\\"'))
-                    .replace(/<[^\\]*>/g, match => match.replace(/"/g, '\\"')))
-                console.log(n?.replace(/'(?:(?![\['"],)[^'])*(['"][,\]])/g,  match => match.replace(/"/g, '\\"'))
-                    .replace(/<[^\\]*>/g, match => match.replace(/"/g, '\\"'))
-                    // replace all single quotes which wrap the tokens
-                    .replace(/\['/g, '["')
-                    .replace(/['"], ['"]/g, '", "')
-                    .replace(/']/g, '"]')
-                    .replace("\\'", "'"))
-                // +++-------------------------+++
+                console.log(n)
+                console.log(n?.replace(/%q%/g, '\\"').replace(/([\[\]\s,<>])'/g, '$1"').replace(/'([\[\]\s<>,])/g, '"$1'))
 
-                const value = !n ? "" : JSON.parse(
-                    // escape all double quotes inside single quotes
-                    n.replace(/'(?:(?![\['"],)[^'])*(['"][,\]])/g, match => match.replace(/"/g, '\\"'))
-                        .replace(/<[^\\]*>/g, match => match.replace(/"/g, '\\"'))
-                        // replace all single quotes which wrap the tokens
-                        .replace(/\['/g, '["')
-                        .replace(/['"], ['"]/g, '", "')
-                        .replace(/']/g, '"]')
-                        .replace('\\"]', '"]')
-                        // unescape single quotes
-                        .replace("\\'", "'")
-                ).join(" ");
+                const value = !n ? "" : JSON.parse(n.replace(/%q%/g, '\\"').replace(/([\[\]\s,<>])'/g, '$1"').replace(/'([\[\]\s<>,])/g, '"$1')).join(" ")
 
                 // Here we want to send the value to CETEIcean to render the XML.
                 const rdgs = rg.querySelectorAll("rdg")

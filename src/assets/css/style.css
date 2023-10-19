@@ -2227,7 +2227,7 @@ div#viewer_pagination_controls .in-line.paging-buttons {
     padding: 1em 2em;
 }
 
-tei-del, tei-del-inner, tei-del{
+tei-del, tei-del-inner, tei-del, tei-delspan{
     text-decoration: line-through;
 }
 
