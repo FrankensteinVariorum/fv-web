@@ -58,7 +58,7 @@ let teiFile: string
 
     teiFile = text || `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">No TEI data found.</TEI>`
     teiFile = raiseTeiElements(teiFile)
-console.log(teiFile);
+// console.log(teiFile);
 // processTEI() will pre-process the TEI and return a
 // `JSDOM` serializable object.
 const jdom = processTei(teiFile);
