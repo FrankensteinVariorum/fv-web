@@ -9,13 +9,17 @@ export default function Paging({ source, unit }) {
         .filter((s) => s.label === source)
         .flatMap((s) => s.units.map((unit) => unit.id)
         );
-
     useEffect(() => {
         const currentURL = window.location.pathname.split('/');
         const chapter = currentURL[currentURL.length - 1].split('#')[0];
+        console.log("chapter: ", chapter)
         const pageIndex = pages.findIndex((p) => p === chapter);
         setCurrentPageIndex(pageIndex)
+        console.log("current page index:", currentPageIndex)
+
     },[])
+    console.log("current page index:", currentPageIndex)
+    
 
     const goToPreviousPage = () => {
         if (currentPageIndex > 0) {

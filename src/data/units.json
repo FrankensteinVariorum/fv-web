@@ -1,6 +1,6 @@
 {
         "sources": [
-            {
+            { 
             "label": "MS",
             "units": [
                 {
@@ -29,7 +29,7 @@
                     "chunks": [
                         {
                         "label": "C08",
-                        "apps": [488, 786]
+                        "apps": [488, 785]
                         }
                     ]
                 },
@@ -39,7 +39,7 @@
                     "chunks": [
                         {
                         "label": "C08",
-                        "apps": [790, 1201]
+                        "apps": [789, 1200]
                         }
                     ]
                 },
@@ -369,13 +369,13 @@
                         }
                     ]
                 }
-            ]},
-
-
+            ]},  
+            
+            
         {
             "label": "1818",
-            "units": [
-                {
+            "units": [ 
+                {  
                     "label":  "VOL 1 PREFACE",
                     "id": "vol_1_preface",
                     "chunks": [
@@ -389,7 +389,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER I",
                     "id": "vol_1_letter_i",
                     "chunks": [
@@ -399,7 +399,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER II",
                     "id": "vol_1_letter_ii",
                     "chunks": [
@@ -409,7 +409,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER III",
                     "id": "vol_1_letter_iii",
                     "chunks": [
@@ -419,7 +419,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER IV",
                     "id": "vol_1_letter_iv",
                     "chunks": [
@@ -433,7 +433,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER I",
                     "id": "vol_1_chapter_i",
                     "chunks": [
@@ -447,17 +447,17 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER II",
                     "id": "vol_1_chapter_ii",
                     "chunks": [
                         {
                             "label": "C08",
-                            "apps": [486, 1201]
+                            "apps": [486, 1200]
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER III",
                     "id": "vol_1_chapter_iii",
                     "chunks": [
@@ -467,7 +467,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER IV",
                     "id": "vol_1_chapter_iv",
                     "chunks": [
@@ -477,7 +477,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER V",
                     "id": "vol_1_chapter_v",
                     "chunks": [
@@ -491,7 +491,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER VI",
                     "id": "vol_1_chapter_vi",
                     "chunks": [
@@ -501,7 +501,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER VII",
                     "id": "vol_1_chapter_vii",
                     "chunks": [
@@ -511,7 +511,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER I",
                     "id": "vol_2_chapter_i",
                     "chunks": [
@@ -521,7 +521,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER II",
                     "id": "vol_2_chapter_ii",
                     "chunks": [
@@ -531,7 +531,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER III",
                     "id": "vol_2_chapter_iii",
                     "chunks": [
@@ -541,7 +541,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER IV",
                     "id": "vol_2_chapter_iv",
                     "chunks": [
@@ -551,7 +551,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER V",
                     "id": "vol_2_chapter_v",
                     "chunks": [
@@ -561,7 +561,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VI",
                     "id": "vol_2_chapter_vi",
                     "chunks": [
@@ -571,7 +571,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VII",
                     "id": "vol_2_chapter_vii",
                     "chunks": [
@@ -581,7 +581,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VIII",
                     "id": "vol_2_chapter_viii",
                     "chunks": [
@@ -591,7 +591,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER IX",
                     "id": "vol_2_chapter_ix",
                     "chunks": [
@@ -601,7 +601,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER I",
                     "id": "vol_3_chapter_i",
                     "chunks": [
@@ -615,7 +615,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER II",
                     "id": "vol_3_chapter_ii",
                     "chunks": [
@@ -625,7 +625,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER III",
                     "id": "vol_3_chapter_iii",
                     "chunks": [
@@ -635,7 +635,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER IV",
                     "id": "vol_3_chapter_iv",
                     "chunks": [
@@ -645,7 +645,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER V",
                     "id": "vol_3_chapter_v",
                     "chunks": [
@@ -659,7 +659,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER VI",
                     "id": "vol_3_chapter_vi",
                     "chunks": [
@@ -669,7 +669,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER VII",
                     "id": "vol_3_chapter_vii",
                     "chunks": [
@@ -691,8 +691,8 @@
         },
         {
             "label": "Thomas",
-            "units": [
-                {
+            "units": [ 
+                {  
                     "label":  "VOL 1 PREFACE",
                     "id": "vol_1_preface",
                     "chunks": [
@@ -706,7 +706,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER I",
                     "id": "vol_1_letter_i",
                     "chunks": [
@@ -716,7 +716,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER II",
                     "id": "vol_1_letter_ii",
                     "chunks": [
@@ -726,7 +726,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER III",
                     "id": "vol_1_letter_iii",
                     "chunks": [
@@ -736,7 +736,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER IV",
                     "id": "vol_1_letter_iv",
                     "chunks": [
@@ -750,7 +750,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER I",
                     "id": "vol_1_chapter_i",
                     "chunks": [
@@ -764,17 +764,17 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER II",
                     "id": "vol_1_chapter_ii",
                     "chunks": [
                         {
                             "label": "C08",
-                            "apps": [486, 1201]
+                            "apps": [486, 1200]
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER III",
                     "id": "vol_1_chapter_iii",
                     "chunks": [
@@ -784,7 +784,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER IV",
                     "id": "vol_1_chapter_iv",
                     "chunks": [
@@ -794,7 +794,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER V",
                     "id": "vol_1_chapter_v",
                     "chunks": [
@@ -808,7 +808,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER VI",
                     "id": "vol_1_chapter_vi",
                     "chunks": [
@@ -818,7 +818,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER VII",
                     "id": "vol_1_chapter_vii",
                     "chunks": [
@@ -828,7 +828,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER I",
                     "id": "vol_2_chapter_i",
                     "chunks": [
@@ -838,7 +838,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER II",
                     "id": "vol_2_chapter_ii",
                     "chunks": [
@@ -848,7 +848,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER III",
                     "id": "vol_2_chapter_iii",
                     "chunks": [
@@ -858,7 +858,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER IV",
                     "id": "vol_2_chapter_iv",
                     "chunks": [
@@ -868,7 +868,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER V",
                     "id": "vol_2_chapter_v",
                     "chunks": [
@@ -878,7 +878,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VI",
                     "id": "vol_2_chapter_vi",
                     "chunks": [
@@ -888,7 +888,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VII",
                     "id": "vol_2_chapter_vii",
                     "chunks": [
@@ -898,7 +898,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VIII",
                     "id": "vol_2_chapter_viii",
                     "chunks": [
@@ -908,7 +908,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER IX",
                     "id": "vol_2_chapter_ix",
                     "chunks": [
@@ -918,7 +918,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER I",
                     "id": "vol_3_chapter_i",
                     "chunks": [
@@ -932,7 +932,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER II",
                     "id": "vol_3_chapter_ii",
                     "chunks": [
@@ -942,7 +942,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER III",
                     "id": "vol_3_chapter_iii",
                     "chunks": [
@@ -952,7 +952,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER IV",
                     "id": "vol_3_chapter_iv",
                     "chunks": [
@@ -962,7 +962,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER V",
                     "id": "vol_3_chapter_v",
                     "chunks": [
@@ -976,7 +976,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER VI",
                     "id": "vol_3_chapter_vi",
                     "chunks": [
@@ -986,7 +986,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 3 CHAPTER VII",
                     "id": "vol_3_chapter_vii",
                     "chunks": [
@@ -1008,8 +1008,8 @@
         },
         {
             "label": "1823",
-            "units": [
-                {
+            "units": [ 
+                {  
                     "label":  "VOL 1 PREFACE",
                     "id": "vol_1_preface",
                     "chunks": [
@@ -1023,7 +1023,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER I",
                     "id": "vol_1_letter_i",
                     "chunks": [
@@ -1033,7 +1033,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER II",
                     "id": "vol_1_letter_ii",
                     "chunks": [
@@ -1043,7 +1043,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER III",
                     "id": "vol_1_letter_iii",
                     "chunks": [
@@ -1053,7 +1053,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 LETTER IV",
                     "id": "vol_1_letter_iv",
                     "chunks": [
@@ -1067,7 +1067,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER I",
                     "id": "vol_1_chapter_i",
                     "chunks": [
@@ -1081,17 +1081,17 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER II",
                     "id": "vol_1_chapter_ii",
                     "chunks": [
                         {
                             "label": "C08",
-                            "apps": [486, 1201]
+                            "apps": [486, 1200]
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER III",
                     "id": "vol_1_chapter_iii",
                     "chunks": [
@@ -1101,7 +1101,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER IV",
                     "id": "vol_1_chapter_iv",
                     "chunks": [
@@ -1111,7 +1111,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER V",
                     "id": "vol_1_chapter_v",
                     "chunks": [
@@ -1125,7 +1125,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER VI",
                     "id": "vol_1_chapter_vi",
                     "chunks": [
@@ -1135,7 +1135,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER VII",
                     "id": "vol_1_chapter_vii",
                     "chunks": [
@@ -1145,7 +1145,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER VIII",
                     "id": "vol_1_chapter_viii",
                     "chunks": [
@@ -1155,7 +1155,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER IX",
                     "id": "vol_1_chapter_ix",
                     "chunks": [
@@ -1165,7 +1165,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER X",
                     "id": "vol_1_chapter_x",
                     "chunks": [
@@ -1175,7 +1175,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 1 CHAPTER XI",
                     "id": "vol_1_chapter_xi",
                     "chunks": [
@@ -1185,7 +1185,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER I",
                     "id": "vol_2_chapter_i",
                     "chunks": [
@@ -1195,7 +1195,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER II",
                     "id": "vol_2_chapter_ii",
                     "chunks": [
@@ -1205,7 +1205,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER III",
                     "id": "vol_2_chapter_iii",
                     "chunks": [
@@ -1215,7 +1215,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER IV",
                     "id": "vol_2_chapter_iv",
                     "chunks": [
@@ -1225,7 +1225,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER V",
                     "id": "vol_2_chapter_v",
                     "chunks": [
@@ -1235,7 +1235,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VI",
                     "id": "vol_2_chapter_vi",
                     "chunks": [
@@ -1249,7 +1249,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VII",
                     "id": "vol_2_chapter_vii",
                     "chunks": [
@@ -1259,7 +1259,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER VIII",
                     "id": "vol_2_chapter_viii",
                     "chunks": [
@@ -1269,7 +1269,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER IX",
                     "id": "vol_2_chapter_ix",
                     "chunks": [
@@ -1279,7 +1279,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER X",
                     "id": "vol_2_chapter_x",
                     "chunks": [
@@ -1293,7 +1293,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER XI",
                     "id": "vol_2_chapter_xi",
                     "chunks": [
@@ -1303,7 +1303,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "VOL 2 CHAPTER XII",
                     "id": "vol_2_chapter_xii",
                     "chunks": [
@@ -1325,8 +1325,8 @@
         },
         {
             "label": "1831",
-            "units": [
-                {
+            "units": [ 
+                {  
                     "label":  "PREFACE",
                     "id": "preface",
                     "chunks": [
@@ -1340,7 +1340,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "LETTER I",
                     "id": "letter_i",
                     "chunks": [
@@ -1350,7 +1350,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "LETTER II",
                     "id": "letter_ii",
                     "chunks": [
@@ -1360,7 +1360,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "LETTER III",
                     "id": "letter_iii",
                     "chunks": [
@@ -1370,7 +1370,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "LETTER IV",
                     "id": "letter_iv",
                     "chunks": [
@@ -1384,7 +1384,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER I",
                     "id": "chapter_i",
                     "chunks": [
@@ -1394,7 +1394,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER II",
                     "id": "chapter_ii",
                     "chunks": [
@@ -1404,18 +1404,17 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER III",
                     "id": "chapter_iii",
                     "chunks": [
                         {
                             "label": "C08",
-                            "apps": [488, 1201]
-
+                            "apps": [488, 1200]
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER IV",
                     "id": "chapter_iv",
                     "chunks": [
@@ -1425,7 +1424,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER V",
                     "id": "chapter_v",
                     "chunks": [
@@ -1435,7 +1434,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER VI",
                     "id": "chapter_vi",
                     "chunks": [
@@ -1449,7 +1448,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER VII",
                     "id": "chapter_vii",
                     "chunks": [
@@ -1459,7 +1458,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER VIII",
                     "id": "chapter_viii",
                     "chunks": [
@@ -1469,7 +1468,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER IX",
                     "id": "chapter_ix",
                     "chunks": [
@@ -1479,7 +1478,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER X",
                     "id": "chapter_x",
                     "chunks": [
@@ -1489,7 +1488,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XI",
                     "id": "chapter_xi",
                     "chunks": [
@@ -1499,7 +1498,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XII",
                     "id": "chapter_xii",
                     "chunks": [
@@ -1509,7 +1508,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XIII",
                     "id": "chapter_xiii",
                     "chunks": [
@@ -1519,7 +1518,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XIV",
                     "id": "chapter_xiv",
                     "chunks": [
@@ -1529,7 +1528,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XV",
                     "id": "chapter_xv",
                     "chunks": [
@@ -1539,7 +1538,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XVI",
                     "id": "chapter_xvi",
                     "chunks": [
@@ -1549,7 +1548,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XVII",
                     "id": "chapter_xvii",
                     "chunks": [
@@ -1559,7 +1558,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XVIII",
                     "id": "chapter_xviii",
                     "chunks": [
@@ -1573,7 +1572,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XIX",
                     "id": "chapter_xix",
                     "chunks": [
@@ -1583,7 +1582,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XX",
                     "id": "chapter_xx",
                     "chunks": [
@@ -1593,7 +1592,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XXI",
                     "id": "chapter_xxi",
                     "chunks": [
@@ -1603,7 +1602,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XXII",
                     "id": "chapter_xxii",
                     "chunks": [
@@ -1617,7 +1616,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XXIII",
                     "id": "chapter_xxiii",
                     "chunks": [
@@ -1627,7 +1626,7 @@
                         }
                     ]
                 },
-                {
+                {  
                     "label":  "CHAPTER XXIV",
                     "id": "chapter_xxiv",
                     "chunks": [
@@ -1647,4 +1646,5 @@
                 }
             ]
         }
-    ]}
+    ]} 
+        
