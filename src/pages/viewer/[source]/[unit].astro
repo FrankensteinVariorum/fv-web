@@ -28,8 +28,8 @@ const raiseTeiElements = (teiContent) => {
     const delSpanEnd = /<delSpan\sanchor[^>]*\/>/g;
 
     // process elements
-    // teiContent = teiContent.replace(delSpanStart, `<delSpan>`);
-    // teiContent = teiContent.replace(delSpanEnd, `</delSpan>`);
+    teiContent = teiContent.replace(delSpanStart, `<span class="delspan">✗—</span>`);
+    teiContent = teiContent.replace(delSpanEnd, `<span class="delspan">—✗</span>`);
     teiContent = teiContent.replace(MSpEndRegex, `<p-end/>`);
 
     return teiContent;

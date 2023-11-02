@@ -2271,6 +2271,12 @@ ins>sup.insertion,ins>sub.insertion {
     background: white;
     width: 0.8em;
 }
+.delspan {
+    display: inline;
+    text-align: center;
+    color: #DD1A56;
+    width: fit-content;
+}
 
 .MS .paragraph-break {
     display: none;

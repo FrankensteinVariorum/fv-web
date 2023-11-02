@@ -13,7 +13,7 @@ const Variation = () => {
     const show = useStore(showState)
     const {variant} = useContext(VariantContext)
     const { msTarget} = useContext(MSTargetContext)
-    let MStargetLink = `http://shelleygodwinarchive.org/sc/oxford/ms_abinger/${msTarget}`
+    let MStargetLink = `http://shelleygodwinarchive.org/sc/oxford/ms_abinger/${msTarget?.suffix}`
     const {thomasThumbnail} = useContext(ThomasThumbnailContext)
     let ThomasThumbnailLink = `${thomasThumbnail}`
     const [sidePanelHeight, setSidePanelHeight] = useState<number | null>(null);
@@ -23,9 +23,9 @@ const Variation = () => {
         const sidePanel = document.querySelector('#viewer_variations');
         if (!container || !sidePanel) return;
         function updateSidePanelHeight() {
-            const containerRect = container.getBoundingClientRect();
-            const visibleHeight =  containerRect.bottom;
-            const sidePanelMaxHeight = Math.min(containerRect.height, visibleHeight);
+            const containerRect = container?.getBoundingClientRect();
+            const visibleHeight =  containerRect?.bottom;
+            const sidePanelMaxHeight = containerRect && visibleHeight ? Math.min(containerRect.height, visibleHeight) : null;
             // console.log('container:', containerRect.bottom, 'side panel:',sidePanelMaxHeight)
             setSidePanelHeight(sidePanelMaxHeight);
         }
@@ -60,7 +60,7 @@ const Variation = () => {
             </div>
         </aside>
 
-    ) 
+    )
 }
 
 export default Variation;

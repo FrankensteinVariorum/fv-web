@@ -24,7 +24,7 @@ const fetchData = async (url) => {
     const response = await fetch(url)
     if (response.status === 404) {
         return null
-    }   
+    }
     return await response.text()
 }
 
@@ -45,11 +45,14 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const [ segBgClass, setSegBgClass ] = useState<string>('')
     const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`);
 
+
+
     // set intensity level and highlight background for seg when the page opens
     useEffect(() => {
         // set intensity level
         const nAttr = ptr ? ptr.closest('app').getAttribute('n') : undefined;
         const n = nAttr ? parseInt(nAttr) : undefined;
+        // set the intensity level of hotspots
         const level = (n && n <= 1) ? 0 : (n <= 11) ? 1 : (n && n <= 30) ? 2 : 3;
         setIntensityClass(`app-intensity-${level}`);
         const idSelected = window.location.hash.substring(1); // Get ID from URL
@@ -61,6 +64,24 @@ export const Seg: TBehavior = (props: TEIProps) => {
             setSegBgClass('')
         }
     }, []);
+
+
+    // a function to highlight or not highlight the specific seg element
+    // input: the id of seg to process and message whether highlight or not highlight
+    const toggleSegBg = (segId, setHighlight) => {
+        const segElementsSelected = document.getElementsByClassName(segId);
+        // @ts-ignore
+        Array.from(segElementsSelected).forEach((node) =>
+            node.classList.toggle(`seg_bg--${props.source.toLowerCase()}`, setHighlight)
+        );
+    };
+
+    // when show variants, the seg selected previously is highlighted
+    useEffect(() => {
+        if (show.showVariants) {
+            toggleSegBg(seg?.id, true);
+        }
+    }, [show.showVariants]);
 
     if (!ptr) {
         return <DefaultBehaviors.SafeUnchangedNode {...props}/>
@@ -79,9 +100,12 @@ export const Seg: TBehavior = (props: TEIProps) => {
     }
 
     const handleClick = async (event: React.MouseEvent<HTMLSpanElement>) => {
-
         // close the side panel when hide variants
-        if (!show.showVariants) {setVariant(null); return}
+        if (!show.showVariants) {
+            setVariant(null);
+            setSeg(null);
+            return
+        }
 
         const app = ptr.closest("app") as Element
         const rdgGrp = app.querySelectorAll("rdgGrp")
@@ -93,9 +117,11 @@ export const Seg: TBehavior = (props: TEIProps) => {
 
                 // +++----- for debugging -----+++
                 console.log(n)
-                console.log(n?.replace(/%q%/g, '\\"').replace(/([\[\]\s,<>])'/g, '$1"').replace(/'([\[\]\s<>,])/g, '"$1'))
+                console.log(n?.replace(/%q%/g, '\\"').replace(/([\[\]\s,])'/g, '$1"').replace(/'([\[\]\s<>,])/g, '"$1'))
 
-                const value = !n ? "" : JSON.parse(n.replace(/%q%/g, '\\"').replace(/([\[\]\s,<>])'/g, '$1"').replace(/'([\[\]\s<>,])/g, '"$1')).join(" ")
+                const value = !n ? "" : JSON.parse(n.replace(/%q%/g, '\\"').
+                replace(/([\[\]\s,])'/g, '$1"').
+                replace(/'([\[\]\s<>,])/g, '"$1')).join(" ")
 
                 // Here we want to send the value to CETEIcean to render the XML.
                 const rdgs = rg.querySelectorAll("rdg")
@@ -117,7 +143,8 @@ export const Seg: TBehavior = (props: TEIProps) => {
 
         // get the seg id used for seg background in the current page
         let currentSegId = event.target.closest("span[class*='app']")?.className.split(' ')[0].replace(/-.*/, '');
-
+        console.log("current id:", currentSegId);
+        console.log("seg.id", seg?.id);
         if (seg?.id != currentSegId) {
         // Only update once all data is obtained
             const readings = await getReadings()
@@ -126,19 +153,11 @@ export const Seg: TBehavior = (props: TEIProps) => {
             setVariant(null)
         }
 
-        // a function to highlight or not highlight the specific seg element
-        // input: the id of seg to process and message whether highlight or not highlight
-        const toggleSegBg = (segId, setHighlight) => {
-            const segElementsSelected = document.getElementsByClassName(segId);
-            Array.from(segElementsSelected).forEach((node) =>
-                node.classList.toggle(`seg_bg--${props.source.toLowerCase()}`, setHighlight)
-            );
-        };
 
-        // 1. not highlight the seg which is selected previously
-        // 2. not highlight the seg which is highlighted already and is selected again
+
+        // not highlight the seg which is selected previously
+        // not highlight the seg which is highlighted already and is selected again
         if (seg?.id) {toggleSegBg(seg?.id, false)}
-
         let appNum
         if (seg?.id != currentSegId) {
             setSeg({id: currentSegId}) // seg id info used for side panel in other edition pages
@@ -154,11 +173,11 @@ export const Seg: TBehavior = (props: TEIProps) => {
             unitLinkState.set({
                 edition: props.source,
                 chunk: currentSegId.substring(0,3),
-                f1818Chp: sources.find(s  => s.label === `1818`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
-                f1823Chp: sources.find(s  => s.label === `1823`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
-                f1831Chp: sources.find(s  => s.label === `1831`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
-                fThomasChp: sources.find(s  => s.label === `Thomas`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1)).id,
-                fMSChp: sources.find(s  => s.label === `MS`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]+1))?.id || ''
+                f1818Chp: sources.find(s  => s.label === `1818`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1])).id,
+                f1823Chp: sources.find(s  => s.label === `1823`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1])).id,
+                f1831Chp: sources.find(s  => s.label === `1831`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1])).id,
+                fThomasChp: sources.find(s  => s.label === `Thomas`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1])).id,
+                fMSChp: sources.find(s  => s.label === `MS`).units.find(u => u.chunks.find(c => c.label == chunk && c.apps[0] <= appNum && appNum <= c.apps[1]))?.id || ''
             });
             console.log(unitLinkState.get())
         } else {

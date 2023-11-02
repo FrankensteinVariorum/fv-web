@@ -12,6 +12,11 @@ const ReadingGroup = ({group}: Props) => {
     const { seg } = useContext(SegContext); // storing which seg clicked on
     let data = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${group.value}</TEI>`
 
+    const delSpanStart = /<delspanstart\/>/g;
+    const delSpanEnd = /<delspanend\/>/g;
+    data = data.replace(delSpanStart, `<span class="delspan">✗—</span>`);
+    data = data.replace(delSpanEnd, `<span class="delspan">—✗</span>`);
+
     return (
         <div className='reading-group'>
             <div className='reading-group-title' >
