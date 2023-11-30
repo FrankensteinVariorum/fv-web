@@ -9,17 +9,15 @@ export default function Paging({ source, unit }) {
         .filter((s) => s.label === source)
         .flatMap((s) => s.units.map((unit) => unit.id)
         );
+
     useEffect(() => {
         const currentURL = window.location.pathname.split('/');
         const chapter = currentURL[currentURL.length - 1].split('#')[0];
         console.log("chapter: ", chapter)
         const pageIndex = pages.findIndex((p) => p === chapter);
         setCurrentPageIndex(pageIndex)
-        console.log("current page index:", currentPageIndex)
+    },[currentPageIndex])
 
-    },[])
-    console.log("current page index:", currentPageIndex)
-    
 
     const goToPreviousPage = () => {
         if (currentPageIndex > 0) {
@@ -27,6 +25,7 @@ export default function Paging({ source, unit }) {
             setCurrentPageIndex(previousIndex);
             const previousPage = `/viewer/${source}/${pages[previousIndex]}#viewer__contents`
             window.location.replace(previousPage)
+            console.log("current page:", previousIndex, previousPage)
         }
     };
 
@@ -36,6 +35,7 @@ export default function Paging({ source, unit }) {
             setCurrentPageIndex(nextIndex);
             const nextPage = `/viewer/${source}/${pages[nextIndex]}#viewer__contents`
             window.location.replace(nextPage)
+            console.log("current page:", nextIndex, nextPage)
         }
     };
 

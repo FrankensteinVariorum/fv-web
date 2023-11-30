@@ -4,6 +4,7 @@ import Viewer from "../../../components/Viewer/Viewer.astro"
 import { TeiBaseStyle, processTei } from 'astro-tei';
 import Tei from '../../../components/tei/tei';
 import slugify from "../../../components/helpers/slugify";
+import {useEffect} from "react";
 
 const { source, unit } = Astro.params;
 
@@ -88,7 +89,6 @@ if (chunks) {
         }
     }
 }
-
 
 const spine = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${spineData}</TEI>`
 
