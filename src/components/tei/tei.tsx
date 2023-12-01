@@ -73,7 +73,6 @@ export default function Tei({data, elements, spine, source, unit}: Props) {
 
   // Support server side and client side DOM processing.
   const usableDoc = localParser(data)
-
   return(
     <ThomasThumbnailContext.Provider value={{thomasThumbnail,setThomasThumbnail}}>
       <MSTargetContext.Provider value={{msTarget, setMSTarget}}>

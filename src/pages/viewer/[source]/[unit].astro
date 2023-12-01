@@ -83,7 +83,6 @@ if (chunks) {
         const chunkLabel = chunk.label
         const dataUrl = `https://raw.githubusercontent.com/FrankensteinVariorum/fv-data/master/2023-standoff_Spine/spine_${chunkLabel}.xml`
         const chunkText = await fetchData(dataUrl)
-
         if (chunkText) {
             spineData += chunkText.replace(/<\?xml version="1.0" encoding="UTF-8"\?>/gm, '')
         }
@@ -91,6 +90,7 @@ if (chunks) {
 }
 
 const spine = `<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">${spineData}</TEI>`
+
 
 ---
 <Viewer edition={source}>

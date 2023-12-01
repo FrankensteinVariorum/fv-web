@@ -43,9 +43,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
     const targetString = `${basePath}f${props.source}_${props.unit}.xml#${id}`
     const [ intensityClass , setIntensityClass] = useState<string>('');
     const [ segBgClass, setSegBgClass ] = useState<string>('')
-    const ptr = props.spine.documentElement.querySelector(`ptr[target="${targetString}"]`);
-
-
+    const ptr = props.spine.documentElement.querySelector(`rdg>ptr[target="${targetString}"]`);
 
     // set intensity level and highlight background for seg when the page opens
     useEffect(() => {
@@ -186,8 +184,8 @@ export const Seg: TBehavior = (props: TEIProps) => {
 
         // MS external link
         const witDetail = app.querySelector(`witDetail[wit='#fMS']`)
-        const MS_Target = props.source == 'MS' ? witDetail?.getAttribute("target").replace('sga:', '') : null
-        setMSTarget(MS_Target)
+        const MS_Target = props.source == 'MS' ? witDetail?.getAttribute("target").replace('sga:', '').split('\s')[0] : null
+        setMSTarget({suffix: MS_Target})
 
         // Thomas external link
         if (props.source == 'Thomas') {
