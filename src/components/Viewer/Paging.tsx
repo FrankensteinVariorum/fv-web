@@ -1,5 +1,6 @@
 import React from "react";
 import {sources} from '../../data/units.json'
+// @ts-ignore
 import slugify from '../helpers/slugify';
 import {useEffect, useState} from "react";
 
@@ -12,7 +13,8 @@ export default function Paging({ source, unit }) {
 
     useEffect(() => {
         const currentURL = window.location.pathname.split('/');
-        const chapter = currentURL[currentURL.length - 1].split('#')[0];
+        // console.log("current:", currentURL)
+        const chapter = currentURL[currentURL.length - 1].length < 1 ? currentURL[currentURL.length - 2] : currentURL[currentURL.length - 1].split('#')[0];
         console.log("chapter: ", chapter)
         const pageIndex = pages.findIndex((p) => p === chapter);
         setCurrentPageIndex(pageIndex)
