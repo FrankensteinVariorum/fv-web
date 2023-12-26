@@ -1,4 +1,3 @@
-// @ts-ignore
 import React, {useContext} from "react";
 import {Reading, SegContext} from "../tei/variantContext";
 import {unitLinkState} from "../../data/nanostores";
@@ -20,11 +19,15 @@ const ReadingGroup = ({group}: Props) => {
     return (
         <div className='reading-group'>
             <div className='reading-group-title' >
-                {group.sources.map((ed) =>
-                    group.value != "" ? (
-                        <a className={`clr--${ed.toLowerCase()}`} href={`/viewer/${ed}/${unitLinkState.get()[`f${ed}Chp`]}#${seg?.id}`}>{ed}, </a>
-                    ) : <a className={`clr--${ed.toLowerCase()}`}>{ed}, </a>
-                )}
+                {group.sources.map((ed: string, index: React.Key) => (
+                    <a
+                        key={index}
+                        className={`clr--${ed.toLowerCase()}`}
+                        href={group.value !== "" ? `/viewer/${ed}/${unitLinkState.get()[`f${ed}Chp`]}#${seg?.id}` : undefined}
+                    >
+                        {ed},
+                    </a>
+                ))}
             </div>
 
             <a className='reading-group-content' href={`#${seg.id}`}>

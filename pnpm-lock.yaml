@@ -34,7 +34,7 @@ dependencies:
     version: 0.7.1(nanostores@0.9.3)(react@18.2.0)
   astro:
     specifier: ^2.10.1
-    version: 2.10.1(@types/node@20.4.5)(sass@1.64.1)
+    version: 2.10.1(@types/node@20.4.5)
   astro-tei:
     specifier: ^0.1.0
     version: 0.1.0(jsdom@21.1.2)
@@ -82,9 +82,6 @@ devDependencies:
   netlify-cli:
     specifier: ^15.10.0
     version: 15.10.0(@types/node@20.4.5)
-  sass:
-    specifier: ^1.64.1
-    version: 1.64.1
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -138,7 +135,7 @@ packages:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 2.10.1(@types/node@20.4.5)(sass@1.64.1)
+      astro: 2.10.1(@types/node@20.4.5)
       http-cache-semantics: 4.1.1
       image-size: 1.0.2
       kleur: 4.1.5
@@ -175,7 +172,7 @@ packages:
       astro: ^2.5.0
     dependencies:
       '@astrojs/prism': 2.1.2
-      astro: 2.10.1(@types/node@20.4.5)(sass@1.64.1)
+      astro: 2.10.1(@types/node@20.4.5)
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -200,7 +197,7 @@ packages:
       '@astrojs/underscore-redirects': 0.2.0
       '@astrojs/webapi': 2.2.0
       '@netlify/functions': 1.6.0
-      astro: 2.10.1(@types/node@20.4.5)(sass@1.64.1)
+      astro: 2.10.1(@types/node@20.4.5)
       esbuild: 0.15.18
     dev: false
 
@@ -247,7 +244,7 @@ packages:
       astro: ^2.6.5
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 2.10.1(@types/node@20.4.5)(sass@1.64.1)
+      astro: 2.10.1(@types/node@20.4.5)
       autoprefixer: 10.4.14(postcss@8.4.27)
       postcss: 8.4.27
       postcss-load-config: 4.0.1(postcss@8.4.27)
@@ -1201,7 +1198,7 @@ packages:
       '@opentelemetry/sdk-metrics': 1.15.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/sdk-node': 0.36.1(@opentelemetry/api@1.4.1)(supports-color@9.4.0)
       '@opentelemetry/sdk-trace-base': 1.15.1(@opentelemetry/api@1.4.1)
-      axios: 1.4.0(debug@4.3.4)
+      axios: 1.6.2(debug@4.3.4)
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -3335,7 +3332,7 @@ packages:
       jsdom: 21.1.2
     dev: false
 
-  /astro@2.10.1(@types/node@20.4.5)(sass@1.64.1):
+  /astro@2.10.1(@types/node@20.4.5):
     resolution: {integrity: sha512-t3y9laRaOZTAu6omVpI5x/wE80t2yTCWO/UTCPJYAYy2Aoi+snupwk8ZFBLgVd0lwO7KhjRKA0pUScfkn3bnXw==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
@@ -3398,7 +3395,7 @@ packages:
       typescript: 5.1.6
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.4.7(@types/node@20.4.5)(sass@1.64.1)
+      vite: 4.4.7(@types/node@20.4.5)
       vitefu: 0.2.4(vite@4.4.7)
       which-pm: 2.0.0
       yargs-parser: 21.1.1
@@ -3466,8 +3463,8 @@ packages:
       - supports-color
     dev: true
 
-  /axios@1.4.0(debug@4.3.4):
-    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
+  /axios@1.6.2(debug@4.3.4):
+    resolution: {integrity: sha512-7i24Ri4pmDRfJTR7LDBhsOTtcm+9kjX5WiY1X3wIisx6G9So3pfMkEiU7emUBe46oceVImccTEM3k6C5dbVW8A==}
     dependencies:
       follow-redirects: 1.15.2(debug@4.3.4)
       form-data: 4.0.0
@@ -6362,9 +6359,6 @@ packages:
     dependencies:
       queue: 6.0.2
     dev: false
-
-  /immutable@4.3.1:
-    resolution: {integrity: sha512-lj9cnmB/kVS0QHsJnYKD1uo3o39nrbKxszjnqS9Fr6NB7bZzW45U6WSGBPKXDL/CvDKqDNPA4r3DoDQ8GTxo2A==}
 
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -9801,15 +9795,6 @@ packages:
       suf-log: 2.5.3
     dev: false
 
-  /sass@1.64.1:
-    resolution: {integrity: sha512-16rRACSOFEE8VN7SCgBu1MpYCyN7urj9At898tyzdXFhC+a+yOX5dXwAR7L8/IdPJ1NB8OYoXmD55DM30B2kEQ==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-    dependencies:
-      chokidar: 3.5.3
-      immutable: 4.3.1
-      source-map-js: 1.0.2
-
   /saxes@6.0.0:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
     engines: {node: '>=v12.22.7'}
@@ -11149,7 +11134,7 @@ packages:
       vfile-message: 3.1.4
     dev: false
 
-  /vite@4.4.7(@types/node@20.4.5)(sass@1.64.1):
+  /vite@4.4.7(@types/node@20.4.5):
     resolution: {integrity: sha512-6pYf9QJ1mHylfVh39HpuSfMPojPSKVxZvnclX1K1FyZ1PXDOcLBibdq5t1qxJSnL63ca8Wf4zts6mD8u8oc9Fw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -11181,7 +11166,6 @@ packages:
       esbuild: 0.18.17
       postcss: 8.4.27
       rollup: 3.27.0
-      sass: 1.64.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
@@ -11194,7 +11178,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.7(@types/node@20.4.5)(sass@1.64.1)
+      vite: 4.4.7(@types/node@20.4.5)
     dev: false
 
   /vscode-css-languageservice@6.2.6:

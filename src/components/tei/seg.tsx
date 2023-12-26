@@ -1,18 +1,13 @@
-// @ts-ignore
 import React, {useContext, useEffect, useRef, useState} from 'react';
-// @ts-ignore
 import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 import {MSTargetContext, Reading, SegContext, ThomasThumbnailContext, VariantContext} from './variantContext';
 import { useStore } from '@nanostores/react';
 import {appState, showState, unitLinkState} from "../../data/nanostores";
-// @ts-ignore
 import {sources} from "../../data/units.json";
-// @ts-ignore
 import linkData from "../../data/thumbnails.json";
 
 // read variorum data from spine files, set intensity level of variants, set seg selected highlighted, define side panel links, and set external links for MS and Thomas
-
 interface TEIProps {
     teiNode: Node,
     spine: Document
@@ -113,9 +108,9 @@ export const Seg: TBehavior = (props: TEIProps) => {
             for (const rg of Array.from(rdgGrp)) {
                 const n = rg.getAttribute("n")
 
-                // +++----- for debugging -----+++
-                console.log(n)
-                console.log(n?.replace(/%q%/g, '\\"').replace(/([\[\]\s,])'/g, '$1"').replace(/'([\[\]\s<>,])/g, '"$1'))
+                // // +++----- for debugging -----+++
+                // console.log(n)
+                // console.log(n?.replace(/%q%/g, '\\"').replace(/([\[\]\s,])'/g, '$1"').replace(/'([\[\]\s<>,])/g, '"$1'))
 
                 const value = !n ? "" : JSON.parse(n.replace(/%q%/g, '\\"').
                 replace(/([\[\]\s,])'/g, '$1"').
@@ -151,8 +146,6 @@ export const Seg: TBehavior = (props: TEIProps) => {
             setVariant(null)
         }
 
-
-
         // not highlight the seg which is selected previously
         // not highlight the seg which is highlighted already and is selected again
         if (seg?.id) {toggleSegBg(seg?.id, false)}
@@ -164,7 +157,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
             // get the current app number
             appNum = currentSegId?.split('app')[1];
             // share the app number with Edition Selector to help determine the chapter to jump
-            // notice: determining the chapter to jump is based on the information of chunk number and app number
+            // notice: determining the chapter to jump is based on the chunk number and app number
             appState.set(appNum)
             console.log("app:", appNum, "chunk:", currentSegId.substring(0,3))
             // set the link info for the side panel
