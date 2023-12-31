@@ -1,8 +1,6 @@
-// @ts-ignore
 import React from 'react';
-// @ts-ignore
-import {Behavior, TBehavior} from "@astro-tei/react";
-import {TEINodes} from "react-teirouter";
+import {Behavior, type TBehavior} from "@astro-tei/react";
+import { TEINodes} from "react-teirouter";
 interface TEIProps {
     source: string,
     unit: string,

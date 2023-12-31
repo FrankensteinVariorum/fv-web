@@ -1,5 +1,5 @@
 import React from "react";
-import { BasicRouter, DefaultBehaviors, IRoutes } from "@astro-tei/react";
+import { BasicRouter, DefaultBehaviors, type IRoutes } from "@astro-tei/react";
 import {Del} from "../tei/del";
 import {Unclear} from "../tei/unclear";
 import {PEnd} from "../tei/pEnd";

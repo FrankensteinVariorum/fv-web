@@ -16,7 +16,7 @@ export default function EditionSelector({source, unit}) {
             const newUnit = sources.find(s  => s.label === newSource).units.find(u =>
                     u.chunks.find(c => (c.label == currentChunk) && (c.apps[0] <= appNum && appNum <= c.apps[1])))?.id
                     ||sources.find(s => s.label === newSource).units[0].id
-            const path = `/viewer/${newSource}/${slugify(newUnit)}/index.html`
+            const path = `/viewer/${newSource}/${slugify(newUnit)}`
             window.location.replace(path)
         }
     };

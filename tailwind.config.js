@@ -5,5 +5,4 @@ module.exports = {
     './src/pages/**/*.{html,tsx}',
     './src/components/**/*.{html,tsx}',
   ],
-  // ...
 }

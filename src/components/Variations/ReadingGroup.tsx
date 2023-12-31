@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import {Reading, SegContext} from "../tei/variantContext";
+import {type Reading, SegContext} from "../tei/variantContext";
 import {unitLinkState} from "../../data/nanostores";
 import TEI from "./tei";
 

@@ -1,8 +1,5 @@
-// @ts-ignore
 import React from 'react';
-// @ts-ignore
 import {sources} from '../data/units.json'
-// @ts-ignore
 import variations from '../assets/images/intensity_legend.svg';
 import EditionDot from './helpers/EditionDot';
 
@@ -37,6 +34,5 @@ export default function Header({source}: SourceProps) {
                 <div className='center-label'>Variations</div>
             </div>
         </div>
-
     );
 }

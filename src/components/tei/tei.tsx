@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import { BasicRouter, DefaultBehaviors, IRoutes } from "@astro-tei/react";
+import { BasicRouter, DefaultBehaviors, type IRoutes } from "@astro-tei/react";
 import { Seg } from './seg';
 import {
-  VariantContext, Variant,
-  SegInfo, SegContext,
-  MSTargetLink, MSTargetContext,
-  ThomasThumbnailContext, ThomasThumbnail
+  type Variant, VariantContext,
+  type SegInfo, SegContext,
+  type MSTargetLink, MSTargetContext,
+  type ThomasThumbnail, ThomasThumbnailContext
 } from "./variantContext";
 import Variation from "../Variations/Variation";
 import {AutoClickComponent} from "../helpers/AutoClickSeg";
