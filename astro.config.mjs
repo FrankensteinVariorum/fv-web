@@ -16,4 +16,7 @@ export default defineConfig({
     ".tei": "tsx"
   },
   site: 'https://frankensteinvariorum.github.io',
+  experimental: {
+    viewTransitions: true
+  },
 });

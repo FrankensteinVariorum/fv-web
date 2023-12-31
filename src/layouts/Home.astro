@@ -2,11 +2,13 @@
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro'
 import '../assets/css/style.css';
+import {ViewTransitions} from 'astro:transitions'
 ---
 
 <!DOCTYPE html>
-<html class='home' lang="en_US">
+<html lang="en_US">
   <head>
+      <ViewTransitions/>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +17,7 @@ import '../assets/css/style.css';
       <link rel="icon" type="image/ico" href="/favicon.ico"/>
   </head>
 	<body class='home'>
-        <Nav/>
+        <Nav layout="home"/>
         <div id='content-area'>
 		    <slot />
 		</div>

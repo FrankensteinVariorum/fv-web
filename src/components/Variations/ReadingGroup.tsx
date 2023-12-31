@@ -23,7 +23,7 @@ const ReadingGroup = ({group}: Props) => {
                     <a
                         key={index}
                         className={`clr--${ed.toLowerCase()}`}
-                        href={group.value !== "" ? `/viewer/${ed}/${unitLinkState.get()[`f${ed}Chp`]}#${seg?.id}` : undefined}
+                        href={group.value !== "" ? `/viewer/${ed}/${unitLinkState.get()[`f${ed}Chp`]}/#${seg?.id}` : undefined}
                     >
                         {ed},
                     </a>

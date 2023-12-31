@@ -2458,7 +2458,7 @@ body.home ul {
     line-height: inherit;
 }
 
-body.home > header {
+header.home {
     text-align: left;
     background-color: transparent;
     border: 0;
@@ -2472,16 +2472,17 @@ body.home > header {
 }
 
 @media only screen and (max-width: 46.25em) {
-    body.home > header {
+    header.home {
         width: calc(50vw - 1.5rem);
     }
 }
 
-body.home > header:after {
+header.home:after {
     top: 0;
+    left: 0;
 }
 
-body.home > header nav {
+header.home nav {
     left: 4.2426086258rem;
     margin: 0;
     padding: 0;
@@ -2494,17 +2495,17 @@ body.home > header nav {
 }
 
 @media only screen and (max-width : 46.25em) {
-    body.home > header nav {
+    header.home nav {
         display: block;
         font-size: 0.4em;
         width: 68vw;
     }
-    body.home > header > nav > a {
+    header.home > nav > a {
         display: inline;
     }
 }
 
-body.home > header nav a {
+header.home nav a {
     margin-right: 0.7500037785rem;
     white-space: nowrap;
 }

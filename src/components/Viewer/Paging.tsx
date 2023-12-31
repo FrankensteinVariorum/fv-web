@@ -25,7 +25,7 @@ export default function Paging({ source, unit }) {
         if (currentPageIndex > 0) {
             const previousIndex = currentPageIndex - 1;
             setCurrentPageIndex(previousIndex);
-            const previousPage = `/viewer/${source}/${pages[previousIndex]}#viewer__contents`
+            const previousPage = `/viewer/${source}/${pages[previousIndex]}/#viewer__contents`
             window.location.replace(previousPage)
             console.log("current page:", previousIndex, previousPage)
         }
@@ -35,7 +35,7 @@ export default function Paging({ source, unit }) {
         if (currentPageIndex < pages.length - 1) {
             const nextIndex = currentPageIndex + 1;
             setCurrentPageIndex(nextIndex);
-            const nextPage = `/viewer/${source}/${pages[nextIndex]}#viewer__contents`
+            const nextPage = `/viewer/${source}/${pages[nextIndex]}/#viewer__contents`
             window.location.replace(nextPage)
             console.log("current page:", nextIndex, nextPage)
         }
@@ -45,7 +45,7 @@ export default function Paging({ source, unit }) {
     // console.log('source',source, unit)
     const handleUnitChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newUnit = event.target.value
-        const path = `/viewer/${source}/${slugify(newUnit)}`
+        const path = `/viewer/${source}/${slugify(newUnit)}/index.html`
         window.location.replace(path)
     };
     return (
