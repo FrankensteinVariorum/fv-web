@@ -6,6 +6,8 @@ const config: CapacitorConfig = {
   webDir: 'dist',
   server: {
     androidScheme: 'https',
+    // url: "http://localhost:4321", // could not be loaded because: net::ERR_CONNECTION_REFUSED
+    // cleartext: true
   },
 };
 
