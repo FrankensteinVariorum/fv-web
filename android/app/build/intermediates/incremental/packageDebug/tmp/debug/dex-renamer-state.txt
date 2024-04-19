@@ -1,0 +1,13 @@
+#Sun Jan 28 11:51:57 EST 2024
+base.0=C\:\\Users\\Admin\\Documents\\Github\\fv\\fv-web2023\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Admin\\Documents\\Github\\fv\\fv-web2023\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Admin\\Documents\\Github\\fv\\fv-web2023\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=C\:\\Users\\Admin\\Documents\\Github\\fv\\fv-web2023\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=10/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

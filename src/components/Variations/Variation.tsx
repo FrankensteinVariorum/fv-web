@@ -37,33 +37,33 @@ const Variation = () => {
         }
     });
 
-    useEffect(() => {
-        // get the status of MS copy webpage
-        console.log("MStargetLink: ", MStargetLink)
-        const fetchData = async () => {
-            const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
-            const proxyUrl = corsProxyUrl + MStargetLink;
-
-            fetch(proxyUrl,{
-                    method: 'GET',
-                    headers: {
-                        'Origin': '*',
-                    },
-                })
-                .then(response => {
-                    if (response.status >= 400) {
-                        console.log('MS Copy Page Not Found');
-                        setMSTarget({suffix: "NotFound"})
-                        console.log(response.status)
-                    }
-                })
-                .catch(error => console.error('Error:', error));
-        };
-
-        if (msTarget?.suffix) {
-            fetchData();
-        }
-    }, [msTarget?.suffix]);
+    // useEffect(() => {
+    //     // get the status of MS copy webpage
+    //     console.log("MStargetLink: ", MStargetLink)
+    //     const fetchData = async () => {
+    //         const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
+    //         const proxyUrl = corsProxyUrl + MStargetLink;
+    //
+    //         fetch(proxyUrl,{
+    //                 method: 'GET',
+    //                 headers: {
+    //                     'Origin': '*',
+    //                 },
+    //             })
+    //             .then(response => {
+    //                 if (response.status >= 400) {
+    //                     console.log('MS Copy Page Not Found');
+    //                     setMSTarget({suffix: "NotFound"})
+    //                     console.log(response.status)
+    //                 }
+    //             })
+    //             .catch(error => console.error('Error:', error));
+    //     };
+    //
+    //     if (msTarget?.suffix) {
+    //         fetchData();
+    //     }
+    // }, [msTarget?.suffix]);
 
 
     if (!variant || !show.showVariants) return null
@@ -77,7 +77,8 @@ const Variation = () => {
                 }
                 <div className='link-list'>
                 {msTarget?.suffix && (
-                    <a href={msTarget?.suffix !== "NotFound" ? MStargetLink : undefined} className='sga_logo' target='_blank'>
+                    // <a href={msTarget?.suffix !== "NotFound" ? MStargetLink : undefined} className='sga_logo' target='_blank'>
+                    <a href={MStargetLink} className='sga_logo' target='_blank'>
                         <img src={sgalogo.src} alt='The Shelley-Godwin Archive Logo'/>
                         <p>View this passage on the Shelley-Godwin Archive</p>
                     </a>
