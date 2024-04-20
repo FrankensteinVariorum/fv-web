@@ -281,7 +281,7 @@ input[type = 'reset']:hover,input[type = 'reset']:focus,input[type = 'reset']:ac
     color: #3F3730;
 }
 
-p,address {
+main>p, address {
     margin-top: 0;
     margin-bottom: 1.0606628436rem;
 }
@@ -322,7 +322,7 @@ p,address {
 @viewport { width: device-width; }
 
 html {
-    font-family: Georgia, serif;
+    font-family: Georgia, serif ! important;
     font-size: 100%;
     color: #3F3730;
 }
@@ -542,7 +542,7 @@ h3,.h3 {
     }
 }
 
-h4,.h4 ,tei-head{
+main#primary-content>h4,.h4 ,tei-head{
     font-size: 1.41421rem;
     line-height: 2.121315rem;
     margin-top: 1.0606628436rem;
@@ -1299,7 +1299,7 @@ main > * {
 
 main > p,main h1,main h2,main h3,main h4,main h5,main h6,main ul,main ol,main li {
     max-width: 750px;
-    line-height: inherit;
+    /*line-height: inherit;*/
     margin-left: auto;
     margin-right: auto;
 }
