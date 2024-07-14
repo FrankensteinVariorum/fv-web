@@ -725,13 +725,13 @@ a:hover,a:active {
     text-decoration: underline;
 }
 
-p > a,p li > a,blockquote > a {
+ul.explan a,p > a,p li > a,blockquote > a {
     color: #3F3730;
     text-decoration: underline;
 }
 
-p > a:hover,p > a:active,p li > a:hover,p li > a:active,blockquote > a:hover,blockquote > a:active {
-    color: #221e1a;
+ul.explan a:active, ul.explan a:hover, p > a:hover,p > a:active,p li > a:hover,p li > a:active,blockquote > a:hover,blockquote > a:active {
+    color: peru;
 }
 
 img {
@@ -2670,5 +2670,9 @@ body.home > footer:before {
     display: none;
 }
 
+figure.diagram {width:85%; padding:1em;}
+figure.diagram figcaption {text-align:center;}
+
+ul.explan {list-style-type: disc;}
 
 /*# sourceMappingURL=style.css.map */
