@@ -1,20 +1,116 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import FronticepieceImage from '../assets/images/general/fronticepiece-50.jpg';
+import {Image} from "@astrojs/image/components";
 ---
 <Layout title="Method">
 <main id="primary-content" role="main">
-    <h1>Method</h1>
+    <h1>Methods</h1>
 
-    <p>We began preparing a new digital encoding of the novel <em>Frankenstein</em> by returning to its first online text in Stuart Curran’s and Jack Lynch’s <a href="http://knarf.english.upenn.edu/">Pennsylvania Electronic Edition</a>. That hypertext edition represented groundbreaking digital scholarship in the era of web 1.0, by deploying an interface for reading the 1818 and 1831 texts in juxtaposed parallel texts, using HTML frames now deprecated by the Worldwide Web Consortium. That edition prepared the novel in hundreds of distinct HTML files, representing a few paragraphs at a time to provide its comparison view of the 1818 and 1831 editions. The <em>Pennsylvania Electronic Edition</em> also gathered many hundreds of files of context, including editions of related poems like “The Witch of Atlas” and “The Revolt of Islam” together with scholarly articles, maps, glosses and annotations.</p>
+    <h2>Planning a variorum interface and method of reading</h2>
 
-    <p>The <em>Pennsylvania Electronic Edition</em> was partially curated by <a href="https://www.rc.umd.edu/editions/frankenstein">Romantic Circles</a> in a version of TEI, the XML language of the Text Encoding Initiative recommended for sustainable transfer and long-range storage of digital editions. According to Neil Fraistat, the HTML publication of the 1818 and 1831 editions has become Romantic Circles’ most-visited site. However, the HTML “skeleton” of the <em>Pennsylvania Electronic Edition</em> posed a serious problem to convert to TEI, and the TEI first produced from the HTML consisted of minimal TEI renderings of HTML tags – mainly presentational rather than semantic markup. Though the TEI provides critical apparatus markup for storing alternate versions of passages and for storing multiple editions in a single XML document, the first TEI edition of <em>Frankenstein</em> for Romantic Circles preserved the 1818 and 1831 texts in separate documents. A representation of the texts in comparison appears via Juxta Commons, but there are problems with the differentiation of long texts using the Juxta algorithm.</p>
+    <p>This is a “variorum” edition in the sense of the term that involves collecting and displaying a work in all its variations. For our Frankenstein Variorum, we are grateful for inspiration and consultation of Barbara Bordalejo and her <a href="https://darwin-online.org.uk/Variorum/">”Online Variorum of Darwin’s <i>Origin of Species</i>”</a>. We were also impressed with Ben Fry’s <a href="https://benfry.com/traces/">”On the Origin of Species: The Preservation of Favoured Traces,"</a> an interactive visualization of how much that work changed over 14 years of Darwin’s revisions, where on mouseover, you can access passages of the text in transition. In our team’s early meetings at the Carnegie Mellon University Library, we sketched on whiteboards several design ideas, and came to a significant conclusion about an interface to invite reading for variation. Side-by-side comparison is typically how we read variants (via Juxta Commons, which was then popular, or the Versioning Machine, or the early experiments with the Pennsylvania Electronic Edition’s side-by-side view of 1818 and 1831 Frankenstein texts). But surely a five-way comparison was not best served by five side-by-side panels. We opted against the comparison panels, and for, instead, our "hotspots" of variation with their side-panels. The reader would select an edition to read, and would discover variant passages based on highlights of light to dark intensity, inviting them to click on the passage. On the user’s interaction with a variant passage, a side panel would appear to display the data about variation in each of the other four editions. That side panel would, in turn, invite the reader to explore any one of the other five editions at that moment.</p>
 
-    <p>Our work on the project has involved returning to the code of Curran’s and Lynch’s electronic editions of the 1818 and 1831 texts, and converting its HTML tags into simple XML marking the structure of the document. (Click <a href="https://github.com/FrankensteinVariorum/fv-collation/blob/master/docs/1818_full.xml">here</a> for details.) New with our Variorum is a text-based digital edition of the 1823 publication supervised by William Godwin, the first edition to show Mary Wollstonecraft Shelley’s name on the title page. We prepared this plain text edition from OCR of the 1823 edition, derived via ABBYY Finereader, and formatted like our plain texts of the 1818 and 1823. Throughout this process we have been correcting our new and restored digital texts against photo facsimiles of the originals.</p>
+    <p>Our idea for the Variorum interface was to invite the reader to non-linear adventures in reading across the editions, exploring for variation. While the <i>Frankenstein Variorum</i> may certainly be accessed to read a single edition from start to finish, it seems unlikely that readers would not simply go exploring through cross-sections, taking digital core samples of significantly altered passages to track <i>Frankenstein</i>’s changes from 1816 to 1831. We recommend reading the Variorum in any direction, from any point of departure, and suggest it may be a fine complement to reading a print edition of the book.</p>
 
-    <p>We then prepared all editions to be compared with one another with computer-aided collation. To create the TEI variorum, we prepared all the print editions with the same XML elements, and then we “flattened” those elements as self-closing milestone markers for collation, because the collation process needs to be able to locate alterations that collapse or open up new paragraphs and chapters. We similarly flattened the markup of the Shelley-Godwin archive texts, and we wrote an algorithm in Python to exclude page surface and line markers from the collation, because our process compares what we think of as semantic structures; thus, the paragraphing, the chapter, the volume boundaries matter where the page boundaries and lineation do not. When the editions are thus prepared in comparable “flat” XML, we process them with <a href="http://collatex.net/">CollateX</a>, which locates the points of variance (or “deltas”) and outputs these in TEI XML critical apparatus markup. We have devised a structure that we think of as the “spine” of the edition created from the TEI critical apparatus to point to specific locations in the manuscript notebooks. This provides a way to link a reading interface of the novel that highlights “hotspots” of variance in the print edition and that links into relevant passages in the Notebooks.</p>
+    <h2>Preparing the texts for machine-assisted collation</h2>
 
-    <p>We first prepared the “skeleton” of the new TEI edition, a structure fundamentally different from the TEI currently featured at Romantic Circles. We include a version of the little-studied 1823 and “Thomas” editions. We hope our edition will inspire fresh investigations of longstanding questions about Frankenstein’s transformations, such as the extent of Godwin’s interventions in the text in 1823 and how many of these these persist in the 1831 text, and what alterations Mary Shelley made in her Thomas copy marginalia diverge from the version of the text she prepared in 1831.</p>
+    <!-- <p>We began preparing a new digital encoding of the novel <em>Frankenstein</em> by returning to its first online text in Stuart Curran’s and Jack Lynch’s <a href="http://knarf.english.upenn.edu/">Pennsylvania Electronic Edition</a>. That hypertext edition represented groundbreaking digital scholarship in the era of web 1.0, by deploying an interface for reading the 1818 and 1831 texts in juxtaposed parallel texts, using HTML frames now deprecated by the Worldwide Web Consortium. .</p>
+
+    <p>Our work on the project has involved returning to the code of Curran’s and Lynch’s electronic editions of the 1818 and 1831 texts, and converting its HTML tags into simple XML marking the structure of the document. (Click <a href="https://github.com/FrankensteinVariorum/fv-collation/blob/master/docs/1818_full.xml">here</a> for details.) New with our Variorum is a text-based digital edition of the 1823 publication supervised by William Godwin, the first edition to show Mary Wollstonecraft Shelley’s name on the title page. We prepared this plain text edition from OCR of the 1823 edition, derived via ABBYY Finereader, and formatted like our plain texts of the 1818 and 1823. Throughout this process we have been correcting our new and restored digital texts against photo facsimiles of the originals.</p> -->
+    <p>We did not imagine ourselves preparing new editions for this project (though we did eventually). At first, our most significant challenge was to find a way to collate existing digital editions of the 1818 and 1831 texts with the Shelley-Godwin Archive’s TEI XML edition of the manuscript notebooks. The editions were encoded, it seemed, entirely differently. The print editions were encoded based on their nested semantic structure of volumes, chapters, paragraphs, with pagination in the original source texts a secondary phenomenon barely worth representing on the screen. The Shelley-Godwin Archive’s ornate edition of the MS notebooks had prepared a separate file for each individual notebook with a documentary line-by-line encoding of the marks of the page surfaces, including marginal annotations.</p>
+    <p>We had to find a way to negotiate the different paradigms of markup in these digital editions, and doing so became the foundation of our method for machine-assisted collation that, crucially, had to include the XML tags that marked chapter and paragraph boundaries, while it also crucially had to ignore the markers of lineation and surface boundaries. We also had to bundle the S-GA page XML files into clusters to align roughly with the structural divisions of the print editions. </p>
+
+    <p>We followed <a href="https://collatex.net/doc/">the Gothenburg Model</a> of computer-aided textual collation, which requires clarity on how we would:</p>
+    <ul>
+        <li><strong>Tokenize</strong> the strings of text to be compared into base units: We would compare words and punctuation, and decide on markup to include as tokens supplying crucial data for comparison;</li>
+        <li><strong>Normalize</strong> certain literal differences as not meaningful: for example: we must instruct the collation algorithm that ”‡amp;” is the same as ”and”, and also that the <code>&lt;milestone/&gt;</code> markup in the Shelley-Godwin archive indicating the start of a new paragraph is the same as as start tag for a <code>`&lt;p&gt;`</code> element in the editions of the print texts. Our list of normalizing algorithims became very extensive over the course of this project.</li>
+        <li><strong>Align</strong> the texts by dividing them into 33 regular portions that share starting and ending points across the five editions. This was complicated by gaps in the manuscript and heavily revised passages and alterations in the chapter divisions in the 1831 text. The alignment challenges with the MS notebooks are explained and visualized later.</li>
+        <li><strong>Analyze</strong> the output of the machine assisted collation and look for errors in alignment, normalization, and tokenization to correct.</li>
+        <li><strong>Visualize</strong> the results of collation, and thereby find bugs to fix or alterations to make in the process.</li>
+    </ul>
+
+    <p>Alignment proved a significant challenge. To understand how the Variorum is put together, it will help to visualize how the various pieces of the manuscript notebook aligned to the 33 collation  units we prepared for the full print editions available in their totality. The MS notebooks were missing a large portion of the opening of the novel, a full 7 collation units. They featured a gap in the middle, around which we identified collation unit 19, and they contained a few extra copies of passages at C20, C24, and C29 - 33. The MS files were identified by their position in one of three boxes at the Bodleian Library, all fully encoded by the Shelley-Godwin Archive. The following interactive diagram is a visual summary of how the pieces aligned prior to collation:</p>
+
+    <figure class="diagram">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"  viewBox="0 0 3800 1500">
+            <style type="text/css">
+                a:link,
+                a:visited {
+                    cursor: pointer;
+                }
+                a text {
+                    fill: blue;
+                    text-decoration: underline;
+                }
+                a:hover, a:active {
+                    outline: dotted 1px blue;
+                }
+            </style>
+            <desc>This SVG displays how the MS Frankenstein Notebooks align with the collation units devised for the published editions of Frankenstein.</desc>
+            <g alignment-baseline="baseline" transform="translate (600, 900)">
+                <g id="title">
+                    <text x="1700" y="500" font-size="7em" font-weight="bold" text-anchor="middle">Alignment of the MS Notebook Collation Units</text>
+                </g>
+                <g id="printEdInfo">
+                    <line id="printEds" x1="0" y1="0" x2="3400" y2="0" stroke="#f9b47d" stroke-width="500"/>
+                    <text x="1700" y="200" font-size="6em" font-weight="bold" text-anchor="middle">Print editions: full range of collation units</text>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/1818/vol_1_preface/#C01_app1"><text x="-75" y="350" font-size="6em">C-01</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app1379"><text x="3300" y="350" font-size="6em">C-33</text></a>
+                </g>
+                <g id="MS-Boxes-56-57">
+                    <!-- C08 - C18 frag  -->
+                    <line id="seg1" x1="800" y1="-200" x2="1900" y2="-200" stroke="#827ee2" stroke-width="350"/>
+                    <line id="box56" x1="800" x2="1800" y1="-185" y2="-185" stroke="maroon" stroke-width="20"/>
+                    <line id="box56bound" x1="1800" x2="1800" y1="-370" y2="-25" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+                    <line id="box57a" x1="1800" x2="1900" y1="-275" y2="-275" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+                    <text x="1350" y="-80" fill="maroon" text-anchor="middle" font-weight="bold" font-size="5em">MS Box 56</text>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app2"><text x="700" y="-450" font-size="6em">C-08</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3/#C18_app477"><text x="1550" y="-450" font-size="6em">C-18(frag)</text></a>
+                    <!-- C20 - C33 -->
+                    <line id="seg2" x1="2000" y1="-200" x2="3400" y2="-200" stroke="#827ee2" stroke-width="350"/>
+                    <line id="box57b" x1="2000" x2="3400" y1="-275" y2="-275" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+                    <text x="2700" y="-150" fill="navy" text-anchor="middle" font-weight="bold" font-size="5em">MS Box 57</text>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C20_app3"><text x="2000" y="-450" font-size="6em">C-20</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app15"><text x="2400" y="-450" font-size="6em">C-24</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C27_app790"><text x="2900" y="-450" font-size="6em">C-29</text></a>
+                </g>
+                <g id="MS-Extras">
+                    <!-- box 57: C20 and C24 -->
+                    <line id="seg3-C20" x1="2000" x2="2100" y1="-730" y2="-730" stroke="#ccccff" stroke-width="350"/>
+                    <line id="seg3-C24" x1="2400" x2="2500" y1="-730" y2="-730" stroke="#ccccff" stroke-width="350"/>
+                    <line id="box57c" x1="2000" x2="2100" y1="-800" y2="-800" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+                    <line id="box57d" x1="2400" x2="2500" y1="-800" y2="-800" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+                    <!-- box 58: C29 - C33 -->
+                    <line id="seg4-C29" x1="2900" x2="3400" y1="-730" y2="-730" stroke="#ccccff" stroke-width="350"/>
+                    <line id="box58a" x1="2900" x2="3400" y1="-750" y2="-750" stroke="green" stroke-dasharray="20,15" stroke-width="20"/>
+                    <text x="3150" y="-650" fill="green" text-anchor="middle" font-weight="bold" font-size="5em">MS Box 58</text>
+
+                    <!-- box 58: another C33 -->
+                    <line id="seg5-C33" x1="3300" x2="3400" y1="-1250" y2="-1250" stroke="#ccccff" stroke-width="350"/>
+                    <line id="box58b" x1="3300" x2="3400" y1="-1270" y2="-1270" stroke="green" stroke-dasharray="20,15" stroke-width="20"/>
+                    <text x="3300" y="-980" font-size="6em">C-33</text>
+                </g>
+
+
+
+            </g>
+        </svg>
+        <figcaption>Visualization of the collation units prepared from the Manuscript Notebooks. Click on the underlined links in the image to visit the Variorum edition at each alignment boundary,</figcaption>
+    </figure>
+
+
+       <p> We prepared all editions to be compared with one another with computer-aided collation. To create the TEI variorum, we prepared all the print editions with the same XML elements, and then we “flattened” those elements as self-closing milestone markers for collation, because the collation process needs to be able to locate alterations that collapse or open up new paragraphs and chapters. We similarly flattened the markup of the Shelley-Godwin archive texts, and we wrote an algorithm in Python to exclude page surface and line markers from the collation, because our process compares what we think of as semantic structures; thus, the paragraphing, the chapter, the volume boundaries matter where the page boundaries and lineation do not. When the editions are thus prepared in comparable “flat” XML, we process them with <a href="http://collatex.net/">CollateX</a>, which locates the points of variance (or “deltas”) and outputs these in TEI XML critical apparatus markup. We have devised a structure that we think of as the “spine” of the edition created from the TEI critical apparatus to point to specific locations in the manuscript notebooks. This provides a way to link a reading interface of the novel that highlights “hotspots” of variance in the print edition and that links into relevant passages in the Notebooks.</p>
+
+    <h2 id="collation-to-edition">From Collation Data to Variorum Edition</h2>
+    <p>Here describe the making of the TEI spine and the edition files. </p>
+
+
+    <h2 id="static-website-interface">The Static Web Interface for thie Variorum</h2>
+
+    <p>Here describe the static website with Astro.</p>
+
+   <!-- <p>We first prepared the “skeleton” of the new TEI edition, a structure fundamentally different from the TEI currently featured at Romantic Circles. We include a version of the little-studied 1823 and “Thomas” editions. We hope our edition will inspire fresh investigations of longstanding questions about Frankenstein’s transformations, such as the extent of Godwin’s interventions in the text in 1823 and how many of these these persist in the 1831 text, and what alterations Mary Shelley made in her Thomas copy marginalia diverge from the version of the text she prepared in 1831.</p> -->
 
     <h2 id="presentations">Presentations</h2>
 
