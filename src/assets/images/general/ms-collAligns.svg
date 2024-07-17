@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!--ebb: Note: oXygen has an SVG viewer in the Tools menu, but it's usually best to preview these files in a web browser. -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"  viewBox="0 0 3800 1500">
+    <style type="text/css">
+        a:link,
+        a:visited {
+        cursor: pointer;
+        }
+        a text {
+        fill: blue; 
+        text-decoration: underline;
+        }
+        a:hover, a:active {
+        outline: dotted 1px blue;
+        }
+    </style>
+    <desc>This SVG displays how the MS Frankenstein Notebooks align with the collation units devised for the published editions of Frankenstein.</desc>
+    <g alignment-baseline="baseline" transform="translate (180, 900)">
+        <g id="title">
+            <text x="1700" y="500" font-size="7em" font-weight="bold" text-anchor="middle">Alignment of the MS Notebook Collation Units</text>
+        </g>
+        <g id="printEdInfo">
+        <line id="printEds" x1="0" y1="0" x2="3400" y2="0" stroke="#f9b47d" stroke-width="500"/>
+        <text x="1700" y="200" font-size="6em" font-weight="bold" text-anchor="middle">Print editions: full range of collation units</text>
+            <a xlink:href="https://frankensteinvariorum.org/viewer/1818/vol_1_preface/#C01_app1"><text x="-75" y="350" font-size="6em">C-01</text></a>
+            <a xlink:href="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app1379"><text x="3300" y="350" font-size="6em">C-33</text></a>
+        </g>
+        <g id="MS-Boxes-56-57">
+            <!-- C08 - C18 frag  -->
+            <line id="seg1" x1="800" y1="-200" x2="1900" y2="-200" stroke="#827ee2" stroke-width="350"/> 
+            <line id="box56" x1="800" x2="1800" y1="-185" y2="-185" stroke="maroon" stroke-width="20"/>
+            <line id="box56bound" x1="1800" x2="1800" y1="-370" y2="-25" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+            <line id="box57a" x1="1800" x2="1900" y1="-275" y2="-275" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+            <text x="1350" y="-80" fill="maroon" text-anchor="middle" font-weight="bold" font-size="5em">MS Box 56</text>
+            <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app2"><text x="700" y="-450" font-size="6em">C-08</text></a>
+            <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3/#C18_app477"><text x="1550" y="-450" font-size="6em">C-18(frag)</text></a>
+            <!-- C20 - C33 -->
+            <line id="seg2" x1="2000" y1="-200" x2="3400" y2="-200" stroke="#827ee2" stroke-width="350"/> 
+            <line id="box57b" x1="2000" x2="3400" y1="-275" y2="-275" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+            <text x="2700" y="-150" fill="navy" text-anchor="middle" font-weight="bold" font-size="5em">MS Box 57</text>
+            <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C20_app3"><text x="2000" y="-450" font-size="6em">C-20</text></a>
+            <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app15"><text x="2400" y="-450" font-size="6em">C-24</text></a>
+            <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C27_app790"><text x="2900" y="-450" font-size="6em">C-29</text></a>  
+        </g>
+        <g id="MS-Extras">
+            <!-- box 57: C20 and C24 -->
+            <line id="seg3-C20" x1="2000" x2="2100" y1="-730" y2="-730" stroke="#ccccff" stroke-width="350"/> 
+            <line id="seg3-C24" x1="2400" x2="2500" y1="-730" y2="-730" stroke="#ccccff" stroke-width="350"/> 
+            <line id="box57c" x1="2000" x2="2100" y1="-800" y2="-800" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+            <line id="box57d" x1="2400" x2="2500" y1="-800" y2="-800" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
+            <!-- box 58: C29 - C33 -->
+            <line id="seg4-C29" x1="2900" x2="3400" y1="-730" y2="-730" stroke="#ccccff" stroke-width="350"/> 
+            <line id="box58a" x1="2900" x2="3400" y1="-750" y2="-750" stroke="green" stroke-dasharray="20,15" stroke-width="20"/>
+            <text x="3150" y="-650" fill="green" text-anchor="middle" font-weight="bold" font-size="5em">MS Box 58</text>
+            
+            <!-- box 58: another C33 -->
+            <line id="seg5-C33" x1="3300" x2="3400" y1="-1250" y2="-1250" stroke="#ccccff" stroke-width="350"/> 
+            <line id="box58b" x1="3300" x2="3400" y1="-1270" y2="-1270" stroke="green" stroke-dasharray="20,15" stroke-width="20"/>
+            <text x="3300" y="-980" font-size="6em">C-33</text> 
+        </g>
+    
+       
+      
+    </g>
+</svg>
