@@ -428,8 +428,9 @@ div,aside,nav,article,section,header,footer {
         flex-direction: row;
     }
     .region > * > aside {
-        flex-shrink: 0;
-        width: 29.2891437622%;
+        flex-grow: 20;
+        overflow-y: scroll;
+       /* width: 29.2891437622%;*/
     }
 }
 
@@ -743,11 +744,11 @@ img {
     -ms-interpolation-mode: bicubic;
 }
 
-svg {
+/*svg {
     width: inherit;
     height: inherit;
     fill: inherit;
-}
+}*/
 
 svg .cls-1,svg .cls-2,svg .cls-3 {
     fill: inherit;
@@ -2671,11 +2672,38 @@ body.home > footer:before {
 }
 
 figure.diagram {
-    width:80%;
+    width:100%;
+    height:80%;
     padding:1em;}
 figure.diagram figcaption {
     text-align:center;
 }
+
+/* FOR HOME PAGE HEATMAP */
+figure.front {
+   display:flex;
+   flex-direction:column;
+    width:70%;
+    height:100%;
+    overflow-y: scroll;
+
+
+    /*background-color:#fef8f1;*/
+}
+figure.front figcaption {
+    text-align:center;
+    font-size:.7em;
+    padding-top:1em;
+    flex:1;
+
+}
+
+figure.front svg {
+    overflow-y:scroll;
+    flex-grow:20;
+
+}
+
 
 ul.explan {
     list-style-type: disc;
