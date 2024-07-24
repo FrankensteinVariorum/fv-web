@@ -2700,7 +2700,7 @@ figure.front figcaption {
 
 figure.front svg {
     overflow-y:scroll;
-    flex-grow:20;
+    flex-shrink:20;
 
 }
 
