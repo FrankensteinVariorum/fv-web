@@ -39,14 +39,14 @@
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1000 18000">
             <xsl:comment>SPINE TEST: <xsl:value-of select="$spine//tei:ptr/@target[contains(., 'f1823_vol_1_letter_iii')]"/></xsl:comment>
             <g class="outer" transform="translate(50, 50)">        
-                <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 10]"/>
+                <xsl:apply-templates select="$witLevData//xml/fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 50]"/>
                 <!-- ebb: This uses general comparison to ensure that the whole series of @fVal values must meet the requirement of being greater than or equal to 10. We found that often edits are just 1 to 3 characters of difference, but this visualization is designed to concentrate on lengthier revisions. -->
             </g>
         </svg>
     </xsl:template>
     <xsl:template match="xml/fs">
         <xsl:variable name="currentApp" as="element()" select="current()"/>
-        <xsl:variable name="yPos" select="(count($currentApp/preceding-sibling::fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 10]) + 1) * 30"/>
+        <xsl:variable name="yPos" select="(count($currentApp/preceding-sibling::fs[descendant::f/@fVal[not(. = 'null')] ! number() &gt;= 50]) + 1) * 30"/>
         <!-- ebb: The next variables can control for column position in the SVG -->
         <xsl:variable name="cu_pos" select="position()"/>
         <xsl:variable name="vertPos" as="xs:integer" select="$cu_pos mod 11"/>
