@@ -2683,8 +2683,8 @@ figure.diagram figcaption {
 figure.front {
    display:flex;
    flex-direction:column;
-    width:70%;
-    height:100%;
+    width:60%;
+    height:100vh;
     overflow-y: scroll;
 
 
@@ -2700,7 +2700,8 @@ figure.front figcaption {
 
 figure.front svg {
     overflow-y:scroll;
-    flex-shrink:20;
+    flex-grow:50;
+
 
 }
 
