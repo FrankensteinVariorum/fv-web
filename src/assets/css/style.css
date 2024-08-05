@@ -2710,11 +2710,16 @@ ul.explan {
     list-style-type: disc;
     padding-left: 2rem;
 }
+ul.explan li ul {
+    list-style-type: circle;
+    padding-left: 4rem;
+}
 
 ol.explan{
     list-style-type: decimal;
     padding-left: 2rem;
 }
+
 
 .finePrint {
     font-size:.9em;
