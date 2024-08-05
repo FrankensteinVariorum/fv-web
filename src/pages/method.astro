@@ -6,11 +6,12 @@ import spineConcept from "../assets/images/general/FV-spineConcept.png";
 import selectors from "../assets/images/general/FV-selectors.png";
 import variations from "../assets/images/general/FV-variations.png";
 import hotspots from "../assets/images/general/FV-hotspots.png";
+import techFlow from "../assets/images/general/projectTechFlow.png";
 
 ---
 <Layout title="Method">
 <main id="primary-content" role="main">
-    <h1>Method: How did we make this edition?</h1>
+    <h1>How did we make this edition?</h1>
 
     <h2>Planning a variorum reading experience</h2>
 
@@ -156,9 +157,12 @@ import hotspots from "../assets/images/general/FV-hotspots.png";
     <p><a href="https://astro.build/"<Astro</a> is a static website generator for which Raffaele Viglianti developed <a href="https://www.npmjs.com/package/astro-tei">a special TEI package</a>, related to <a href="https://teic.github.io/CETEIcean/">CETEIcean</a>, a Javascript library that renders TEI XML directly in the browser. When you select a button or menu bar on the site, Astro coordinates and delivers views from a total of 146 chapter files (the total of all chapter files across all five versions of <i>Frankenstein</i>. It works together with React, which supports selector menus and interactive hotspots and displays the variants in the sidebar.</p>
 
 <h2>Technologies used in the project</h2>
-    <p>Each stage of this project depended on its own collection of technologies and challenges. Here is a visual summary of them: </p>
+    <p>Each stage of this project depended on its own collection of technologies and challenges. Our work was a combination of XML stack technologies (XML and XSLT), combined with Python for handling documents and markup as strings with regular expressions, and finally JavaScript libraries React and Astro with git/GitHub to package our data into web components in a static website.  Here is a visual summary of them all! </p>
 
-
+<figure class="diagram">
+    <Image src={techFlow} alt="a flowchart showing the technologies applied at each stage of project development"/>
+    <figcaption>Technologies used at each stage of developing the <i>Frankenstein Variorum</i>.</figcaption>
+</figure>
 
 
     <h2 id="presentations">Selection of presentations and papers</h2>
