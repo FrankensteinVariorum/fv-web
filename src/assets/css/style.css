@@ -2708,7 +2708,12 @@ figure.front svg {
 
 ul.explan {
     list-style-type: disc;
-    padding-left: 2em;
+    padding-left: 2rem;
+}
+
+ol.explan{
+    list-style-type: decimal;
+    padding-left: 2rem;
 }
 
 .finePrint {
