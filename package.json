@@ -8,7 +8,7 @@
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
-    "start": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm -r dotenv/config --ignore db.json ./index.ts"
+    "start": "tsx ./file.ts"
   },
   "engines": {
     "node": ">=16"
@@ -23,6 +23,7 @@
     "@babel/types": "^7.22.5",
     "@nanostores/persistent": "^0.9.1",
     "@nanostores/react": "^0.7.1",
+    "@netlify/blobs": "^8.0.0",
     "@pnpm/logger": "^5.2.0",
     "@types/node": "^20.12.8",
     "astro": "^2.10.15",
@@ -54,6 +55,7 @@
     "netlify-cli": "^17.34.0",
     "pagefind": "^1.1.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.17.0",
     "typescript": "^5.1.6"
   },
   "description": "``` npm create astro@latest -- --template basics ```",
