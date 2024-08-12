@@ -7,7 +7,12 @@ on:
     branches: [ main]
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
-  
+
+# To ensure global availability of logger information for pagefinder search
+env:
+  LOG_LEVEL: debug
+  LOG_FORMAT: simple
+
 # Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
