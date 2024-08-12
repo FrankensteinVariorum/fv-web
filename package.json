@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && (exit_code=$? && [ $exit_code -ne 0 ] && echo 'astro build failed' || pnpm run pagefind --site dist)",
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
