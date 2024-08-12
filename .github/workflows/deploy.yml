@@ -39,7 +39,7 @@ jobs:
         with:
           version: latest
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: Build
         run: |
           LOG_LEVEL=${{ env.LOG_LEVEL }} LOG_FORMAT=${{ env.LOG_FORMAT }} pnpm run build
