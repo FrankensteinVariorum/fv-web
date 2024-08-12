@@ -6,13 +6,16 @@ import pagefind from "astro-pagefind";
 import { remarkModifiedTime } from './remark-modified-time.mjs';
 
 
-
 // https://astro.build/config
 export default defineConfig({
   build: {
     format: "file",
   },
-  integrations: [tailwind(), react(), image(), pagefind()],
+  integrations: [tailwind(), react(), image(), pagefind(
+      {logger:
+            {info: (message) => console.log(message)}, warn: (message) => {console.warn(`[WARN]: ${message}`);}, error: (message) => {console.error(`[ERROR]: ${message}`);},
+      }
+  )],
   vite: {
     assetsInclude: "**/*.xml",
     ssr: {
@@ -26,4 +29,3 @@ export default defineConfig({
   /*base: '/fv'*/
 
 });
-
