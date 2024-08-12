@@ -5,6 +5,7 @@ import image from "@astrojs/image";
 import winston from "winston";
 import pagefind from "astro-pagefind";
 import { remarkModifiedTime } from './remark-modified-time.mjs';
+import {tsImportType} from "@babel/types";
 
 const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || 'info',

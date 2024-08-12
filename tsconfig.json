@@ -1,23 +1,45 @@
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "skipLibCheck": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"],},
     "lib": [
       "ES2021", "dom", "ESNext"
+    ],
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      }
     ],
     "types": [
       "astro/client"
     ],
+    "typeRoots": ["./src/types/global.d.ts", "./node_modules/@types"],
     "jsx": "react",
   },
+  "noPropertyAccessFromIndexSignature": false,
   "include": [
+    "./index.ts",
+    "./src/*",
     "/src/*",
     "/src/**/*",
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.astro"
   ],
-
+  "ts-node": {
+    "esm": true,
+    "files": true,
+    "compiler": "typescript",
+    "experimentalResolver": true,
+    "experimentalSpecifierResolution": "node"
+  }
 }

@@ -4,11 +4,14 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro build",
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "start": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm -r dotenv/config --ignore db.json ./index.ts"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "dependencies": {
     "@astro-tei/react": "^0.1.1",
@@ -21,12 +24,15 @@
     "@nanostores/persistent": "^0.9.1",
     "@nanostores/react": "^0.7.1",
     "@pnpm/logger": "^5.2.0",
-    "astro": "^2.10.1",
+    "@types/node": "^20.12.8",
+    "astro": "^2.10.15",
     "astro-pagefind": "^1.6.0",
     "astro-tei": "^0.1.0",
     "dayjs": "^1.11.12",
+    "dotenv": "^16.4.5",
     "html-react-parser": "^3.0.16",
     "logger": "^0.0.1",
+    "lowdb": "^7.0.1",
     "nanostores": "^0.9.3",
     "npm": "^10.8.2",
     "pnpm": "^9.7.0",
@@ -40,12 +46,14 @@
     "winston": "^3.14.1"
   },
   "devDependencies": {
+    "@astrojs/ts-plugin": "^1.9.1",
     "@rollup/plugin-dynamic-import-vars": "^2.0.4",
     "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
     "jsdom": "^21.1.2",
     "netlify-cli": "^17.34.0",
     "pagefind": "^1.1.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.1.6"
   },
   "description": "``` npm create astro@latest -- --template basics ```",
