@@ -41,65 +41,20 @@ jobs:
           version: latest
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
-      - name: Build
-        run: |
-          LOG_LEVEL=${{ env.LOG_LEVEL }} LOG_FORMAT=${{ env.LOG_FORMAT }} pnpm run build
+      - name: Run custom build script
+        run: ./build_and_handle_error.sh
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: "./dist/"
 
   deploy:
-    needs: build
+    needs: build  # Needs the 'build' job to complete before running
     runs-on: ubuntu-latest
-    environment:
+    environment:  # This line should be indented under 'deploy' job
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}  # Indented under environment
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      
-# Old job code:
-# jobs:
-#  build:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - name: Checkout your repository using git
-#        uses: actions/checkout@v3
-#      # - name: Install, build, and upload your site
-#      #   uses: withastro/action@v0
-#      #   with:
-#      #     # path: . # The root location of your Astro project inside the repository. (optional)
-#      #     node-version: 18 # The specific version of Node that should be used to build your site. Defaults to 16. (optional)
-#      #     # package-manager: yarn # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
-#
-#      # https://github.com/withastro/action/blob/v0/action.yml
-#      - name: Setup PNPM
-#        uses: pnpm/action-setup@v4
-#        with:
-#          version: latest
-#
-#      - name: Setup Node
-#        uses: actions/setup-node@v3
-#        with:
-#          node-version: 18
-#          cache: pnpm
-#          cache-dependency-path: "./pnpm-lock.yaml"
-#
-#      - name: Install
-#        shell: "bash"
-#        run: |
-#          cd .
-#          pnpm install
-#
-#      - name: Build
-#        shell: "bash"
-#        run: |
-#          cd .
-#          pnpm run build
-#
-#      - name: Upload Pages Artifact
-#        uses: actions/upload-pages-artifact@v1
-#        with:
-#          path: "./dist/"
