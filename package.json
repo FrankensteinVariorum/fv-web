@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -20,10 +21,13 @@
     "@nanostores/persistent": "^0.9.1",
     "@nanostores/react": "^0.7.1",
     "astro": "^2.10.1",
+    "astro-pagefind": "^1.6.0",
     "astro-tei": "^0.1.0",
+    "dayjs": "^1.11.12",
     "html-react-parser": "^3.0.16",
     "nanostores": "^0.9.3",
-    "puppeteer": "^20.9.0",
+    "npm": "^10.8.2",
+    "puppeteer": "^23.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
@@ -36,7 +40,13 @@
     "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
     "jsdom": "^21.1.2",
-    "netlify-cli": "^15.10.0",
+    "netlify-cli": "^17.34.0",
+    "pagefind": "^1.1.0",
     "typescript": "^5.1.6"
-  }
+  },
+  "description": "``` npm create astro@latest -- --template basics ```",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

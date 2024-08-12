@@ -2,6 +2,7 @@
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro'
 import '../assets/css/style.css';
+import Search from "astro-pagefind/components/Search";
 
 export interface Props {
 	title: string;
@@ -21,9 +22,12 @@ const { title } = Astro.props;
 	</head>
 	<body>
         <Nav/>
+
         <div id='content-area' class={title}>
+
             <section id="wayfinding" role="navigation"></section>
-			<slot />
+			<slot/>
+			<Search id="search" className="pagefind-ui" uiOptions={{ showImages: false }} />
 		</div>
         <Footer/>
 	</body>

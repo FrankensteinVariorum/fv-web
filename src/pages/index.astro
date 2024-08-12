@@ -2,10 +2,11 @@
 import Home from '../layouts/Home.astro';
 import { sources } from '../data/units.json'
 import slugify from '../components/helpers/slugify.js';
-
+import Search from "astro-pagefind/components/Search";
 import { Image } from '@astrojs/image/components';
 import FronticepieceImage from '../../public/images/general/fronticepiece.jpg';
 import {HeatmapNavigation} from "../components/HeatmapNavigation";
+import Search from "astro-pagefind/components/Search";
 
 const start = `/viewer/${sources.find(s=>s.label == "1818").label}/${slugify(sources.find(s=>s.label == "1818").units[0].label)}`
 // const start = `/viewer/${sources[0].label}/${slugify(sources[0].units[0].label)}`
@@ -29,7 +30,6 @@ const start = `/viewer/${sources.find(s=>s.label == "1818").label}/${slugify(sou
          Try mousing over and clicking the interactive heatmap to locate heavily altered passages.
            Heatmap columns represent from left to right locations in the manuscript, 1818, Thomas, 1823, and 1831 editions.
         </div>
-
       </section>
  <aside id='fronticepiece'>
 
