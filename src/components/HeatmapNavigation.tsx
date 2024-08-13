@@ -16,7 +16,7 @@ export const HeatmapNavigation = (props) => (
         <g className="outer" transform="translate(1100, 100)">
             <g id="C02_app10">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -30,7 +30,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_i/#C02_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_i#C02_app10">
                         <line
                             x1={300}
                             x2={300}
@@ -46,7 +46,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_i/#C02_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_i#C02_app10">
                         <line
                             x1={450}
                             x2={450}
@@ -62,7 +62,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_i/#C02_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_i#C02_app10">
                         <line
                             x1={600}
                             x2={600}
@@ -80,7 +80,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_i/#C02_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_i#C02_app10">
                         <line
                             x1={750}
                             x2={750}
@@ -96,7 +96,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C03_app12">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -110,7 +110,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii/#C03_app12">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii#C03_app12">
                         <line
                             x1={300}
                             x2={300}
@@ -124,7 +124,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii/#C03_app12">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii#C03_app12">
                         <line
                             x1={450}
                             x2={450}
@@ -138,7 +138,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii/#C03_app12">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii#C03_app12">
                         <line
                             x1={600}
                             x2={600}
@@ -152,7 +152,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_ii/#C03_app12">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_ii#C03_app12">
                         <line
                             x1={750}
                             x2={750}
@@ -172,7 +172,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C03_app16">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -186,7 +186,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii/#C03_app16">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii#C03_app16">
                         <line
                             x1={300}
                             x2={300}
@@ -204,7 +204,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii/#C03_app16">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii#C03_app16">
                         <line
                             x1={450}
                             x2={450}
@@ -222,7 +222,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii/#C03_app16">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii#C03_app16">
                         <line
                             x1={600}
                             x2={600}
@@ -240,7 +240,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_ii/#C03_app16">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_ii#C03_app16">
                         <line
                             x1={750}
                             x2={750}
@@ -260,7 +260,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C03_app17">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -274,7 +274,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii/#C03_app17">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii#C03_app17">
                         <line
                             x1={300}
                             x2={300}
@@ -292,7 +292,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii/#C03_app17">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii#C03_app17">
                         <line
                             x1={450}
                             x2={450}
@@ -310,7 +310,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii/#C03_app17">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii#C03_app17">
                         <line
                             x1={600}
                             x2={600}
@@ -328,7 +328,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={750}
                             x2={750}
@@ -344,7 +344,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C03_app23">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -358,7 +358,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii/#C03_app23">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii#C03_app23">
                         <line
                             x1={300}
                             x2={300}
@@ -376,7 +376,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii/#C03_app23">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii#C03_app23">
                         <line
                             x1={450}
                             x2={450}
@@ -394,7 +394,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii/#C03_app23">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii#C03_app23">
                         <line
                             x1={600}
                             x2={600}
@@ -412,7 +412,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_ii/#C03_app23">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_ii#C03_app23">
                         <line
                             x1={750}
                             x2={750}
@@ -432,7 +432,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C03_app39">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -446,7 +446,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii/#C03_app39">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_ii#C03_app39">
                         <line
                             x1={300}
                             x2={300}
@@ -460,7 +460,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii/#C03_app39">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_ii#C03_app39">
                         <line
                             x1={450}
                             x2={450}
@@ -474,7 +474,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii/#C03_app39">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_ii#C03_app39">
                         <line
                             x1={600}
                             x2={600}
@@ -490,7 +490,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_ii/#C03_app39">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_ii#C03_app39">
                         <line
                             x1={750}
                             x2={750}
@@ -510,7 +510,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C04_app12">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -524,7 +524,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iii/#C04_app12">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iii#C04_app12">
                         <line
                             x1={300}
                             x2={300}
@@ -542,7 +542,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iii/#C04_app12">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iii#C04_app12">
                         <line
                             x1={450}
                             x2={450}
@@ -560,7 +560,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iii/#C04_app12">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iii#C04_app12">
                         <line
                             x1={600}
                             x2={600}
@@ -578,7 +578,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iii/#C04_app12">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iii#C04_app12">
                         <line
                             x1={750}
                             x2={750}
@@ -598,7 +598,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C04_app25">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -612,7 +612,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iii/#C04_app25">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iii#C04_app25">
                         <line
                             x1={300}
                             x2={300}
@@ -630,7 +630,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iii/#C04_app25">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iii#C04_app25">
                         <line
                             x1={450}
                             x2={450}
@@ -648,7 +648,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iii/#C04_app25">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iii#C04_app25">
                         <line
                             x1={600}
                             x2={600}
@@ -666,7 +666,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iii/#C04_app25">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iii#C04_app25">
                         <line
                             x1={750}
                             x2={750}
@@ -686,7 +686,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C04_app27">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -700,7 +700,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iii/#C04_app27">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iii#C04_app27">
                         <line
                             x1={300}
                             x2={300}
@@ -716,7 +716,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iii/#C04_app27">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iii#C04_app27">
                         <line
                             x1={450}
                             x2={450}
@@ -732,7 +732,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iii/#C04_app27">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iii#C04_app27">
                         <line
                             x1={600}
                             x2={600}
@@ -750,7 +750,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iii/#C04_app27">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iii#C04_app27">
                         <line
                             x1={750}
                             x2={750}
@@ -770,7 +770,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C05_app10">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -784,7 +784,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C05_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C05_app10">
                         <line
                             x1={300}
                             x2={300}
@@ -802,7 +802,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C05_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C05_app10">
                         <line
                             x1={450}
                             x2={450}
@@ -820,7 +820,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C05_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C05_app10">
                         <line
                             x1={600}
                             x2={600}
@@ -838,7 +838,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv/#C05_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv#C05_app10">
                         <line
                             x1={750}
                             x2={750}
@@ -858,7 +858,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C05_app26">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -872,7 +872,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C05_app26">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C05_app26">
                         <line
                             x1={300}
                             x2={300}
@@ -890,7 +890,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C05_app26">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C05_app26">
                         <line
                             x1={450}
                             x2={450}
@@ -908,7 +908,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C05_app26">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C05_app26">
                         <line
                             x1={600}
                             x2={600}
@@ -926,7 +926,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv/#C05_app26">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv#C05_app26">
                         <line
                             x1={750}
                             x2={750}
@@ -946,7 +946,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C06_app7">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -960,7 +960,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C06_app7">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C06_app7">
                         <line
                             x1={300}
                             x2={300}
@@ -978,7 +978,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C06_app7">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C06_app7">
                         <line
                             x1={450}
                             x2={450}
@@ -996,7 +996,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C06_app7">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C06_app7">
                         <line
                             x1={600}
                             x2={600}
@@ -1014,7 +1014,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv/#C06_app7">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv#C06_app7">
                         <line
                             x1={750}
                             x2={750}
@@ -1034,7 +1034,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C06_app9">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1048,7 +1048,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C06_app9">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C06_app9">
                         <line
                             x1={300}
                             x2={300}
@@ -1062,7 +1062,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C06_app9">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C06_app9">
                         <line
                             x1={450}
                             x2={450}
@@ -1076,7 +1076,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C06_app9">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C06_app9">
                         <line
                             x1={600}
                             x2={600}
@@ -1090,7 +1090,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv/#C06_app9">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv#C06_app9">
                         <line
                             x1={750}
                             x2={750}
@@ -1110,7 +1110,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C06_app10">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1124,7 +1124,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C06_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C06_app10">
                         <line
                             x1={300}
                             x2={300}
@@ -1142,7 +1142,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C06_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C06_app10">
                         <line
                             x1={450}
                             x2={450}
@@ -1160,7 +1160,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C06_app10">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C06_app10">
                         <line
                             x1={600}
                             x2={600}
@@ -1178,7 +1178,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={750}
                             x2={750}
@@ -1194,7 +1194,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C06_app13">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1208,7 +1208,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C06_app13">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C06_app13">
                         <line
                             x1={300}
                             x2={300}
@@ -1226,7 +1226,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C06_app13">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C06_app13">
                         <line
                             x1={450}
                             x2={450}
@@ -1244,7 +1244,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C06_app13">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C06_app13">
                         <line
                             x1={600}
                             x2={600}
@@ -1262,7 +1262,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv/#C06_app13">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv#C06_app13">
                         <line
                             x1={750}
                             x2={750}
@@ -1282,7 +1282,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C06_app19">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1296,7 +1296,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C06_app19">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C06_app19">
                         <line
                             x1={300}
                             x2={300}
@@ -1314,7 +1314,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C06_app19">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C06_app19">
                         <line
                             x1={450}
                             x2={450}
@@ -1332,7 +1332,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C06_app19">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C06_app19">
                         <line
                             x1={600}
                             x2={600}
@@ -1350,7 +1350,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv/#C06_app19">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv#C06_app19">
                         <line
                             x1={750}
                             x2={750}
@@ -1370,7 +1370,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C06_app29">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1384,7 +1384,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C06_app29">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C06_app29">
                         <line
                             x1={300}
                             x2={300}
@@ -1402,7 +1402,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C06_app29">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C06_app29">
                         <line
                             x1={450}
                             x2={450}
@@ -1420,7 +1420,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C06_app29">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C06_app29">
                         <line
                             x1={600}
                             x2={600}
@@ -1438,7 +1438,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv/#C06_app29">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv#C06_app29">
                         <line
                             x1={750}
                             x2={750}
@@ -1458,7 +1458,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C06_app38">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1472,7 +1472,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv/#C06_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_letter_iv#C06_app38">
                         <line
                             x1={300}
                             x2={300}
@@ -1490,7 +1490,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv/#C06_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_letter_iv#C06_app38">
                         <line
                             x1={450}
                             x2={450}
@@ -1508,7 +1508,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv/#C06_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_letter_iv#C06_app38">
                         <line
                             x1={600}
                             x2={600}
@@ -1526,7 +1526,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv/#C06_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/letter_iv#C06_app38">
                         <line
                             x1={750}
                             x2={750}
@@ -1546,7 +1546,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C07_app4">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1560,7 +1560,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C07_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C07_app4">
                         <line
                             x1={300}
                             x2={300}
@@ -1574,7 +1574,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C07_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C07_app4">
                         <line
                             x1={450}
                             x2={450}
@@ -1588,7 +1588,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C07_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C07_app4">
                         <line
                             x1={600}
                             x2={600}
@@ -1602,7 +1602,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_i/#C07_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_i#C07_app4">
                         <line
                             x1={750}
                             x2={750}
@@ -1622,7 +1622,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C07_app28">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1636,7 +1636,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C07_app28">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C07_app28">
                         <line
                             x1={300}
                             x2={300}
@@ -1654,7 +1654,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C07_app28">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C07_app28">
                         <line
                             x1={450}
                             x2={450}
@@ -1672,7 +1672,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C07_app28">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C07_app28">
                         <line
                             x1={600}
                             x2={600}
@@ -1690,7 +1690,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={750}
                             x2={750}
@@ -1706,7 +1706,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C07_app38">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -1720,7 +1720,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C07_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C07_app38">
                         <line
                             x1={300}
                             x2={300}
@@ -1738,7 +1738,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C07_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C07_app38">
                         <line
                             x1={450}
                             x2={450}
@@ -1756,7 +1756,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C07_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C07_app38">
                         <line
                             x1={600}
                             x2={600}
@@ -1774,7 +1774,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_i/#C07_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_i#C07_app38">
                         <line
                             x1={750}
                             x2={750}
@@ -1794,7 +1794,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app2">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app2">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app2">
                         <line
                             x1={150}
                             x2={150}
@@ -1810,7 +1810,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app2">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app2">
                         <line
                             x1={300}
                             x2={300}
@@ -1828,7 +1828,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app2">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app2">
                         <line
                             x1={450}
                             x2={450}
@@ -1846,7 +1846,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app2">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app2">
                         <line
                             x1={600}
                             x2={600}
@@ -1864,7 +1864,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app2">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app2">
                         <line
                             x1={750}
                             x2={750}
@@ -1884,7 +1884,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app4">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app4">
                         <line
                             x1={150}
                             x2={150}
@@ -1902,7 +1902,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app4">
                         <line
                             x1={300}
                             x2={300}
@@ -1920,7 +1920,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app4">
                         <line
                             x1={450}
                             x2={450}
@@ -1938,7 +1938,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app4">
                         <line
                             x1={600}
                             x2={600}
@@ -1959,7 +1959,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app7">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app7">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app7">
                         <line
                             x1={150}
                             x2={150}
@@ -1977,7 +1977,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app7">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app7">
                         <line
                             x1={300}
                             x2={300}
@@ -1995,7 +1995,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app7">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app7">
                         <line
                             x1={450}
                             x2={450}
@@ -2013,7 +2013,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app7">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app7">
                         <line
                             x1={600}
                             x2={600}
@@ -2034,7 +2034,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app21">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app21">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app21">
                         <line
                             x1={150}
                             x2={150}
@@ -2052,7 +2052,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app21">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app21">
                         <line
                             x1={300}
                             x2={300}
@@ -2066,7 +2066,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app21">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app21">
                         <line
                             x1={450}
                             x2={450}
@@ -2080,7 +2080,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app21">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app21">
                         <line
                             x1={600}
                             x2={600}
@@ -2097,7 +2097,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app52">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app52">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app52">
                         <line
                             x1={150}
                             x2={150}
@@ -2115,7 +2115,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app52">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app52">
                         <line
                             x1={300}
                             x2={300}
@@ -2133,7 +2133,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app52">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app52">
                         <line
                             x1={450}
                             x2={450}
@@ -2151,7 +2151,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app52">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app52">
                         <line
                             x1={600}
                             x2={600}
@@ -2169,7 +2169,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app52">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app52">
                         <line
                             x1={750}
                             x2={750}
@@ -2189,7 +2189,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app57">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app57">
                         <line
                             x1={150}
                             x2={150}
@@ -2207,7 +2207,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app57">
                         <line
                             x1={300}
                             x2={300}
@@ -2225,7 +2225,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app57">
                         <line
                             x1={450}
                             x2={450}
@@ -2243,7 +2243,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app57">
                         <line
                             x1={600}
                             x2={600}
@@ -2261,7 +2261,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app57">
                         <line
                             x1={750}
                             x2={750}
@@ -2281,7 +2281,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app59">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app59">
                         <line
                             x1={150}
                             x2={150}
@@ -2299,7 +2299,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app59">
                         <line
                             x1={300}
                             x2={300}
@@ -2317,7 +2317,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app59">
                         <line
                             x1={450}
                             x2={450}
@@ -2335,7 +2335,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app59">
                         <line
                             x1={600}
                             x2={600}
@@ -2353,7 +2353,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app59">
                         <line
                             x1={750}
                             x2={750}
@@ -2373,7 +2373,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app61">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app61">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app61">
                         <line
                             x1={150}
                             x2={150}
@@ -2391,7 +2391,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app61">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app61">
                         <line
                             x1={300}
                             x2={300}
@@ -2409,7 +2409,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app61">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app61">
                         <line
                             x1={450}
                             x2={450}
@@ -2427,7 +2427,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app61">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app61">
                         <line
                             x1={600}
                             x2={600}
@@ -2445,7 +2445,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app61">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app61">
                         <line
                             x1={750}
                             x2={750}
@@ -2465,7 +2465,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app73">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app73">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app73">
                         <line
                             x1={150}
                             x2={150}
@@ -2483,7 +2483,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app73">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app73">
                         <line
                             x1={300}
                             x2={300}
@@ -2497,7 +2497,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app73">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app73">
                         <line
                             x1={450}
                             x2={450}
@@ -2511,7 +2511,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app73">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app73">
                         <line
                             x1={600}
                             x2={600}
@@ -2525,7 +2525,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app73">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app73">
                         <line
                             x1={750}
                             x2={750}
@@ -2541,7 +2541,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app122">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app122">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app122">
                         <line
                             x1={150}
                             x2={150}
@@ -2559,7 +2559,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app122">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app122">
                         <line
                             x1={300}
                             x2={300}
@@ -2577,7 +2577,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app122">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app122">
                         <line
                             x1={450}
                             x2={450}
@@ -2595,7 +2595,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app122">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app122">
                         <line
                             x1={600}
                             x2={600}
@@ -2613,7 +2613,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app122">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app122">
                         <line
                             x1={750}
                             x2={750}
@@ -2633,7 +2633,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app163">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app163">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app163">
                         <line
                             x1={150}
                             x2={150}
@@ -2651,7 +2651,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app163">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app163">
                         <line
                             x1={300}
                             x2={300}
@@ -2669,7 +2669,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app163">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app163">
                         <line
                             x1={450}
                             x2={450}
@@ -2687,7 +2687,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app163">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app163">
                         <line
                             x1={600}
                             x2={600}
@@ -2705,7 +2705,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app163">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app163">
                         <line
                             x1={750}
                             x2={750}
@@ -2725,7 +2725,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app190">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app190">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app190">
                         <line
                             x1={150}
                             x2={150}
@@ -2743,7 +2743,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app190">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app190">
                         <line
                             x1={300}
                             x2={300}
@@ -2761,7 +2761,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app190">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app190">
                         <line
                             x1={450}
                             x2={450}
@@ -2779,7 +2779,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app190">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app190">
                         <line
                             x1={600}
                             x2={600}
@@ -2797,7 +2797,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app190">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app190">
                         <line
                             x1={750}
                             x2={750}
@@ -2817,7 +2817,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app211">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app211">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app211">
                         <line
                             x1={150}
                             x2={150}
@@ -2835,7 +2835,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app211">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app211">
                         <line
                             x1={300}
                             x2={300}
@@ -2853,7 +2853,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app211">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app211">
                         <line
                             x1={450}
                             x2={450}
@@ -2871,7 +2871,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app211">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app211">
                         <line
                             x1={600}
                             x2={600}
@@ -2889,7 +2889,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app211">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app211">
                         <line
                             x1={750}
                             x2={750}
@@ -2909,7 +2909,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app213">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app213">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app213">
                         <line
                             x1={150}
                             x2={150}
@@ -2927,7 +2927,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app213">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app213">
                         <line
                             x1={300}
                             x2={300}
@@ -2945,7 +2945,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app213">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app213">
                         <line
                             x1={450}
                             x2={450}
@@ -2963,7 +2963,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app213">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app213">
                         <line
                             x1={600}
                             x2={600}
@@ -2984,7 +2984,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app262">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app262">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app262">
                         <line
                             x1={150}
                             x2={150}
@@ -2998,7 +2998,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app262">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app262">
                         <line
                             x1={300}
                             x2={300}
@@ -3012,7 +3012,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app262">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app262">
                         <line
                             x1={450}
                             x2={450}
@@ -3026,7 +3026,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app262">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app262">
                         <line
                             x1={600}
                             x2={600}
@@ -3042,7 +3042,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app262">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app262">
                         <line
                             x1={750}
                             x2={750}
@@ -3062,7 +3062,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app267">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app267">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app267">
                         <line
                             x1={150}
                             x2={150}
@@ -3080,7 +3080,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app267">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app267">
                         <line
                             x1={300}
                             x2={300}
@@ -3098,7 +3098,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app267">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app267">
                         <line
                             x1={450}
                             x2={450}
@@ -3116,7 +3116,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app267">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app267">
                         <line
                             x1={600}
                             x2={600}
@@ -3137,7 +3137,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app278">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app278">
                         <line
                             x1={150}
                             x2={150}
@@ -3155,7 +3155,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app278">
                         <line
                             x1={300}
                             x2={300}
@@ -3173,7 +3173,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app278">
                         <line
                             x1={450}
                             x2={450}
@@ -3191,7 +3191,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app278">
                         <line
                             x1={600}
                             x2={600}
@@ -3212,7 +3212,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app310">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app310">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app310">
                         <line
                             x1={150}
                             x2={150}
@@ -3230,7 +3230,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app310">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app310">
                         <line
                             x1={300}
                             x2={300}
@@ -3244,7 +3244,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app310">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app310">
                         <line
                             x1={450}
                             x2={450}
@@ -3258,7 +3258,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app310">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app310">
                         <line
                             x1={600}
                             x2={600}
@@ -3274,7 +3274,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app310">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app310">
                         <line
                             x1={750}
                             x2={750}
@@ -3290,7 +3290,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app360">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app360">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app360">
                         <line
                             x1={150}
                             x2={150}
@@ -3308,7 +3308,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app360">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app360">
                         <line
                             x1={300}
                             x2={300}
@@ -3324,7 +3324,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app360">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app360">
                         <line
                             x1={450}
                             x2={450}
@@ -3340,7 +3340,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app360">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app360">
                         <line
                             x1={600}
                             x2={600}
@@ -3359,7 +3359,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app392">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app392">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app392">
                         <line
                             x1={150}
                             x2={150}
@@ -3377,7 +3377,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app392">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app392">
                         <line
                             x1={300}
                             x2={300}
@@ -3393,7 +3393,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app392">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app392">
                         <line
                             x1={450}
                             x2={450}
@@ -3409,7 +3409,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app392">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app392">
                         <line
                             x1={600}
                             x2={600}
@@ -3428,7 +3428,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app394">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app394">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app394">
                         <line
                             x1={150}
                             x2={150}
@@ -3446,7 +3446,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app394">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app394">
                         <line
                             x1={300}
                             x2={300}
@@ -3464,7 +3464,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app394">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app394">
                         <line
                             x1={450}
                             x2={450}
@@ -3482,7 +3482,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app394">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app394">
                         <line
                             x1={600}
                             x2={600}
@@ -3503,7 +3503,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app408">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app408">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app408">
                         <line
                             x1={150}
                             x2={150}
@@ -3521,7 +3521,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app408">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app408">
                         <line
                             x1={300}
                             x2={300}
@@ -3535,7 +3535,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app408">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app408">
                         <line
                             x1={450}
                             x2={450}
@@ -3549,7 +3549,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app408">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app408">
                         <line
                             x1={600}
                             x2={600}
@@ -3568,7 +3568,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app410">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app410">
                         <line
                             x1={150}
                             x2={150}
@@ -3586,7 +3586,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app410">
                         <line
                             x1={300}
                             x2={300}
@@ -3604,7 +3604,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app410">
                         <line
                             x1={450}
                             x2={450}
@@ -3622,7 +3622,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app410">
                         <line
                             x1={600}
                             x2={600}
@@ -3643,7 +3643,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app425">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app425">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app425">
                         <line
                             x1={150}
                             x2={150}
@@ -3661,7 +3661,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app425">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app425">
                         <line
                             x1={300}
                             x2={300}
@@ -3679,7 +3679,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app425">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app425">
                         <line
                             x1={450}
                             x2={450}
@@ -3697,7 +3697,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app425">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app425">
                         <line
                             x1={600}
                             x2={600}
@@ -3718,7 +3718,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app431">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app431">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app431">
                         <line
                             x1={150}
                             x2={150}
@@ -3736,7 +3736,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app431">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app431">
                         <line
                             x1={300}
                             x2={300}
@@ -3750,7 +3750,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app431">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app431">
                         <line
                             x1={450}
                             x2={450}
@@ -3764,7 +3764,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app431">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app431">
                         <line
                             x1={600}
                             x2={600}
@@ -3778,7 +3778,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app431">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app431">
                         <line
                             x1={750}
                             x2={750}
@@ -3798,7 +3798,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app444">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app444">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app444">
                         <line
                             x1={150}
                             x2={150}
@@ -3816,7 +3816,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app444">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app444">
                         <line
                             x1={300}
                             x2={300}
@@ -3834,7 +3834,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app444">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app444">
                         <line
                             x1={450}
                             x2={450}
@@ -3852,7 +3852,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app444">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app444">
                         <line
                             x1={600}
                             x2={600}
@@ -3873,7 +3873,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app462">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2/#C08_app462">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapt_2#C08_app462">
                         <line
                             x1={150}
                             x2={150}
@@ -3889,7 +3889,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i/#C08_app462">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_i#C08_app462">
                         <line
                             x1={300}
                             x2={300}
@@ -3905,7 +3905,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i/#C08_app462">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_i#C08_app462">
                         <line
                             x1={450}
                             x2={450}
@@ -3921,7 +3921,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i/#C08_app462">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_i#C08_app462">
                         <line
                             x1={600}
                             x2={600}
@@ -3937,7 +3937,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii/#C08_app462">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ii#C08_app462">
                         <line
                             x1={750}
                             x2={750}
@@ -3957,7 +3957,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app528">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app528">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app528">
                         <line
                             x1={150}
                             x2={150}
@@ -3975,7 +3975,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app528">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app528">
                         <line
                             x1={300}
                             x2={300}
@@ -3993,7 +3993,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app528">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app528">
                         <line
                             x1={450}
                             x2={450}
@@ -4011,7 +4011,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app528">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app528">
                         <line
                             x1={600}
                             x2={600}
@@ -4029,7 +4029,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app528">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app528">
                         <line
                             x1={750}
                             x2={750}
@@ -4049,7 +4049,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app547">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app547">
                         <line
                             x1={150}
                             x2={150}
@@ -4067,7 +4067,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app547">
                         <line
                             x1={300}
                             x2={300}
@@ -4085,7 +4085,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app547">
                         <line
                             x1={450}
                             x2={450}
@@ -4103,7 +4103,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app547">
                         <line
                             x1={600}
                             x2={600}
@@ -4121,7 +4121,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app547">
                         <line
                             x1={750}
                             x2={750}
@@ -4141,7 +4141,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app634">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app634">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app634">
                         <line
                             x1={150}
                             x2={150}
@@ -4159,7 +4159,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app634">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app634">
                         <line
                             x1={300}
                             x2={300}
@@ -4173,7 +4173,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app634">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app634">
                         <line
                             x1={450}
                             x2={450}
@@ -4187,7 +4187,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app634">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app634">
                         <line
                             x1={600}
                             x2={600}
@@ -4201,7 +4201,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app634">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app634">
                         <line
                             x1={750}
                             x2={750}
@@ -4217,7 +4217,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app646">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app646">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app646">
                         <line
                             x1={150}
                             x2={150}
@@ -4235,7 +4235,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app646">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app646">
                         <line
                             x1={300}
                             x2={300}
@@ -4253,7 +4253,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app646">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app646">
                         <line
                             x1={450}
                             x2={450}
@@ -4271,7 +4271,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app646">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app646">
                         <line
                             x1={600}
                             x2={600}
@@ -4289,7 +4289,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app646">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app646">
                         <line
                             x1={750}
                             x2={750}
@@ -4309,7 +4309,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app662">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app662">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app662">
                         <line
                             x1={150}
                             x2={150}
@@ -4327,7 +4327,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app662">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app662">
                         <line
                             x1={300}
                             x2={300}
@@ -4345,7 +4345,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app662">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app662">
                         <line
                             x1={450}
                             x2={450}
@@ -4363,7 +4363,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app662">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app662">
                         <line
                             x1={600}
                             x2={600}
@@ -4384,7 +4384,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app681">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app681">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app681">
                         <line
                             x1={150}
                             x2={150}
@@ -4402,7 +4402,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app681">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app681">
                         <line
                             x1={300}
                             x2={300}
@@ -4420,7 +4420,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app681">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app681">
                         <line
                             x1={450}
                             x2={450}
@@ -4438,7 +4438,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app681">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app681">
                         <line
                             x1={600}
                             x2={600}
@@ -4456,7 +4456,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app681">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app681">
                         <line
                             x1={750}
                             x2={750}
@@ -4476,7 +4476,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app683">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app683">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app683">
                         <line
                             x1={150}
                             x2={150}
@@ -4494,7 +4494,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app683">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app683">
                         <line
                             x1={300}
                             x2={300}
@@ -4510,7 +4510,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app683">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app683">
                         <line
                             x1={450}
                             x2={450}
@@ -4526,7 +4526,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app683">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app683">
                         <line
                             x1={600}
                             x2={600}
@@ -4542,7 +4542,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app683">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app683">
                         <line
                             x1={750}
                             x2={750}
@@ -4558,7 +4558,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app684">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -4572,7 +4572,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app684">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app684">
                         <line
                             x1={300}
                             x2={300}
@@ -4590,7 +4590,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app684">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app684">
                         <line
                             x1={450}
                             x2={450}
@@ -4608,7 +4608,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app684">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app684">
                         <line
                             x1={600}
                             x2={600}
@@ -4626,7 +4626,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app684">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app684">
                         <line
                             x1={750}
                             x2={750}
@@ -4646,7 +4646,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app700">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app700">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app700">
                         <line
                             x1={150}
                             x2={150}
@@ -4664,7 +4664,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app700">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app700">
                         <line
                             x1={300}
                             x2={300}
@@ -4682,7 +4682,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app700">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app700">
                         <line
                             x1={450}
                             x2={450}
@@ -4700,7 +4700,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app700">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app700">
                         <line
                             x1={600}
                             x2={600}
@@ -4718,7 +4718,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app700">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app700">
                         <line
                             x1={750}
                             x2={750}
@@ -4738,7 +4738,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app702">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app702">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app702">
                         <line
                             x1={150}
                             x2={150}
@@ -4752,7 +4752,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app702">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app702">
                         <line
                             x1={300}
                             x2={300}
@@ -4766,7 +4766,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app702">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app702">
                         <line
                             x1={450}
                             x2={450}
@@ -4780,7 +4780,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app702">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app702">
                         <line
                             x1={600}
                             x2={600}
@@ -4794,7 +4794,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app702">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app702">
                         <line
                             x1={750}
                             x2={750}
@@ -4814,7 +4814,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app724">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3/#C08_app724">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_3#C08_app724">
                         <line
                             x1={150}
                             x2={150}
@@ -4830,7 +4830,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app724">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app724">
                         <line
                             x1={300}
                             x2={300}
@@ -4846,7 +4846,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app724">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app724">
                         <line
                             x1={450}
                             x2={450}
@@ -4864,7 +4864,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app724">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app724">
                         <line
                             x1={600}
                             x2={600}
@@ -4880,7 +4880,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app724">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app724">
                         <line
                             x1={750}
                             x2={750}
@@ -4896,7 +4896,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app787">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app787">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app787">
                         <line
                             x1={150}
                             x2={150}
@@ -4910,7 +4910,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app787">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app787">
                         <line
                             x1={300}
                             x2={300}
@@ -4926,7 +4926,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app787">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app787">
                         <line
                             x1={450}
                             x2={450}
@@ -4942,7 +4942,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app787">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app787">
                         <line
                             x1={600}
                             x2={600}
@@ -4958,7 +4958,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app787">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app787">
                         <line
                             x1={750}
                             x2={750}
@@ -4978,7 +4978,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app794">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app794">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app794">
                         <line
                             x1={150}
                             x2={150}
@@ -4996,7 +4996,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app794">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app794">
                         <line
                             x1={300}
                             x2={300}
@@ -5014,7 +5014,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app794">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app794">
                         <line
                             x1={450}
                             x2={450}
@@ -5032,7 +5032,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app794">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app794">
                         <line
                             x1={600}
                             x2={600}
@@ -5050,7 +5050,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app794">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app794">
                         <line
                             x1={750}
                             x2={750}
@@ -5070,7 +5070,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app891">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app891">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app891">
                         <line
                             x1={150}
                             x2={150}
@@ -5088,7 +5088,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app891">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app891">
                         <line
                             x1={300}
                             x2={300}
@@ -5106,7 +5106,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app891">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app891">
                         <line
                             x1={450}
                             x2={450}
@@ -5124,7 +5124,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app891">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app891">
                         <line
                             x1={600}
                             x2={600}
@@ -5142,7 +5142,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app891">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app891">
                         <line
                             x1={750}
                             x2={750}
@@ -5162,7 +5162,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app902">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app902">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app902">
                         <line
                             x1={150}
                             x2={150}
@@ -5180,7 +5180,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app902">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app902">
                         <line
                             x1={300}
                             x2={300}
@@ -5194,7 +5194,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app902">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app902">
                         <line
                             x1={450}
                             x2={450}
@@ -5208,7 +5208,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app902">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app902">
                         <line
                             x1={600}
                             x2={600}
@@ -5222,7 +5222,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app902">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app902">
                         <line
                             x1={750}
                             x2={750}
@@ -5242,7 +5242,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app928">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app928">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app928">
                         <line
                             x1={150}
                             x2={150}
@@ -5260,7 +5260,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app928">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app928">
                         <line
                             x1={300}
                             x2={300}
@@ -5278,7 +5278,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app928">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app928">
                         <line
                             x1={450}
                             x2={450}
@@ -5296,7 +5296,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app928">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app928">
                         <line
                             x1={600}
                             x2={600}
@@ -5314,7 +5314,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app928">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app928">
                         <line
                             x1={750}
                             x2={750}
@@ -5334,7 +5334,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app1057">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app1057">
                         <line
                             x1={150}
                             x2={150}
@@ -5352,7 +5352,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app1057">
                         <line
                             x1={300}
                             x2={300}
@@ -5370,7 +5370,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app1057">
                         <line
                             x1={450}
                             x2={450}
@@ -5388,7 +5388,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app1057">
                         <line
                             x1={600}
                             x2={600}
@@ -5406,7 +5406,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app1057">
                         <line
                             x1={750}
                             x2={750}
@@ -5426,7 +5426,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app1064">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app1064">
                         <line
                             x1={150}
                             x2={150}
@@ -5440,7 +5440,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app1064">
                         <line
                             x1={300}
                             x2={300}
@@ -5454,7 +5454,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app1064">
                         <line
                             x1={450}
                             x2={450}
@@ -5468,7 +5468,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app1064">
                         <line
                             x1={600}
                             x2={600}
@@ -5482,7 +5482,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app1064">
                         <line
                             x1={750}
                             x2={750}
@@ -5502,7 +5502,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app1107">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app1107">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app1107">
                         <line
                             x1={150}
                             x2={150}
@@ -5520,7 +5520,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app1107">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app1107">
                         <line
                             x1={300}
                             x2={300}
@@ -5538,7 +5538,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app1107">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app1107">
                         <line
                             x1={450}
                             x2={450}
@@ -5556,7 +5556,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app1107">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app1107">
                         <line
                             x1={600}
                             x2={600}
@@ -5574,7 +5574,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app1107">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app1107">
                         <line
                             x1={750}
                             x2={750}
@@ -5594,7 +5594,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app1167">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app1167">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app1167">
                         <line
                             x1={150}
                             x2={150}
@@ -5612,7 +5612,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app1167">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app1167">
                         <line
                             x1={300}
                             x2={300}
@@ -5630,7 +5630,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app1167">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app1167">
                         <line
                             x1={450}
                             x2={450}
@@ -5648,7 +5648,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app1167">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app1167">
                         <line
                             x1={600}
                             x2={600}
@@ -5666,7 +5666,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app1167">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app1167">
                         <line
                             x1={750}
                             x2={750}
@@ -5686,7 +5686,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C08_app1195">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4/#C08_app1195">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_4#C08_app1195">
                         <line
                             x1={150}
                             x2={150}
@@ -5704,7 +5704,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app1195">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app1195">
                         <line
                             x1={300}
                             x2={300}
@@ -5722,7 +5722,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii/#C08_app1195">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ii#C08_app1195">
                         <line
                             x1={450}
                             x2={450}
@@ -5740,7 +5740,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii/#C08_app1195">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_ii#C08_app1195">
                         <line
                             x1={600}
                             x2={600}
@@ -5758,7 +5758,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii/#C08_app1195">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iii#C08_app1195">
                         <line
                             x1={750}
                             x2={750}
@@ -5778,7 +5778,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C09_app37">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_5/#C09_app37">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_5#C09_app37">
                         <line
                             x1={150}
                             x2={150}
@@ -5792,7 +5792,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii/#C09_app37">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii#C09_app37">
                         <line
                             x1={300}
                             x2={300}
@@ -5806,7 +5806,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii/#C09_app37">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii#C09_app37">
                         <line
                             x1={450}
                             x2={450}
@@ -5820,7 +5820,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii/#C09_app37">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii#C09_app37">
                         <line
                             x1={600}
                             x2={600}
@@ -5834,7 +5834,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv/#C09_app37">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv#C09_app37">
                         <line
                             x1={750}
                             x2={750}
@@ -5854,7 +5854,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C09_app141">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_5/#C09_app141">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_5#C09_app141">
                         <line
                             x1={150}
                             x2={150}
@@ -5872,7 +5872,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii/#C09_app141">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii#C09_app141">
                         <line
                             x1={300}
                             x2={300}
@@ -5890,7 +5890,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii/#C09_app141">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii#C09_app141">
                         <line
                             x1={450}
                             x2={450}
@@ -5908,7 +5908,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii/#C09_app141">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii#C09_app141">
                         <line
                             x1={600}
                             x2={600}
@@ -5926,7 +5926,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv/#C09_app141">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv#C09_app141">
                         <line
                             x1={750}
                             x2={750}
@@ -5946,7 +5946,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C09_app177">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_5/#C09_app177">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_5#C09_app177">
                         <line
                             x1={150}
                             x2={150}
@@ -5964,7 +5964,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii/#C09_app177">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii#C09_app177">
                         <line
                             x1={300}
                             x2={300}
@@ -5982,7 +5982,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii/#C09_app177">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii#C09_app177">
                         <line
                             x1={450}
                             x2={450}
@@ -6000,7 +6000,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii/#C09_app177">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii#C09_app177">
                         <line
                             x1={600}
                             x2={600}
@@ -6018,7 +6018,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv/#C09_app177">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv#C09_app177">
                         <line
                             x1={750}
                             x2={750}
@@ -6038,7 +6038,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C09_app329">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_5/#C09_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_5#C09_app329">
                         <line
                             x1={150}
                             x2={150}
@@ -6056,7 +6056,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii/#C09_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii#C09_app329">
                         <line
                             x1={300}
                             x2={300}
@@ -6070,7 +6070,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii/#C09_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii#C09_app329">
                         <line
                             x1={450}
                             x2={450}
@@ -6084,7 +6084,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii/#C09_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii#C09_app329">
                         <line
                             x1={600}
                             x2={600}
@@ -6098,7 +6098,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv/#C09_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv#C09_app329">
                         <line
                             x1={750}
                             x2={750}
@@ -6114,7 +6114,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C09_app403">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_6/#C09_app403">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_6#C09_app403">
                         <line
                             x1={150}
                             x2={150}
@@ -6132,7 +6132,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii/#C09_app403">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii#C09_app403">
                         <line
                             x1={300}
                             x2={300}
@@ -6150,7 +6150,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii/#C09_app403">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii#C09_app403">
                         <line
                             x1={450}
                             x2={450}
@@ -6168,7 +6168,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii/#C09_app403">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii#C09_app403">
                         <line
                             x1={600}
                             x2={600}
@@ -6186,7 +6186,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv/#C09_app403">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv#C09_app403">
                         <line
                             x1={750}
                             x2={750}
@@ -6206,7 +6206,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C09_app410">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_6/#C09_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_6#C09_app410">
                         <line
                             x1={150}
                             x2={150}
@@ -6224,7 +6224,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii/#C09_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii#C09_app410">
                         <line
                             x1={300}
                             x2={300}
@@ -6242,7 +6242,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii/#C09_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii#C09_app410">
                         <line
                             x1={450}
                             x2={450}
@@ -6260,7 +6260,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii/#C09_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii#C09_app410">
                         <line
                             x1={600}
                             x2={600}
@@ -6278,7 +6278,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv/#C09_app410">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv#C09_app410">
                         <line
                             x1={750}
                             x2={750}
@@ -6298,7 +6298,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C09_app744">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_6/#C09_app744">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_6#C09_app744">
                         <line
                             x1={150}
                             x2={150}
@@ -6316,7 +6316,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii/#C09_app744">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii#C09_app744">
                         <line
                             x1={300}
                             x2={300}
@@ -6334,7 +6334,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii/#C09_app744">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii#C09_app744">
                         <line
                             x1={450}
                             x2={450}
@@ -6352,7 +6352,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii/#C09_app744">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii#C09_app744">
                         <line
                             x1={600}
                             x2={600}
@@ -6370,7 +6370,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv/#C09_app744">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv#C09_app744">
                         <line
                             x1={750}
                             x2={750}
@@ -6390,7 +6390,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C09_app751">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_6/#C09_app751">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_6#C09_app751">
                         <line
                             x1={150}
                             x2={150}
@@ -6408,7 +6408,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii/#C09_app751">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iii#C09_app751">
                         <line
                             x1={300}
                             x2={300}
@@ -6426,7 +6426,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii/#C09_app751">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iii#C09_app751">
                         <line
                             x1={450}
                             x2={450}
@@ -6444,7 +6444,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii/#C09_app751">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iii#C09_app751">
                         <line
                             x1={600}
                             x2={600}
@@ -6462,7 +6462,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv/#C09_app751">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_iv#C09_app751">
                         <line
                             x1={750}
                             x2={750}
@@ -6482,7 +6482,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C10_app59">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_7/#C10_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_7#C10_app59">
                         <line
                             x1={150}
                             x2={150}
@@ -6500,7 +6500,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iv/#C10_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iv#C10_app59">
                         <line
                             x1={300}
                             x2={300}
@@ -6518,7 +6518,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iv/#C10_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iv#C10_app59">
                         <line
                             x1={450}
                             x2={450}
@@ -6536,7 +6536,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iv/#C10_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iv#C10_app59">
                         <line
                             x1={600}
                             x2={600}
@@ -6554,7 +6554,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_v/#C10_app59">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_v#C10_app59">
                         <line
                             x1={750}
                             x2={750}
@@ -6574,7 +6574,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C10_app359">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_7/#C10_app359">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_7#C10_app359">
                         <line
                             x1={150}
                             x2={150}
@@ -6592,7 +6592,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iv/#C10_app359">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iv#C10_app359">
                         <line
                             x1={300}
                             x2={300}
@@ -6610,7 +6610,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iv/#C10_app359">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iv#C10_app359">
                         <line
                             x1={450}
                             x2={450}
@@ -6628,7 +6628,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iv/#C10_app359">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iv#C10_app359">
                         <line
                             x1={600}
                             x2={600}
@@ -6646,7 +6646,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_v/#C10_app359">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_v#C10_app359">
                         <line
                             x1={750}
                             x2={750}
@@ -6666,7 +6666,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C10_app384">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_7/#C10_app384">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_7#C10_app384">
                         <line
                             x1={150}
                             x2={150}
@@ -6680,7 +6680,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iv/#C10_app384">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_iv#C10_app384">
                         <line
                             x1={300}
                             x2={300}
@@ -6698,7 +6698,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iv/#C10_app384">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_iv#C10_app384">
                         <line
                             x1={450}
                             x2={450}
@@ -6716,7 +6716,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iv/#C10_app384">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_iv#C10_app384">
                         <line
                             x1={600}
                             x2={600}
@@ -6734,7 +6734,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_v/#C10_app384">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_v#C10_app384">
                         <line
                             x1={750}
                             x2={750}
@@ -6754,7 +6754,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app4">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app4">
                         <line
                             x1={150}
                             x2={150}
@@ -6772,7 +6772,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app4">
                         <line
                             x1={300}
                             x2={300}
@@ -6790,7 +6790,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app4">
                         <line
                             x1={450}
                             x2={450}
@@ -6808,7 +6808,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app4">
                         <line
                             x1={600}
                             x2={600}
@@ -6826,7 +6826,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app4">
                         <line
                             x1={750}
                             x2={750}
@@ -6846,7 +6846,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app14">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app14">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app14">
                         <line
                             x1={150}
                             x2={150}
@@ -6862,7 +6862,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app14">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app14">
                         <line
                             x1={300}
                             x2={300}
@@ -6878,7 +6878,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app14">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app14">
                         <line
                             x1={450}
                             x2={450}
@@ -6894,7 +6894,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app14">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app14">
                         <line
                             x1={600}
                             x2={600}
@@ -6915,7 +6915,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app34">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app34">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app34">
                         <line
                             x1={150}
                             x2={150}
@@ -6936,7 +6936,7 @@ export const HeatmapNavigation = (props) => (
                 <g className="f1823" />
                 <g className="fThomas" />
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app34">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app34">
                         <line
                             x1={750}
                             x2={750}
@@ -6956,7 +6956,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app49">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app49">
                         <line
                             x1={150}
                             x2={150}
@@ -6970,7 +6970,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app49">
                         <line
                             x1={300}
                             x2={300}
@@ -6984,7 +6984,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app49">
                         <line
                             x1={450}
                             x2={450}
@@ -6998,7 +6998,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app49">
                         <line
                             x1={600}
                             x2={600}
@@ -7012,7 +7012,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app49">
                         <line
                             x1={750}
                             x2={750}
@@ -7032,7 +7032,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app64">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app64">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app64">
                         <line
                             x1={150}
                             x2={150}
@@ -7050,7 +7050,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app64">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app64">
                         <line
                             x1={300}
                             x2={300}
@@ -7068,7 +7068,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app64">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app64">
                         <line
                             x1={450}
                             x2={450}
@@ -7086,7 +7086,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app64">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app64">
                         <line
                             x1={600}
                             x2={600}
@@ -7104,7 +7104,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app64">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app64">
                         <line
                             x1={750}
                             x2={750}
@@ -7124,7 +7124,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app100">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app100">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app100">
                         <line
                             x1={150}
                             x2={150}
@@ -7138,7 +7138,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app100">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app100">
                         <line
                             x1={300}
                             x2={300}
@@ -7152,7 +7152,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app100">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app100">
                         <line
                             x1={450}
                             x2={450}
@@ -7166,7 +7166,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app100">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app100">
                         <line
                             x1={600}
                             x2={600}
@@ -7180,7 +7180,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app100">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app100">
                         <line
                             x1={750}
                             x2={750}
@@ -7200,7 +7200,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app108">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app108">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app108">
                         <line
                             x1={150}
                             x2={150}
@@ -7214,7 +7214,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app108">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app108">
                         <line
                             x1={300}
                             x2={300}
@@ -7228,7 +7228,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app108">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app108">
                         <line
                             x1={450}
                             x2={450}
@@ -7242,7 +7242,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app108">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app108">
                         <line
                             x1={600}
                             x2={600}
@@ -7256,7 +7256,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app108">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app108">
                         <line
                             x1={750}
                             x2={750}
@@ -7276,7 +7276,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app244">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app244">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app244">
                         <line
                             x1={150}
                             x2={150}
@@ -7294,7 +7294,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app244">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app244">
                         <line
                             x1={300}
                             x2={300}
@@ -7308,7 +7308,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app244">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app244">
                         <line
                             x1={450}
                             x2={450}
@@ -7322,7 +7322,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app244">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app244">
                         <line
                             x1={600}
                             x2={600}
@@ -7336,7 +7336,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app244">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app244">
                         <line
                             x1={750}
                             x2={750}
@@ -7352,7 +7352,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app313">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app313">
                         <line
                             x1={150}
                             x2={150}
@@ -7370,7 +7370,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app313">
                         <line
                             x1={300}
                             x2={300}
@@ -7384,7 +7384,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app313">
                         <line
                             x1={450}
                             x2={450}
@@ -7398,7 +7398,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app313">
                         <line
                             x1={600}
                             x2={600}
@@ -7412,7 +7412,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app313">
                         <line
                             x1={750}
                             x2={750}
@@ -7428,7 +7428,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app427">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app427">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app427">
                         <line
                             x1={150}
                             x2={150}
@@ -7446,7 +7446,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app427">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app427">
                         <line
                             x1={300}
                             x2={300}
@@ -7460,7 +7460,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app427">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app427">
                         <line
                             x1={450}
                             x2={450}
@@ -7474,7 +7474,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app427">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app427">
                         <line
                             x1={600}
                             x2={600}
@@ -7488,7 +7488,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app427">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app427">
                         <line
                             x1={750}
                             x2={750}
@@ -7504,7 +7504,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app485">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app485">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app485">
                         <line
                             x1={150}
                             x2={150}
@@ -7518,7 +7518,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app485">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app485">
                         <line
                             x1={300}
                             x2={300}
@@ -7532,7 +7532,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app485">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app485">
                         <line
                             x1={450}
                             x2={450}
@@ -7546,7 +7546,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app485">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app485">
                         <line
                             x1={600}
                             x2={600}
@@ -7560,7 +7560,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C11_app485">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C11_app485">
                         <line
                             x1={750}
                             x2={750}
@@ -7580,7 +7580,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C11_app502">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113/#C11_app502">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_ch_v_113#C11_app502">
                         <line
                             x1={150}
                             x2={150}
@@ -7598,7 +7598,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C11_app502">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C11_app502">
                         <line
                             x1={300}
                             x2={300}
@@ -7616,7 +7616,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C11_app502">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C11_app502">
                         <line
                             x1={450}
                             x2={450}
@@ -7634,7 +7634,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C11_app502">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C11_app502">
                         <line
                             x1={600}
                             x2={600}
@@ -7655,7 +7655,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C12_app217">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -7669,7 +7669,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C12_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C12_app217">
                         <line
                             x1={300}
                             x2={300}
@@ -7687,7 +7687,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C12_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C12_app217">
                         <line
                             x1={450}
                             x2={450}
@@ -7705,7 +7705,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C12_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C12_app217">
                         <line
                             x1={600}
                             x2={600}
@@ -7723,7 +7723,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C12_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C12_app217">
                         <line
                             x1={750}
                             x2={750}
@@ -7743,7 +7743,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C12_app220">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_8/#C12_app220">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_8#C12_app220">
                         <line
                             x1={150}
                             x2={150}
@@ -7757,7 +7757,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v/#C12_app220">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_v#C12_app220">
                         <line
                             x1={300}
                             x2={300}
@@ -7771,7 +7771,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v/#C12_app220">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_v#C12_app220">
                         <line
                             x1={450}
                             x2={450}
@@ -7785,7 +7785,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v/#C12_app220">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_v#C12_app220">
                         <line
                             x1={600}
                             x2={600}
@@ -7799,7 +7799,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C12_app220">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C12_app220">
                         <line
                             x1={750}
                             x2={750}
@@ -7819,7 +7819,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C12_app254">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_8/#C12_app254">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_8#C12_app254">
                         <line
                             x1={150}
                             x2={150}
@@ -7838,7 +7838,7 @@ export const HeatmapNavigation = (props) => (
                 <g className="f1823" />
                 <g className="fThomas" />
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi/#C12_app254">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vi#C12_app254">
                         <line
                             x1={750}
                             x2={750}
@@ -7858,7 +7858,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app305">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_9/#C13_app305">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_9#C13_app305">
                         <line
                             x1={150}
                             x2={150}
@@ -7872,7 +7872,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app305">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app305">
                         <line
                             x1={300}
                             x2={300}
@@ -7886,7 +7886,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app305">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app305">
                         <line
                             x1={450}
                             x2={450}
@@ -7900,7 +7900,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app305">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app305">
                         <line
                             x1={600}
                             x2={600}
@@ -7914,7 +7914,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app305">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app305">
                         <line
                             x1={750}
                             x2={750}
@@ -7934,7 +7934,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app320">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_9/#C13_app320">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_9#C13_app320">
                         <line
                             x1={150}
                             x2={150}
@@ -7948,7 +7948,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app320">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app320">
                         <line
                             x1={300}
                             x2={300}
@@ -7966,7 +7966,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app320">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app320">
                         <line
                             x1={450}
                             x2={450}
@@ -7984,7 +7984,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app320">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app320">
                         <line
                             x1={600}
                             x2={600}
@@ -8002,7 +8002,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app320">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app320">
                         <line
                             x1={750}
                             x2={750}
@@ -8020,7 +8020,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app322">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_9/#C13_app322">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_9#C13_app322">
                         <line
                             x1={150}
                             x2={150}
@@ -8038,7 +8038,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app322">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app322">
                         <line
                             x1={300}
                             x2={300}
@@ -8052,7 +8052,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app322">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app322">
                         <line
                             x1={450}
                             x2={450}
@@ -8066,7 +8066,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app322">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app322">
                         <line
                             x1={600}
                             x2={600}
@@ -8080,7 +8080,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app322">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app322">
                         <line
                             x1={750}
                             x2={750}
@@ -8098,7 +8098,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app540">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app540">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app540">
                         <line
                             x1={150}
                             x2={150}
@@ -8114,7 +8114,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app540">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app540">
                         <line
                             x1={300}
                             x2={300}
@@ -8130,7 +8130,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app540">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app540">
                         <line
                             x1={450}
                             x2={450}
@@ -8146,7 +8146,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app540">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app540">
                         <line
                             x1={600}
                             x2={600}
@@ -8164,7 +8164,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app540">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app540">
                         <line
                             x1={750}
                             x2={750}
@@ -8180,7 +8180,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app550">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app550">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app550">
                         <line
                             x1={150}
                             x2={150}
@@ -8198,7 +8198,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app550">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app550">
                         <line
                             x1={300}
                             x2={300}
@@ -8212,7 +8212,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app550">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app550">
                         <line
                             x1={450}
                             x2={450}
@@ -8226,7 +8226,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app550">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app550">
                         <line
                             x1={600}
                             x2={600}
@@ -8240,7 +8240,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app550">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app550">
                         <line
                             x1={750}
                             x2={750}
@@ -8256,7 +8256,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app580">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app580">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app580">
                         <line
                             x1={150}
                             x2={150}
@@ -8274,7 +8274,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app580">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app580">
                         <line
                             x1={300}
                             x2={300}
@@ -8288,7 +8288,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app580">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app580">
                         <line
                             x1={450}
                             x2={450}
@@ -8302,7 +8302,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app580">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app580">
                         <line
                             x1={600}
                             x2={600}
@@ -8316,7 +8316,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app580">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app580">
                         <line
                             x1={750}
                             x2={750}
@@ -8332,7 +8332,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app651">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app651">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app651">
                         <line
                             x1={150}
                             x2={150}
@@ -8350,7 +8350,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app651">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app651">
                         <line
                             x1={300}
                             x2={300}
@@ -8364,7 +8364,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app651">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app651">
                         <line
                             x1={450}
                             x2={450}
@@ -8378,7 +8378,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app651">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app651">
                         <line
                             x1={600}
                             x2={600}
@@ -8392,7 +8392,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app651">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app651">
                         <line
                             x1={750}
                             x2={750}
@@ -8408,7 +8408,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app773">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app773">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app773">
                         <line
                             x1={150}
                             x2={150}
@@ -8422,7 +8422,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app773">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app773">
                         <line
                             x1={300}
                             x2={300}
@@ -8440,7 +8440,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app773">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app773">
                         <line
                             x1={450}
                             x2={450}
@@ -8458,7 +8458,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app773">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app773">
                         <line
                             x1={600}
                             x2={600}
@@ -8476,7 +8476,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app773">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app773">
                         <line
                             x1={750}
                             x2={750}
@@ -8496,7 +8496,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app775">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app775">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app775">
                         <line
                             x1={150}
                             x2={150}
@@ -8510,7 +8510,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app775">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app775">
                         <line
                             x1={300}
                             x2={300}
@@ -8528,7 +8528,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app775">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app775">
                         <line
                             x1={450}
                             x2={450}
@@ -8546,7 +8546,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app775">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app775">
                         <line
                             x1={600}
                             x2={600}
@@ -8564,7 +8564,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app775">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app775">
                         <line
                             x1={750}
                             x2={750}
@@ -8584,7 +8584,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app797">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app797">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app797">
                         <line
                             x1={150}
                             x2={150}
@@ -8602,7 +8602,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app797">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app797">
                         <line
                             x1={300}
                             x2={300}
@@ -8616,7 +8616,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app797">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app797">
                         <line
                             x1={450}
                             x2={450}
@@ -8630,7 +8630,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app797">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app797">
                         <line
                             x1={600}
                             x2={600}
@@ -8646,7 +8646,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app797">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app797">
                         <line
                             x1={750}
                             x2={750}
@@ -8662,7 +8662,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app868">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app868">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app868">
                         <line
                             x1={150}
                             x2={150}
@@ -8678,7 +8678,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app868">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app868">
                         <line
                             x1={300}
                             x2={300}
@@ -8694,7 +8694,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app868">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app868">
                         <line
                             x1={450}
                             x2={450}
@@ -8710,7 +8710,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app868">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app868">
                         <line
                             x1={600}
                             x2={600}
@@ -8726,7 +8726,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app868">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app868">
                         <line
                             x1={750}
                             x2={750}
@@ -8746,7 +8746,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app875">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app875">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app875">
                         <line
                             x1={150}
                             x2={150}
@@ -8764,7 +8764,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app875">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app875">
                         <line
                             x1={300}
                             x2={300}
@@ -8782,7 +8782,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app875">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app875">
                         <line
                             x1={450}
                             x2={450}
@@ -8800,7 +8800,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app875">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app875">
                         <line
                             x1={600}
                             x2={600}
@@ -8821,7 +8821,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app885">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app885">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app885">
                         <line
                             x1={150}
                             x2={150}
@@ -8839,7 +8839,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app885">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app885">
                         <line
                             x1={300}
                             x2={300}
@@ -8857,7 +8857,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app885">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app885">
                         <line
                             x1={450}
                             x2={450}
@@ -8875,7 +8875,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app885">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app885">
                         <line
                             x1={600}
                             x2={600}
@@ -8896,7 +8896,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app907">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app907">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app907">
                         <line
                             x1={150}
                             x2={150}
@@ -8914,7 +8914,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app907">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app907">
                         <line
                             x1={300}
                             x2={300}
@@ -8932,7 +8932,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app907">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app907">
                         <line
                             x1={450}
                             x2={450}
@@ -8950,7 +8950,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app907">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app907">
                         <line
                             x1={600}
                             x2={600}
@@ -8968,7 +8968,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app907">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app907">
                         <line
                             x1={750}
                             x2={750}
@@ -8988,7 +8988,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app965">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app965">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app965">
                         <line
                             x1={150}
                             x2={150}
@@ -9006,7 +9006,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app965">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app965">
                         <line
                             x1={300}
                             x2={300}
@@ -9020,7 +9020,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app965">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app965">
                         <line
                             x1={450}
                             x2={450}
@@ -9034,7 +9034,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app965">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app965">
                         <line
                             x1={600}
                             x2={600}
@@ -9048,7 +9048,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app965">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app965">
                         <line
                             x1={750}
                             x2={750}
@@ -9064,7 +9064,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app1017">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10/#C13_app1017">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_10#C13_app1017">
                         <line
                             x1={150}
                             x2={150}
@@ -9082,7 +9082,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app1017">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app1017">
                         <line
                             x1={300}
                             x2={300}
@@ -9100,7 +9100,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app1017">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app1017">
                         <line
                             x1={450}
                             x2={450}
@@ -9118,7 +9118,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app1017">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app1017">
                         <line
                             x1={600}
                             x2={600}
@@ -9136,7 +9136,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app1017">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app1017">
                         <line
                             x1={750}
                             x2={750}
@@ -9156,7 +9156,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app1058">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11/#C13_app1058">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11#C13_app1058">
                         <line
                             x1={150}
                             x2={150}
@@ -9174,7 +9174,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app1058">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app1058">
                         <line
                             x1={300}
                             x2={300}
@@ -9192,7 +9192,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app1058">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app1058">
                         <line
                             x1={450}
                             x2={450}
@@ -9210,7 +9210,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app1058">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app1058">
                         <line
                             x1={600}
                             x2={600}
@@ -9228,7 +9228,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app1058">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app1058">
                         <line
                             x1={750}
                             x2={750}
@@ -9248,7 +9248,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app1064">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11/#C13_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11#C13_app1064">
                         <line
                             x1={150}
                             x2={150}
@@ -9262,7 +9262,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app1064">
                         <line
                             x1={300}
                             x2={300}
@@ -9276,7 +9276,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app1064">
                         <line
                             x1={450}
                             x2={450}
@@ -9290,7 +9290,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app1064">
                         <line
                             x1={600}
                             x2={600}
@@ -9304,7 +9304,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app1064">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app1064">
                         <line
                             x1={750}
                             x2={750}
@@ -9324,7 +9324,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app1088">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11/#C13_app1088">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11#C13_app1088">
                         <line
                             x1={150}
                             x2={150}
@@ -9342,7 +9342,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app1088">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app1088">
                         <line
                             x1={300}
                             x2={300}
@@ -9356,7 +9356,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app1088">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app1088">
                         <line
                             x1={450}
                             x2={450}
@@ -9370,7 +9370,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app1088">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app1088">
                         <line
                             x1={600}
                             x2={600}
@@ -9387,7 +9387,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C13_app1172">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11/#C13_app1172">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11#C13_app1172">
                         <line
                             x1={150}
                             x2={150}
@@ -9405,7 +9405,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi/#C13_app1172">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vi#C13_app1172">
                         <line
                             x1={300}
                             x2={300}
@@ -9419,7 +9419,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi/#C13_app1172">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vi#C13_app1172">
                         <line
                             x1={450}
                             x2={450}
@@ -9433,7 +9433,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi/#C13_app1172">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vi#C13_app1172">
                         <line
                             x1={600}
                             x2={600}
@@ -9447,7 +9447,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii/#C13_app1172">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_vii#C13_app1172">
                         <line
                             x1={750}
                             x2={750}
@@ -9463,7 +9463,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app215">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11/#C14_app215">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11#C14_app215">
                         <line
                             x1={150}
                             x2={150}
@@ -9481,7 +9481,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app215">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app215">
                         <line
                             x1={300}
                             x2={300}
@@ -9495,7 +9495,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app215">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app215">
                         <line
                             x1={450}
                             x2={450}
@@ -9509,7 +9509,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app215">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app215">
                         <line
                             x1={600}
                             x2={600}
@@ -9525,7 +9525,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app215">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app215">
                         <line
                             x1={750}
                             x2={750}
@@ -9541,7 +9541,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app250">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11/#C14_app250">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11#C14_app250">
                         <line
                             x1={150}
                             x2={150}
@@ -9555,7 +9555,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app250">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app250">
                         <line
                             x1={300}
                             x2={300}
@@ -9573,7 +9573,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app250">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app250">
                         <line
                             x1={450}
                             x2={450}
@@ -9591,7 +9591,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app250">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app250">
                         <line
                             x1={600}
                             x2={600}
@@ -9609,7 +9609,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app250">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app250">
                         <line
                             x1={750}
                             x2={750}
@@ -9629,7 +9629,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app251">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11/#C14_app251">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_11#C14_app251">
                         <line
                             x1={150}
                             x2={150}
@@ -9645,7 +9645,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app251">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app251">
                         <line
                             x1={300}
                             x2={300}
@@ -9661,7 +9661,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app251">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app251">
                         <line
                             x1={450}
                             x2={450}
@@ -9677,7 +9677,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app251">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app251">
                         <line
                             x1={600}
                             x2={600}
@@ -9695,7 +9695,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app251">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app251">
                         <line
                             x1={750}
                             x2={750}
@@ -9715,7 +9715,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app551">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1/#C14_app551">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1#C14_app551">
                         <line
                             x1={150}
                             x2={150}
@@ -9729,7 +9729,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app551">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app551">
                         <line
                             x1={300}
                             x2={300}
@@ -9743,7 +9743,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app551">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app551">
                         <line
                             x1={450}
                             x2={450}
@@ -9757,7 +9757,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app551">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app551">
                         <line
                             x1={600}
                             x2={600}
@@ -9771,7 +9771,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app551">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app551">
                         <line
                             x1={750}
                             x2={750}
@@ -9791,7 +9791,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app754">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1/#C14_app754">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1#C14_app754">
                         <line
                             x1={150}
                             x2={150}
@@ -9809,7 +9809,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app754">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app754">
                         <line
                             x1={300}
                             x2={300}
@@ -9827,7 +9827,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app754">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app754">
                         <line
                             x1={450}
                             x2={450}
@@ -9845,7 +9845,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app754">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app754">
                         <line
                             x1={600}
                             x2={600}
@@ -9863,7 +9863,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app754">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app754">
                         <line
                             x1={750}
                             x2={750}
@@ -9883,7 +9883,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app815">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1/#C14_app815">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1#C14_app815">
                         <line
                             x1={150}
                             x2={150}
@@ -9901,7 +9901,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app815">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app815">
                         <line
                             x1={300}
                             x2={300}
@@ -9919,7 +9919,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app815">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app815">
                         <line
                             x1={450}
                             x2={450}
@@ -9937,7 +9937,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app815">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app815">
                         <line
                             x1={600}
                             x2={600}
@@ -9958,7 +9958,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app836">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1/#C14_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1#C14_app836">
                         <line
                             x1={150}
                             x2={150}
@@ -9976,7 +9976,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app836">
                         <line
                             x1={300}
                             x2={300}
@@ -9994,7 +9994,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app836">
                         <line
                             x1={450}
                             x2={450}
@@ -10012,7 +10012,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app836">
                         <line
                             x1={600}
                             x2={600}
@@ -10030,7 +10030,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app836">
                         <line
                             x1={750}
                             x2={750}
@@ -10050,7 +10050,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app975">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1/#C14_app975">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1#C14_app975">
                         <line
                             x1={150}
                             x2={150}
@@ -10066,7 +10066,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app975">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app975">
                         <line
                             x1={300}
                             x2={300}
@@ -10084,7 +10084,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app975">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app975">
                         <line
                             x1={450}
                             x2={450}
@@ -10102,7 +10102,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app975">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app975">
                         <line
                             x1={600}
                             x2={600}
@@ -10120,7 +10120,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app975">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app975">
                         <line
                             x1={750}
                             x2={750}
@@ -10140,7 +10140,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app993">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1/#C14_app993">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1#C14_app993">
                         <line
                             x1={150}
                             x2={150}
@@ -10154,7 +10154,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app993">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app993">
                         <line
                             x1={300}
                             x2={300}
@@ -10168,7 +10168,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app993">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app993">
                         <line
                             x1={450}
                             x2={450}
@@ -10182,7 +10182,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app993">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app993">
                         <line
                             x1={600}
                             x2={600}
@@ -10196,7 +10196,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app993">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app993">
                         <line
                             x1={750}
                             x2={750}
@@ -10216,7 +10216,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app1016">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1/#C14_app1016">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1#C14_app1016">
                         <line
                             x1={150}
                             x2={150}
@@ -10230,7 +10230,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app1016">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app1016">
                         <line
                             x1={300}
                             x2={300}
@@ -10244,7 +10244,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app1016">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app1016">
                         <line
                             x1={450}
                             x2={450}
@@ -10258,7 +10258,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app1016">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app1016">
                         <line
                             x1={600}
                             x2={600}
@@ -10272,7 +10272,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app1016">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app1016">
                         <line
                             x1={750}
                             x2={750}
@@ -10292,7 +10292,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app1018">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1/#C14_app1018">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chapter_1#C14_app1018">
                         <line
                             x1={150}
                             x2={150}
@@ -10308,7 +10308,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app1018">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app1018">
                         <line
                             x1={300}
                             x2={300}
@@ -10324,7 +10324,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii/#C14_app1018">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_vii#C14_app1018">
                         <line
                             x1={450}
                             x2={450}
@@ -10340,7 +10340,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app1018">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app1018">
                         <line
                             x1={600}
                             x2={600}
@@ -10356,7 +10356,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app1018">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app1018">
                         <line
                             x1={750}
                             x2={750}
@@ -10376,7 +10376,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C14_app1032">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -10390,7 +10390,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii/#C14_app1032">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_vii#C14_app1032">
                         <line
                             x1={300}
                             x2={300}
@@ -10406,7 +10406,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={450}
                             x2={450}
@@ -10420,7 +10420,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii/#C14_app1032">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_1_chapter_vii#C14_app1032">
                         <line
                             x1={600}
                             x2={600}
@@ -10436,7 +10436,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii/#C14_app1032">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_viii#C14_app1032">
                         <line
                             x1={750}
                             x2={750}
@@ -10456,7 +10456,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app32">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app32">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app32">
                         <line
                             x1={150}
                             x2={150}
@@ -10474,7 +10474,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app32">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app32">
                         <line
                             x1={300}
                             x2={300}
@@ -10488,7 +10488,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app32">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app32">
                         <line
                             x1={450}
                             x2={450}
@@ -10504,7 +10504,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app32">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app32">
                         <line
                             x1={600}
                             x2={600}
@@ -10518,7 +10518,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app32">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app32">
                         <line
                             x1={750}
                             x2={750}
@@ -10534,7 +10534,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app75">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app75">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app75">
                         <line
                             x1={150}
                             x2={150}
@@ -10552,7 +10552,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app75">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app75">
                         <line
                             x1={300}
                             x2={300}
@@ -10566,7 +10566,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app75">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app75">
                         <line
                             x1={450}
                             x2={450}
@@ -10580,7 +10580,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app75">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app75">
                         <line
                             x1={600}
                             x2={600}
@@ -10594,7 +10594,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app75">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app75">
                         <line
                             x1={750}
                             x2={750}
@@ -10610,7 +10610,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app109">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app109">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app109">
                         <line
                             x1={150}
                             x2={150}
@@ -10624,7 +10624,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app109">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app109">
                         <line
                             x1={300}
                             x2={300}
@@ -10640,7 +10640,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app109">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app109">
                         <line
                             x1={450}
                             x2={450}
@@ -10656,7 +10656,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app109">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app109">
                         <line
                             x1={600}
                             x2={600}
@@ -10674,7 +10674,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app109">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app109">
                         <line
                             x1={750}
                             x2={750}
@@ -10690,7 +10690,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app110">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app110">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app110">
                         <line
                             x1={150}
                             x2={150}
@@ -10707,7 +10707,7 @@ export const HeatmapNavigation = (props) => (
                 <g className="f1823" />
                 <g className="fThomas" />
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app110">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app110">
                         <line
                             x1={750}
                             x2={750}
@@ -10727,7 +10727,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app326">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app326">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app326">
                         <line
                             x1={150}
                             x2={150}
@@ -10741,7 +10741,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app326">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app326">
                         <line
                             x1={300}
                             x2={300}
@@ -10755,7 +10755,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app326">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app326">
                         <line
                             x1={450}
                             x2={450}
@@ -10769,7 +10769,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app326">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app326">
                         <line
                             x1={600}
                             x2={600}
@@ -10783,7 +10783,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app326">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app326">
                         <line
                             x1={750}
                             x2={750}
@@ -10803,7 +10803,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app441">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app441">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app441">
                         <line
                             x1={150}
                             x2={150}
@@ -10817,7 +10817,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app441">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app441">
                         <line
                             x1={300}
                             x2={300}
@@ -10831,7 +10831,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app441">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app441">
                         <line
                             x1={450}
                             x2={450}
@@ -10845,7 +10845,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app441">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app441">
                         <line
                             x1={600}
                             x2={600}
@@ -10859,7 +10859,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app441">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app441">
                         <line
                             x1={750}
                             x2={750}
@@ -10879,7 +10879,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app442">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app442">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app442">
                         <line
                             x1={150}
                             x2={150}
@@ -10897,7 +10897,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app442">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app442">
                         <line
                             x1={300}
                             x2={300}
@@ -10915,7 +10915,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app442">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app442">
                         <line
                             x1={450}
                             x2={450}
@@ -10933,7 +10933,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app442">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app442">
                         <line
                             x1={600}
                             x2={600}
@@ -10954,7 +10954,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app449">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app449">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app449">
                         <line
                             x1={150}
                             x2={150}
@@ -10970,7 +10970,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app449">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app449">
                         <line
                             x1={300}
                             x2={300}
@@ -10986,7 +10986,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app449">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app449">
                         <line
                             x1={450}
                             x2={450}
@@ -11004,7 +11004,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app449">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app449">
                         <line
                             x1={600}
                             x2={600}
@@ -11022,7 +11022,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app449">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app449">
                         <line
                             x1={750}
                             x2={750}
@@ -11042,7 +11042,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app460">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app460">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app460">
                         <line
                             x1={150}
                             x2={150}
@@ -11056,7 +11056,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app460">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app460">
                         <line
                             x1={300}
                             x2={300}
@@ -11072,7 +11072,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app460">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app460">
                         <line
                             x1={450}
                             x2={450}
@@ -11088,7 +11088,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app460">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app460">
                         <line
                             x1={600}
                             x2={600}
@@ -11104,7 +11104,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app460">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app460">
                         <line
                             x1={750}
                             x2={750}
@@ -11124,7 +11124,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app497">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app497">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app497">
                         <line
                             x1={150}
                             x2={150}
@@ -11140,7 +11140,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app497">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app497">
                         <line
                             x1={300}
                             x2={300}
@@ -11156,7 +11156,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app497">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app497">
                         <line
                             x1={450}
                             x2={450}
@@ -11174,7 +11174,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app497">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app497">
                         <line
                             x1={600}
                             x2={600}
@@ -11192,7 +11192,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app497">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app497">
                         <line
                             x1={750}
                             x2={750}
@@ -11212,7 +11212,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app520">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app520">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app520">
                         <line
                             x1={150}
                             x2={150}
@@ -11230,7 +11230,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app520">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app520">
                         <line
                             x1={300}
                             x2={300}
@@ -11248,7 +11248,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app520">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app520">
                         <line
                             x1={450}
                             x2={450}
@@ -11266,7 +11266,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app520">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app520">
                         <line
                             x1={600}
                             x2={600}
@@ -11287,7 +11287,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app523">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app523">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app523">
                         <line
                             x1={150}
                             x2={150}
@@ -11305,7 +11305,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app523">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app523">
                         <line
                             x1={300}
                             x2={300}
@@ -11323,7 +11323,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app523">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app523">
                         <line
                             x1={450}
                             x2={450}
@@ -11341,7 +11341,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app523">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app523">
                         <line
                             x1={600}
                             x2={600}
@@ -11362,7 +11362,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app545">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app545">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app545">
                         <line
                             x1={150}
                             x2={150}
@@ -11376,7 +11376,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app545">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app545">
                         <line
                             x1={300}
                             x2={300}
@@ -11390,7 +11390,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app545">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app545">
                         <line
                             x1={450}
                             x2={450}
@@ -11404,7 +11404,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app545">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app545">
                         <line
                             x1={600}
                             x2={600}
@@ -11418,7 +11418,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app545">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app545">
                         <line
                             x1={750}
                             x2={750}
@@ -11438,7 +11438,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app576">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app576">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app576">
                         <line
                             x1={150}
                             x2={150}
@@ -11456,7 +11456,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app576">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app576">
                         <line
                             x1={300}
                             x2={300}
@@ -11470,7 +11470,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app576">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app576">
                         <line
                             x1={450}
                             x2={450}
@@ -11484,7 +11484,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app576">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app576">
                         <line
                             x1={600}
                             x2={600}
@@ -11498,7 +11498,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app576">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app576">
                         <line
                             x1={750}
                             x2={750}
@@ -11514,7 +11514,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app624">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app624">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app624">
                         <line
                             x1={150}
                             x2={150}
@@ -11528,7 +11528,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app624">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app624">
                         <line
                             x1={300}
                             x2={300}
@@ -11542,7 +11542,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app624">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app624">
                         <line
                             x1={450}
                             x2={450}
@@ -11556,7 +11556,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app624">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app624">
                         <line
                             x1={600}
                             x2={600}
@@ -11570,7 +11570,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app624">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app624">
                         <line
                             x1={750}
                             x2={750}
@@ -11590,7 +11590,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app679">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app679">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app679">
                         <line
                             x1={150}
                             x2={150}
@@ -11604,7 +11604,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app679">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app679">
                         <line
                             x1={300}
                             x2={300}
@@ -11618,7 +11618,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app679">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app679">
                         <line
                             x1={450}
                             x2={450}
@@ -11632,7 +11632,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app679">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app679">
                         <line
                             x1={600}
                             x2={600}
@@ -11646,7 +11646,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app679">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app679">
                         <line
                             x1={750}
                             x2={750}
@@ -11666,7 +11666,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C15_app692">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13/#C15_app692">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_13#C15_app692">
                         <line
                             x1={150}
                             x2={150}
@@ -11680,7 +11680,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i/#C15_app692">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_i#C15_app692">
                         <line
                             x1={300}
                             x2={300}
@@ -11694,7 +11694,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii/#C15_app692">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_viii#C15_app692">
                         <line
                             x1={450}
                             x2={450}
@@ -11708,7 +11708,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i/#C15_app692">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_i#C15_app692">
                         <line
                             x1={600}
                             x2={600}
@@ -11722,7 +11722,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix/#C15_app692">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_ix#C15_app692">
                         <line
                             x1={750}
                             x2={750}
@@ -11742,7 +11742,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C16_app6">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14/#C16_app6">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14#C16_app6">
                         <line
                             x1={150}
                             x2={150}
@@ -11756,7 +11756,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii/#C16_app6">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii#C16_app6">
                         <line
                             x1={300}
                             x2={300}
@@ -11770,7 +11770,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix/#C16_app6">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix#C16_app6">
                         <line
                             x1={450}
                             x2={450}
@@ -11784,7 +11784,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii/#C16_app6">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii#C16_app6">
                         <line
                             x1={600}
                             x2={600}
@@ -11798,7 +11798,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x/#C16_app6">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x#C16_app6">
                         <line
                             x1={750}
                             x2={750}
@@ -11818,7 +11818,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C16_app36">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14/#C16_app36">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14#C16_app36">
                         <line
                             x1={150}
                             x2={150}
@@ -11834,7 +11834,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii/#C16_app36">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii#C16_app36">
                         <line
                             x1={300}
                             x2={300}
@@ -11850,7 +11850,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix/#C16_app36">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix#C16_app36">
                         <line
                             x1={450}
                             x2={450}
@@ -11866,7 +11866,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii/#C16_app36">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii#C16_app36">
                         <line
                             x1={600}
                             x2={600}
@@ -11884,7 +11884,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x/#C16_app36">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x#C16_app36">
                         <line
                             x1={750}
                             x2={750}
@@ -11904,7 +11904,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C16_app49">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14/#C16_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14#C16_app49">
                         <line
                             x1={150}
                             x2={150}
@@ -11922,7 +11922,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii/#C16_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii#C16_app49">
                         <line
                             x1={300}
                             x2={300}
@@ -11940,7 +11940,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix/#C16_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix#C16_app49">
                         <line
                             x1={450}
                             x2={450}
@@ -11958,7 +11958,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii/#C16_app49">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii#C16_app49">
                         <line
                             x1={600}
                             x2={600}
@@ -11979,7 +11979,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C16_app60">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14/#C16_app60">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14#C16_app60">
                         <line
                             x1={150}
                             x2={150}
@@ -11995,7 +11995,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii/#C16_app60">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii#C16_app60">
                         <line
                             x1={300}
                             x2={300}
@@ -12011,7 +12011,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix/#C16_app60">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix#C16_app60">
                         <line
                             x1={450}
                             x2={450}
@@ -12027,7 +12027,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii/#C16_app60">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii#C16_app60">
                         <line
                             x1={600}
                             x2={600}
@@ -12043,7 +12043,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x/#C16_app60">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x#C16_app60">
                         <line
                             x1={750}
                             x2={750}
@@ -12063,7 +12063,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C16_app292">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14/#C16_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14#C16_app292">
                         <line
                             x1={150}
                             x2={150}
@@ -12081,7 +12081,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii/#C16_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii#C16_app292">
                         <line
                             x1={300}
                             x2={300}
@@ -12095,7 +12095,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix/#C16_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix#C16_app292">
                         <line
                             x1={450}
                             x2={450}
@@ -12109,7 +12109,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii/#C16_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii#C16_app292">
                         <line
                             x1={600}
                             x2={600}
@@ -12123,7 +12123,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x/#C16_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x#C16_app292">
                         <line
                             x1={750}
                             x2={750}
@@ -12139,7 +12139,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C16_app387">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14/#C16_app387">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c56_chap_14#C16_app387">
                         <line
                             x1={150}
                             x2={150}
@@ -12157,7 +12157,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii/#C16_app387">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ii#C16_app387">
                         <line
                             x1={300}
                             x2={300}
@@ -12175,7 +12175,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix/#C16_app387">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_ix#C16_app387">
                         <line
                             x1={450}
                             x2={450}
@@ -12193,7 +12193,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii/#C16_app387">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ii#C16_app387">
                         <line
                             x1={600}
                             x2={600}
@@ -12211,7 +12211,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x/#C16_app387">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_x#C16_app387">
                         <line
                             x1={750}
                             x2={750}
@@ -12231,7 +12231,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C17_app479">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_vol_ii_chap_i/#C17_app479">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_vol_ii_chap_i#C17_app479">
                         <line
                             x1={150}
                             x2={150}
@@ -12247,7 +12247,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iii/#C17_app479">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iii#C17_app479">
                         <line
                             x1={300}
                             x2={300}
@@ -12265,7 +12265,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_x/#C17_app479">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_x#C17_app479">
                         <line
                             x1={450}
                             x2={450}
@@ -12283,7 +12283,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii/#C17_app479">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii#C17_app479">
                         <line
                             x1={600}
                             x2={600}
@@ -12301,7 +12301,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xi/#C17_app479">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xi#C17_app479">
                         <line
                             x1={750}
                             x2={750}
@@ -12321,7 +12321,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C17_app586">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_vol_ii_chap_i/#C17_app586">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_vol_ii_chap_i#C17_app586">
                         <line
                             x1={150}
                             x2={150}
@@ -12335,7 +12335,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iii/#C17_app586">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iii#C17_app586">
                         <line
                             x1={300}
                             x2={300}
@@ -12349,7 +12349,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_x/#C17_app586">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_x#C17_app586">
                         <line
                             x1={450}
                             x2={450}
@@ -12363,7 +12363,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii/#C17_app586">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii#C17_app586">
                         <line
                             x1={600}
                             x2={600}
@@ -12381,7 +12381,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xi/#C17_app586">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xi#C17_app586">
                         <line
                             x1={750}
                             x2={750}
@@ -12397,7 +12397,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C17_app602">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_vol_ii_chap_i/#C17_app602">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_vol_ii_chap_i#C17_app602">
                         <line
                             x1={150}
                             x2={150}
@@ -12415,7 +12415,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iii/#C17_app602">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iii#C17_app602">
                         <line
                             x1={300}
                             x2={300}
@@ -12431,7 +12431,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_x/#C17_app602">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_x#C17_app602">
                         <line
                             x1={450}
                             x2={450}
@@ -12447,7 +12447,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii/#C17_app602">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii#C17_app602">
                         <line
                             x1={600}
                             x2={600}
@@ -12465,7 +12465,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xi/#C17_app602">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xi#C17_app602">
                         <line
                             x1={750}
                             x2={750}
@@ -12483,7 +12483,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C17_app809">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C17_app809">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C17_app809">
                         <line
                             x1={150}
                             x2={150}
@@ -12501,7 +12501,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iii/#C17_app809">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iii#C17_app809">
                         <line
                             x1={300}
                             x2={300}
@@ -12517,7 +12517,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_x/#C17_app809">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_x#C17_app809">
                         <line
                             x1={450}
                             x2={450}
@@ -12533,7 +12533,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii/#C17_app809">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii#C17_app809">
                         <line
                             x1={600}
                             x2={600}
@@ -12549,7 +12549,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xi/#C17_app809">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xi#C17_app809">
                         <line
                             x1={750}
                             x2={750}
@@ -12567,7 +12567,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C17_app1095">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C17_app1095">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C17_app1095">
                         <line
                             x1={150}
                             x2={150}
@@ -12587,7 +12587,7 @@ export const HeatmapNavigation = (props) => (
                 <g className="f1818" />
                 <g className="f1823" />
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii/#C17_app1095">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iii#C17_app1095">
                         <line
                             x1={600}
                             x2={600}
@@ -12608,7 +12608,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C18_app148">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3/#C18_app148">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3#C18_app148">
                         <line
                             x1={150}
                             x2={150}
@@ -12626,7 +12626,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iv/#C18_app148">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iv#C18_app148">
                         <line
                             x1={300}
                             x2={300}
@@ -12642,7 +12642,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_xi/#C18_app148">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_xi#C18_app148">
                         <line
                             x1={450}
                             x2={450}
@@ -12658,7 +12658,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iv/#C18_app148">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iv#C18_app148">
                         <line
                             x1={600}
                             x2={600}
@@ -12674,7 +12674,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xii/#C18_app148">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xii#C18_app148">
                         <line
                             x1={750}
                             x2={750}
@@ -12690,7 +12690,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C18_app156">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3/#C18_app156">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3#C18_app156">
                         <line
                             x1={150}
                             x2={150}
@@ -12708,7 +12708,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iv/#C18_app156">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iv#C18_app156">
                         <line
                             x1={300}
                             x2={300}
@@ -12726,7 +12726,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_xi/#C18_app156">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_xi#C18_app156">
                         <line
                             x1={450}
                             x2={450}
@@ -12744,7 +12744,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iv/#C18_app156">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iv#C18_app156">
                         <line
                             x1={600}
                             x2={600}
@@ -12762,7 +12762,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xii/#C18_app156">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xii#C18_app156">
                         <line
                             x1={750}
                             x2={750}
@@ -12782,7 +12782,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C18_app481">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3/#C18_app481">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3#C18_app481">
                         <line
                             x1={150}
                             x2={150}
@@ -12800,7 +12800,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iv/#C18_app481">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_iv#C18_app481">
                         <line
                             x1={300}
                             x2={300}
@@ -12818,7 +12818,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_xi/#C18_app481">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_1_chapter_xi#C18_app481">
                         <line
                             x1={450}
                             x2={450}
@@ -12836,7 +12836,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iv/#C18_app481">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_iv#C18_app481">
                         <line
                             x1={600}
                             x2={600}
@@ -12854,7 +12854,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xii/#C18_app481">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xii#C18_app481">
                         <line
                             x1={750}
                             x2={750}
@@ -12874,7 +12874,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C19_app23">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -12888,7 +12888,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_v/#C19_app23">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_v#C19_app23">
                         <line
                             x1={300}
                             x2={300}
@@ -12906,7 +12906,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_i/#C19_app23">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_i#C19_app23">
                         <line
                             x1={450}
                             x2={450}
@@ -12924,7 +12924,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_v/#C19_app23">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_v#C19_app23">
                         <line
                             x1={600}
                             x2={600}
@@ -12942,7 +12942,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xiii/#C19_app23">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xiii#C19_app23">
                         <line
                             x1={750}
                             x2={750}
@@ -12962,7 +12962,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C20_app170">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C20_app170">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter#C20_app170">
                         <line
                             x1={150}
                             x2={150}
@@ -12980,7 +12980,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vi/#C20_app170">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vi#C20_app170">
                         <line
                             x1={300}
                             x2={300}
@@ -12998,7 +12998,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ii/#C20_app170">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ii#C20_app170">
                         <line
                             x1={450}
                             x2={450}
@@ -13016,7 +13016,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vi/#C20_app170">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vi#C20_app170">
                         <line
                             x1={600}
                             x2={600}
@@ -13034,7 +13034,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xiv/#C20_app170">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xiv#C20_app170">
                         <line
                             x1={750}
                             x2={750}
@@ -13054,7 +13054,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C20_app200">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C20_app200">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter#C20_app200">
                         <line
                             x1={150}
                             x2={150}
@@ -13072,7 +13072,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vi/#C20_app200">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vi#C20_app200">
                         <line
                             x1={300}
                             x2={300}
@@ -13090,7 +13090,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ii/#C20_app200">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ii#C20_app200">
                         <line
                             x1={450}
                             x2={450}
@@ -13108,7 +13108,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vi/#C20_app200">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vi#C20_app200">
                         <line
                             x1={600}
                             x2={600}
@@ -13126,7 +13126,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xiv/#C20_app200">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xiv#C20_app200">
                         <line
                             x1={750}
                             x2={750}
@@ -13146,7 +13146,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C20_app277">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C20_app277">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter#C20_app277">
                         <line
                             x1={150}
                             x2={150}
@@ -13164,7 +13164,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vi/#C20_app277">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vi#C20_app277">
                         <line
                             x1={300}
                             x2={300}
@@ -13182,7 +13182,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ii/#C20_app277">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ii#C20_app277">
                         <line
                             x1={450}
                             x2={450}
@@ -13200,7 +13200,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vi/#C20_app277">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vi#C20_app277">
                         <line
                             x1={600}
                             x2={600}
@@ -13218,7 +13218,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xiv/#C20_app277">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xiv#C20_app277">
                         <line
                             x1={750}
                             x2={750}
@@ -13238,7 +13238,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C21_app351">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C21_app351">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter#C21_app351">
                         <line
                             x1={150}
                             x2={150}
@@ -13256,7 +13256,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii/#C21_app351">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii#C21_app351">
                         <line
                             x1={300}
                             x2={300}
@@ -13274,7 +13274,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii/#C21_app351">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii#C21_app351">
                         <line
                             x1={450}
                             x2={450}
@@ -13292,7 +13292,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii/#C21_app351">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii#C21_app351">
                         <line
                             x1={600}
                             x2={600}
@@ -13310,7 +13310,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv/#C21_app351">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv#C21_app351">
                         <line
                             x1={750}
                             x2={750}
@@ -13330,7 +13330,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C21_app458">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C21_app458">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter#C21_app458">
                         <line
                             x1={150}
                             x2={150}
@@ -13348,7 +13348,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii/#C21_app458">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii#C21_app458">
                         <line
                             x1={300}
                             x2={300}
@@ -13364,7 +13364,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii/#C21_app458">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii#C21_app458">
                         <line
                             x1={450}
                             x2={450}
@@ -13380,7 +13380,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii/#C21_app458">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii#C21_app458">
                         <line
                             x1={600}
                             x2={600}
@@ -13396,7 +13396,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv/#C21_app458">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv#C21_app458">
                         <line
                             x1={750}
                             x2={750}
@@ -13412,7 +13412,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C21_app538">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C21_app538">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter#C21_app538">
                         <line
                             x1={150}
                             x2={150}
@@ -13430,7 +13430,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii/#C21_app538">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii#C21_app538">
                         <line
                             x1={300}
                             x2={300}
@@ -13448,7 +13448,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii/#C21_app538">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii#C21_app538">
                         <line
                             x1={450}
                             x2={450}
@@ -13466,7 +13466,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii/#C21_app538">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii#C21_app538">
                         <line
                             x1={600}
                             x2={600}
@@ -13484,7 +13484,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv/#C21_app538">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv#C21_app538">
                         <line
                             x1={750}
                             x2={750}
@@ -13504,7 +13504,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C21_app1034">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_7/#C21_app1034">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_7#C21_app1034">
                         <line
                             x1={150}
                             x2={150}
@@ -13520,7 +13520,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii/#C21_app1034">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii#C21_app1034">
                         <line
                             x1={300}
                             x2={300}
@@ -13536,7 +13536,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii/#C21_app1034">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii#C21_app1034">
                         <line
                             x1={450}
                             x2={450}
@@ -13552,7 +13552,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii/#C21_app1034">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii#C21_app1034">
                         <line
                             x1={600}
                             x2={600}
@@ -13570,7 +13570,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv/#C21_app1034">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv#C21_app1034">
                         <line
                             x1={750}
                             x2={750}
@@ -13588,7 +13588,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C21_app1095">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_7/#C21_app1095">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_7#C21_app1095">
                         <line
                             x1={150}
                             x2={150}
@@ -13602,7 +13602,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii/#C21_app1095">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_vii#C21_app1095">
                         <line
                             x1={300}
                             x2={300}
@@ -13620,7 +13620,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii/#C21_app1095">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iii#C21_app1095">
                         <line
                             x1={450}
                             x2={450}
@@ -13638,7 +13638,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii/#C21_app1095">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_vii#C21_app1095">
                         <line
                             x1={600}
                             x2={600}
@@ -13656,7 +13656,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv/#C21_app1095">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xv#C21_app1095">
                         <line
                             x1={750}
                             x2={750}
@@ -13676,7 +13676,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C22_app311">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapt_8/#C22_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapt_8#C22_app311">
                         <line
                             x1={150}
                             x2={150}
@@ -13694,7 +13694,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii/#C22_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii#C22_app311">
                         <line
                             x1={300}
                             x2={300}
@@ -13708,7 +13708,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv/#C22_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv#C22_app311">
                         <line
                             x1={450}
                             x2={450}
@@ -13722,7 +13722,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii/#C22_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii#C22_app311">
                         <line
                             x1={600}
                             x2={600}
@@ -13736,7 +13736,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi/#C22_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi#C22_app311">
                         <line
                             x1={750}
                             x2={750}
@@ -13752,7 +13752,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C22_app619">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapt_8/#C22_app619">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapt_8#C22_app619">
                         <line
                             x1={150}
                             x2={150}
@@ -13770,7 +13770,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii/#C22_app619">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii#C22_app619">
                         <line
                             x1={300}
                             x2={300}
@@ -13784,7 +13784,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv/#C22_app619">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv#C22_app619">
                         <line
                             x1={450}
                             x2={450}
@@ -13798,7 +13798,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii/#C22_app619">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii#C22_app619">
                         <line
                             x1={600}
                             x2={600}
@@ -13812,7 +13812,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi/#C22_app619">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi#C22_app619">
                         <line
                             x1={750}
                             x2={750}
@@ -13828,7 +13828,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C22_app641">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapt_8/#C22_app641">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapt_8#C22_app641">
                         <line
                             x1={150}
                             x2={150}
@@ -13846,7 +13846,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii/#C22_app641">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii#C22_app641">
                         <line
                             x1={300}
                             x2={300}
@@ -13862,7 +13862,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv/#C22_app641">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv#C22_app641">
                         <line
                             x1={450}
                             x2={450}
@@ -13878,7 +13878,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii/#C22_app641">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii#C22_app641">
                         <line
                             x1={600}
                             x2={600}
@@ -13894,7 +13894,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi/#C22_app641">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi#C22_app641">
                         <line
                             x1={750}
                             x2={750}
@@ -13910,7 +13910,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C22_app718">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapt_8/#C22_app718">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapt_8#C22_app718">
                         <line
                             x1={150}
                             x2={150}
@@ -13928,7 +13928,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii/#C22_app718">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii#C22_app718">
                         <line
                             x1={300}
                             x2={300}
@@ -13942,7 +13942,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv/#C22_app718">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv#C22_app718">
                         <line
                             x1={450}
                             x2={450}
@@ -13956,7 +13956,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii/#C22_app718">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii#C22_app718">
                         <line
                             x1={600}
                             x2={600}
@@ -13970,7 +13970,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi/#C22_app718">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi#C22_app718">
                         <line
                             x1={750}
                             x2={750}
@@ -13986,7 +13986,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C22_app783">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_the_same_chap_9/#C22_app783">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_the_same_chap_9#C22_app783">
                         <line
                             x1={150}
                             x2={150}
@@ -14004,7 +14004,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii/#C22_app783">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii#C22_app783">
                         <line
                             x1={300}
                             x2={300}
@@ -14018,7 +14018,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv/#C22_app783">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv#C22_app783">
                         <line
                             x1={450}
                             x2={450}
@@ -14032,7 +14032,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii/#C22_app783">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii#C22_app783">
                         <line
                             x1={600}
                             x2={600}
@@ -14046,7 +14046,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi/#C22_app783">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi#C22_app783">
                         <line
                             x1={750}
                             x2={750}
@@ -14062,7 +14062,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C22_app994">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_the_same_chap_9/#C22_app994">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_the_same_chap_9#C22_app994">
                         <line
                             x1={150}
                             x2={150}
@@ -14076,7 +14076,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii/#C22_app994">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_viii#C22_app994">
                         <line
                             x1={300}
                             x2={300}
@@ -14090,7 +14090,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv/#C22_app994">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_iv#C22_app994">
                         <line
                             x1={450}
                             x2={450}
@@ -14104,7 +14104,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii/#C22_app994">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_viii#C22_app994">
                         <line
                             x1={600}
                             x2={600}
@@ -14118,7 +14118,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi/#C22_app994">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvi#C22_app994">
                         <line
                             x1={750}
                             x2={750}
@@ -14138,7 +14138,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C23_app568">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_9/#C23_app568">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_9#C23_app568">
                         <line
                             x1={150}
                             x2={150}
@@ -14152,7 +14152,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ix/#C23_app568">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ix#C23_app568">
                         <line
                             x1={300}
                             x2={300}
@@ -14166,7 +14166,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_v/#C23_app568">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_v#C23_app568">
                         <line
                             x1={450}
                             x2={450}
@@ -14180,7 +14180,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ix/#C23_app568">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ix#C23_app568">
                         <line
                             x1={600}
                             x2={600}
@@ -14194,7 +14194,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvii/#C23_app568">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xvii#C23_app568">
                         <line
                             x1={750}
                             x2={750}
@@ -14214,7 +14214,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C23_app575">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_9/#C23_app575">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_9#C23_app575">
                         <line
                             x1={150}
                             x2={150}
@@ -14232,7 +14232,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ix/#C23_app575">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_2_chapter_ix#C23_app575">
                         <line
                             x1={300}
                             x2={300}
@@ -14250,7 +14250,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_v/#C23_app575">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_v#C23_app575">
                         <line
                             x1={450}
                             x2={450}
@@ -14268,7 +14268,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ix/#C23_app575">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_2_chapter_ix#C23_app575">
                         <line
                             x1={600}
                             x2={600}
@@ -14289,7 +14289,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app15">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app15">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C24_app15">
                         <line
                             x1={150}
                             x2={150}
@@ -14307,7 +14307,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app15">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app15">
                         <line
                             x1={300}
                             x2={300}
@@ -14325,7 +14325,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app15">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app15">
                         <line
                             x1={450}
                             x2={450}
@@ -14343,7 +14343,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app15">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app15">
                         <line
                             x1={600}
                             x2={600}
@@ -14361,7 +14361,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app15">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app15">
                         <line
                             x1={750}
                             x2={750}
@@ -14381,7 +14381,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app70">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app70">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C24_app70">
                         <line
                             x1={150}
                             x2={150}
@@ -14395,7 +14395,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app70">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app70">
                         <line
                             x1={300}
                             x2={300}
@@ -14413,7 +14413,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app70">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app70">
                         <line
                             x1={450}
                             x2={450}
@@ -14431,7 +14431,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app70">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app70">
                         <line
                             x1={600}
                             x2={600}
@@ -14449,7 +14449,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app70">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app70">
                         <line
                             x1={750}
                             x2={750}
@@ -14469,7 +14469,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app82">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C24_app82">
                         <line
                             x1={150}
                             x2={150}
@@ -14487,7 +14487,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app82">
                         <line
                             x1={300}
                             x2={300}
@@ -14505,7 +14505,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app82">
                         <line
                             x1={450}
                             x2={450}
@@ -14523,7 +14523,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app82">
                         <line
                             x1={600}
                             x2={600}
@@ -14541,7 +14541,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app82">
                         <line
                             x1={750}
                             x2={750}
@@ -14561,7 +14561,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app180">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app180">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C24_app180">
                         <line
                             x1={150}
                             x2={150}
@@ -14575,7 +14575,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app180">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app180">
                         <line
                             x1={300}
                             x2={300}
@@ -14589,7 +14589,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app180">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app180">
                         <line
                             x1={450}
                             x2={450}
@@ -14603,7 +14603,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app180">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app180">
                         <line
                             x1={600}
                             x2={600}
@@ -14617,7 +14617,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app180">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app180">
                         <line
                             x1={750}
                             x2={750}
@@ -14637,7 +14637,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app224">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app224">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C24_app224">
                         <line
                             x1={150}
                             x2={150}
@@ -14655,7 +14655,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app224">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app224">
                         <line
                             x1={300}
                             x2={300}
@@ -14673,7 +14673,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app224">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app224">
                         <line
                             x1={450}
                             x2={450}
@@ -14691,7 +14691,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app224">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app224">
                         <line
                             x1={600}
                             x2={600}
@@ -14709,7 +14709,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app224">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app224">
                         <line
                             x1={750}
                             x2={750}
@@ -14729,7 +14729,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app329">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C24_app329">
                         <line
                             x1={150}
                             x2={150}
@@ -14747,7 +14747,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app329">
                         <line
                             x1={300}
                             x2={300}
@@ -14765,7 +14765,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app329">
                         <line
                             x1={450}
                             x2={450}
@@ -14783,7 +14783,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app329">
                         <line
                             x1={600}
                             x2={600}
@@ -14801,7 +14801,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app329">
                         <line
                             x1={750}
                             x2={750}
@@ -14821,7 +14821,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app330">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -14835,7 +14835,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app330">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app330">
                         <line
                             x1={300}
                             x2={300}
@@ -14853,7 +14853,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app330">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app330">
                         <line
                             x1={450}
                             x2={450}
@@ -14871,7 +14871,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app330">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app330">
                         <line
                             x1={600}
                             x2={600}
@@ -14889,7 +14889,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app330">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app330">
                         <line
                             x1={750}
                             x2={750}
@@ -14909,7 +14909,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app332">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer///#">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer//#">
                         <line
                             x1={150}
                             x2={150}
@@ -14923,7 +14923,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app332">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app332">
                         <line
                             x1={300}
                             x2={300}
@@ -14941,7 +14941,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app332">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app332">
                         <line
                             x1={450}
                             x2={450}
@@ -14959,7 +14959,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app332">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app332">
                         <line
                             x1={600}
                             x2={600}
@@ -14977,7 +14977,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app332">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app332">
                         <line
                             x1={750}
                             x2={750}
@@ -14993,7 +14993,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C24_app562">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app562">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C24_app562">
                         <line
                             x1={150}
                             x2={150}
@@ -15011,7 +15011,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C24_app562">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C24_app562">
                         <line
                             x1={300}
                             x2={300}
@@ -15029,7 +15029,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C24_app562">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C24_app562">
                         <line
                             x1={450}
                             x2={450}
@@ -15047,7 +15047,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C24_app562">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C24_app562">
                         <line
                             x1={600}
                             x2={600}
@@ -15065,7 +15065,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C24_app562">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C24_app562">
                         <line
                             x1={750}
                             x2={750}
@@ -15085,7 +15085,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app8">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C25_app8">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C25_app8">
                         <line
                             x1={150}
                             x2={150}
@@ -15103,7 +15103,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i/#C25_app8">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_i#C25_app8">
                         <line
                             x1={300}
                             x2={300}
@@ -15121,7 +15121,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi/#C25_app8">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vi#C25_app8">
                         <line
                             x1={450}
                             x2={450}
@@ -15139,7 +15139,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i/#C25_app8">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_i#C25_app8">
                         <line
                             x1={600}
                             x2={600}
@@ -15157,7 +15157,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii/#C25_app8">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xviii#C25_app8">
                         <line
                             x1={750}
                             x2={750}
@@ -15177,7 +15177,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app111">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app111">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app111">
                         <line
                             x1={150}
                             x2={150}
@@ -15191,7 +15191,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app111">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app111">
                         <line
                             x1={300}
                             x2={300}
@@ -15207,7 +15207,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app111">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app111">
                         <line
                             x1={450}
                             x2={450}
@@ -15223,7 +15223,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app111">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app111">
                         <line
                             x1={600}
                             x2={600}
@@ -15239,7 +15239,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app111">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app111">
                         <line
                             x1={750}
                             x2={750}
@@ -15259,7 +15259,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app217">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app217">
                         <line
                             x1={150}
                             x2={150}
@@ -15277,7 +15277,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app217">
                         <line
                             x1={300}
                             x2={300}
@@ -15295,7 +15295,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app217">
                         <line
                             x1={450}
                             x2={450}
@@ -15313,7 +15313,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app217">
                         <line
                             x1={600}
                             x2={600}
@@ -15331,7 +15331,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app217">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app217">
                         <line
                             x1={750}
                             x2={750}
@@ -15351,7 +15351,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app245">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app245">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app245">
                         <line
                             x1={150}
                             x2={150}
@@ -15369,7 +15369,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app245">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app245">
                         <line
                             x1={300}
                             x2={300}
@@ -15387,7 +15387,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app245">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app245">
                         <line
                             x1={450}
                             x2={450}
@@ -15405,7 +15405,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app245">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app245">
                         <line
                             x1={600}
                             x2={600}
@@ -15423,7 +15423,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app245">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app245">
                         <line
                             x1={750}
                             x2={750}
@@ -15443,7 +15443,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app261">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app261">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app261">
                         <line
                             x1={150}
                             x2={150}
@@ -15461,7 +15461,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app261">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app261">
                         <line
                             x1={300}
                             x2={300}
@@ -15479,7 +15479,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app261">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app261">
                         <line
                             x1={450}
                             x2={450}
@@ -15497,7 +15497,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app261">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app261">
                         <line
                             x1={600}
                             x2={600}
@@ -15515,7 +15515,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app261">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app261">
                         <line
                             x1={750}
                             x2={750}
@@ -15535,7 +15535,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app266">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app266">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app266">
                         <line
                             x1={150}
                             x2={150}
@@ -15553,7 +15553,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app266">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app266">
                         <line
                             x1={300}
                             x2={300}
@@ -15571,7 +15571,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app266">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app266">
                         <line
                             x1={450}
                             x2={450}
@@ -15589,7 +15589,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app266">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app266">
                         <line
                             x1={600}
                             x2={600}
@@ -15607,7 +15607,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app266">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app266">
                         <line
                             x1={750}
                             x2={750}
@@ -15627,7 +15627,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app278">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app278">
                         <line
                             x1={150}
                             x2={150}
@@ -15645,7 +15645,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app278">
                         <line
                             x1={300}
                             x2={300}
@@ -15663,7 +15663,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app278">
                         <line
                             x1={450}
                             x2={450}
@@ -15681,7 +15681,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app278">
                         <line
                             x1={600}
                             x2={600}
@@ -15699,7 +15699,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app278">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app278">
                         <line
                             x1={750}
                             x2={750}
@@ -15719,7 +15719,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app291">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app291">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app291">
                         <line
                             x1={150}
                             x2={150}
@@ -15737,7 +15737,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app291">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app291">
                         <line
                             x1={300}
                             x2={300}
@@ -15755,7 +15755,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app291">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app291">
                         <line
                             x1={450}
                             x2={450}
@@ -15773,7 +15773,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app291">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app291">
                         <line
                             x1={600}
                             x2={600}
@@ -15791,7 +15791,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app291">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app291">
                         <line
                             x1={750}
                             x2={750}
@@ -15811,7 +15811,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app293">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app293">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app293">
                         <line
                             x1={150}
                             x2={150}
@@ -15829,7 +15829,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app293">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app293">
                         <line
                             x1={300}
                             x2={300}
@@ -15847,7 +15847,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app293">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app293">
                         <line
                             x1={450}
                             x2={450}
@@ -15865,7 +15865,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app293">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app293">
                         <line
                             x1={600}
                             x2={600}
@@ -15883,7 +15883,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app293">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app293">
                         <line
                             x1={750}
                             x2={750}
@@ -15903,7 +15903,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app299">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app299">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app299">
                         <line
                             x1={150}
                             x2={150}
@@ -15921,7 +15921,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app299">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app299">
                         <line
                             x1={300}
                             x2={300}
@@ -15939,7 +15939,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app299">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app299">
                         <line
                             x1={450}
                             x2={450}
@@ -15957,7 +15957,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app299">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app299">
                         <line
                             x1={600}
                             x2={600}
@@ -15975,7 +15975,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app299">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app299">
                         <line
                             x1={750}
                             x2={750}
@@ -15995,7 +15995,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app311">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app311">
                         <line
                             x1={150}
                             x2={150}
@@ -16013,7 +16013,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app311">
                         <line
                             x1={300}
                             x2={300}
@@ -16031,7 +16031,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app311">
                         <line
                             x1={450}
                             x2={450}
@@ -16049,7 +16049,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app311">
                         <line
                             x1={600}
                             x2={600}
@@ -16067,7 +16067,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app311">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app311">
                         <line
                             x1={750}
                             x2={750}
@@ -16087,7 +16087,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app313">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app313">
                         <line
                             x1={150}
                             x2={150}
@@ -16105,7 +16105,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app313">
                         <line
                             x1={300}
                             x2={300}
@@ -16123,7 +16123,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app313">
                         <line
                             x1={450}
                             x2={450}
@@ -16141,7 +16141,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app313">
                         <line
                             x1={600}
                             x2={600}
@@ -16159,7 +16159,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app313">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app313">
                         <line
                             x1={750}
                             x2={750}
@@ -16179,7 +16179,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app509">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2/#C25_app509">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_2#C25_app509">
                         <line
                             x1={150}
                             x2={150}
@@ -16193,7 +16193,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app509">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app509">
                         <line
                             x1={300}
                             x2={300}
@@ -16211,7 +16211,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app509">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app509">
                         <line
                             x1={450}
                             x2={450}
@@ -16229,7 +16229,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app509">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app509">
                         <line
                             x1={600}
                             x2={600}
@@ -16247,7 +16247,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app509">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app509">
                         <line
                             x1={750}
                             x2={750}
@@ -16267,7 +16267,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C25_app780">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_12/#C25_app780">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_12#C25_app780">
                         <line
                             x1={150}
                             x2={150}
@@ -16285,7 +16285,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii/#C25_app780">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_ii#C25_app780">
                         <line
                             x1={300}
                             x2={300}
@@ -16303,7 +16303,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii/#C25_app780">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_vii#C25_app780">
                         <line
                             x1={450}
                             x2={450}
@@ -16321,7 +16321,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii/#C25_app780">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_ii#C25_app780">
                         <line
                             x1={600}
                             x2={600}
@@ -16339,7 +16339,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix/#C25_app780">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xix#C25_app780">
                         <line
                             x1={750}
                             x2={750}
@@ -16359,7 +16359,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C26_app80">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_12/#C26_app80">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_12#C26_app80">
                         <line
                             x1={150}
                             x2={150}
@@ -16377,7 +16377,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii/#C26_app80">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii#C26_app80">
                         <line
                             x1={300}
                             x2={300}
@@ -16395,7 +16395,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii/#C26_app80">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii#C26_app80">
                         <line
                             x1={450}
                             x2={450}
@@ -16413,7 +16413,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii/#C26_app80">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii#C26_app80">
                         <line
                             x1={600}
                             x2={600}
@@ -16431,7 +16431,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx/#C26_app80">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx#C26_app80">
                         <line
                             x1={750}
                             x2={750}
@@ -16451,7 +16451,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C26_app82">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_12/#C26_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_12#C26_app82">
                         <line
                             x1={150}
                             x2={150}
@@ -16469,7 +16469,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii/#C26_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii#C26_app82">
                         <line
                             x1={300}
                             x2={300}
@@ -16487,7 +16487,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii/#C26_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii#C26_app82">
                         <line
                             x1={450}
                             x2={450}
@@ -16505,7 +16505,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii/#C26_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii#C26_app82">
                         <line
                             x1={600}
                             x2={600}
@@ -16523,7 +16523,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx/#C26_app82">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx#C26_app82">
                         <line
                             x1={750}
                             x2={750}
@@ -16543,7 +16543,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C26_app547">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapter_13/#C26_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapter_13#C26_app547">
                         <line
                             x1={150}
                             x2={150}
@@ -16561,7 +16561,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii/#C26_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii#C26_app547">
                         <line
                             x1={300}
                             x2={300}
@@ -16579,7 +16579,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii/#C26_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii#C26_app547">
                         <line
                             x1={450}
                             x2={450}
@@ -16597,7 +16597,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii/#C26_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii#C26_app547">
                         <line
                             x1={600}
                             x2={600}
@@ -16615,7 +16615,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx/#C26_app547">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx#C26_app547">
                         <line
                             x1={750}
                             x2={750}
@@ -16635,7 +16635,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C26_app549">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapter_13/#C26_app549">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapter_13#C26_app549">
                         <line
                             x1={150}
                             x2={150}
@@ -16651,7 +16651,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii/#C26_app549">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii#C26_app549">
                         <line
                             x1={300}
                             x2={300}
@@ -16667,7 +16667,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii/#C26_app549">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii#C26_app549">
                         <line
                             x1={450}
                             x2={450}
@@ -16683,7 +16683,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii/#C26_app549">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii#C26_app549">
                         <line
                             x1={600}
                             x2={600}
@@ -16699,7 +16699,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx/#C26_app549">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx#C26_app549">
                         <line
                             x1={750}
                             x2={750}
@@ -16719,7 +16719,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C26_app796">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapter_13/#C26_app796">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chapter_13#C26_app796">
                         <line
                             x1={150}
                             x2={150}
@@ -16733,7 +16733,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii/#C26_app796">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iii#C26_app796">
                         <line
                             x1={300}
                             x2={300}
@@ -16747,7 +16747,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii/#C26_app796">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_viii#C26_app796">
                         <line
                             x1={450}
                             x2={450}
@@ -16761,7 +16761,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii/#C26_app796">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iii#C26_app796">
                         <line
                             x1={600}
                             x2={600}
@@ -16775,7 +16775,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx/#C26_app796">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xx#C26_app796">
                         <line
                             x1={750}
                             x2={750}
@@ -16795,7 +16795,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C27_app419">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_14/#C27_app419">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_14#C27_app419">
                         <line
                             x1={150}
                             x2={150}
@@ -16813,7 +16813,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv/#C27_app419">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv#C27_app419">
                         <line
                             x1={300}
                             x2={300}
@@ -16831,7 +16831,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix/#C27_app419">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix#C27_app419">
                         <line
                             x1={450}
                             x2={450}
@@ -16845,7 +16845,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv/#C27_app419">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv#C27_app419">
                         <line
                             x1={600}
                             x2={600}
@@ -16863,7 +16863,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi/#C27_app419">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi#C27_app419">
                         <line
                             x1={750}
                             x2={750}
@@ -16879,7 +16879,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C27_app539">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_14/#C27_app539">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_14#C27_app539">
                         <line
                             x1={150}
                             x2={150}
@@ -16897,7 +16897,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv/#C27_app539">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv#C27_app539">
                         <line
                             x1={300}
                             x2={300}
@@ -16915,7 +16915,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix/#C27_app539">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix#C27_app539">
                         <line
                             x1={450}
                             x2={450}
@@ -16933,7 +16933,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv/#C27_app539">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv#C27_app539">
                         <line
                             x1={600}
                             x2={600}
@@ -16951,7 +16951,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi/#C27_app539">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi#C27_app539">
                         <line
                             x1={750}
                             x2={750}
@@ -16971,7 +16971,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C27_app627">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_14/#C27_app627">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_14#C27_app627">
                         <line
                             x1={150}
                             x2={150}
@@ -16989,7 +16989,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv/#C27_app627">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv#C27_app627">
                         <line
                             x1={300}
                             x2={300}
@@ -17007,7 +17007,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix/#C27_app627">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix#C27_app627">
                         <line
                             x1={450}
                             x2={450}
@@ -17025,7 +17025,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv/#C27_app627">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv#C27_app627">
                         <line
                             x1={600}
                             x2={600}
@@ -17043,7 +17043,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi/#C27_app627">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi#C27_app627">
                         <line
                             x1={750}
                             x2={750}
@@ -17063,7 +17063,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C27_app760">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_14/#C27_app760">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_14#C27_app760">
                         <line
                             x1={150}
                             x2={150}
@@ -17081,7 +17081,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv/#C27_app760">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv#C27_app760">
                         <line
                             x1={300}
                             x2={300}
@@ -17099,7 +17099,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix/#C27_app760">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix#C27_app760">
                         <line
                             x1={450}
                             x2={450}
@@ -17117,7 +17117,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv/#C27_app760">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv#C27_app760">
                         <line
                             x1={600}
                             x2={600}
@@ -17135,7 +17135,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi/#C27_app760">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi#C27_app760">
                         <line
                             x1={750}
                             x2={750}
@@ -17155,7 +17155,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C27_app947">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C27_app947">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C27_app947">
                         <line
                             x1={150}
                             x2={150}
@@ -17173,7 +17173,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv/#C27_app947">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv#C27_app947">
                         <line
                             x1={300}
                             x2={300}
@@ -17191,7 +17191,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix/#C27_app947">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix#C27_app947">
                         <line
                             x1={450}
                             x2={450}
@@ -17209,7 +17209,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv/#C27_app947">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv#C27_app947">
                         <line
                             x1={600}
                             x2={600}
@@ -17227,7 +17227,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi/#C27_app947">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi#C27_app947">
                         <line
                             x1={750}
                             x2={750}
@@ -17247,7 +17247,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C27_app969">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C27_app969">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C27_app969">
                         <line
                             x1={150}
                             x2={150}
@@ -17265,7 +17265,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv/#C27_app969">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv#C27_app969">
                         <line
                             x1={300}
                             x2={300}
@@ -17283,7 +17283,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix/#C27_app969">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix#C27_app969">
                         <line
                             x1={450}
                             x2={450}
@@ -17301,7 +17301,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv/#C27_app969">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv#C27_app969">
                         <line
                             x1={600}
                             x2={600}
@@ -17319,7 +17319,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi/#C27_app969">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi#C27_app969">
                         <line
                             x1={750}
                             x2={750}
@@ -17339,7 +17339,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C27_app1130">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C27_app1130">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C27_app1130">
                         <line
                             x1={150}
                             x2={150}
@@ -17355,7 +17355,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv/#C27_app1130">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_iv#C27_app1130">
                         <line
                             x1={300}
                             x2={300}
@@ -17371,7 +17371,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix/#C27_app1130">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_ix#C27_app1130">
                         <line
                             x1={450}
                             x2={450}
@@ -17387,7 +17387,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv/#C27_app1130">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_iv#C27_app1130">
                         <line
                             x1={600}
                             x2={600}
@@ -17403,7 +17403,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi/#C27_app1130">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxi#C27_app1130">
                         <line
                             x1={750}
                             x2={750}
@@ -17423,7 +17423,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C28_app16">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C28_app16">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C28_app16">
                         <line
                             x1={150}
                             x2={150}
@@ -17441,7 +17441,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C28_app16">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C28_app16">
                         <line
                             x1={300}
                             x2={300}
@@ -17459,7 +17459,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C28_app16">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C28_app16">
                         <line
                             x1={450}
                             x2={450}
@@ -17477,7 +17477,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C28_app16">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C28_app16">
                         <line
                             x1={600}
                             x2={600}
@@ -17498,7 +17498,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C28_app38">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C28_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C28_app38">
                         <line
                             x1={150}
                             x2={150}
@@ -17512,7 +17512,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C28_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C28_app38">
                         <line
                             x1={300}
                             x2={300}
@@ -17528,7 +17528,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C28_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C28_app38">
                         <line
                             x1={450}
                             x2={450}
@@ -17544,7 +17544,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C28_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C28_app38">
                         <line
                             x1={600}
                             x2={600}
@@ -17560,7 +17560,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C28_app38">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C28_app38">
                         <line
                             x1={750}
                             x2={750}
@@ -17580,7 +17580,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C28_app40">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C28_app40">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C28_app40">
                         <line
                             x1={150}
                             x2={150}
@@ -17598,7 +17598,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C28_app40">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C28_app40">
                         <line
                             x1={300}
                             x2={300}
@@ -17616,7 +17616,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C28_app40">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C28_app40">
                         <line
                             x1={450}
                             x2={450}
@@ -17634,7 +17634,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C28_app40">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C28_app40">
                         <line
                             x1={600}
                             x2={600}
@@ -17655,7 +17655,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C28_app48">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C28_app48">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C28_app48">
                         <line
                             x1={150}
                             x2={150}
@@ -17673,7 +17673,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C28_app48">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C28_app48">
                         <line
                             x1={300}
                             x2={300}
@@ -17691,7 +17691,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C28_app48">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C28_app48">
                         <line
                             x1={450}
                             x2={450}
@@ -17709,7 +17709,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C28_app48">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C28_app48">
                         <line
                             x1={600}
                             x2={600}
@@ -17727,7 +17727,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C28_app48">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C28_app48">
                         <line
                             x1={750}
                             x2={750}
@@ -17747,7 +17747,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C28_app112">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C28_app112">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C28_app112">
                         <line
                             x1={150}
                             x2={150}
@@ -17761,7 +17761,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C28_app112">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C28_app112">
                         <line
                             x1={300}
                             x2={300}
@@ -17775,7 +17775,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C28_app112">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C28_app112">
                         <line
                             x1={450}
                             x2={450}
@@ -17789,7 +17789,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C28_app112">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C28_app112">
                         <line
                             x1={600}
                             x2={600}
@@ -17803,7 +17803,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C28_app112">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C28_app112">
                         <line
                             x1={750}
                             x2={750}
@@ -17823,7 +17823,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C28_app114">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C28_app114">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C28_app114">
                         <line
                             x1={150}
                             x2={150}
@@ -17841,7 +17841,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C28_app114">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C28_app114">
                         <line
                             x1={300}
                             x2={300}
@@ -17859,7 +17859,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C28_app114">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C28_app114">
                         <line
                             x1={450}
                             x2={450}
@@ -17877,7 +17877,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C28_app114">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C28_app114">
                         <line
                             x1={600}
                             x2={600}
@@ -17895,7 +17895,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C28_app114">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C28_app114">
                         <line
                             x1={750}
                             x2={750}
@@ -17915,7 +17915,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C28_app151">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C28_app151">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C28_app151">
                         <line
                             x1={150}
                             x2={150}
@@ -17933,7 +17933,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C28_app151">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C28_app151">
                         <line
                             x1={300}
                             x2={300}
@@ -17951,7 +17951,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C28_app151">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C28_app151">
                         <line
                             x1={450}
                             x2={450}
@@ -17969,7 +17969,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C28_app151">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C28_app151">
                         <line
                             x1={600}
                             x2={600}
@@ -17987,7 +17987,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C28_app151">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C28_app151">
                         <line
                             x1={750}
                             x2={750}
@@ -18007,7 +18007,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C28_app185">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C28_app185">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C28_app185">
                         <line
                             x1={150}
                             x2={150}
@@ -18025,7 +18025,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C28_app185">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C28_app185">
                         <line
                             x1={300}
                             x2={300}
@@ -18041,7 +18041,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C28_app185">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C28_app185">
                         <line
                             x1={450}
                             x2={450}
@@ -18057,7 +18057,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C28_app185">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C28_app185">
                         <line
                             x1={600}
                             x2={600}
@@ -18075,7 +18075,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C28_app185">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C28_app185">
                         <line
                             x1={750}
                             x2={750}
@@ -18091,7 +18091,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C29_app292">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_16/#C29_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_16#C29_app292">
                         <line
                             x1={150}
                             x2={150}
@@ -18109,7 +18109,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C29_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C29_app292">
                         <line
                             x1={300}
                             x2={300}
@@ -18125,7 +18125,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C29_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C29_app292">
                         <line
                             x1={450}
                             x2={450}
@@ -18141,7 +18141,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C29_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C29_app292">
                         <line
                             x1={600}
                             x2={600}
@@ -18157,7 +18157,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C29_app292">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C29_app292">
                         <line
                             x1={750}
                             x2={750}
@@ -18173,7 +18173,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C29_app542">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_16/#C29_app542">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_16#C29_app542">
                         <line
                             x1={150}
                             x2={150}
@@ -18191,7 +18191,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C29_app542">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C29_app542">
                         <line
                             x1={300}
                             x2={300}
@@ -18209,7 +18209,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C29_app542">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C29_app542">
                         <line
                             x1={450}
                             x2={450}
@@ -18227,7 +18227,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C29_app542">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C29_app542">
                         <line
                             x1={600}
                             x2={600}
@@ -18245,7 +18245,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C29_app542">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C29_app542">
                         <line
                             x1={750}
                             x2={750}
@@ -18265,7 +18265,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C29_app609">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_16/#C29_app609">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_16#C29_app609">
                         <line
                             x1={150}
                             x2={150}
@@ -18283,7 +18283,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C29_app609">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C29_app609">
                         <line
                             x1={300}
                             x2={300}
@@ -18301,7 +18301,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C29_app609">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C29_app609">
                         <line
                             x1={450}
                             x2={450}
@@ -18319,7 +18319,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C29_app609">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C29_app609">
                         <line
                             x1={600}
                             x2={600}
@@ -18337,7 +18337,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C29_app609">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C29_app609">
                         <line
                             x1={750}
                             x2={750}
@@ -18357,7 +18357,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C29_app721">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_16/#C29_app721">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_16#C29_app721">
                         <line
                             x1={150}
                             x2={150}
@@ -18373,7 +18373,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v/#C29_app721">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_v#C29_app721">
                         <line
                             x1={300}
                             x2={300}
@@ -18389,7 +18389,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x/#C29_app721">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_x#C29_app721">
                         <line
                             x1={450}
                             x2={450}
@@ -18405,7 +18405,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v/#C29_app721">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_v#C29_app721">
                         <line
                             x1={600}
                             x2={600}
@@ -18423,7 +18423,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii/#C29_app721">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxii#C29_app721">
                         <line
                             x1={750}
                             x2={750}
@@ -18441,7 +18441,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C30_app4">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17/#C30_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17#C30_app4">
                         <line
                             x1={150}
                             x2={150}
@@ -18459,7 +18459,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi/#C30_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi#C30_app4">
                         <line
                             x1={300}
                             x2={300}
@@ -18477,7 +18477,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi/#C30_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi#C30_app4">
                         <line
                             x1={450}
                             x2={450}
@@ -18495,7 +18495,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi/#C30_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi#C30_app4">
                         <line
                             x1={600}
                             x2={600}
@@ -18513,7 +18513,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii/#C30_app4">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii#C30_app4">
                         <line
                             x1={750}
                             x2={750}
@@ -18533,7 +18533,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C30_app57">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17/#C30_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17#C30_app57">
                         <line
                             x1={150}
                             x2={150}
@@ -18551,7 +18551,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi/#C30_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi#C30_app57">
                         <line
                             x1={300}
                             x2={300}
@@ -18569,7 +18569,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi/#C30_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi#C30_app57">
                         <line
                             x1={450}
                             x2={450}
@@ -18585,7 +18585,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi/#C30_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi#C30_app57">
                         <line
                             x1={600}
                             x2={600}
@@ -18603,7 +18603,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii/#C30_app57">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii#C30_app57">
                         <line
                             x1={750}
                             x2={750}
@@ -18621,7 +18621,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C30_app63">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17/#C30_app63">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17#C30_app63">
                         <line
                             x1={150}
                             x2={150}
@@ -18639,7 +18639,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi/#C30_app63">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi#C30_app63">
                         <line
                             x1={300}
                             x2={300}
@@ -18657,7 +18657,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi/#C30_app63">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi#C30_app63">
                         <line
                             x1={450}
                             x2={450}
@@ -18675,7 +18675,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi/#C30_app63">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi#C30_app63">
                         <line
                             x1={600}
                             x2={600}
@@ -18693,7 +18693,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii/#C30_app63">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii#C30_app63">
                         <line
                             x1={750}
                             x2={750}
@@ -18713,7 +18713,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C30_app304">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17/#C30_app304">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17#C30_app304">
                         <line
                             x1={150}
                             x2={150}
@@ -18731,7 +18731,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi/#C30_app304">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi#C30_app304">
                         <line
                             x1={300}
                             x2={300}
@@ -18745,7 +18745,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi/#C30_app304">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi#C30_app304">
                         <line
                             x1={450}
                             x2={450}
@@ -18759,7 +18759,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi/#C30_app304">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi#C30_app304">
                         <line
                             x1={600}
                             x2={600}
@@ -18773,7 +18773,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii/#C30_app304">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii#C30_app304">
                         <line
                             x1={750}
                             x2={750}
@@ -18793,7 +18793,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C30_app329">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17/#C30_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17#C30_app329">
                         <line
                             x1={150}
                             x2={150}
@@ -18811,7 +18811,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi/#C30_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi#C30_app329">
                         <line
                             x1={300}
                             x2={300}
@@ -18829,7 +18829,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi/#C30_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi#C30_app329">
                         <line
                             x1={450}
                             x2={450}
@@ -18847,7 +18847,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi/#C30_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi#C30_app329">
                         <line
                             x1={600}
                             x2={600}
@@ -18865,7 +18865,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii/#C30_app329">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii#C30_app329">
                         <line
                             x1={750}
                             x2={750}
@@ -18885,7 +18885,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C30_app331">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17/#C30_app331">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17#C30_app331">
                         <line
                             x1={150}
                             x2={150}
@@ -18903,7 +18903,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi/#C30_app331">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi#C30_app331">
                         <line
                             x1={300}
                             x2={300}
@@ -18921,7 +18921,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi/#C30_app331">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi#C30_app331">
                         <line
                             x1={450}
                             x2={450}
@@ -18939,7 +18939,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi/#C30_app331">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi#C30_app331">
                         <line
                             x1={600}
                             x2={600}
@@ -18957,7 +18957,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii/#C30_app331">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii#C30_app331">
                         <line
                             x1={750}
                             x2={750}
@@ -18977,7 +18977,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C30_app495">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17/#C30_app495">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17#C30_app495">
                         <line
                             x1={150}
                             x2={150}
@@ -18995,7 +18995,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi/#C30_app495">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi#C30_app495">
                         <line
                             x1={300}
                             x2={300}
@@ -19013,7 +19013,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi/#C30_app495">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi#C30_app495">
                         <line
                             x1={450}
                             x2={450}
@@ -19031,7 +19031,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi/#C30_app495">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi#C30_app495">
                         <line
                             x1={600}
                             x2={600}
@@ -19049,7 +19049,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii/#C30_app495">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii#C30_app495">
                         <line
                             x1={750}
                             x2={750}
@@ -19069,7 +19069,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C30_app695">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17/#C30_app695">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_17#C30_app695">
                         <line
                             x1={150}
                             x2={150}
@@ -19087,7 +19087,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi/#C30_app695">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vi#C30_app695">
                         <line
                             x1={300}
                             x2={300}
@@ -19103,7 +19103,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi/#C30_app695">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xi#C30_app695">
                         <line
                             x1={450}
                             x2={450}
@@ -19119,7 +19119,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi/#C30_app695">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vi#C30_app695">
                         <line
                             x1={600}
                             x2={600}
@@ -19135,7 +19135,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii/#C30_app695">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiii#C30_app695">
                         <line
                             x1={750}
                             x2={750}
@@ -19153,7 +19153,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C31_app800">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_18/#C31_app800">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_18#C31_app800">
                         <line
                             x1={150}
                             x2={150}
@@ -19171,7 +19171,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C31_app800">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C31_app800">
                         <line
                             x1={300}
                             x2={300}
@@ -19189,7 +19189,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C31_app800">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C31_app800">
                         <line
                             x1={450}
                             x2={450}
@@ -19207,7 +19207,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C31_app800">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C31_app800">
                         <line
                             x1={600}
                             x2={600}
@@ -19225,7 +19225,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C31_app800">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C31_app800">
                         <line
                             x1={750}
                             x2={750}
@@ -19245,7 +19245,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C31_app971">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_18/#C31_app971">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_18#C31_app971">
                         <line
                             x1={150}
                             x2={150}
@@ -19263,7 +19263,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C31_app971">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C31_app971">
                         <line
                             x1={300}
                             x2={300}
@@ -19277,7 +19277,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C31_app971">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C31_app971">
                         <line
                             x1={450}
                             x2={450}
@@ -19291,7 +19291,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C31_app971">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C31_app971">
                         <line
                             x1={600}
                             x2={600}
@@ -19305,7 +19305,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C31_app971">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C31_app971">
                         <line
                             x1={750}
                             x2={750}
@@ -19321,7 +19321,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C31_app1057">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_18/#C31_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_18#C31_app1057">
                         <line
                             x1={150}
                             x2={150}
@@ -19339,7 +19339,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C31_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C31_app1057">
                         <line
                             x1={300}
                             x2={300}
@@ -19353,7 +19353,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C31_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C31_app1057">
                         <line
                             x1={450}
                             x2={450}
@@ -19367,7 +19367,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C31_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C31_app1057">
                         <line
                             x1={600}
                             x2={600}
@@ -19383,7 +19383,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C31_app1057">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C31_app1057">
                         <line
                             x1={750}
                             x2={750}
@@ -19399,7 +19399,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app35">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app35">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app35">
                         <line
                             x1={150}
                             x2={150}
@@ -19417,7 +19417,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app35">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app35">
                         <line
                             x1={300}
                             x2={300}
@@ -19435,7 +19435,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app35">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app35">
                         <line
                             x1={450}
                             x2={450}
@@ -19453,7 +19453,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app35">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app35">
                         <line
                             x1={600}
                             x2={600}
@@ -19471,7 +19471,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app35">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app35">
                         <line
                             x1={750}
                             x2={750}
@@ -19491,7 +19491,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app653">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app653">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app653">
                         <line
                             x1={150}
                             x2={150}
@@ -19509,7 +19509,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app653">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app653">
                         <line
                             x1={300}
                             x2={300}
@@ -19527,7 +19527,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app653">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app653">
                         <line
                             x1={450}
                             x2={450}
@@ -19545,7 +19545,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app653">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app653">
                         <line
                             x1={600}
                             x2={600}
@@ -19563,7 +19563,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app653">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app653">
                         <line
                             x1={750}
                             x2={750}
@@ -19583,7 +19583,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app749">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app749">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app749">
                         <line
                             x1={150}
                             x2={150}
@@ -19601,7 +19601,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app749">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app749">
                         <line
                             x1={300}
                             x2={300}
@@ -19619,7 +19619,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app749">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app749">
                         <line
                             x1={450}
                             x2={450}
@@ -19637,7 +19637,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app749">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app749">
                         <line
                             x1={600}
                             x2={600}
@@ -19655,7 +19655,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app749">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app749">
                         <line
                             x1={750}
                             x2={750}
@@ -19675,7 +19675,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app804">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app804">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app804">
                         <line
                             x1={150}
                             x2={150}
@@ -19693,7 +19693,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app804">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app804">
                         <line
                             x1={300}
                             x2={300}
@@ -19711,7 +19711,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app804">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app804">
                         <line
                             x1={450}
                             x2={450}
@@ -19729,7 +19729,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app804">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app804">
                         <line
                             x1={600}
                             x2={600}
@@ -19747,7 +19747,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app804">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app804">
                         <line
                             x1={750}
                             x2={750}
@@ -19767,7 +19767,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app818">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app818">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app818">
                         <line
                             x1={150}
                             x2={150}
@@ -19785,7 +19785,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app818">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app818">
                         <line
                             x1={300}
                             x2={300}
@@ -19803,7 +19803,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app818">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app818">
                         <line
                             x1={450}
                             x2={450}
@@ -19821,7 +19821,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app818">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app818">
                         <line
                             x1={600}
                             x2={600}
@@ -19839,7 +19839,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app818">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app818">
                         <line
                             x1={750}
                             x2={750}
@@ -19859,7 +19859,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app836">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app836">
                         <line
                             x1={150}
                             x2={150}
@@ -19877,7 +19877,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app836">
                         <line
                             x1={300}
                             x2={300}
@@ -19895,7 +19895,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app836">
                         <line
                             x1={450}
                             x2={450}
@@ -19913,7 +19913,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app836">
                         <line
                             x1={600}
                             x2={600}
@@ -19931,7 +19931,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app836">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app836">
                         <line
                             x1={750}
                             x2={750}
@@ -19951,7 +19951,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app879">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app879">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app879">
                         <line
                             x1={150}
                             x2={150}
@@ -19969,7 +19969,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app879">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app879">
                         <line
                             x1={300}
                             x2={300}
@@ -19987,7 +19987,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app879">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app879">
                         <line
                             x1={450}
                             x2={450}
@@ -20005,7 +20005,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app879">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app879">
                         <line
                             x1={600}
                             x2={600}
@@ -20023,7 +20023,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app879">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app879">
                         <line
                             x1={750}
                             x2={750}
@@ -20043,7 +20043,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app946">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app946">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app946">
                         <line
                             x1={150}
                             x2={150}
@@ -20061,7 +20061,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app946">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app946">
                         <line
                             x1={300}
                             x2={300}
@@ -20079,7 +20079,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app946">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app946">
                         <line
                             x1={450}
                             x2={450}
@@ -20097,7 +20097,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app946">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app946">
                         <line
                             x1={600}
                             x2={600}
@@ -20115,7 +20115,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app946">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app946">
                         <line
                             x1={750}
                             x2={750}
@@ -20135,7 +20135,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app964">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app964">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app964">
                         <line
                             x1={150}
                             x2={150}
@@ -20153,7 +20153,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app964">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app964">
                         <line
                             x1={300}
                             x2={300}
@@ -20171,7 +20171,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app964">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app964">
                         <line
                             x1={450}
                             x2={450}
@@ -20189,7 +20189,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app964">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app964">
                         <line
                             x1={600}
                             x2={600}
@@ -20207,7 +20207,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app964">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app964">
                         <line
                             x1={750}
                             x2={750}
@@ -20227,7 +20227,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app1208">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app1208">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app1208">
                         <line
                             x1={150}
                             x2={150}
@@ -20243,7 +20243,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app1208">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app1208">
                         <line
                             x1={300}
                             x2={300}
@@ -20261,7 +20261,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app1208">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app1208">
                         <line
                             x1={450}
                             x2={450}
@@ -20279,7 +20279,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app1208">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app1208">
                         <line
                             x1={600}
                             x2={600}
@@ -20297,7 +20297,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app1208">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app1208">
                         <line
                             x1={750}
                             x2={750}
@@ -20317,7 +20317,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app1230">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app1230">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app1230">
                         <line
                             x1={150}
                             x2={150}
@@ -20335,7 +20335,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app1230">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app1230">
                         <line
                             x1={300}
                             x2={300}
@@ -20353,7 +20353,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app1230">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app1230">
                         <line
                             x1={450}
                             x2={450}
@@ -20371,7 +20371,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app1230">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app1230">
                         <line
                             x1={600}
                             x2={600}
@@ -20389,7 +20389,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app1230">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app1230">
                         <line
                             x1={750}
                             x2={750}
@@ -20409,7 +20409,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app1240">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app1240">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app1240">
                         <line
                             x1={150}
                             x2={150}
@@ -20425,7 +20425,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app1240">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app1240">
                         <line
                             x1={300}
                             x2={300}
@@ -20443,7 +20443,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app1240">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app1240">
                         <line
                             x1={450}
                             x2={450}
@@ -20461,7 +20461,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app1240">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app1240">
                         <line
                             x1={600}
                             x2={600}
@@ -20479,7 +20479,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app1240">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app1240">
                         <line
                             x1={750}
                             x2={750}
@@ -20499,7 +20499,7 @@ export const HeatmapNavigation = (props) => (
             </g>
             <g id="C33_app1337">
                 <g className="fMS">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation/#C33_app1337">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/MS/box_c57_walton_in_continuation#C33_app1337">
                         <line
                             x1={150}
                             x2={150}
@@ -20517,7 +20517,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1818">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app1337">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app1337">
                         <line
                             x1={300}
                             x2={300}
@@ -20535,7 +20535,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1823">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii/#C33_app1337">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1823/vol_2_chapter_xii#C33_app1337">
                         <line
                             x1={450}
                             x2={450}
@@ -20553,7 +20553,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="fThomas">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii/#C33_app1337">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/Thomas/vol_3_chapter_vii#C33_app1337">
                         <line
                             x1={600}
                             x2={600}
@@ -20571,7 +20571,7 @@ export const HeatmapNavigation = (props) => (
                     </a>
                 </g>
                 <g className="f1831">
-                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv/#C33_app1337">
+                    <a xlinkHref="https://frankensteinvariorum.org/viewer/1831/chapter_xxiv#C33_app1337">
                         <line
                             x1={750}
                             x2={750}
