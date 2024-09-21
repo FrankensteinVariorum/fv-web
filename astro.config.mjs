@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
-import image from "@astrojs/image";
 import winston from "winston";
 import pagefind from "astro-pagefind";
 import { remarkModifiedTime } from './remark-modified-time.mjs';
@@ -19,7 +18,7 @@ export default defineConfig({
   build: {
     format: "file",
   },
-  integrations: [tailwind(), react(), image(), pagefind({
+  integrations: [tailwind(), react(), pagefind({
     logger: {
       info: logger.info,
       warn: logger.warn,

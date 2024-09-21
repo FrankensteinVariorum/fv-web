@@ -1,4 +1,4 @@
-import React, {useEffect, useLayoutEffect, useRef} from 'react';
+import React, {useEffect} from 'react';
 
 // when choose a seg to display a side panel and jumping to another edition page, displaying the same side panel automatically
 export const AutoClickComponent = () => {

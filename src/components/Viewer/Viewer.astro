@@ -1,15 +1,10 @@
 ---
-import Controls from './Controls';
+import Controls from './Controls.tsx';
 import Layout from '../../layouts/Layout.astro';
-// import Toolbar from '../Toolbar.astro'
-import Header from "../Header";
-// import {useStore} from "@nanostores/react";
-// import {fontState} from "../../data/nanostores";
+import Header from "../Header.tsx";
 
 const { source } = Astro.params;
 
-// const font_size = useStore(fontState).toString() + 'em'
-//style=`font-size: ${font_size}
 ---
 <Layout title='viewer'>
   <main id="primary-content" role="main">

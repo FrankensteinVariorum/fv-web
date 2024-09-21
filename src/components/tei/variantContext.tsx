@@ -1,4 +1,4 @@
-import React, {createContext, useEffect, useState} from 'react';
+import React, {createContext} from 'react';
 
 export interface Reading {
   sources: string[]
