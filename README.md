@@ -28,7 +28,7 @@ All commands are run from the root of the project, from a terminal:
 
 Inside Frankenstein Variorum Project (fv-web), you'll see the following folders and files:
 
-```python
+```shell
 /
 ├── dist/                # Compiled static files for production use
 ├── public/              # Public assets like images, fonts, etc.
@@ -39,7 +39,7 @@ Inside Frankenstein Variorum Project (fv-web), you'll see the following folders 
 │   ├── pages/           # Project's pages like home, about, method...
 │   │   └── index.astro  # Homepage file
 │   │   └──...
-│   └─ data/            # Storing static project-related data
+│   └─ data/             # Storing static project-related data
 │   	└── ...
 ├── package.json         # Project dependencies and scripts configuration
 ├── package-lock.json    # Locks the versions of dependencies for consistency
@@ -92,7 +92,7 @@ Contains components used to construct the Variorum Viewer page.
 
   - **`EditionDot.tsx`**: add dots with specific color before edition name. 
 
-    ![edition_dot](.\public\images\readme\edition_dot.jpg)
+    ![edition_dot](./public/images/readme/edition_dot.jpg)
 
     *Figure 1.1: edition dots in `Header.tsx` Component* 
 
@@ -135,7 +135,7 @@ Contains files that provide content to the components.
 
 - **`thumbnails.json`**:
   Contains URL data for site page from the Thomas Copy at the Morgan Library. Components like `components.tei.seg`  may fetch data from `thumbnails.json` to navigate to relevant thumbnails alongside their content. 
-  ![thomas_page_with_thumbnails_link](C:\Users\Admin\Documents\Github\fv\fv-web2023\public\images\readme\thomas_page_with_thumbnails_link.jpg)
+  ![thomas_page_with_thumbnails_link](./public/images/readme/thomas_page_with_thumbnails_link.jpg)
   *Figure 2.1: the thumbnails link available only while meeting `add` or `del` on Thomas Page*
 
 - **`thumbnails.js`**: 
