@@ -1,8 +1,8 @@
 # Frankenstein Variorum Project (fv-web)
 
-## 🤖Environment Setup
+## :desktop_computer:Environment Setup
 
- ![Node.js v18.18.2](https://img.shields.io/badge/Node.js-v18.18.2-green)![pnpm v8.12.1](https://img.shields.io/badge/pnpm-v8.12.1-green)
+ ![Node.js v18.18.2](https://img.shields.io/badge/Node.js-v18.18.2-green) | ![pnpm v8.12.1](https://img.shields.io/badge/pnpm-v8.12.1-green)
 
 To run this project locally, run:
 
@@ -11,7 +11,7 @@ pnpm install
 pnpm dev
 ```
 
-## 🧞 Commands
+## :memo:Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -24,7 +24,7 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `pnpm run astro --help` | Get help using the Astro CLI                     |
 
-## 🚀 Project Structure
+## :card_index_dividers: Project Structure
 
 Inside Frankenstein Variorum Project (fv-web), you'll see the following folders and files:
 
@@ -141,3 +141,16 @@ Contains files that provide content to the components.
 - **`thumbnails.js`**: 
 
   Generates the JSON file `thumbnails.json` which includes all data helps to construct the Thomas Copy link. Run `node thumbnails.js` in `data/` folder.
+
+## :arrows_counterclockwise:Workflow When Doing a Complete Collation Update
+
+1. push to `postCollation` main branch
+
+2. push to `fv-data` main branch
+
+3. run the XSLT `chap-chunk-alignments/interfaceStructureInfo.xsl` in `fv-data` to generate `units.json` 
+
+4. import `units.json` to `fv-web` (goes to `src/data/units.json` )
+
+5. push to `fv-web`
+
