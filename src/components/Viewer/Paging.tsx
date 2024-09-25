@@ -1,7 +1,6 @@
 import React from "react";
 import {sources} from '../../data/units.json'
-// @ts-ignore
-import slugify from '../helpers/slugify';
+import slugify from '../helpers/slugify.ts';
 import {useEffect, useState} from "react";
 
 export default function Paging({ source, unit }) {

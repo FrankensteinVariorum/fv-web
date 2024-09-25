@@ -1,6 +1,7 @@
-import React, {useContext, useEffect, useRef, useState} from 'react';
-import {Behavior, DefaultBehaviors, TBehavior} from "@astro-tei/react";
+import React, {useEffect, useState} from 'react';
+import {Behavior, type TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
+
 import {MSTargetContext, Reading, SegContext, ThomasThumbnailContext, VariantContext} from './variantContext';
 import { useStore } from '@nanostores/react';
 import {appState, showState, unitLinkState} from "../../data/nanostores";

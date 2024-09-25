@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import EditionSelector from './EditionSelector';
-import OptionsSelector from './OptionsSelector';
-import Paging from './Paging';
+import EditionSelector from './EditionSelector.tsx';
+import OptionsSelector from './OptionsSelector.tsx';
+import Paging from './Paging.tsx';
 
 export default function Controls() {
     const [source, setSource] = useState<string|undefined>("MS")
