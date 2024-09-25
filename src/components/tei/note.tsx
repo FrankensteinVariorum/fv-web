@@ -1,6 +1,10 @@
-import React from 'react';
-import {Behavior, type TBehavior} from "@astro-tei/react";
+// @ts-ignore
+import React, {useContext, useEffect, useState} from 'react';
+// @ts-ignore
+import {Behavior, TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
+// @ts-ignore
+import linkData from '../../data/thumbnails.json'
 import {showState} from "../../data/nanostores.js";
 import {useStore} from "@nanostores/react";
 

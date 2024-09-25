@@ -1,5 +1,6 @@
 import React from 'react';
-import {Behavior, type TBehavior} from "@astro-tei/react";
+import {Behavior, TBehavior} from "@astro-tei/react";
+import {TEINodes} from "react-teirouter";
 interface TEIProps {
     teiNode: Node,
 }

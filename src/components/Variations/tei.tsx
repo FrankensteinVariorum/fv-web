@@ -1,9 +1,9 @@
 import React from "react";
-import { BasicRouter, DefaultBehaviors, type IRoutes } from "@astro-tei/react";
-import {Del} from "../tei/del.tsx";
-import {Unclear} from "../tei/unclear.tsx";
-import {PEnd} from "../tei/pEnd.tsx";
-import {Add} from "../tei/add.tsx";
+import { BasicRouter, DefaultBehaviors, IRoutes } from "@astro-tei/react";
+import {Del} from "../tei/del";
+import {Unclear} from "../tei/unclear";
+import {PEnd} from "../tei/pEnd";
+import {Add} from "../tei/add";
 
 // This tei component is for the side panel
 interface Props {
