@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import FronticepieceImage from '../assets/images/general/fronticepiece-50.jpg';
-import {Image} from "@astrojs/image/components";
+import { Image } from 'astro:assets';
 import spineConcept from "../assets/images/general/FV-spineConcept.png";
 import selectors from "../assets/images/general/FV-selectors.png";
 import variations from "../assets/images/general/FV-variations.png";
@@ -75,8 +74,8 @@ import techFlow from "../assets/images/general/projectTechFlow.png";
                 <g id="printEdInfo">
                     <line id="printEds" x1="0" y1="0" x2="3400" y2="0" stroke="#f9b47d" stroke-width="500"/>
                     <text x="1700" y="200" font-size="6em" font-weight="bold" text-anchor="middle">Print editions: full range of collation units</text>
-                    <a xlink:href="https://frankensteinvariorum.org/viewer/1818/vol_1_preface/#C01_app1"><text x="-75" y="350" font-size="6em">C-01</text></a>
-                    <a xlink:href="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii/#C33_app1379"><text x="3300" y="350" font-size="6em">C-33</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/1818/vol_1_preface#C01_app1"><text x="-75" y="350" font-size="6em">C-01</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/1818/vol_3_chapter_vii#C33_app1379"><text x="3300" y="350" font-size="6em">C-33</text></a>
                 </g>
                 <g id="MS-Boxes-56-57">
                     <!-- C08 - C18 frag  -->
@@ -85,15 +84,15 @@ import techFlow from "../assets/images/general/projectTechFlow.png";
                     <line id="box56bound" x1="1800" x2="1800" y1="-370" y2="-25" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
                     <line id="box57a" x1="1800" x2="1900" y1="-275" y2="-275" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
                     <text x="1350" y="-80" fill="maroon" text-anchor="middle" font-weight="bold" font-size="5em">MS Box 56</text>
-                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1/#C08_app2"><text x="700" y="-450" font-size="6em">C-08</text></a>
-                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3/#C18_app477"><text x="1550" y="-450" font-size="6em">C-18(frag)</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c56_from_chapter_1#C08_app2"><text x="700" y="-450" font-size="6em">C-08</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_3#C18_app477"><text x="1550" y="-450" font-size="6em">C-18(frag)</text></a>
                     <!-- C20 - C33 -->
                     <line id="seg2" x1="2000" y1="-200" x2="3400" y2="-200" stroke="#827ee2" stroke-width="350"/>
                     <line id="box57b" x1="2000" x2="3400" y1="-275" y2="-275" stroke="navy" stroke-dasharray="10,3" stroke-width="20"/>
                     <text x="2700" y="-150" fill="navy" text-anchor="middle" font-weight="bold" font-size="5em">MS Box 57</text>
-                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter/#C20_app3"><text x="2000" y="-450" font-size="6em">C-20</text></a>
-                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10/#C24_app15"><text x="2400" y="-450" font-size="6em">C-24</text></a>
-                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15/#C27_app790"><text x="2900" y="-450" font-size="6em">C-29</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_another_chapter#C20_app3"><text x="2000" y="-450" font-size="6em">C-20</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_10#C24_app15"><text x="2400" y="-450" font-size="6em">C-24</text></a>
+                    <a xlink:href="https://frankensteinvariorum.org/viewer/MS/box_c57_chap_15#C27_app790"><text x="2900" y="-450" font-size="6em">C-29</text></a>
                 </g>
                 <g id="MS-Extras">
                     <!-- box 57: C20 and C24 -->
@@ -137,7 +136,7 @@ import techFlow from "../assets/images/general/projectTechFlow.png";
     <ol class="explan">
         <li>Transforming the output of the collation software into a TEI file that stores all information about where all five texts are same and where they are different in the form <strong>critical apparatus</strong> encoding. This is considered a “standoff” version because it stands alone, outside the five editions, and is designed to link to them and supply information about them.</li>
         <li>Building the edition files from the data stored in the spine. This involves constructing new XML files. Remember how we flattened the XML elements from the source editions to make it possible to compare the markup? Now we have to identify those flattened elements in the text strings, and <strong>“raise”</strong> them into whole elements again to form their original structures.</li>
-        <li>Calculating the extent of variance or <strong>edit distance</strong>, at each passage that experienced change. Edit distance is a recognizably problematic measure: We can literally calculate the number of characters that make one passage of text different from another, but some changes are obviously more meaningful than others. (For example, in <a href="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii/#C08_app715">this lightly variant passage</a>, the only difference is punctuation: “away,” vs. “away”, so the edit distance is literally just 1 and the variation is not particularly significant. However, other variant passages might shift meaning by changing just one character: for example, the difference between “newt” and “next” is just one character, as well, though that one character totally changes the meaning of the word and should really be considered more significant a variant. In practice we do see many simple variants to do with small changes to syntax or punctuation more like the first example than the second, and we also see very heavily revised longer passages of variance which we really want to stand out. The edit-distance calculation of each edition at a moment of variance is calculated between pairs, each to the others, and we store the maximum edit distance value for use in the edition files in the next step.</li>
+        <li>Calculating the extent of variance or <strong>edit distance</strong>, at each passage that experienced change. Edit distance is a recognizably problematic measure: We can literally calculate the number of characters that make one passage of text different from another, but some changes are obviously more meaningful than others. (For example, in <a href="https://frankensteinvariorum.org/viewer/1818/vol_1_chapter_ii#C08_app715">this lightly variant passage</a>, the only difference is punctuation: “away,” vs. “away”, so the edit distance is literally just 1 and the variation is not particularly significant. However, other variant passages might shift meaning by changing just one character: for example, the difference between “newt” and “next” is just one character, as well, though that one character totally changes the meaning of the word and should really be considered more significant a variant. In practice we do see many simple variants to do with small changes to syntax or punctuation more like the first example than the second, and we also see very heavily revised longer passages of variance which we really want to stand out. The edit-distance calculation of each edition at a moment of variance is calculated between pairs, each to the others, and we store the maximum edit distance value for use in the edition files in the next step.</li>
         <li>Applying new elements to each edition file to store information about each passage that varies from the other editions. We translate those numbers into four different shades of variation to help make the heavily altered passages easily discoverable, to be displayed as <strong>“hotspots”</strong> in the edition interface. Where changes to the text involved a shift in paragraph or chapter boundaries, we had to break up a hotspot to fit in pieces around a paragraph ending and beginning so as not to disturb the document structure of the TEI edition files.</li>
         <li>The spine is finally transformed again, after the edition files are prepared, to set links to each edition file at each locus of variation. After the postCollation pipeline process is complete, the edition data from the spine and edition files is ready to be delivered to the static web interface.</li>
         <li>One last product of the postCollation data processing and the edit-distance calculations is our interactive <strong>heatmap</strong> for the Variorum that you see on the homepage! It is directly produced from the data stored in the spine files and expresses that data in scalable vector graphics (SVG), an image format made of XML code and optimal for visualizing data using shapes and intensities of color. The SVG is interactive with links into the Variorum simply because it the spine was designed to store those links. This link data from the spine also makes it possible to link from one edition directly to each of the others as you are reading a passage in the Variorum Viewer.</li>
@@ -154,7 +153,7 @@ import techFlow from "../assets/images/general/projectTechFlow.png";
         <Image src={selectors} alt="dropdown menu for selecting a passage in the Variorum to read"/>
         <figcaption>Selecting a passage to read in the Variorum from a menu. This is an example of a JavaScript-based web component in the Variorum Viewer.</figcaption>
     </figure>
-    <p><a href="https://astro.build/"<Astro</a> is a static website generator for which Raffaele Viglianti developed <a href="https://www.npmjs.com/package/astro-tei">a special TEI package</a>, related to <a href="https://teic.github.io/CETEIcean/">CETEIcean</a>, a Javascript library that renders TEI XML directly in the browser. When you select a button or menu bar on the site, Astro coordinates and delivers views from a total of 146 chapter files (the total of all chapter files across all five versions of <i>Frankenstein</i>. It works together with React, which supports selector menus and interactive hotspots and displays the variants in the sidebar.</p>
+    <p><a href="https://astro.build/">Astro</a> is a static website generator for which Raffaele Viglianti developed <a href="https://www.npmjs.com/package/astro-tei">a special TEI package</a>, related to <a href="https://teic.github.io/CETEIcean/">CETEIcean</a>, a Javascript library that renders TEI XML directly in the browser. When you select a button or menu bar on the site, Astro coordinates and delivers views from a total of 146 chapter files (the total of all chapter files across all five versions of <i>Frankenstein</i>. It works together with React, which supports selector menus and interactive hotspots and displays the variants in the sidebar.</p>
 
 <h2>Technologies used in the project</h2>
     <p>Each stage of this project depended on its own collection of technologies and challenges. Our work was a combination of XML stack technologies (XML and XSLT), combined with Python for handling documents and markup as strings with regular expressions, and finally JavaScript libraries React and Astro with git/GitHub to package our data into web components in a static website.  Here is a visual summary of them all! </p>

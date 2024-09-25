@@ -14,7 +14,7 @@ const Variation = () => {
     // 404 link for testing
     // MStargetLink = "http://shelleygodwinarchive.org/sc/oxford/ms_abinger/null"
     const {thomasThumbnail} = useContext(ThomasThumbnailContext)
-    let ThomasThumbnailLink = `${thomasThumbnail}`
+    let ThomasThumbnailLink = `${thomasThumbnail?.link}`
     const [sidePanelHeight, setSidePanelHeight] = useState<number | null>(null);
 
     useEffect(() => {

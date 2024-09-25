@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { BasicRouter, DefaultBehaviors, IRoutes } from "@astro-tei/react";
+import { BasicRouter, DefaultBehaviors, type IRoutes } from "@astro-tei/react";
 import { Seg } from './seg.tsx';
 import {
   VariantContext, type Variant,

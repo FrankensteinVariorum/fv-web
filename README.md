@@ -2,7 +2,7 @@
 
 ## :desktop_computer:Environment Setup
 
- ![Node.js v18.18.2](https://img.shields.io/badge/Node.js-v18.18.2-green) | ![pnpm v8.12.1](https://img.shields.io/badge/pnpm-v8.12.1-green)
+ ![Node.js v18.18.2](https://img.shields.io/badge/Node.js-v18.18.2-green)  ![pnpm v8.12.1](https://img.shields.io/badge/pnpm-v8.12.1-green)
 
 To run this project locally, run:
 

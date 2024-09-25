@@ -1,10 +1,10 @@
-import React, {useEffect, useState} from 'react';
-import {Behavior, type TBehavior} from "@astro-tei/react";
+import React, {useEffect, useState, useContext} from 'react';
+import {Behavior, DefaultBehaviors, type TBehavior} from "@astro-tei/react";
 import {TEINodes} from "react-teirouter";
 
-import {MSTargetContext, Reading, SegContext, ThomasThumbnailContext, VariantContext} from './variantContext';
+import {MSTargetContext, type Reading, SegContext, ThomasThumbnailContext, VariantContext} from './variantContext.tsx';
 import { useStore } from '@nanostores/react';
-import {appState, showState, unitLinkState} from "../../data/nanostores";
+import {appState, showState, unitLinkState} from "../../data/nanostores.ts";
 import {sources} from "../../data/units.json";
 import linkData from "../../data/thumbnails.json";
 
@@ -173,7 +173,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
             });
             console.log(unitLinkState.get())
         } else {
-            setSeg('')
+            setSeg({id:""})
         }
 
         // MS external link
@@ -194,7 +194,7 @@ export const Seg: TBehavior = (props: TEIProps) => {
                 ? 'https://www.themorgan.org/' +
                 linkData.find(ld => ld.unit == props.unit && ld.page[0] == ThomasPageNum || ld.page[1] == ThomasPageNum)?.url
                 : null
-            setThomasThumbnail(ThomasThumbnail)
+            setThomasThumbnail({link:ThomasThumbnail})
         }
     }
 
