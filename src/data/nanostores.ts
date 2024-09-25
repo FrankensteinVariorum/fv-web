@@ -53,3 +53,17 @@ export const appState = persistentAtom('appLocale', defaultApp, {
     encode: JSON.stringify,
     decode: JSON.parse,
 })
+
+const defaultFont: number = 1 // 1em
+export const fontState = persistentAtom('fontLocale', defaultFont, {
+    encode: JSON.stringify,
+    decode: JSON.parse,
+})
+
+export function increaseFont() {
+    fontState.set(fontState.get() + 0.1);
+}
+
+export function decreaseFont() {
+    fontState.set(fontState.get() - 0.1);
+}

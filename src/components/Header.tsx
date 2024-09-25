@@ -1,7 +1,10 @@
+// @ts-ignore
 import React from 'react';
+// @ts-ignore
 import {sources} from '../data/units.json'
+// @ts-ignore
 import variations from '../assets/images/intensity_legend.svg';
-import EditionDot from './helpers/EditionDot.js';
+import EditionDot from './helpers/EditionDot';
 
 interface SourceProps {
     source: string | undefined;

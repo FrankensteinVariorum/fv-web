@@ -1,7 +1,7 @@
 import React from 'react'
 import {sources} from '../../data/units.json'
-import slugify from '../helpers/slugify.ts';
-import {appState} from "../../data/nanostores.ts";
+import slugify from '../helpers/slugify';
+import {appState, decreaseFont, fontState, increaseFont} from "../../data/nanostores";
 
 export default function EditionSelector({source, unit}) {
     const handleEditionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
@@ -24,18 +24,22 @@ export default function EditionSelector({source, unit}) {
     return (
         <div>
             <div className='paging'>
-                <div className='in-line'>
-                    <form method="get" action="viewer">
-                        <label className='bold-choose'>CHOOSE A VERSION</label>
-                        <select className='select-style' name='tei' value={source} onChange={handleEditionChange}>
-                            {sources.map((source) => (
-                                <option className={source.label} value={source.label} key={source.label}>
-                                    {source.label}
-                                </option>
-                            ))}
-                        </select>
-                    </form>
-                </div>
+            <div className='in-line'>
+                <form method="get" action="viewer">
+                    <label className='bold-choose'>CHOOSE A VERSION</label>
+                    <select className='select-style' name='tei' value={source} onChange={handleEditionChange}>
+                        {sources.map((source) => (
+                            <option className={source.label} value={source.label} key={source.label}>
+                                {source.label}
+                            </option>
+                        ))}
+                    </select>
+                </form>
+            </div>
+            <div id='font_button' className='in-line'>
+                <button id="increase-font" onClick={increaseFont} disabled={fontState.get() >= 1.3}/>
+                <button id="decrease-font" onClick={decreaseFont} disabled={fontState.get() <= 0.8}/>
+            </div>
             </div>
         </div>
     );

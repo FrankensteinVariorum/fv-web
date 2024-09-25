@@ -1,6 +1,6 @@
 import React, {useEffect, useRef } from "react";
 import { useStore } from '@nanostores/react';
-import { showState, onVariantsChanged, onTextChanged, onNoteChanged } from "../../data/nanostores.ts";
+import { showState, onVariantsChanged, onTextChanged, onNoteChanged } from "../../data/nanostores";
 
 export default function OptionsSelector () {
     const textElements = useRef([]);

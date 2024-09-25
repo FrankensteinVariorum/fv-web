@@ -1,19 +1,19 @@
 import React, {useState} from "react";
 import { BasicRouter, DefaultBehaviors, IRoutes } from "@astro-tei/react";
-import { Seg } from './seg.tsx';
+import { Seg } from './seg';
 import {
-  VariantContext, type Variant,
-  type SegInfo, SegContext,
-  type MSTargetLink, MSTargetContext,
-  ThomasThumbnailContext, type ThomasThumbnail
-} from "./variantContext.tsx";
-import Variation from "../Variations/Variation.tsx";
-import {AutoClickComponent} from "../helpers/AutoClickSeg.tsx";
-import {Del} from "./del.tsx";
-import {Unclear} from "./unclear.tsx";
-import {PEnd} from "./pEnd.tsx";
-import {Add} from "./add.tsx";
-import {Note} from "./note.tsx";
+  VariantContext, Variant,
+  SegInfo, SegContext,
+  MSTargetLink, MSTargetContext,
+  ThomasThumbnailContext, ThomasThumbnail
+} from "./variantContext";
+import Variation from "../Variations/Variation";
+import {AutoClickComponent} from "../helpers/AutoClickSeg";
+import {Del} from "./del";
+import {Unclear} from "./unclear";
+import {PEnd} from "./pEnd";
+import {Add} from "./add";
+import {Note} from "./note";
 
 // this tei component is for reading panel
 interface Props {

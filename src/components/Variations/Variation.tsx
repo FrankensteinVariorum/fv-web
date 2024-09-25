@@ -1,10 +1,10 @@
 import React, {useContext, useEffect, useState} from "react";
-import ReadingGroup from "./ReadingGroup.tsx";
-import {MSTargetContext, ThomasThumbnailContext, VariantContext} from "../tei/variantContext.tsx";
+import ReadingGroup from "./ReadingGroup";
+import {MSTargetContext, ThomasThumbnailContext, VariantContext} from "../tei/variantContext";
 import sgalogo from "../../assets/images/sgalogo.png";
 import morganlogo from "../../assets/images/morganlogo.png";
 import {useStore} from "@nanostores/react";
-import {showState} from "../../data/nanostores.ts";
+import {showState} from "../../data/nanostores.js";
 
 const Variation = () => {
     const show = useStore(showState)

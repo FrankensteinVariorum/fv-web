@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
-import {type Reading, SegContext} from "../tei/variantContext.tsx";
-import {unitLinkState} from "../../data/nanostores.ts";
-import TEI from "./tei.tsx";
+import {Reading, SegContext} from "../tei/variantContext";
+import {unitLinkState} from "../../data/nanostores";
+import TEI from "./tei";
 
 interface Props {
     group: Reading

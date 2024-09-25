@@ -1,6 +1,6 @@
 ---
 import { sources } from '../data/units.json'
-import slugify from './helpers/slugify.ts';
+import slugify from './helpers/slugify.js';
 
 // const start = `/viewer/${sources[0].label}/${slugify(sources[0].units[0].label)}`
 const start = `/viewer/${sources.find(s=>s.label == "1818").label}/${slugify(sources.find(s=>s.label == "1818").units[0].label)}`
