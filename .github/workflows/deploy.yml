@@ -44,7 +44,7 @@ jobs:
       - name: Run custom build script
         run: ./build_and_handle_error.sh
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact
         with:
           path: "./dist/"
 
