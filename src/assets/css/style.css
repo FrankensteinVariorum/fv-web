@@ -2283,9 +2283,9 @@ ins>sup.insertion,ins>sub.insertion {
     display: none;
 }
 
-ins:has(tei-metamark) {
+/*ins:has(tei-metamark) {
     display: none
-}
+}*/
 
 .app-intensity-0 {
     background: whitesmoke;
