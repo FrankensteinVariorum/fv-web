@@ -5,7 +5,8 @@ import slugify from '../components/helpers/slugify.js';
 import Search from "astro-pagefind/components/Search";
 import { Image } from '@astrojs/image/components';
 import FronticepieceImage from '../../public/images/general/fronticepiece.jpg';
-import {HeatmapNavigation} from "../components/HeatmapNavigation";
+// import {HeatmapNavigation} from "../components/HeatmapNavigation";
+import SynopticHeatmap from "../components/SynopticHeatmap.svg?raw";
 import Search from "astro-pagefind/components/Search";
 
 const start = `/viewer/${sources.find(s=>s.label == "1818").label}/${slugify(sources.find(s=>s.label == "1818").units[0].label)}`
@@ -38,7 +39,7 @@ const start = `/viewer/${sources.find(s=>s.label == "1818").label}/${slugify(sou
           <?xml version="1.0" encoding="UTF-8"?>
           <figure class="front">
           <figcaption>Heatmap navigation</figcaption>
-              <HeatmapNavigation/>
+              <Fragment set:html={SynopticHeatmap} />
           </figure>
         </aside>
         </Home>
